@@ -1,0 +1,61 @@
+{
+  "name": "Chinememerem Madueke",
+  "title": "Software Engineering Student & Frontend Developer",
+  "stage": "3rd year B.Sc. Software Engineering, Pan Atlantic University, Nigeria",
+  "location": "Lagos, Nigeria",
+  "availability": "Summer 2027 (Full-time)",
+  "hours_per_week": "Full-time (40 hours/week)",
+  "internship_summary": "Aspiring Software Engineering Intern with hands-on experience building modern, responsive, and performant web applications using Next.js, React, and Supabase. Seeking a full-time Summer 2027 internship where I can contribute to production frontend code and expand into fullstack engineering.",
+  "freelance_summary": "Available 10-15 hours a week for freelance frontend development and UI engineering.",
+  "level": "Beginner to intermediate; frontend first, open to other tech departments at beginner level",
+  "core_skills": [
+    "React",
+    "Next.js",
+    "JavaScript",
+    "TypeScript",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS"
+  ],
+  "backend_and_tools": [
+    "Supabase",
+    "Git",
+    "GitHub",
+    "Vercel",
+    "PostgreSQL",
+    "REST APIs"
+  ],
+  "projects": [
+    {
+      "name": "Finance Manager PWA",
+      "description": "Offline-first personal finance tracking progressive web app with responsive analytics, budget goal tracking, and real-time Supabase sync.",
+      "tech": ["React", "Next.js", "Supabase", "Tailwind CSS", "IndexedDB", "PWA"],
+      "live_url": "https://finance-manager-pwa.vercel.app",
+      "repo_url": "https://github.com/chiboy-star/finance-manager-pwa"
+    },
+    {
+      "name": "Aurelia Grand Resort",
+      "description": "High-conversion luxury hospitality demo showcase featuring fluid room reservations, virtual amenity tours, and bespoke editorial typography.",
+      "tech": ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
+      "live_url": "https://aurelia-grand-resort.vercel.app",
+      "repo_url": "https://github.com/chiboy-star/aurelia-grand-resort"
+    },
+    {
+      "name": "Developer Portfolio",
+      "description": "Minimalist, editorial-style engineering portfolio demonstrating interactive UI experiments, performance optimization, and project case studies.",
+      "tech": ["Next.js", "Tailwind CSS", "Vercel"],
+      "live_url": "https://chinemerem.dev",
+      "repo_url": "https://github.com/chiboy-star/portfolio"
+    }
+  ],
+  "target": {
+    "role_types": ["Software Engineering Intern", "Frontend Intern", "Web Engineering Intern", "Full Stack Intern"],
+    "season": "Summer 2027",
+    "regions": [
+      "Remote (worldwide / open to Nigeria)",
+      "Remote (US/UK employers open to global candidates)",
+      "Onsite or Hybrid in Lagos, Nigeria"
+    ]
+  }
+}
+

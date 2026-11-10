@@ -1,0 +1,35 @@
+{
+  "greenhouse": [
+    { "name": "Stripe", "slug": "stripe" },
+    { "name": "Cloudflare", "slug": "cloudflare" },
+    { "name": "GitLab", "slug": "gitlab" },
+    { "name": "Automattic", "slug": "automattic" },
+    { "name": "Canonical", "slug": "canonical" },
+    { "name": "Postman", "slug": "postman" },
+    { "name": "Docker", "slug": "docker" },
+    { "name": "Mozilla", "slug": "mozilla" },
+    { "name": "Elastic", "slug": "elastic" },
+    { "name": "DataDog", "slug": "datadog" },
+    { "name": "HashiCorp", "slug": "hashicorp" },
+    { "name": "Coinbase", "slug": "coinbase" },
+    { "name": "Figma", "slug": "figma" },
+    { "name": "Airbnb", "slug": "airbnb" },
+    { "name": "Twilio", "slug": "twilio" }
+  ],
+  "lever": [
+    { "name": "Netlify", "slug": "netlify" },
+    { "name": "ClearSale", "slug": "clearsale" },
+    { "name": "Balena", "slug": "balena" },
+    { "name": "Sourcegraph", "slug": "sourcegraph" }
+  ],
+  "ashby": [
+    { "name": "Linear", "slug": "linear" },
+    { "name": "Ramp", "slug": "ramp" },
+    { "name": "Replit", "slug": "replit" },
+    { "name": "Vercel", "slug": "vercel" },
+    { "name": "Cursor / Anysphere", "slug": "anysphere" },
+    { "name": "Replicate", "slug": "replicate" },
+    { "name": "PostHog", "slug": "posthog" }
+  ]
+}
+

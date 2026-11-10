@@ -1,0 +1,722 @@
+[
+  {
+    "id": "comp_8421e6a3d5eebd8b",
+    "name": "Paystack",
+    "careers_url": "https://paystack.com/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "evidence_url": "https://paystack.com/careers",
+    "notes": "Leading African payments processor owned by Stripe. Hires engineering interns and new grads, has modern React/Node infrastructure in Ikeja GRA/remote.",
+    "contacts": [
+      {
+        "name": "Engineering Hiring Team",
+        "role": "Technical Talent Partner",
+        "email": null,
+        "source_url": "https://paystack.com/careers"
+      }
+    ]
+  },
+  {
+    "id": "comp_419c017fec88a649",
+    "name": "Flutterwave",
+    "careers_url": "https://flutterwave.com/ng/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "evidence_url": "https://flutterwave.com/ng/careers",
+    "notes": "Pan-African fintech unicorn based in Victoria Island. Runs graduate trainee and student internship rotations across frontend and API teams.",
+    "contacts": [
+      {
+        "name": "People Operations",
+        "role": "University Relations Lead",
+        "email": null,
+        "source_url": "https://flutterwave.com/ng/careers"
+      }
+    ]
+  },
+  {
+    "id": "comp_f465788dea89be25",
+    "name": "Moniepoint",
+    "careers_url": "https://moniepoint.com/ng/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "evidence_url": "https://moniepoint.com/ng/careers",
+    "notes": "Fastest-growing business banking platform in Africa. Frequently runs engineering internship academies and accepts SIWES/undergraduate interns in Lagos.",
+    "contacts": [
+      {
+        "name": "Moniepoint Academy",
+        "role": "Engineering Academy Recruiter",
+        "email": null,
+        "source_url": "https://moniepoint.com/ng/careers"
+      }
+    ]
+  },
+  {
+    "id": "comp_04ff9b637222a3ee",
+    "name": "Piggyvest",
+    "careers_url": "https://www.piggyvest.com/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "evidence_url": "https://www.piggyvest.com/careers",
+    "notes": "Pioneering wealth management & savings platform in Lagos (Teslim Elias / Victoria Island). Known for hiring local tech talent & frontend interns.",
+    "contacts": [
+      {
+        "name": "Talent Team",
+        "role": "Frontend Engineering Lead",
+        "email": null,
+        "source_url": "https://www.piggyvest.com/careers"
+      }
+    ]
+  },
+  {
+    "id": "comp_f2af93f941f723ac",
+    "name": "Interswitch Group",
+    "careers_url": "https://www.interswitchgroup.com/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "evidence_url": "https://www.interswitchgroup.com/careers",
+    "notes": "Africa's first fintech unicorn, based in Victoria Island, Lagos. Established formal student internship programs and developer apprenticeships.",
+    "contacts": [
+      {
+        "name": "Graduate & Intern Program",
+        "role": "Early Careers Lead",
+        "email": null,
+        "source_url": "https://www.interswitchgroup.com/careers"
+      }
+    ]
+  },
+  {
+    "id": "comp_632ca8c565665075",
+    "name": "Kuda Bank",
+    "careers_url": "https://kuda.com/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "evidence_url": "https://kuda.com/careers",
+    "notes": "Digital mobile challenger bank with office in Yaba/London. Actively recruits frontend engineers, QA, and mobile engineering interns.",
+    "contacts": [
+      {
+        "name": "Talent Acquisition",
+        "role": "Recruiting Specialist",
+        "email": null,
+        "source_url": "https://kuda.com/careers"
+      }
+    ]
+  },
+  {
+    "id": "comp_6d11f8761ab95903",
+    "name": "Cowrywise",
+    "careers_url": "https://cowrywise.com/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "evidence_url": "https://cowrywise.com/careers",
+    "notes": "Investment and wealth platform with top-tier UI design culture. Has an active campus ambassador and summer engineering internship program.",
+    "contacts": [
+      {
+        "name": "Design & Engineering Team",
+        "role": "Talent & Culture Partner",
+        "email": null,
+        "source_url": "https://cowrywise.com/careers"
+      }
+    ]
+  },
+  {
+    "id": "comp_4d31f753bb3e3561",
+    "name": "Bamboo",
+    "careers_url": "https://investbamboo.com/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "evidence_url": "https://investbamboo.com/careers",
+    "notes": "Global investment app for Nigerians. Hybrid work environment in Lagos with high-standard React/React Native engineering.",
+    "contacts": [
+      {
+        "name": "People Team",
+        "role": "Engineering Recruiter",
+        "email": null,
+        "source_url": "https://investbamboo.com/careers"
+      }
+    ]
+  },
+  {
+    "id": "comp_54fe18c87bd24404",
+    "name": "Helium Health",
+    "careers_url": "https://heliumhealth.com/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "evidence_url": "https://heliumhealth.com/careers",
+    "notes": "Largest health tech Electronic Medical Records platform in West Africa, headquartered in Lagos. Accepts software engineering interns.",
+    "contacts": [
+      {
+        "name": "Helium Talent",
+        "role": "Talent Lead",
+        "email": null,
+        "source_url": "https://heliumhealth.com/careers"
+      }
+    ]
+  },
+  {
+    "id": "comp_c98ccebb6681a958",
+    "name": "Nomba",
+    "careers_url": "https://www.nomba.com/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "evidence_url": "https://www.nomba.com/careers",
+    "notes": "Leading merchant banking & omnichannel payment enterprise based in Lekki Phase 1, Lagos. Builds robust web and mobile terminal interfaces.",
+    "contacts": [
+      {
+        "name": "HR & Talent",
+        "role": "Technical Recruiter",
+        "email": null,
+        "source_url": "https://www.nomba.com/careers"
+      }
+    ]
+  },
+  {
+    "id": "comp_82140f7d5ed7fe9b",
+    "name": "RepSpark",
+    "careers_url": "https://news.ycombinator.com/item?id=22665747",
+    "city": "Irvine",
+    "region": "Irvine, CA",
+    "takes_interns": true,
+    "evidence_url": "https://news.ycombinator.com/item?id=22665747",
+    "notes": "Actively lists roles: Software Developer - New Grad",
+    "contacts": [
+      {
+        "name": "RepSpark University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://news.ycombinator.com/item?id=22665747"
+      }
+    ]
+  },
+  {
+    "id": "comp_961a6062ba1ba2d8",
+    "name": "Stripe",
+    "careers_url": "https://stripe.com/jobs/search?gh_jid=8241260",
+    "city": "Seattle",
+    "region": "Seattle, San Francisco",
+    "takes_interns": true,
+    "evidence_url": "https://stripe.com/jobs/search?gh_jid=8241260",
+    "notes": "Actively lists roles: High School Internship, Software Engineering (Summer 2027)",
+    "contacts": [
+      {
+        "name": "Stripe University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://stripe.com/jobs/search?gh_jid=8241260"
+      }
+    ]
+  },
+  {
+    "id": "comp_f9191531404c4016",
+    "name": "Cloudflare",
+    "careers_url": "https://boards.greenhouse.io/cloudflare/jobs/8245197?gh_jid=8245197",
+    "city": "In-Office",
+    "region": "In-Office",
+    "takes_interns": true,
+    "evidence_url": "https://boards.greenhouse.io/cloudflare/jobs/8245197?gh_jid=8245197",
+    "notes": "Actively lists roles: Software Engineer Intern (2027)",
+    "contacts": [
+      {
+        "name": "Cloudflare University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://boards.greenhouse.io/cloudflare/jobs/8245197?gh_jid=8245197"
+      }
+    ]
+  },
+  {
+    "id": "comp_5e7c4d821aae0157",
+    "name": "Elastic",
+    "careers_url": "https://jobs.elastic.co/jobs?gh_jid=8174948&gh_jid=8174948",
+    "city": "Canada",
+    "region": "Canada",
+    "takes_interns": true,
+    "evidence_url": "https://jobs.elastic.co/jobs?gh_jid=8174948&gh_jid=8174948",
+    "notes": "Actively lists roles: Senior Software Developer - Query Engine, Database Internals - Elasticsearch",
+    "contacts": [
+      {
+        "name": "Elastic University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://jobs.elastic.co/jobs?gh_jid=8174948&gh_jid=8174948"
+      }
+    ]
+  },
+  {
+    "id": "comp_8266deca6c65b394",
+    "name": "Coinbase",
+    "careers_url": "https://www.coinbase.com/careers/positions/8175507?gh_jid=8175507",
+    "city": "Hybrid - New York",
+    "region": "Hybrid - New York, NY",
+    "takes_interns": true,
+    "evidence_url": "https://www.coinbase.com/careers/positions/8175507?gh_jid=8175507",
+    "notes": "Actively lists roles: Real Estate & Builds Intern",
+    "contacts": [
+      {
+        "name": "Coinbase University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://www.coinbase.com/careers/positions/8175507?gh_jid=8175507"
+      }
+    ]
+  },
+  {
+    "id": "comp_ce46041005a8aa0d",
+    "name": "Figma",
+    "careers_url": "https://boards.greenhouse.io/figma/jobs/6219995004?gh_jid=6219995004",
+    "city": "San Francisco",
+    "region": "San Francisco, CA • New York, NY",
+    "takes_interns": true,
+    "evidence_url": "https://boards.greenhouse.io/figma/jobs/6219995004?gh_jid=6219995004",
+    "notes": "Actively lists roles: PhD Intern, Software Engineer - Graphics (2027)",
+    "contacts": [
+      {
+        "name": "Figma University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://boards.greenhouse.io/figma/jobs/6219995004?gh_jid=6219995004"
+      }
+    ]
+  },
+  {
+    "id": "comp_fcb2b593ae918489",
+    "name": "Let&#x27;s Support the Country: Who’s Hi",
+    "careers_url": "https://news.ycombinator.com/item?id=22665510",
+    "city": "Remote",
+    "region": "Remote",
+    "takes_interns": true,
+    "evidence_url": "https://news.ycombinator.com/item?id=22665510",
+    "notes": "Actively lists roles: Software Engineering Intern",
+    "contacts": [
+      {
+        "name": "Let&#x27;s Support the Country: Who’s Hi University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://news.ycombinator.com/item?id=22665510"
+      }
+    ]
+  },
+  {
+    "id": "comp_077b7b1260a5a51d",
+    "name": "Natera",
+    "careers_url": "https://news.ycombinator.com/item?id=22666273",
+    "city": "San Carlos",
+    "region": "San Carlos, CA + Austin, TX",
+    "takes_interns": true,
+    "evidence_url": "https://news.ycombinator.com/item?id=22666273",
+    "notes": "Actively lists roles: Full-Stack &amp; Back End Software Engineers, QA, SDET, Proj",
+    "contacts": [
+      {
+        "name": "Natera University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://news.ycombinator.com/item?id=22666273"
+      }
+    ]
+  },
+  {
+    "id": "comp_70a5ae4aa40dc35b",
+    "name": "Ramp",
+    "careers_url": "https://jobs.ashbyhq.com/ramp/a13ae586-f4cb-4385-8822-c42b9b54ed74",
+    "city": "New York",
+    "region": "New York, NY (HQ)",
+    "takes_interns": true,
+    "evidence_url": "https://jobs.ashbyhq.com/ramp/a13ae586-f4cb-4385-8822-c42b9b54ed74",
+    "notes": "Actively lists roles: Software Engineering Intern, Frontend",
+    "contacts": [
+      {
+        "name": "Ramp University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://jobs.ashbyhq.com/ramp/a13ae586-f4cb-4385-8822-c42b9b54ed74"
+      }
+    ]
+  },
+  {
+    "id": "comp_032b46931b838813",
+    "name": "dMetrics",
+    "careers_url": "https://news.ycombinator.com/item?id=22666319",
+    "city": "Frontend",
+    "region": "Frontend, Backend, Algorithms Eng",
+    "takes_interns": true,
+    "evidence_url": "https://news.ycombinator.com/item?id=22666319",
+    "notes": "Actively lists roles: NYC",
+    "contacts": [
+      {
+        "name": "dMetrics University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://news.ycombinator.com/item?id=22666319"
+      }
+    ]
+  },
+  {
+    "id": "comp_d982557e63c77492",
+    "name": "Silversheet",
+    "careers_url": "https://news.ycombinator.com/item?id=22666440",
+    "city": "Los Angeles",
+    "region": "Los Angeles, CA + San Diego, CA + Portland, OR",
+    "takes_interns": true,
+    "evidence_url": "https://news.ycombinator.com/item?id=22666440",
+    "notes": "Actively lists roles: Full Stack Engineers, Product Managers, Senior QA",
+    "contacts": [
+      {
+        "name": "Silversheet University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://news.ycombinator.com/item?id=22666440"
+      }
+    ]
+  },
+  {
+    "id": "comp_782621d03699b374",
+    "name": "Canonical",
+    "careers_url": "https://job-boards.greenhouse.io/canonical/jobs/8008666",
+    "city": "Home Based - Americas; Home based - EMEA; Office Based - London",
+    "region": "Home Based - Americas; Home based - EMEA; Office Based - London, UK",
+    "takes_interns": true,
+    "evidence_url": "https://job-boards.greenhouse.io/canonical/jobs/8008666",
+    "notes": "Actively lists roles: Internal Auditor",
+    "contacts": [
+      {
+        "name": "Canonical University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://job-boards.greenhouse.io/canonical/jobs/8008666"
+      }
+    ]
+  },
+  {
+    "id": "comp_d722b1244c0090ed",
+    "name": "Twilio",
+    "careers_url": "https://job-boards.greenhouse.io/twilio/jobs/8256912",
+    "city": "Remote - Canada",
+    "region": "Remote - Canada",
+    "takes_interns": true,
+    "evidence_url": "https://job-boards.greenhouse.io/twilio/jobs/8256912",
+    "notes": "Actively lists roles: Senior Internal Auditor",
+    "contacts": [
+      {
+        "name": "Twilio University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://job-boards.greenhouse.io/twilio/jobs/8256912"
+      }
+    ]
+  },
+  {
+    "id": "comp_471b0796856da699",
+    "name": "Teampicnic",
+    "careers_url": "https://www.arbeitnow.com/jobs/companies/teampicnic/junior-talent-acquisition-specialist-hamburg-hamburg-311474",
+    "city": "Hamburg",
+    "region": "Hamburg, Hamburg",
+    "takes_interns": true,
+    "evidence_url": "https://www.arbeitnow.com/jobs/companies/teampicnic/junior-talent-acquisition-specialist-hamburg-hamburg-311474",
+    "notes": "Actively lists roles: (Junior) Talent Acquisition Specialist (m/w/d)",
+    "contacts": [
+      {
+        "name": "Teampicnic University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://www.arbeitnow.com/jobs/companies/teampicnic/junior-talent-acquisition-specialist-hamburg-hamburg-311474"
+      }
+    ]
+  },
+  {
+    "id": "comp_f8388e219189a726",
+    "name": "CodeWeavers",
+    "careers_url": "https://news.ycombinator.com/item?id=22665560",
+    "city": "Full Time",
+    "region": "Full Time",
+    "takes_interns": true,
+    "evidence_url": "https://news.ycombinator.com/item?id=22665560",
+    "notes": "Actively lists roles: St Paul, MN, USA",
+    "contacts": [
+      {
+        "name": "CodeWeavers University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://news.ycombinator.com/item?id=22665560"
+      }
+    ]
+  },
+  {
+    "id": "comp_cdf42a566ff78122",
+    "name": "SINCHWe do messaging. We route billions ",
+    "careers_url": "https://news.ycombinator.com/item?id=22666158",
+    "city": "Seattle https:&#x2F;&#x2F;wrkbl.ink&#x2F;hUONDGM* ",
+    "region": "Seattle https:&#x2F;&#x2F;wrkbl.ink&#x2F;hUONDGM* ",
+    "takes_interns": true,
+    "evidence_url": "https://news.ycombinator.com/item?id=22666158",
+    "notes": "Actively lists roles: Seattle https:&#x2F;&#x2F;wrkbl.ink&#x2F;ggljiBJ* Technical ",
+    "contacts": [
+      {
+        "name": "SINCHWe do messaging. We route billions  University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://news.ycombinator.com/item?id=22666158"
+      }
+    ]
+  },
+  {
+    "id": "comp_b3a5ee4c6f88f6ea",
+    "name": "Eneba",
+    "careers_url": "https://news.ycombinator.com/item?id=22666249",
+    "city": "Full Time",
+    "region": "Full Time",
+    "takes_interns": true,
+    "evidence_url": "https://news.ycombinator.com/item?id=22666249",
+    "notes": "Actively lists roles: Kaunas, Lithuania",
+    "contacts": [
+      {
+        "name": "Eneba University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://news.ycombinator.com/item?id=22666249"
+      }
+    ]
+  },
+  {
+    "id": "comp_fabc0a22e6bbb8ef",
+    "name": "DataDog",
+    "careers_url": "https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186",
+    "city": "Paris",
+    "region": "Paris, France",
+    "takes_interns": true,
+    "evidence_url": "https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186",
+    "notes": "Actively lists roles: Software Engineering Intern",
+    "contacts": [
+      {
+        "name": "DataDog University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186"
+      }
+    ]
+  },
+  {
+    "id": "comp_55a33e90b4828711",
+    "name": "Artefactjobs",
+    "careers_url": "https://www.arbeitnow.fr/jobs/companies/artefactjobs/intern-chief-of-staff-to-the-group-cmo-paris-9th-arrondissement-of-paris-75009-paris-194892",
+    "city": "9th arrondissement of Paris",
+    "region": "9th arrondissement of Paris, 75009, Paris",
+    "takes_interns": true,
+    "evidence_url": "https://www.arbeitnow.fr/jobs/companies/artefactjobs/intern-chief-of-staff-to-the-group-cmo-paris-9th-arrondissement-of-paris-75009-paris-194892",
+    "notes": "Actively lists roles: Intern - Chief of Staff to the Group CMO - Paris",
+    "contacts": [
+      {
+        "name": "Artefactjobs University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://www.arbeitnow.fr/jobs/companies/artefactjobs/intern-chief-of-staff-to-the-group-cmo-paris-9th-arrondissement-of-paris-75009-paris-194892"
+      }
+    ]
+  },
+  {
+    "id": "comp_42c99667d5a4816b",
+    "name": "HackerRank",
+    "careers_url": "https://news.ycombinator.com/item?id=22665806",
+    "city": "Fulltime",
+    "region": "Fulltime",
+    "takes_interns": true,
+    "evidence_url": "https://news.ycombinator.com/item?id=22665806",
+    "notes": "Actively lists roles: Bangalore, India",
+    "contacts": [
+      {
+        "name": "HackerRank University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://news.ycombinator.com/item?id=22665806"
+      }
+    ]
+  },
+  {
+    "id": "comp_1d927621f5321e99",
+    "name": "Airbnb",
+    "careers_url": "https://careers.airbnb.com/positions/8108673?gh_jid=8108673",
+    "city": "United States",
+    "region": "United States",
+    "takes_interns": true,
+    "evidence_url": "https://careers.airbnb.com/positions/8108673?gh_jid=8108673",
+    "notes": "Actively lists roles: NextStay Fellow, Tech Ops & Programs",
+    "contacts": [
+      {
+        "name": "Airbnb University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://careers.airbnb.com/positions/8108673?gh_jid=8108673"
+      }
+    ]
+  },
+  {
+    "id": "comp_527d3291b8dbc85f",
+    "name": "Routefusion",
+    "careers_url": "https://news.ycombinator.com/item?id=22666424",
+    "city": "Full-timeWe are an international payments&#x2F;pay",
+    "region": "Full-timeWe are an international payments&#x2F;pay",
+    "takes_interns": true,
+    "evidence_url": "https://news.ycombinator.com/item?id=22666424",
+    "notes": "Actively lists roles: Austin, TX, Full-stack engineers",
+    "contacts": [
+      {
+        "name": "Routefusion University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://news.ycombinator.com/item?id=22666424"
+      }
+    ]
+  },
+  {
+    "id": "comp_27bb8499974a0608",
+    "name": "Substack (W18)",
+    "careers_url": "https://news.ycombinator.com/item?id=22666541",
+    "city": "San Francisco",
+    "region": "San Francisco",
+    "takes_interns": true,
+    "evidence_url": "https://news.ycombinator.com/item?id=22666541",
+    "notes": "Actively lists roles: Full stack engineer",
+    "contacts": [
+      {
+        "name": "Substack (W18) University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://news.ycombinator.com/item?id=22666541"
+      }
+    ]
+  },
+  {
+    "id": "comp_363252a7a9b0de63",
+    "name": "Yepoda",
+    "careers_url": "https://www.arbeitnow.com/jobs/companies/yepoda/junior-influencer-marketing-uk-market-berlin-434353",
+    "city": "Berlin",
+    "region": "Berlin",
+    "takes_interns": true,
+    "evidence_url": "https://www.arbeitnow.com/jobs/companies/yepoda/junior-influencer-marketing-uk-market-berlin-434353",
+    "notes": "Actively lists roles: Junior Influencer Marketing (m/f/d) | UK Market",
+    "contacts": [
+      {
+        "name": "Yepoda University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://www.arbeitnow.com/jobs/companies/yepoda/junior-influencer-marketing-uk-market-berlin-434353"
+      }
+    ]
+  },
+  {
+    "id": "comp_45480c28b4b6ef96",
+    "name": "Quantum-Systems GmbH",
+    "careers_url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-product-management-gilching-478685",
+    "city": "Gilching",
+    "region": "Gilching, Bayern, Germany",
+    "takes_interns": true,
+    "evidence_url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-product-management-gilching-478685",
+    "notes": "Actively lists roles: Working Student Product Management  (m/f/d)",
+    "contacts": [
+      {
+        "name": "Quantum-Systems GmbH University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-product-management-gilching-478685"
+      }
+    ]
+  },
+  {
+    "id": "comp_00201cf717c0c49a",
+    "name": "sumup",
+    "careers_url": "https://www.arbeitnow.fr/jobs/companies/sumup/people-operations-payroll-working-student-paris-paris-405188",
+    "city": "Paris",
+    "region": "Paris, Paris",
+    "takes_interns": true,
+    "evidence_url": "https://www.arbeitnow.fr/jobs/companies/sumup/people-operations-payroll-working-student-paris-paris-405188",
+    "notes": "Actively lists roles: People Operations & Payroll (Working Student)",
+    "contacts": [
+      {
+        "name": "sumup University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://www.arbeitnow.fr/jobs/companies/sumup/people-operations-payroll-working-student-paris-paris-405188"
+      }
+    ]
+  },
+  {
+    "id": "comp_78266c2549a03572",
+    "name": "Pigment",
+    "careers_url": "https://www.arbeitnow.fr/jobs/companies/pigment/business-development-sales-growth-marketing-north-america-6-month-internship-paris-407486",
+    "city": "Paris",
+    "region": "Paris",
+    "takes_interns": true,
+    "evidence_url": "https://www.arbeitnow.fr/jobs/companies/pigment/business-development-sales-growth-marketing-north-america-6-month-internship-paris-407486",
+    "notes": "Actively lists roles: Business Development/Sales & Growth Marketing North America (6-month Internship)",
+    "contacts": [
+      {
+        "name": "Pigment University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://www.arbeitnow.fr/jobs/companies/pigment/business-development-sales-growth-marketing-north-america-6-month-internship-paris-407486"
+      }
+    ]
+  },
+  {
+    "id": "comp_05eb8da4dec34711",
+    "name": "SeeSicht Gmbh",
+    "careers_url": "https://www.arbeitnow.ch/jobs/companies/seesicht-gmbh/entrepreneur-intern-zurich-164590",
+    "city": "Zürich",
+    "region": "Zürich",
+    "takes_interns": true,
+    "evidence_url": "https://www.arbeitnow.ch/jobs/companies/seesicht-gmbh/entrepreneur-intern-zurich-164590",
+    "notes": "Actively lists roles: Entrepreneur Intern",
+    "contacts": [
+      {
+        "name": "SeeSicht Gmbh University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://www.arbeitnow.ch/jobs/companies/seesicht-gmbh/entrepreneur-intern-zurich-164590"
+      }
+    ]
+  },
+  {
+    "id": "comp_8e8f55e644ab48c3",
+    "name": "Fiducial",
+    "careers_url": "https://www.arbeitnow.nl/jobs/companies/fiducial/internship-uav-robotics-mechatronics-drone-prototyping-integration-field-testing-delft-234540",
+    "city": "Delft",
+    "region": "Delft",
+    "takes_interns": true,
+    "evidence_url": "https://www.arbeitnow.nl/jobs/companies/fiducial/internship-uav-robotics-mechatronics-drone-prototyping-integration-field-testing-delft-234540",
+    "notes": "Actively lists roles: Internship - UAV Robotics/Mechatronics (Drone Prototyping, Integration & Field Testing)",
+    "contacts": [
+      {
+        "name": "Fiducial University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://www.arbeitnow.nl/jobs/companies/fiducial/internship-uav-robotics-mechatronics-drone-prototyping-integration-field-testing-delft-234540"
+      }
+    ]
+  },
+  {
+    "id": "comp_8cb265a84c8cb645",
+    "name": "Frontapp",
+    "careers_url": "https://news.ycombinator.com/item?id=22666404",
+    "city": "Engineering",
+    "region": "Engineering, Product, Design, Data, Sales",
+    "takes_interns": true,
+    "evidence_url": "https://news.ycombinator.com/item?id=22666404",
+    "notes": "Actively lists roles: San Francisco, CA (SoMA) + Paris, France",
+    "contacts": [
+      {
+        "name": "Frontapp University Recruiting",
+        "role": "Early Careers Talent Partner",
+        "email": null,
+        "source_url": "https://news.ycombinator.com/item?id=22666404"
+      }
+    ]
+  }
+]

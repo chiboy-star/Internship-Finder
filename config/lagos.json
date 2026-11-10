@@ -1,0 +1,163 @@
+[
+  {
+    "company": "Paystack",
+    "careers_url": "https://paystack.com/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Leading African payments processor owned by Stripe. Hires engineering interns and new grads, has modern React/Node infrastructure in Ikeja GRA/remote.",
+    "contacts": [
+      {
+        "name": "Engineering Hiring Team",
+        "role": "Technical Talent Partner",
+        "email": null,
+        "source_url": "https://paystack.com/careers"
+      }
+    ]
+  },
+  {
+    "company": "Flutterwave",
+    "careers_url": "https://flutterwave.com/ng/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Pan-African fintech unicorn based in Victoria Island. Runs graduate trainee and student internship rotations across frontend and API teams.",
+    "contacts": [
+      {
+        "name": "People Operations",
+        "role": "University Relations Lead",
+        "email": null,
+        "source_url": "https://flutterwave.com/ng/careers"
+      }
+    ]
+  },
+  {
+    "company": "Moniepoint",
+    "careers_url": "https://moniepoint.com/ng/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Fastest-growing business banking platform in Africa. Frequently runs engineering internship academies and accepts SIWES/undergraduate interns in Lagos.",
+    "contacts": [
+      {
+        "name": "Moniepoint Academy",
+        "role": "Engineering Academy Recruiter",
+        "email": null,
+        "source_url": "https://moniepoint.com/ng/careers"
+      }
+    ]
+  },
+  {
+    "company": "Piggyvest",
+    "careers_url": "https://www.piggyvest.com/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Pioneering wealth management & savings platform in Lagos (Teslim Elias / Victoria Island). Known for hiring local tech talent & frontend interns.",
+    "contacts": [
+      {
+        "name": "Talent Team",
+        "role": "Frontend Engineering Lead",
+        "email": null,
+        "source_url": "https://www.piggyvest.com/careers"
+      }
+    ]
+  },
+  {
+    "company": "Interswitch Group",
+    "careers_url": "https://www.interswitchgroup.com/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Africa's first fintech unicorn, based in Victoria Island, Lagos. Established formal student internship programs and developer apprenticeships.",
+    "contacts": [
+      {
+        "name": "Graduate & Intern Program",
+        "role": "Early Careers Lead",
+        "email": null,
+        "source_url": "https://www.interswitchgroup.com/careers"
+      }
+    ]
+  },
+  {
+    "company": "Kuda Bank",
+    "careers_url": "https://kuda.com/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Digital mobile challenger bank with office in Yaba/London. Actively recruits frontend engineers, QA, and mobile engineering interns.",
+    "contacts": [
+      {
+        "name": "Talent Acquisition",
+        "role": "Recruiting Specialist",
+        "email": null,
+        "source_url": "https://kuda.com/careers"
+      }
+    ]
+  },
+  {
+    "company": "Cowrywise",
+    "careers_url": "https://cowrywise.com/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Investment and wealth platform with top-tier UI design culture. Has an active campus ambassador and summer engineering internship program.",
+    "contacts": [
+      {
+        "name": "Design & Engineering Team",
+        "role": "Talent & Culture Partner",
+        "email": null,
+        "source_url": "https://cowrywise.com/careers"
+      }
+    ]
+  },
+  {
+    "company": "Bamboo",
+    "careers_url": "https://investbamboo.com/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Global investment app for Nigerians. Hybrid work environment in Lagos with high-standard React/React Native engineering.",
+    "contacts": [
+      {
+        "name": "People Team",
+        "role": "Engineering Recruiter",
+        "email": null,
+        "source_url": "https://investbamboo.com/careers"
+      }
+    ]
+  },
+  {
+    "company": "Helium Health",
+    "careers_url": "https://heliumhealth.com/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Largest health tech Electronic Medical Records platform in West Africa, headquartered in Lagos. Accepts software engineering interns.",
+    "contacts": [
+      {
+        "name": "Helium Talent",
+        "role": "Talent Lead",
+        "email": null,
+        "source_url": "https://heliumhealth.com/careers"
+      }
+    ]
+  },
+  {
+    "company": "Nomba",
+    "careers_url": "https://www.nomba.com/careers",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Leading merchant banking & omnichannel payment enterprise based in Lekki Phase 1, Lagos. Builds robust web and mobile terminal interfaces.",
+    "contacts": [
+      {
+        "name": "HR & Talent",
+        "role": "Technical Recruiter",
+        "email": null,
+        "source_url": "https://www.nomba.com/careers"
+      }
+    ]
+  }
+]
+
