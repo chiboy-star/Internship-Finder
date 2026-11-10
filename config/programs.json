@@ -1,0 +1,51 @@
+[
+  {
+    "id": "program_gsoc",
+    "name": "Google Summer of Code (GSoC)",
+    "official_url": "https://summerofcode.withgoogle.com",
+    "type": "Open Source Fellowship / Internship",
+    "stipend": "Paid (Google stipend pegged to purchasing power parity for Nigeria)",
+    "application_window": "Typically February - April annually (Verify dates for 2027 cohort)",
+    "eligibility_note": "Open to all students and beginners worldwide (18+), fully remote from Nigeria. Mentored contributions to major open-source organizations.",
+    "dates_status": "verify dates",
+    "recommended_prep": "Identify participating organizations (e.g. Linux Foundation, Python, Apache, Wikimedia) in December-January, join their mailing lists, and submit introductory pull requests.",
+    "tags": ["Open Source", "Global Remote", "Stipend", "Summer 2027"]
+  },
+  {
+    "id": "program_mlh",
+    "name": "Major League Hacking (MLH) Fellowship",
+    "official_url": "https://fellowship.mlh.io",
+    "type": "Software Engineering Fellowship / Internship",
+    "stipend": "Need-based educational stipend provided",
+    "application_window": "Rolling admissions (Summer batch opens February - April; verify dates)",
+    "eligibility_note": "100% remote open to Nigeria. Tracks include Open Source, Software Engineering, and Web3/Production Engineering. Mentored by professional engineers.",
+    "dates_status": "verify dates",
+    "recommended_prep": "Build a strong GitHub portfolio with clean commits, review JavaScript/TypeScript fundamentals, and prepare for code walkthrough interviews.",
+    "tags": ["Production Engineering", "Global Remote", "Mentorship", "Summer 2027"]
+  },
+  {
+    "id": "program_outreachy",
+    "name": "Outreachy Internships",
+    "official_url": "https://www.outreachy.org",
+    "type": "Open Source Internship",
+    "stipend": "$7,000 USD total stipend + $500 travel/development stipend",
+    "application_window": "May to August (Applications open January - February; verify dates)",
+    "eligibility_note": "Fully remote internship open to applicants subject to systemic bias or underrepresented in the tech industry in their country (Nigeria fully eligible).",
+    "dates_status": "verify dates",
+    "recommended_prep": "Initial application essay submission followed by the 4-week public contribution period where you submit code directly to open-source project mentors.",
+    "tags": ["Open Source", "Global Remote", "Paid ($7,000)", "Summer 2027"]
+  },
+  {
+    "id": "program_pau_siwes",
+    "name": "Pan Atlantic University Career Office (SIWES & Local Placements)",
+    "official_url": "https://pau.edu.ng/student-affairs/career-services/",
+    "type": "Institutional Placement & SIWES / Industrial Attachment",
+    "stipend": "Varies by employer (Lagos corporate & fintech standard)",
+    "application_window": "Contact PAU Career Services office during 1st/2nd semester of 3rd year",
+    "eligibility_note": "Direct university partnership placement for 3rd-year B.Sc. Software Engineering students in Lagos (Ibeju-Lekki / Victoria Island / Ikeja).",
+    "dates_status": "active advising",
+    "recommended_prep": "Book an in-person meeting with PAU career advisors. Request list of partner tech employers in Lagos (e.g. Moniepoint, Interswitch, Paystack, banks) that recruit SIWES interns.",
+    "tags": ["Onsite Lagos", "SIWES / Attachment", "PAU Partnership", "Summer 2027"]
+  }
+]
+

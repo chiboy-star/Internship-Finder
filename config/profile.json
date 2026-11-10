@@ -1,30 +1,58 @@
 {
-  "name": "Chinememerem Madueke",
+  "name": "Chinemerem Madueke",
   "title": "Software Engineering Student & Frontend Developer",
-  "stage": "3rd year B.Sc. Software Engineering, Pan Atlantic University, Nigeria",
+  "stage": "3rd-year B.Sc. Software Engineering, Pan Atlantic University, Nigeria",
   "location": "Lagos, Nigeria",
   "availability": "Summer 2027 (Full-time)",
   "hours_per_week": "Full-time (40 hours/week)",
-  "internship_summary": "Aspiring Software Engineering Intern with hands-on experience building modern, responsive, and performant web applications using Next.js, React, and Supabase. Seeking a full-time Summer 2027 internship where I can contribute to production frontend code and expand into fullstack engineering.",
+  "internship_summary": "Aspiring Software Engineering Intern with hands-on experience building modern, responsive, and performant web applications using Next.js, React, and Supabase. Seeking a full-time Summer 2027 internship where I can contribute to production code and expand across software engineering.",
   "freelance_summary": "Available 10-15 hours a week for freelance frontend development and UI engineering.",
-  "level": "Beginner to intermediate; frontend first, open to other tech departments at beginner level",
-  "core_skills": [
+  "level": "Beginner to intermediate. Strongest in frontend (React, Next.js). Open to all software engineering departments at beginner to intermediate level.",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
     "React",
     "Next.js",
-    "JavaScript",
-    "TypeScript",
-    "HTML5",
-    "CSS3",
-    "Tailwind CSS"
+    "Tailwind CSS",
+    "Supabase",
+    "C++",
+    "Rust",
+    "Python",
+    "Git",
+    "GitHub",
+    "Figma",
+    "Blender",
+    "Vercel"
   ],
-  "backend_and_tools": [
+  "core_skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Next.js",
+    "Tailwind CSS",
     "Supabase",
     "Git",
     "GitHub",
-    "Vercel",
-    "PostgreSQL",
-    "REST APIs"
+    "Vercel"
   ],
+  "backend_and_tools": [
+    "Supabase",
+    "C++",
+    "Rust",
+    "Python",
+    "Git",
+    "GitHub",
+    "Figma",
+    "Blender",
+    "Vercel"
+  ],
+  "links": {
+    "portfolio": "https://portfolio-site-gilt-tau.vercel.app/",
+    "github": "https://github.com/chiboy-star",
+    "linkedin": "https://www.linkedin.com/in/chinemerem-madueke-b75038294"
+  },
   "projects": [
     {
       "name": "Finance Manager PWA",
@@ -44,18 +72,16 @@
       "name": "Developer Portfolio",
       "description": "Minimalist, editorial-style engineering portfolio demonstrating interactive UI experiments, performance optimization, and project case studies.",
       "tech": ["Next.js", "Tailwind CSS", "Vercel"],
-      "live_url": "https://chinemerem.dev",
+      "live_url": "https://portfolio-site-gilt-tau.vercel.app/",
       "repo_url": "https://github.com/chiboy-star/portfolio"
     }
   ],
   "target": {
-    "role_types": ["Software Engineering Intern", "Frontend Intern", "Web Engineering Intern", "Full Stack Intern"],
+    "role_types": ["Software Engineering Intern", "Frontend Intern", "Full Stack Intern", "Engineering Intern"],
     "season": "Summer 2027",
     "regions": [
-      "Remote (worldwide / open to Nigeria)",
-      "Remote (US/UK employers open to global candidates)",
+      "Remote (explicitly open to Nigeria / Worldwide / Africa)",
       "Onsite or Hybrid in Lagos, Nigeria"
     ]
   }
 }
-

@@ -1,9 +1,24 @@
 'use client';
 
 import React, { useState } from 'react';
-import { ExternalLink, Bookmark, BookmarkCheck, Sparkles, Copy, Check, Printer, AlertTriangle, MapPin, Calendar, Clock, Globe } from 'lucide-react';
+import {
+  ExternalLink,
+  Bookmark,
+  BookmarkCheck,
+  Sparkles,
+  Copy,
+  Check,
+  Printer,
+  MapPin,
+  Calendar,
+  Clock,
+  DollarSign,
+  Quote,
+  ShieldCheck,
+  TrendingUp,
+} from 'lucide-react';
 import { Listing, Application } from '../types';
-import { cn, formatDeadline, formatRelativeTime } from '../lib/utils';
+import { cn, formatDeadline } from '../lib/utils';
 import { toast } from 'sonner';
 
 interface ListingDetailPaneProps {
@@ -19,7 +34,6 @@ export function ListingDetailPane({
   application,
   onSave,
   onOpenPitch,
-  onClose,
 }: ListingDetailPaneProps) {
   const [copied, setCopied] = useState(false);
 
@@ -38,13 +52,20 @@ export function ListingDetailPane({
 
   const isSaved = application?.status === 'saved' || application?.status === 'applied' || application?.status === 'interviewing';
   const deadlineInfo = formatDeadline(listing.deadline);
-  const isBestMatch = listing.match_score >= 85;
+  const isBestMatch = !listing.is_unverified && listing.final_score >= 80;
 
   const handleCopyLink = () => {
     navigator.clipboard.writeText(listing.apply_url);
     setCopied(true);
     toast.success('Apply URL copied to clipboard');
     setTimeout(() => setCopied(false), 2000);
+  };
+
+  const breakdown = listing.score_breakdown || {
+    experience_value: Math.round((listing.experience_value || 70) * 0.35),
+    attainability: Math.round((listing.attainability || 65) * 0.35),
+    paid_score: listing.paid === true ? 20 : 7,
+    timing_fit: 5,
   };
 
   return (
@@ -54,7 +75,7 @@ export function ListingDetailPane({
         <div className="flex items-start justify-between gap-4">
           <div>
             <span className="editorial-label text-brass-light dark:text-brass-dark">{listing.company}</span>
-            <h2 className="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-ink-light dark:text-ink-dark mt-1 leading-tight">
+            <h2 className="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-ink-light dark:text-ink-dark mt-1 leading-tight text-balance">
               {listing.title}
             </h2>
           </div>
@@ -63,14 +84,14 @@ export function ListingDetailPane({
             <button
               onClick={() => window.print()}
               aria-label="Print listing details"
-              className="hit-slop p-2 rounded-[8px] border border-hairline-light dark:border-hairline-dark hover:bg-hairline-light/40 dark:hover:bg-hairline-dark/40 text-muted-light dark:text-muted-dark hover:text-ink-light dark:hover:text-ink-dark transition-colors"
+              className="hit-slop p-2.5 rounded-[8px] border border-hairline-light dark:border-hairline-dark hover:bg-hairline-light/40 dark:hover:bg-hairline-dark/40 text-muted-light dark:text-muted-dark hover:text-ink-light dark:hover:text-ink-dark transition-colors"
             >
               <Printer className="w-4 h-4" strokeWidth={1.5} />
             </button>
             <button
               onClick={handleCopyLink}
               aria-label="Copy apply link"
-              className="hit-slop p-2 rounded-[8px] border border-hairline-light dark:border-hairline-dark hover:bg-hairline-light/40 dark:hover:bg-hairline-dark/40 text-muted-light dark:text-muted-dark hover:text-ink-light dark:hover:text-ink-dark transition-colors flex items-center space-x-1"
+              className="hit-slop p-2.5 rounded-[8px] border border-hairline-light dark:border-hairline-dark hover:bg-hairline-light/40 dark:hover:bg-hairline-dark/40 text-muted-light dark:text-muted-dark hover:text-ink-light dark:hover:text-ink-dark transition-colors flex items-center space-x-1"
             >
               {copied ? <Check className="w-4 h-4 text-green-600" /> : <Copy className="w-4 h-4" strokeWidth={1.5} />}
               <span className="text-xs">{copied ? 'Copied' : 'Share'}</span>
@@ -78,45 +99,28 @@ export function ListingDetailPane({
           </div>
         </div>
 
-        {/* Status badges */}
+        {/* Accents row */}
         <div className="mt-4 flex flex-wrap items-center gap-2">
-          <span
-            className={cn(
-              'text-xs font-semibold tabular-nums px-2.5 py-1 rounded-[8px] border',
-              isBestMatch
-                ? 'badge-brass'
-                : 'bg-hairline-light/40 dark:bg-hairline-dark/40 border-hairline-light dark:border-hairline-dark text-ink-light dark:text-ink-dark'
-            )}
-          >
-            {listing.match_score}% Match Score
-          </span>
-
-          <span
-            className={cn(
-              'text-xs px-2.5 py-1 rounded-[8px] border',
-              listing.eligibility === 'open_to_nigeria'
-                ? 'border-green-600/30 text-green-700 dark:text-green-400 bg-green-50/50 dark:bg-green-950/20'
-                : listing.eligibility === 'region_locked'
-                ? 'border-amber-600/30 text-amber-700 dark:text-amber-400 bg-amber-50/50 dark:bg-amber-950/20'
-                : 'border-hairline-light dark:border-hairline-dark text-muted-light dark:text-muted-dark'
-            )}
-          >
-            {listing.eligibility === 'open_to_nigeria'
-              ? 'Open to Nigeria / Worldwide'
-              : listing.eligibility === 'region_locked'
-              ? 'Region-Locked (US/UK only)'
-              : 'Eligibility Unclear'}
-          </span>
-
-          {deadlineInfo.isClosingSoon && (
-            <span className="text-xs font-medium badge-brass px-2.5 py-1 rounded-[8px] tabular-nums">
-              {deadlineInfo.text}
+          {isBestMatch && (
+            <span className="text-xs font-semibold badge-brass px-2.5 py-1 rounded-[6px] tabular-nums">
+              ★ Best Match ({listing.final_score}%)
             </span>
           )}
 
-          {listing.flags && listing.flags.includes('scam_pay_to_apply') && (
-            <span className="text-xs px-2.5 py-1 rounded-[8px] bg-red-100 text-red-700 dark:bg-red-950/40 dark:text-red-400 flex items-center gap-1">
-              <AlertTriangle className="w-3.5 h-3.5" /> Pay-to-Apply Flag
+          <span
+            className={cn(
+              'text-xs px-2.5 py-1 rounded-[6px] border',
+              listing.nigeria_eligibility === 'open' || listing.lagos_onsite
+                ? 'border-green-600/30 text-green-700 dark:text-green-400 bg-green-50/50 dark:bg-green-950/20'
+                : 'border-hairline-light dark:border-hairline-dark text-muted-light dark:text-muted-dark'
+            )}
+          >
+            {listing.lagos_onsite ? 'Lagos, Nigeria (Onsite/Hybrid)' : 'Open to Nigeria / Worldwide'}
+          </span>
+
+          {deadlineInfo.isClosingSoon && (
+            <span className="text-xs font-medium badge-brass px-2.5 py-1 rounded-[6px] tabular-nums">
+              {deadlineInfo.text}
             </span>
           )}
         </div>
@@ -143,33 +147,71 @@ export function ListingDetailPane({
             <Clock className="w-4 h-4 shrink-0 text-ink-light dark:text-ink-dark" strokeWidth={1.5} />
             <div>
               <span className="editorial-label block text-[10px]">Duration</span>
-              <span className="text-ink-light dark:text-ink-dark font-medium tabular-nums">{listing.duration || 'Standard 10-12 weeks'}</span>
+              <span className="text-ink-light dark:text-ink-dark font-medium tabular-nums">{listing.duration || 'Standard 8-16 weeks'}</span>
             </div>
           </div>
 
           <div className="flex items-center space-x-2">
-            <Globe className="w-4 h-4 shrink-0 text-ink-light dark:text-ink-dark" strokeWidth={1.5} />
+            <DollarSign className="w-4 h-4 shrink-0 text-ink-light dark:text-ink-dark" strokeWidth={1.5} />
             <div>
-              <span className="editorial-label block text-[10px]">Source</span>
-              <a
-                href={listing.source_url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-ink-light dark:text-ink-dark underline hover:opacity-80 capitalize"
-              >
-                {listing.source}
-              </a>
+              <span className="editorial-label block text-[10px]">Compensation</span>
+              <span className="text-ink-light dark:text-ink-dark font-medium">
+                {listing.paid === true ? 'Paid / Stipend' : listing.paid === false ? 'Unpaid' : 'Stipend Unstated'}
+              </span>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Match Reason Section */}
-      <div className="p-4 rounded-[8px] bg-hairline-light/20 dark:bg-hairline-dark/30 border border-hairline-light dark:border-hairline-dark">
-        <span className="editorial-label text-brass-light dark:text-brass-dark">Profile Match Analysis</span>
-        <p className="mt-1 text-sm text-ink-light dark:text-ink-dark leading-relaxed font-serif">
-          "{listing.match_reason}"
-        </p>
+      {/* "Why it ranks here" Section (Strict Formula Breakdown & Evidence Phrases) */}
+      <div className="p-4 rounded-[8px] bg-hairline-light/25 dark:bg-hairline-dark/30 border border-hairline-light dark:border-hairline-dark space-y-3">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center space-x-1.5">
+            <TrendingUp className="w-4 h-4 text-brass-light dark:text-brass-dark" />
+            <span className="editorial-label text-brass-light dark:text-brass-dark">Why It Ranks Here</span>
+          </div>
+          <span className="text-xs font-serif font-bold text-ink-light dark:text-ink-dark tabular-nums">
+            Total Score: {listing.final_score}/100
+          </span>
+        </div>
+
+        {/* 4-Factor Breakdown */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1 text-center">
+          <div className="p-2 rounded bg-background-light dark:bg-background-dark border border-hairline-light dark:border-hairline-dark">
+            <span className="text-[10px] text-muted-light dark:text-muted-dark block">Experience (35%)</span>
+            <span className="text-xs font-bold tabular-nums text-ink-light dark:text-ink-dark">+{breakdown.experience_value}</span>
+          </div>
+          <div className="p-2 rounded bg-background-light dark:bg-background-dark border border-hairline-light dark:border-hairline-dark">
+            <span className="text-[10px] text-muted-light dark:text-muted-dark block">Attainability (35%)</span>
+            <span className="text-xs font-bold tabular-nums text-ink-light dark:text-ink-dark">+{breakdown.attainability}</span>
+          </div>
+          <div className="p-2 rounded bg-background-light dark:bg-background-dark border border-hairline-light dark:border-hairline-dark">
+            <span className="text-[10px] text-muted-light dark:text-muted-dark block">Paid Status (20%)</span>
+            <span className="text-xs font-bold tabular-nums text-ink-light dark:text-ink-dark">+{breakdown.paid_score}</span>
+          </div>
+          <div className="p-2 rounded bg-background-light dark:bg-background-dark border border-hairline-light dark:border-hairline-dark">
+            <span className="text-[10px] text-muted-light dark:text-muted-dark block">Timing Fit (10%)</span>
+            <span className="text-xs font-bold tabular-nums text-ink-light dark:text-ink-dark">+{breakdown.timing_fit}</span>
+          </div>
+        </div>
+
+        {/* Direct Quote Evidence from Posting */}
+        {listing.evidence && (
+          <div className="mt-2 space-y-1.5 text-xs text-muted-light dark:text-muted-dark border-t border-hairline-light/60 dark:border-hairline-dark/60 pt-2.5">
+            <div className="flex items-start space-x-1.5">
+              <Quote className="w-3.5 h-3.5 shrink-0 mt-0.5 text-brass-light dark:text-brass-dark" />
+              <span>
+                <strong className="text-ink-light dark:text-ink-dark font-medium">Work mode evidence:</strong> "{listing.evidence.work_mode_quote}"
+              </span>
+            </div>
+            <div className="flex items-start space-x-1.5">
+              <ShieldCheck className="w-3.5 h-3.5 shrink-0 mt-0.5 text-brass-light dark:text-brass-dark" />
+              <span>
+                <strong className="text-ink-light dark:text-ink-dark font-medium">Eligibility evidence:</strong> "{listing.evidence.nigeria_eligibility_quote}"
+              </span>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Required Skills */}
@@ -189,7 +231,7 @@ export function ListingDetailPane({
         </div>
       )}
 
-      {/* Role Requirements / Description snippet */}
+      {/* Role Description */}
       {listing.requirements && (
         <div className="space-y-2">
           <span className="editorial-label block">Listing Overview</span>
@@ -204,7 +246,7 @@ export function ListingDetailPane({
         <button
           onClick={() => onSave(listing)}
           className={cn(
-            'hit-slop flex items-center space-x-2 py-2.5 px-5 rounded-[8px] text-xs font-semibold transition-colors',
+            'hit-slop min-h-[44px] px-5 py-2.5 rounded-[8px] text-xs font-semibold flex items-center space-x-2 transition-colors',
             isSaved
               ? 'bg-hairline-light/60 dark:bg-hairline-dark/60 text-ink-light dark:text-ink-dark border border-hairline-light dark:border-hairline-dark'
               : 'bg-ink-light text-background-light dark:bg-ink-dark dark:text-background-dark hover:opacity-90'
@@ -217,17 +259,17 @@ export function ListingDetailPane({
         <div className="flex items-center space-x-2">
           <button
             onClick={() => onOpenPitch(listing)}
-            className="hit-slop flex items-center space-x-1.5 py-2.5 px-4 rounded-[8px] text-xs font-medium border border-hairline-light dark:border-hairline-dark hover:bg-hairline-light/40 dark:hover:bg-hairline-dark/40 text-ink-light dark:text-ink-dark transition-colors"
+            className="hit-slop min-h-[44px] px-4 py-2.5 rounded-[8px] text-xs font-medium border border-hairline-light dark:border-hairline-dark hover:bg-hairline-light/40 dark:hover:bg-hairline-dark/40 text-ink-light dark:text-ink-dark flex items-center space-x-1.5 transition-colors"
           >
             <Sparkles className="w-3.5 h-3.5 text-brass-light dark:text-brass-dark" />
-            <span>Draft Pitch</span>
+            <span>Draft Cold Pitch</span>
           </button>
 
           <a
             href={listing.apply_url}
             target="_blank"
             rel="noopener noreferrer"
-            className="hit-slop flex items-center space-x-1.5 py-2.5 px-5 rounded-[8px] text-xs font-medium bg-ink-light text-background-light dark:bg-ink-dark dark:text-background-dark hover:opacity-90 transition-opacity"
+            className="hit-slop min-h-[44px] px-5 py-2.5 rounded-[8px] text-xs font-medium bg-ink-light text-background-light dark:bg-ink-dark dark:text-background-dark hover:opacity-90 transition-opacity flex items-center space-x-1.5"
           >
             <span>Apply Directly</span>
             <ExternalLink className="w-3.5 h-3.5" />
@@ -237,4 +279,3 @@ export function ListingDetailPane({
     </div>
   );
 }
-

@@ -4,79 +4,107 @@ A private, single-user software engineering internship matcher and outreach plat
 
 ---
 
-## Key Highlights
+## Strict Internship Criteria
 
-- **Targeted Opportunities**: Curates and ranks Summer 2027 software engineering internships, focusing on remote roles open to Nigeria and onsite/hybrid roles in Lagos.
-- **Editorial Typography**: Editorial aesthetic inspired by luxury print magazines — Cormorant/Playfair serif display, quiet Inter UI sans, tabular numerals, 1px hairlines, and a single brass accent (`#B08A3E` light / `#C9A35B` dark) reserved exclusively for *Best Match* and *Closing Soon*.
-- **Zero-Scrape Integrity**: Pulls from official public job-board APIs (Greenhouse, Lever, Ashby), GitHub community lists, remote job APIs (Remotive, Arbeitnow), Hacker News *Who is hiring*, and a verified Lagos tech seed list. LinkedIn, Indeed, and Glassdoor are strictly untouched.
-- **AI Match & Zero-Fluff Outreach Drafter**: Evaluates listings against user's specific stack (Next.js, React, TypeScript, Tailwind CSS, Supabase) and featured projects (*Finance Manager PWA*, *Aurelia Grand Resort*, *Portfolio*). Cold pitches stay under 120 words with verified company context, 1 project link with UTM campaign tracking, 1 clear ask, and zero flattery filler.
-- **Private & Safe**: API routes protected by a passphrase gate (`APP_PASSPHRASE`). Personal state (saved listings, Kanban application tracker, notes) stays safely stored inside client-side IndexedDB with full JSON export and import.
-
----
-
-## Environment Variables
-
-Configure the following variables in your local `.env.local`, GitHub Actions Secrets, and Vercel Project Settings:
-
-| Variable | Scope | Description | Default / Example |
-| :--- | :--- | :--- | :--- |
-| `APP_PASSPHRASE` | Server (Vercel & local) | Secret passphrase that gates the `/api/pitch` and company creation routes so external visitors cannot consume your free Gemini quota. | `your_secret_passphrase` |
-| `GEMINI_API_KEY` | Server (GitHub Actions & Vercel) | Google Gemini API key from Google AI Studio (Free Tier). Kept strictly server-side. | `AIzaSy...` |
-| `GEMINI_MODEL` | Server | Model identifier for evaluation and pitch drafting. | `gemini-1.5-flash` |
-| `GEMINI_DAILY_CAP` | Pipeline | Hard cap on daily API calls to avoid rate limits and keep within free tier quotas. | `50` |
+1. **Type**: Real internships only (placement, industrial attachment, SIWES, co-op, student trainee). Full-time roles, new grad positions, junior jobs, and bare company career pages are strictly rejected.
+2. **Location**: Either (a) fully remote AND explicitly open to candidates residing in Nigeria/Africa/Worldwide, OR (b) onsite/hybrid in Lagos, Nigeria. Region-locked roles (US/UK/EU authorization required, relocation required, specific time-zone restrictions) are rejected.
+3. **Timing**: Summer 2027 (~June to September 2027), 8 to 18 weeks duration. Roles for 2026, fall, winter, or spring are rejected.
+4. **Scope**: All software engineering tracks at beginner to intermediate level (frontend, backend, mobile, full-stack, QA, DevOps, data/ML, systems, security).
 
 ---
 
-## How to Add a Company
+## Keys and Setup Instructions
 
-There are three ways to add a company to your watchlist:
+### 1. Local Setup (`.env.local`)
+Create a file named `.env.local` in the project root:
+```env
+# Required for Gemini evaluation and pitch drafting
+GEMINI_API_KEY=your_gemini_api_key_here
+GEMINI_MODEL=gemini-1.5-flash
+GEMINI_DAILY_CAP=100
 
-1. **Via UI Form (Easiest)**:
-   - Navigate to `/companies` or press `⌘K` -> *Add Custom Company*.
-   - On mobile, tap the floating `+` button in the bottom-right corner.
-   - Enter the **Company Name** and **Careers URL** and submit.
+# Required for API route quota protection
+APP_PASSPHRASE=your_secret_passphrase_here
 
-2. **Via Config File**:
-   - For Lagos tech companies, add an object to `config/lagos.json`:
-     ```json
-     {
-       "company": "Paystack",
-       "careers_url": "https://paystack.com/careers",
-       "city": "Lagos",
-       "region": "Lagos, Nigeria",
-       "takes_interns": true,
-       "notes": "Leading payments infrastructure company in Lagos.",
-       "contacts": []
-     }
-     ```
-   - For ATS job boards (Greenhouse, Lever, Ashby), add company slugs into `config/companies.json`.
+# Optional: Powers the "Refresh now" button via GitHub workflow dispatch
+GITHUB_DISPATCH_TOKEN=ghp_your_personal_access_token
+GITHUB_REPO=chiboy-star/Internship-Finder
+```
 
-3. **Via API**:
-   - Send a `POST` request to `/api/companies/add` with header `x-app-passphrase: <APP_PASSPHRASE>`.
+> **Note**: `.env.local` is listed in `.gitignore` and is never committed.
+
+### 2. Google AI Studio (Gemini API Key)
+1. Go to [Google AI Studio](https://aistudio.google.com/apikey).
+2. Sign in with your Google account.
+3. Click **Create API key** and copy your key into `GEMINI_API_KEY`.
+4. Check current free tier model names (e.g. `gemini-1.5-flash`).
+
+### 3. GitHub Actions Setup
+1. Open your repository on GitHub: `https://github.com/chiboy-star/Internship-Finder`.
+2. Go to **Settings** > **Secrets and variables** > **Actions**.
+3. Under **Repository secrets**, click **New repository secret**:
+   - Name: `GEMINI_API_KEY`
+   - Value: paste your Gemini API key.
+4. Click on the **Variables** tab:
+   - Variable 1: `GEMINI_MODEL` (e.g. `gemini-1.5-flash`)
+   - Variable 2: `GEMINI_DAILY_CAP` (e.g. `100`)
+5. Go to **Settings** > **Actions** > **General** > **Workflow permissions**:
+   - Select **Read and write permissions** (required so the daily GitHub Actions runner can commit updated `data/` files).
+   - Click **Save**.
+
+### 4. Vercel Deployment Setup
+1. In your Vercel Project Dashboard, navigate to **Settings** > **Environment Variables**.
+2. Add:
+   - `GEMINI_API_KEY`: your Gemini API key
+   - `GEMINI_MODEL`: `gemini-1.5-flash`
+   - `APP_PASSPHRASE`: your secret phrase
+   - *(Optional for live refresh button)*: `GITHUB_DISPATCH_TOKEN` and `GITHUB_REPO`
+3. Trigger a redeployment so the variables take effect.
 
 ---
 
-## Development Setup
+## Development & Automation Scripts
 
 ```bash
 # 1. Install dependencies
 npm install
 
-# 2. Run the local development server
+# 2. Run local dev server
 npm run dev
 
-# 3. Test data pipeline sync
+# 3. Run data pipeline manually
 npm run pipeline
 
-# 4. Build for production
+# 4. Run pipeline in background every 6 hours (only works while computer is on)
+npm run pipeline:watch
+
+# 5. Run dev server and background watcher concurrently
+npm run dev:all
+
+# 6. Test source endpoints diagnostic
+npm run test:sources
+
+# 7. Production build
 npm run build
 ```
 
 ---
 
-## Architecture & Daily Pipeline
+## Multi-Stage Filtering & Scoring Engine
 
-- **GitHub Actions (`.github/workflows/pipeline.yml`)**: Runs daily at 06:00 UTC. Fetches active postings, filters for Summer 2027 early-career roles, deduplicates by hash, scores newly discovered roles, closes stale listings (>14 days), and commits updated `data/listings.json`, `data/companies.json`, and `data/meta.json`.
-- **Next.js App Router on Vercel**: Statically serves and revalidates feed data without requiring a persistent paid database.
-- **IndexedDB**: Retains all user state (Kanban status, custom notes, dismissed listings, and goals) locally with instant offline performance.
-
+1. **Stage A (Hard Keyword Rules, No Gemini)**:
+   - Keeps only listings matching `intern`, `internship`, `placement`, `siwes`, `industrial attachment`, `co-op`, `student trainee`.
+   - Rejects titles containing `new grad`, `full-time`, `junior`, `associate`, `senior`, `staff`, `lead` unless "intern" is explicitly present.
+   - Rejects non-summer 2027 seasons and generic careers landing pages.
+2. **Stage B (Structured Gemini Evaluation)**:
+   - Evaluates `is_internship`, `is_software_engineering`, `nigeria_eligibility`, `lagos_onsite`, `start_window`, `duration_weeks`, `paid`, `experience_value`, `attainability`, `confidence`, and extracts direct quote evidence.
+3. **Stage C (Hard Gates in Code)**:
+   - `is_internship` & `is_software_engineering` must be true.
+   - `(remote && open_to_nigeria) || lagos_onsite` must be true.
+   - `confidence >= 0.6`.
+   - Every rejection is logged with a specific reason code in `data/rejected.json`.
+4. **Ranking Formula (`final_score`)**:
+   - 35% Experience Value
+   - 35% Attainability
+   - 20% Paid status
+   - 10% Timing fit

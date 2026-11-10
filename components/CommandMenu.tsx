@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Command } from 'cmdk';
-import { Search, Compass, CheckSquare, Building2, Sliders, Moon, Sun, PlusCircle, Download } from 'lucide-react';
+import { Search, Compass, CheckSquare, Building2, Sliders, Moon, Sun, PlusCircle, Download, RefreshCw } from 'lucide-react';
 import { useTheme } from './Providers';
 import { exportAllData } from '../lib/db';
 import { toast } from 'sonner';
@@ -39,6 +39,30 @@ export function CommandMenu() {
       setOpen(false);
     } catch {
       toast.error('Export failed');
+    }
+  };
+
+  const handleTriggerRefresh = async () => {
+    setOpen(false);
+    const pass = localStorage.getItem('app-passphrase') || '';
+    toast.info('Triggering pipeline refresh...');
+    try {
+      const res = await fetch('/api/pipeline/refresh', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-app-passphrase': pass,
+        },
+        body: JSON.stringify({ passphrase: pass }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        toast.error(data.error || 'Failed to trigger refresh');
+      } else {
+        toast.success(data.message || 'Started, new data appears in a few minutes.');
+      }
+    } catch (err: any) {
+      toast.error(err.message || 'Failed to trigger refresh');
     }
   };
 
@@ -115,6 +139,13 @@ export function CommandMenu() {
             </Command.Group>
 
             <Command.Group heading="Quick Actions" className="text-[11px] uppercase tracking-wider text-muted-light dark:text-muted-dark px-2 py-1.5 font-semibold mt-2">
+              <Command.Item
+                onSelect={handleTriggerRefresh}
+                className="flex items-center px-3 py-2 text-sm rounded-[8px] cursor-pointer text-ink-light dark:text-ink-dark hover:bg-hairline-light/40 dark:hover:bg-hairline-dark/40"
+              >
+                <RefreshCw className="w-4 h-4 mr-2" strokeWidth={1.5} />
+                <span>Refresh Pipeline (Run Ingestion Now)</span>
+              </Command.Item>
               <Command.Item
                 onSelect={() => {
                   router.push('/companies?action=add');

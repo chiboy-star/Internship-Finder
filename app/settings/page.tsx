@@ -19,6 +19,7 @@ import {
   Copy,
   ChevronDown,
   ChevronUp,
+  RefreshCw,
 } from 'lucide-react';
 import { PipelineMeta, UserProfile } from '@/types';
 import { exportAllData, importAllData, clearAllLocalData } from '@/lib/db';
@@ -46,6 +47,8 @@ export default function SettingsPage() {
   // Passphrase state
   const [passphrase, setPassphrase] = useState('');
   const [showPassphrase, setShowPassphrase] = useState(false);
+  const [isRefreshing, setIsRefreshing] = useState(false);
+  const [canDispatch, setCanDispatch] = useState<boolean | null>(null);
 
   // FAQ accordion state
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -68,7 +71,37 @@ export default function SettingsPage() {
 
     const savedPass = localStorage.getItem('app-passphrase');
     if (savedPass) setPassphrase(savedPass);
+
+    fetch('/api/pipeline/refresh')
+      .then((r) => r.json())
+      .then((data) => setCanDispatch(Boolean(data?.can_dispatch)))
+      .catch(() => setCanDispatch(false));
   }, []);
+
+  const handleRefreshPipeline = async () => {
+    if (isRefreshing) return;
+    setIsRefreshing(true);
+    try {
+      const res = await fetch('/api/pipeline/refresh', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-app-passphrase': passphrase,
+        },
+        body: JSON.stringify({ passphrase }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        toast.error(data.error || 'Failed to trigger pipeline refresh');
+      } else {
+        toast.success(data.message || 'Started, new data appears in a few minutes.');
+      }
+    } catch (err: any) {
+      toast.error(err.message || 'Error communicating with refresh endpoint');
+    } finally {
+      setIsRefreshing(false);
+    }
+  };
 
   const handleSavePassphrase = (e: React.FormEvent) => {
     e.preventDefault();
@@ -322,6 +355,27 @@ export default function SettingsPage() {
             </table>
           </div>
         )}
+
+        <div className="pt-4 border-t border-hairline-light dark:border-hairline-dark flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+          <div>
+            <p className="text-xs font-medium text-ink-light dark:text-ink-dark">
+              Manual Ingestion Trigger
+            </p>
+            <p className="text-[11px] text-muted-light dark:text-muted-dark">
+              {canDispatch
+                ? 'Connected to GitHub Actions workflow dispatch for automated cloud ingestion.'
+                : 'Triggers local ingestion or server runner. Configure GITHUB_DISPATCH_TOKEN in .env.local to dispatch GitHub Actions.'}
+            </p>
+          </div>
+          <button
+            onClick={handleRefreshPipeline}
+            disabled={isRefreshing}
+            className="hit-slop flex items-center space-x-2 px-4 py-2 rounded-[8px] bg-ink-light text-background-light dark:bg-ink-dark dark:text-background-dark text-xs font-semibold hover:opacity-90 disabled:opacity-50 transition-opacity"
+          >
+            <RefreshCw className={`w-3.5 h-3.5 ${isRefreshing ? 'animate-spin' : ''}`} strokeWidth={1.5} />
+            <span>{isRefreshing ? 'Refreshing...' : 'Refresh Pipeline Now'}</span>
+          </button>
+        </div>
       </section>
 
       {/* Weekly Digest Generator */}

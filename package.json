@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "pipeline": "tsx scripts/pipeline.ts",
+    "pipeline:watch": "tsx scripts/watch.ts",
+    "dev:all": "tsx scripts/dev-all.ts",
     "test:sources": "tsx scripts/test-sources.ts"
   },
   "dependencies": {

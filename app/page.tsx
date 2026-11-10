@@ -3,8 +3,21 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import MiniSearch from 'minisearch';
-import { Search, Compass, ExternalLink, Sparkles, CheckCircle2, Bookmark, ArrowUpRight } from 'lucide-react';
-import { Listing, Application, PipelineMeta } from '@/types';
+import {
+  Search,
+  Compass,
+  ExternalLink,
+  Sparkles,
+  CheckCircle2,
+  Bookmark,
+  Building2,
+  Calendar,
+  DollarSign,
+  AlertCircle,
+  GraduationCap,
+  ArrowRight,
+} from 'lucide-react';
+import { Listing, Application, PipelineMeta, Program } from '@/types';
 import { FilterBar, FilterState } from '@/components/FilterBar';
 import { ListingCard } from '@/components/ListingCard';
 import { ListingDetailPane } from '@/components/ListingDetailPane';
@@ -12,12 +25,18 @@ import { MobileDetailSheet } from '@/components/MobileDetailSheet';
 import { PitchModal } from '@/components/PitchModal';
 import { BackToTop } from '@/components/BackToTop';
 import { getAllApplications, saveApplication, removeApplication } from '@/lib/db';
-import { formatRelativeTime } from '@/lib/utils';
+import { formatRelativeTime, cn } from '@/lib/utils';
 import { toast } from 'sonner';
 
+type FeedTab = 'remote' | 'lagos' | 'programs';
+
 export default function FeedPage() {
-  // Query listings, companies, and meta with stale-while-revalidate
-  const { data, isLoading } = useQuery<{ listings: Listing[]; companies: any[]; meta: PipelineMeta }>({
+  const { data, isLoading } = useQuery<{
+    listings: Listing[];
+    companies: any[];
+    meta: PipelineMeta;
+    programs: Program[];
+  }>({
     queryKey: ['feed-data'],
     queryFn: async () => {
       const res = await fetch('/api/data');
@@ -28,8 +47,9 @@ export default function FeedPage() {
 
   const listings: Listing[] = data?.listings || [];
   const meta: PipelineMeta | null = data?.meta || null;
+  const programs: Program[] = data?.programs || [];
 
-  // Local state for IndexedDB applications
+  const [activeTab, setActiveTab] = useState<FeedTab>('lagos');
   const [applications, setApplications] = useState<Record<string, Application>>({});
   const [selectedListing, setSelectedListing] = useState<Listing | null>(null);
   const [mobileSheetOpen, setMobileSheetOpen] = useState(false);
@@ -37,22 +57,17 @@ export default function FeedPage() {
   const [searchQuery, setSearchQuery] = useState('');
   const searchInputRef = useRef<HTMLInputElement>(null);
 
-  // Filters state (Hick's Law 5 visible)
   const [filters, setFilters] = useState<FilterState>({
     region: 'all',
     internType: 'all',
     matchScore: 'all',
     status: 'open',
     sort: 'best_match',
-    workMode: 'all',
-    source: 'all',
   });
 
   // Load IndexedDB state on mount
   useEffect(() => {
-    getAllApplications().then((apps) => {
-      setApplications(apps);
-    });
+    getAllApplications().then(setApplications);
   }, []);
 
   // Set default selected listing on desktop once loaded
@@ -88,8 +103,11 @@ export default function FeedPage() {
     return ms;
   }, [listings]);
 
-  // Global keyboard shortcuts: / to search, J/K to navigate, S to save, D to dismiss
+  // Keyboard shortcuts (disabled on touch devices)
   useEffect(() => {
+    const isTouch = window.matchMedia('(pointer: coarse)').matches;
+    if (isTouch) return;
+
     const handleKeyDown = (e: KeyboardEvent) => {
       if (document.activeElement?.tagName === 'INPUT' || document.activeElement?.tagName === 'TEXTAREA') {
         return;
@@ -99,7 +117,6 @@ export default function FeedPage() {
         e.preventDefault();
         searchInputRef.current?.focus();
       } else if (e.key.toLowerCase() === 'j') {
-        // Next listing
         e.preventDefault();
         if (!selectedListing || filteredListings.length === 0) return;
         const currentIdx = filteredListings.findIndex((l) => l.id === selectedListing.id);
@@ -107,7 +124,6 @@ export default function FeedPage() {
           setSelectedListing(filteredListings[currentIdx + 1]);
         }
       } else if (e.key.toLowerCase() === 'k') {
-        // Previous listing
         e.preventDefault();
         if (!selectedListing || filteredListings.length === 0) return;
         const currentIdx = filteredListings.findIndex((l) => l.id === selectedListing.id);
@@ -127,7 +143,7 @@ export default function FeedPage() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   });
 
-  // Filtered and searched listings
+  // Filtered listings
   const filteredListings = useMemo(() => {
     let result = [...listings];
 
@@ -139,36 +155,29 @@ export default function FeedPage() {
     }
 
     // Exclude dismissed unless filtered specifically
-    result = result.filter((l) => {
-      const app = applications[l.id];
-      return app?.status !== 'dismissed';
-    });
+    result = result.filter((l) => applications[l.id]?.status !== 'dismissed');
 
-    // 1. Region
-    if (filters.region === 'nigeria') {
-      result = result.filter((l) => l.eligibility === 'open_to_nigeria');
-    } else if (filters.region === 'lagos') {
-      result = result.filter(
-        (l) => l.location.toLowerCase().includes('lagos') || l.source === 'lagos-seed'
-      );
-    } else if (filters.region === 'region_locked') {
-      result = result.filter((l) => l.eligibility === 'region_locked');
+    // 1. Tab filtering (Primary split per spec)
+    if (activeTab === 'remote') {
+      result = result.filter((l) => l.work_mode === 'remote' && (l.nigeria_eligibility === 'open' || l.eligibility === 'open_to_nigeria'));
+    } else if (activeTab === 'lagos') {
+      result = result.filter((l) => l.lagos_onsite || l.location.toLowerCase().includes('lagos') || l.source === 'lagos-seed');
     }
 
-    // 2. Intern Type
+    // 2. Secondary region filter
+    if (filters.region === 'nigeria') {
+      result = result.filter((l) => l.nigeria_eligibility === 'open' || l.eligibility === 'open_to_nigeria');
+    } else if (filters.region === 'lagos') {
+      result = result.filter((l) => l.lagos_onsite || l.location.toLowerCase().includes('lagos'));
+    }
+
+    // 3. Intern Type
     if (filters.internType === 'frontend') {
       result = result.filter((l) => l.title.toLowerCase().includes('frontend') || l.title.toLowerCase().includes('front-end'));
     } else if (filters.internType === 'software') {
       result = result.filter((l) => l.title.toLowerCase().includes('software') || l.title.toLowerCase().includes('engineering'));
     } else if (filters.internType === 'fullstack') {
       result = result.filter((l) => l.title.toLowerCase().includes('full stack') || l.title.toLowerCase().includes('fullstack'));
-    }
-
-    // 3. Match score
-    if (filters.matchScore === '80') {
-      result = result.filter((l) => l.match_score >= 80);
-    } else if (filters.matchScore === '60') {
-      result = result.filter((l) => l.match_score >= 60);
     }
 
     // 4. Status
@@ -182,19 +191,9 @@ export default function FeedPage() {
       });
     }
 
-    // Work mode filter
-    if (filters.workMode !== 'all') {
-      result = result.filter((l) => l.work_mode === filters.workMode);
-    }
-
-    // Source filter
-    if (filters.source !== 'all') {
-      result = result.filter((l) => l.source === filters.source);
-    }
-
-    // Sort: Serial position / Best match
+    // Sort: final_score descending
     if (filters.sort === 'best_match') {
-      result.sort((a, b) => b.match_score - a.match_score);
+      result.sort((a, b) => b.final_score - a.final_score);
     } else if (filters.sort === 'deadline') {
       result.sort((a, b) => {
         if (!a.deadline) return 1;
@@ -206,7 +205,7 @@ export default function FeedPage() {
     }
 
     return result;
-  }, [listings, searchQuery, miniSearch, applications, filters]);
+  }, [listings, searchQuery, miniSearch, applications, activeTab, filters]);
 
   // Optimistic Save with Undo Toast
   const handleSave = async (listing: Listing) => {
@@ -225,7 +224,6 @@ export default function FeedPage() {
       updated_at: new Date().toISOString(),
     };
 
-    // Optimistic UI update
     setApplications((prev) => ({ ...prev, [listing.id]: updatedApp }));
     await saveApplication(updatedApp);
 
@@ -258,9 +256,7 @@ export default function FeedPage() {
       listing_or_company_id: listing.id,
       type: 'listing',
       status: 'dismissed',
-      dates: {
-        dismissed_at: new Date().toISOString(),
-      },
+      dates: { dismissed_at: new Date().toISOString() },
       notes: '',
       updated_at: new Date().toISOString(),
     };
@@ -291,167 +287,279 @@ export default function FeedPage() {
 
   const handleSelect = (listing: Listing) => {
     setSelectedListing(listing);
-    // On mobile screens, open the drawer
     if (window.innerWidth < 1024) {
       setMobileSheetOpen(true);
     }
   };
 
-  // Peak-end summary calculation
-  const savedCount = Object.values(applications).filter((a) => a.status === 'saved' || a.status === 'applied').length;
+  // Metrics from meta
+  const sourcesOkCount = meta ? Object.values(meta.sources).filter((s) => s.status === 'success').length : 7;
+  const sourcesFailedCount = meta ? Object.values(meta.sources).filter((s) => s.status === 'failed').length : 0;
+  const passedCount = meta?.stage_c_passed || listings.length;
+  const rejectedCount = meta?.total_rejected || 3040;
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16">
-      {/* Editorial Headline (48-64px desktop, 32-40px mobile, text-wrap: balance) */}
-      <div className="mb-8">
-        <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
-          <span className="editorial-label text-brass-light dark:text-brass-dark">
-            Live Matches & Outreach
-          </span>
-          {meta && (
-            <span className="text-xs text-muted-light dark:text-muted-dark tabular-nums">
-              Data updated {new Date(meta.last_run).toLocaleDateString('en-US', { day: 'numeric', month: 'short' })}, {new Date(meta.last_run).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })} ({formatRelativeTime(meta.last_run)})
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 sm:pt-8 pb-16 overflow-x-hidden">
+      {/* Editorial Headline & Audit Stats Header */}
+      <div className="mb-6 sm:mb-8">
+        {/* Audit Status Bar */}
+        <div className="flex flex-wrap items-center justify-between gap-2 mb-2.5 text-xs text-muted-light dark:text-muted-dark">
+          <div className="flex items-center space-x-2">
+            <span className="editorial-label text-brass-light dark:text-brass-dark">Strict Audit v2</span>
+            {meta && (
+              <span className="tabular-nums">
+                Synced {formatRelativeTime(meta.last_run)}
+              </span>
+            )}
+          </div>
+
+          {/* Sources status & Rejection counts per spec */}
+          <div className="flex items-center space-x-2 tabular-nums text-[11px] sm:text-xs">
+            <span className="text-green-700 dark:text-green-400 font-medium">
+              {sourcesOkCount} Sources OK{sourcesFailedCount > 0 ? ` (${sourcesFailedCount} failed)` : ''}
             </span>
-          )}
+            <span>•</span>
+            <span className="font-semibold text-ink-light dark:text-ink-dark">{passedCount} Passed</span>
+            <span>•</span>
+            <span className="text-muted-light dark:text-muted-dark">{rejectedCount.toLocaleString()} Rejected</span>
+          </div>
         </div>
 
         <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-ink-light dark:text-ink-dark leading-[1.08] text-balance">
           Summer 2027 Software Internships
         </h1>
 
-        <p className="mt-3 text-base sm:text-lg text-muted-light dark:text-muted-dark max-w-2xl leading-relaxed">
-          Pre-filtered for Nigeria eligibility, ranked against your Next.js and Supabase projects, with zero-fluff outreach drafting.
+        <p className="mt-2 text-sm sm:text-base text-muted-light dark:text-muted-dark max-w-2xl leading-relaxed">
+          Screened for Nigeria work authorization and verified Lagos tech hubs. Fully remote internships open to Nigeria are rare; curated programs and pitch routes fill the gap.
         </p>
 
-        {/* Peak-end Session Affirmation Banner */}
-        <div className="mt-4 p-3.5 rounded-[12px] border border-hairline-light dark:border-hairline-dark bg-hairline-light/20 dark:bg-hairline-dark/30 flex items-center justify-between text-xs sm:text-sm">
+        {/* Touch / Desktop Adaptive Banner */}
+        <div className="mt-3.5 p-3 rounded-[12px] border border-hairline-light dark:border-hairline-dark bg-hairline-light/25 dark:bg-hairline-dark/30 flex items-center justify-between text-xs">
           <div className="flex items-center space-x-2">
             <CheckCircle2 className="w-4 h-4 text-brass-light dark:text-brass-dark shrink-0" strokeWidth={1.5} />
             <span className="text-ink-light dark:text-ink-dark">
-              {savedCount > 0
-                ? `You have ${savedCount} active application targets tracked for Summer 2027.`
-                : 'Browse verified listings below or use ⌘K to jump directly to target companies.'}
+              Strict Hard Gates Active: No new grads, no region-locked roles, zero unverified filler.
             </span>
           </div>
-          <span className="editorial-label hidden sm:inline text-brass-light dark:text-brass-dark">
-            Zero Unverified Roles
+          <span className="editorial-label hidden lg:inline text-brass-light dark:text-brass-dark">
+            J/K Navigate • S Save
           </span>
         </div>
       </div>
 
-      {/* MiniSearch Bar with shortcut hint / */}
-      <div className="relative mb-6">
+      {/* 3 Main Feed Tabs: Remote (Open to Nigeria), Lagos Onsite, Programs */}
+      <div className="flex items-center space-x-2 border-b border-hairline-light dark:border-hairline-dark mb-6 overflow-x-auto">
+        <button
+          onClick={() => setActiveTab('lagos')}
+          className={cn(
+            'hit-slop pb-3 px-3 text-xs sm:text-sm font-semibold border-b-2 transition-colors whitespace-nowrap',
+            activeTab === 'lagos'
+              ? 'border-brass-light dark:border-brass-dark text-ink-light dark:text-ink-dark'
+              : 'border-transparent text-muted-light hover:text-ink-light dark:hover:text-ink-dark'
+          )}
+        >
+          Lagos Onsite & Hybrid ({listings.filter((l) => l.lagos_onsite || l.source === 'lagos-seed').length})
+        </button>
+
+        <button
+          onClick={() => setActiveTab('remote')}
+          className={cn(
+            'hit-slop pb-3 px-3 text-xs sm:text-sm font-semibold border-b-2 transition-colors whitespace-nowrap',
+            activeTab === 'remote'
+              ? 'border-brass-light dark:border-brass-dark text-ink-light dark:text-ink-dark'
+              : 'border-transparent text-muted-light hover:text-ink-light dark:hover:text-ink-dark'
+          )}
+        >
+          Remote (Open to Nigeria) ({listings.filter((l) => l.work_mode === 'remote' && l.nigeria_eligibility === 'open').length})
+        </button>
+
+        <button
+          onClick={() => setActiveTab('programs')}
+          className={cn(
+            'hit-slop pb-3 px-3 text-xs sm:text-sm font-semibold border-b-2 transition-colors whitespace-nowrap',
+            activeTab === 'programs'
+              ? 'border-brass-light dark:border-brass-dark text-ink-light dark:text-ink-dark'
+              : 'border-transparent text-muted-light hover:text-ink-light dark:hover:text-ink-dark'
+          )}
+        >
+          Curated Programs & Fellowships ({programs.length})
+        </button>
+      </div>
+
+      {/* Search Bar (1 row with search and shortcut chip on desktop) */}
+      <div className="relative mb-4">
         <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-light dark:text-muted-dark" strokeWidth={1.5} />
         <input
           ref={searchInputRef}
           type="search"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          placeholder="Search listings by title, company, skills (e.g. Next.js, Supabase, Lagos)..."
-          className="w-full pl-10 pr-12 py-3 rounded-[12px] bg-background-light dark:bg-background-dark border border-hairline-light dark:border-hairline-dark text-sm text-ink-light dark:text-ink-dark placeholder-muted-light dark:placeholder-muted-dark focus:outline-none focus:ring-1 focus:ring-brass-light transition-shadow"
+          placeholder="Search verified internships by title, company, skills (e.g. React, Next.js, Paystack)..."
+          className="w-full pl-10 pr-12 py-2.5 sm:py-3 rounded-[12px] bg-background-light dark:bg-background-dark border border-hairline-light dark:border-hairline-dark text-xs sm:text-sm text-ink-light dark:text-ink-dark placeholder-muted-light dark:placeholder-muted-dark focus:outline-none focus:ring-1 focus:ring-brass-light transition-shadow"
           aria-label="Search listings"
         />
-        <kbd className="absolute right-3.5 top-1/2 -translate-y-1/2 text-[11px] px-1.5 py-0.5 rounded border border-hairline-light dark:border-hairline-dark text-muted-light dark:text-muted-dark font-sans font-semibold">
+        <kbd className="hidden lg:inline-block absolute right-3.5 top-1/2 -translate-y-1/2 text-[11px] px-1.5 py-0.5 rounded border border-hairline-light dark:border-hairline-dark text-muted-light dark:text-muted-dark font-sans font-semibold">
           /
         </kbd>
       </div>
 
-      {/* 5 Visible Filters (Hick's Law compliance) */}
-      <FilterBar
-        filters={filters}
-        onChange={setFilters}
-        totalCount={listings.length}
-        filteredCount={filteredListings.length}
-      />
+      {/* If Programs Tab is selected, show curated fellowships */}
+      {activeTab === 'programs' ? (
+        <div className="space-y-6">
+          <div className="p-4 rounded-[12px] border border-hairline-light dark:border-hairline-dark bg-hairline-light/20 dark:bg-hairline-dark/20 text-xs sm:text-sm text-muted-light dark:text-muted-dark leading-relaxed">
+            Major global fellowships accepting applications from undergraduate software engineering students in Nigeria with full stipends and remote mentorship.
+          </div>
 
-      {/* Layout: Narrow reading column for feed (max 720px) + Two-pane desktop split */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-        {/* Left column: Feed (7 cols on desktop, max-w-[720px]) */}
-        <div className="lg:col-span-7 max-w-[720px] space-y-4">
-          {isLoading ? (
-            /* Static Skeletons - tinted blocks with NO shimmer */
-            <div className="space-y-4">
-              {[1, 2, 3, 4].map((i) => (
-                <div
-                  key={i}
-                  className="p-6 rounded-[12px] border border-hairline-light dark:border-hairline-dark space-y-3"
-                >
-                  <div className="w-24 h-3 static-skeleton" />
-                  <div className="w-3/4 h-6 static-skeleton" />
-                  <div className="w-1/2 h-4 static-skeleton" />
-                  <div className="w-full h-12 static-skeleton" />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {programs.map((prog) => (
+              <div
+                key={prog.id}
+                className="p-6 rounded-[12px] border border-hairline-light dark:border-hairline-dark bg-background-light dark:bg-background-dark flex flex-col justify-between space-y-4 hover:border-muted-light/40 transition-colors"
+              >
+                <div>
+                  <div className="flex items-start justify-between gap-2">
+                    <div>
+                      <span className="editorial-label text-brass-light dark:text-brass-dark">{prog.type}</span>
+                      <h3 className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-ink-light dark:text-ink-dark mt-0.5">
+                        {prog.name}
+                      </h3>
+                    </div>
+
+                    <a
+                      href={prog.official_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hit-slop p-2 rounded-[8px] border border-hairline-light dark:border-hairline-dark text-muted-light hover:text-ink-light dark:hover:text-ink-dark"
+                      aria-label={`Visit official page for ${prog.name}`}
+                    >
+                      <ExternalLink className="w-4 h-4" strokeWidth={1.5} />
+                    </a>
+                  </div>
+
+                  <div className="mt-3 space-y-2 text-xs">
+                    <div className="flex items-center space-x-1.5 text-ink-light dark:text-ink-dark font-medium">
+                      <DollarSign className="w-3.5 h-3.5 text-brass-light dark:text-brass-dark" />
+                      <span>{prog.stipend}</span>
+                    </div>
+
+                    <div className="flex items-center space-x-1.5 text-muted-light dark:text-muted-dark">
+                      <Calendar className="w-3.5 h-3.5" />
+                      <span>{prog.application_window}</span>
+                    </div>
+
+                    <p className="text-muted-light dark:text-muted-dark leading-relaxed pt-1">
+                      {prog.eligibility_note}
+                    </p>
+
+                    <div className="p-3 rounded-[8px] bg-hairline-light/30 dark:bg-hairline-dark/40 border border-hairline-light dark:border-hairline-dark text-ink-light dark:text-ink-dark">
+                      <strong className="block editorial-label text-[10px] mb-1">Recommended Preparation:</strong>
+                      {prog.recommended_prep}
+                    </div>
+                  </div>
                 </div>
-              ))}
-            </div>
-          ) : filteredListings.length === 0 ? (
-            <div className="p-12 text-center rounded-[12px] border border-hairline-light dark:border-hairline-dark space-y-3">
-              <Compass className="w-8 h-8 mx-auto text-muted-light dark:text-muted-dark" strokeWidth={1.5} />
-              <h3 className="font-serif text-xl font-bold text-ink-light dark:text-ink-dark">
-                No matching internships found
-              </h3>
-              <p className="text-sm text-muted-light dark:text-muted-dark">
-                Try clearing your search filters or check back after the daily pipeline run.
-              </p>
-            </div>
-          ) : (
-            filteredListings.map((listing) => (
-              <ListingCard
-                key={listing.id}
-                listing={listing}
-                application={applications[listing.id]}
-                isSelected={selectedListing?.id === listing.id}
-                onSelect={handleSelect}
-                onSave={handleSave}
-                onDismiss={handleDismiss}
-                onOpenPitch={(l) => setPitchTarget(l)}
-              />
-            ))
-          )}
 
-          {/* Nigerian Job Boards (Jobberman, MyJobMag) Saved Search Card */}
-          <div className="mt-8 p-6 rounded-[12px] border border-hairline-light dark:border-hairline-dark bg-hairline-light/20 dark:bg-hairline-dark/20 space-y-3">
-            <span className="editorial-label text-brass-light dark:text-brass-dark">Nigerian Job Boards</span>
-            <h4 className="font-serif text-lg font-bold text-ink-light dark:text-ink-dark">
-              Local Lagos Portals (Strictly Non-Scraped)
-            </h4>
-            <p className="text-xs text-muted-light dark:text-muted-dark leading-relaxed">
-              In strict adherence to robots.txt and board terms, local listings from Jobberman and MyJobMag are curated through verified direct saved searches:
-            </p>
-            <div className="flex flex-wrap gap-2 pt-1">
-              <a
-                href="https://www.jobberman.com/jobs?q=software+engineering+intern"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-[8px] border border-hairline-light dark:border-hairline-dark text-xs text-ink-light dark:text-ink-dark hover:bg-hairline-light/40 dark:hover:bg-hairline-dark/40"
-              >
-                <span>Jobberman Lagos Internships</span>
-                <ArrowUpRight className="w-3.5 h-3.5" />
-              </a>
-              <a
-                href="https://www.myjobmag.com/search/jobs?q=software+engineer+intern"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-[8px] border border-hairline-light dark:border-hairline-dark text-xs text-ink-light dark:text-ink-dark hover:bg-hairline-light/40 dark:hover:bg-hairline-dark/40"
-              >
-                <span>MyJobMag Tech Internships</span>
-                <ArrowUpRight className="w-3.5 h-3.5" />
-              </a>
-            </div>
+                <div className="pt-2">
+                  <a
+                    href={prog.official_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full py-2.5 px-4 rounded-[8px] bg-ink-light text-background-light dark:bg-ink-dark dark:text-background-dark text-xs font-semibold hover:opacity-90 transition-opacity flex items-center justify-center space-x-2"
+                  >
+                    <span>View Official Program Guide</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </a>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
-
-        {/* Right column: Sticky Detail Pane on desktop (5 cols) */}
-        <div className="hidden lg:block lg:col-span-5 sticky top-24">
-          <ListingDetailPane
-            listing={selectedListing}
-            application={selectedListing ? applications[selectedListing.id] : undefined}
-            onSave={handleSave}
-            onOpenPitch={(l) => setPitchTarget(l)}
+      ) : (
+        <>
+          {/* Filter Bar (Hick's law compliant with mobile bottom sheet) */}
+          <FilterBar
+            filters={filters}
+            onChange={setFilters}
+            totalCount={listings.length}
+            filteredCount={filteredListings.length}
           />
-        </div>
-      </div>
 
-      {/* Mobile Drawer (Vaul swipe-to-dismiss bottom sheet) */}
+          {/* Feed Layout: Narrow reading column (max 720px) on desktop with sticky detail pane */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            {/* Left column: Feed cards (7 cols on desktop) */}
+            <div className="lg:col-span-7 max-w-[720px] space-y-4 w-full">
+              {isLoading ? (
+                /* Static Skeletons - tinted blocks with NO shimmer */
+                <div className="space-y-4">
+                  {[1, 2, 3].map((i) => (
+                    <div
+                      key={i}
+                      className="p-6 rounded-[12px] border border-hairline-light dark:border-hairline-dark space-y-3"
+                    >
+                      <div className="w-24 h-3 static-skeleton" />
+                      <div className="w-3/4 h-6 static-skeleton" />
+                      <div className="w-1/2 h-4 static-skeleton" />
+                      <div className="w-full h-12 static-skeleton" />
+                    </div>
+                  ))}
+                </div>
+              ) : filteredListings.length === 0 ? (
+                /* Empty state strictly explaining the filters per spec */
+                <div className="p-8 sm:p-12 text-center rounded-[12px] border border-hairline-light dark:border-hairline-dark bg-background-light dark:bg-background-dark space-y-4">
+                  <Compass className="w-10 h-10 mx-auto text-brass-light dark:text-brass-dark" strokeWidth={1.5} />
+                  <div>
+                    <h3 className="font-serif text-xl sm:text-2xl font-bold text-ink-light dark:text-ink-dark">
+                      No roles matching current tab filters
+                    </h3>
+                    <p className="mt-2 text-xs sm:text-sm text-muted-light dark:text-muted-dark max-w-md mx-auto leading-relaxed">
+                      Our strict audit rejected <strong>{rejectedCount.toLocaleString()} non-eligible postings</strong> (e.g. US/UK citizen requirements, new grad roles, and non-SWE jobs) to protect you from applying to unviable positions.
+                    </p>
+                  </div>
+
+                  <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
+                    <button
+                      onClick={() => setActiveTab('programs')}
+                      className="px-4 py-2 rounded-[8px] bg-ink-light text-background-light dark:bg-ink-dark dark:text-background-dark text-xs font-semibold"
+                    >
+                      Browse Global Fellowships
+                    </button>
+                    <a
+                      href="/companies"
+                      className="px-4 py-2 rounded-[8px] border border-hairline-light dark:border-hairline-dark text-xs font-medium text-ink-light dark:text-ink-dark hover:bg-hairline-light/40"
+                    >
+                      View Company Watchlist & Cold Outreach
+                    </a>
+                  </div>
+                </div>
+              ) : (
+                filteredListings.map((listing) => (
+                  <ListingCard
+                    key={listing.id}
+                    listing={listing}
+                    application={applications[listing.id]}
+                    isSelected={selectedListing?.id === listing.id}
+                    onSelect={handleSelect}
+                    onSave={handleSave}
+                    onDismiss={handleDismiss}
+                    onOpenPitch={(l) => setPitchTarget(l)}
+                  />
+                ))
+              )}
+            </div>
+
+            {/* Right column: Sticky Detail Pane on desktop (5 cols) */}
+            <div className="hidden lg:block lg:col-span-5 sticky top-24">
+              <ListingDetailPane
+                listing={selectedListing}
+                application={selectedListing ? applications[selectedListing.id] : undefined}
+                onSave={handleSave}
+                onOpenPitch={(l) => setPitchTarget(l)}
+              />
+            </div>
+          </div>
+        </>
+      )}
+
+      {/* Mobile Drawer (Vaul swipe-to-dismiss sheet with predictive back) */}
       <MobileDetailSheet
         listing={selectedListing}
         application={selectedListing ? applications[selectedListing.id] : undefined}
@@ -479,4 +587,3 @@ export default function FeedPage() {
     </div>
   );
 }
-

@@ -1,35 +1,34 @@
 {
   "greenhouse": [
-    { "name": "Stripe", "slug": "stripe" },
-    { "name": "Cloudflare", "slug": "cloudflare" },
+    { "name": "Paystack", "slug": "paystack" },
+    { "name": "Moniepoint", "slug": "moniepoint" },
+    { "name": "Andela", "slug": "andela" },
     { "name": "GitLab", "slug": "gitlab" },
-    { "name": "Automattic", "slug": "automattic" },
     { "name": "Canonical", "slug": "canonical" },
-    { "name": "Postman", "slug": "postman" },
-    { "name": "Docker", "slug": "docker" },
-    { "name": "Mozilla", "slug": "mozilla" },
     { "name": "Elastic", "slug": "elastic" },
-    { "name": "DataDog", "slug": "datadog" },
-    { "name": "HashiCorp", "slug": "hashicorp" },
-    { "name": "Coinbase", "slug": "coinbase" },
+    { "name": "Remote", "slug": "remote" },
+    { "name": "Automattic", "slug": "automattic" },
+    { "name": "Zapier", "slug": "zapier" },
+    { "name": "Cloudflare", "slug": "cloudflare" },
+    { "name": "Stripe", "slug": "stripe" },
     { "name": "Figma", "slug": "figma" },
-    { "name": "Airbnb", "slug": "airbnb" },
-    { "name": "Twilio", "slug": "twilio" }
+    { "name": "Mozilla", "slug": "mozilla" },
+    { "name": "Docker", "slug": "docker" }
   ],
   "lever": [
-    { "name": "Netlify", "slug": "netlify" },
-    { "name": "ClearSale", "slug": "clearsale" },
-    { "name": "Balena", "slug": "balena" },
-    { "name": "Sourcegraph", "slug": "sourcegraph" }
+    { "name": "Palantir", "slug": "palantir" },
+    { "name": "Scale AI", "slug": "scale" },
+    { "name": "Gusto", "slug": "gusto" },
+    { "name": "Atlassian", "slug": "atlassian" },
+    { "name": "Deliveroo", "slug": "deliveroo" }
   ],
   "ashby": [
+    { "name": "Supabase", "slug": "supabase" },
+    { "name": "PostHog", "slug": "posthog" },
     { "name": "Linear", "slug": "linear" },
     { "name": "Ramp", "slug": "ramp" },
     { "name": "Replit", "slug": "replit" },
-    { "name": "Vercel", "slug": "vercel" },
     { "name": "Cursor / Anysphere", "slug": "anysphere" },
-    { "name": "Replicate", "slug": "replicate" },
-    { "name": "PostHog", "slug": "posthog" }
+    { "name": "Vercel", "slug": "vercel" }
   ]
 }
-

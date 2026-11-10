@@ -1,8 +1,20 @@
-export type WorkMode = 'remote' | 'onsite' | 'hybrid';
+export type WorkMode = 'remote' | 'onsite' | 'hybrid' | 'unknown';
 
-export type Eligibility = 'open_to_nigeria' | 'region_locked' | 'unclear';
+export type Eligibility = 'open' | 'locked' | 'unclear';
 
 export type ListingStatus = 'open' | 'upcoming' | 'closed';
+
+export interface ScoreBreakdown {
+  experience_value: number; // 35% weight
+  attainability: number;    // 35% weight
+  paid_score: number;       // 20% weight
+  timing_fit: number;       // 10% weight
+}
+
+export interface EvidencePhrases {
+  work_mode_quote: string;
+  nigeria_eligibility_quote: string;
+}
 
 export interface Listing {
   id: string;
@@ -12,11 +24,18 @@ export interface Listing {
   company: string;
   title: string;
   location: string;
+  city_country?: string;
   work_mode: WorkMode;
-  eligibility: Eligibility;
+  nigeria_eligibility: Eligibility;
+  eligibility: 'open_to_nigeria' | 'region_locked' | 'unclear'; // backward compatible alias
+  lagos_onsite: boolean;
+  is_internship: boolean;
+  is_software_engineering: boolean;
   duration: string | null;
+  duration_weeks: number | null;
   intern_type: string | null;
   skills: string[];
+  required_skills: string[];
   requirements: string | null;
   deadline: string | null;
   start_window: string | null;
@@ -25,10 +44,32 @@ export interface Listing {
   first_seen: string;
   last_seen: string;
   status: ListingStatus;
-  match_score: number; // 0-100
+  paid: boolean | 'unknown';
+  stipend_text: string | null;
+  seniority_required: string;
+  experience_value: number;
+  attainability: number;
+  confidence: number;
+  evidence: EvidencePhrases;
+  final_score: number; // 0-100
+  match_score: number; // alias to final_score
   match_reason: string;
-  flags: string[]; // e.g. ["region_locked", "pay_to_apply", "vague_company", "telegram_contact"]
+  score_breakdown: ScoreBreakdown;
+  flags: string[];
   description_snippet?: string;
+  is_unverified?: boolean;
+}
+
+export interface RejectedListing {
+  title: string;
+  company: string;
+  url: string;
+  source: string;
+  location: string;
+  reason: string;
+  reason_code: string;
+  snippet?: string;
+  rejected_at: string;
 }
 
 export interface Contact {
@@ -49,6 +90,7 @@ export interface Company {
   contacts: Contact[];
   notes?: string;
   pitch_draft?: string;
+  status?: 'verified' | 'possible';
 }
 
 export type ApplicationStatus = 'saved' | 'applied' | 'interviewing' | 'offer' | 'rejected' | 'dismissed';
@@ -70,6 +112,19 @@ export interface Application {
   updated_at: string;
 }
 
+export interface Program {
+  id: string;
+  name: string;
+  official_url: string;
+  type: string;
+  stipend: string;
+  application_window: string;
+  eligibility_note: string;
+  dates_status: string;
+  recommended_prep: string;
+  tags: string[];
+}
+
 export interface UserProfile {
   name: string;
   title: string;
@@ -80,8 +135,14 @@ export interface UserProfile {
   internship_summary: string;
   freelance_summary: string;
   level: string;
+  skills: string[];
   core_skills: string[];
   backend_and_tools: string[];
+  links: {
+    portfolio: string;
+    github: string;
+    linkedin: string;
+  };
   projects: Array<{
     name: string;
     description: string;
@@ -98,12 +159,15 @@ export interface UserProfile {
 
 export interface PipelineMeta {
   last_run: string;
-  total_listings: number;
-  total_companies: number;
+  gemini_status: string;
+  total_listings_fetched: number;
+  stage_a_passed: number;
+  stage_c_passed: number;
+  total_rejected: number;
+  rejected_counts: Record<string, number>;
   sources: Record<string, {
     count: number;
     error: string | null;
     status: 'success' | 'failed' | 'skipped';
   }>;
 }
-
