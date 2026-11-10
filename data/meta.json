@@ -1,23 +1,23 @@
 {
-  "last_run": "2026-11-10T10:28:18.245Z",
+  "last_run": "2026-11-10T13:53:40.358Z",
   "gemini_status": "unverified mode",
-  "total_listings_fetched": 3674,
-  "stage_a_passed": 184,
+  "total_listings_fetched": 3667,
+  "stage_a_passed": 189,
   "stage_c_passed": 10,
   "total_rejected": 3043,
   "rejected_counts": {
-    "NON_INTERN_OR_FULLTIME_ROLE": 1918,
-    "NOT_AN_INTERNSHIP": 942,
+    "NON_INTERN_OR_FULLTIME_ROLE": 1933,
+    "NOT_AN_INTERNSHIP": 922,
     "WRONG_SEASON_OR_YEAR": 1,
     "ADVANCED_DEGREE_REQUIRED": 8,
     "NOT_INTERNSHIP": 31,
-    "NOT_SOFTWARE_ENGINEERING": 39,
-    "REGION_LOCKED": 103,
+    "NOT_SOFTWARE_ENGINEERING": 42,
+    "REGION_LOCKED": 105,
     "NOT_OPEN_TO_NIGERIA": 1
   },
   "sources": {
     "greenhouse": {
-      "count": 2614,
+      "count": 2606,
       "error": null,
       "status": "success"
     },
@@ -37,7 +37,7 @@
       "status": "success"
     },
     "remote-apis": {
-      "count": 312,
+      "count": 313,
       "error": null,
       "status": "success"
     },
