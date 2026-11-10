@@ -1,23 +1,25 @@
 {
-  "last_run": "2026-11-10T13:53:40.358Z",
-  "gemini_status": "unverified mode",
-  "total_listings_fetched": 3667,
-  "stage_a_passed": 189,
-  "stage_c_passed": 10,
-  "total_rejected": 3043,
+  "last_run": "2026-11-10T19:57:36.851Z",
+  "gemini_status": "enabled (model gemini-3.5-flash-lite)",
+  "total_listings_fetched": 7016,
+  "stage_a_passed": 45,
+  "stage_c_passed": 0,
+  "total_rejected": 6061,
   "rejected_counts": {
-    "NON_INTERN_OR_FULLTIME_ROLE": 1933,
-    "NOT_AN_INTERNSHIP": 922,
-    "WRONG_SEASON_OR_YEAR": 1,
-    "ADVANCED_DEGREE_REQUIRED": 8,
-    "NOT_INTERNSHIP": 31,
-    "NOT_SOFTWARE_ENGINEERING": 42,
-    "REGION_LOCKED": 105,
-    "NOT_OPEN_TO_NIGERIA": 1
+    "NON_INTERN_OR_FULLTIME_ROLE": 2074,
+    "NOT_AN_INTERNSHIP": 1164,
+    "GENERIC_CAREERS_PAGE": 294,
+    "ONSITE_OUTSIDE_NIGERIA": 2388,
+    "WRONG_SEASON_OR_YEAR": 39,
+    "ADVANCED_DEGREE_REQUIRED": 60,
+    "NOT_INTERNSHIP": 6,
+    "NOT_SOFTWARE_ENGINEERING": 9,
+    "NOT_OPEN_TO_NIGERIA": 1,
+    "REGION_LOCKED": 26
   },
   "sources": {
     "greenhouse": {
-      "count": 2606,
+      "count": 2601,
       "error": null,
       "status": "success"
     },
@@ -27,27 +29,32 @@
       "status": "success"
     },
     "ashby": {
-      "count": 319,
+      "count": 321,
       "error": null,
       "status": "success"
     },
     "github-community": {
-      "count": 100,
+      "count": 2793,
       "error": null,
       "status": "success"
     },
     "remote-apis": {
-      "count": 313,
+      "count": 913,
       "error": null,
       "status": "success"
     },
     "hackernews": {
-      "count": 15,
+      "count": 29,
+      "error": null,
+      "status": "success"
+    },
+    "weworkremotely": {
+      "count": 55,
       "error": null,
       "status": "success"
     },
     "lagos-seed": {
-      "count": 10,
+      "count": 177,
       "error": null,
       "status": "success"
     },
@@ -56,5 +63,6 @@
       "error": "Strictly off-limits (No scraping permitted per terms and robots.txt)",
       "status": "skipped"
     }
-  }
+  },
+  "check_eligibility_count": 3
 }

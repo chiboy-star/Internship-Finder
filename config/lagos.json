@@ -2,6 +2,7 @@
   {
     "company": "Paystack",
     "careers_url": "https://paystack.com/careers",
+    "applicant_system": "Lever",
     "city": "Lagos",
     "region": "Lagos, Nigeria",
     "takes_interns": true,
@@ -18,6 +19,7 @@
   {
     "company": "Flutterwave",
     "careers_url": "https://flutterwave.com/ng/careers",
+    "applicant_system": "Greenhouse",
     "city": "Lagos",
     "region": "Lagos, Nigeria",
     "takes_interns": true,
@@ -34,6 +36,7 @@
   {
     "company": "Moniepoint",
     "careers_url": "https://moniepoint.com/ng/careers",
+    "applicant_system": "Greenhouse",
     "city": "Lagos",
     "region": "Lagos, Nigeria",
     "takes_interns": true,
@@ -50,6 +53,7 @@
   {
     "company": "Piggyvest",
     "careers_url": "https://www.piggyvest.com/careers",
+    "applicant_system": "Custom Portal",
     "city": "Lagos",
     "region": "Lagos, Nigeria",
     "takes_interns": true,
@@ -66,6 +70,7 @@
   {
     "company": "Interswitch Group",
     "careers_url": "https://www.interswitchgroup.com/careers",
+    "applicant_system": "Custom Portal",
     "city": "Lagos",
     "region": "Lagos, Nigeria",
     "takes_interns": true,
@@ -82,6 +87,7 @@
   {
     "company": "Kuda Bank",
     "careers_url": "https://kuda.com/careers",
+    "applicant_system": "Workable",
     "city": "Lagos",
     "region": "Lagos, Nigeria",
     "takes_interns": true,
@@ -98,6 +104,7 @@
   {
     "company": "Cowrywise",
     "careers_url": "https://cowrywise.com/careers",
+    "applicant_system": "Custom Portal",
     "city": "Lagos",
     "region": "Lagos, Nigeria",
     "takes_interns": true,
@@ -114,6 +121,7 @@
   {
     "company": "Bamboo",
     "careers_url": "https://investbamboo.com/careers",
+    "applicant_system": "Custom Portal",
     "city": "Lagos",
     "region": "Lagos, Nigeria",
     "takes_interns": true,
@@ -130,6 +138,7 @@
   {
     "company": "Helium Health",
     "careers_url": "https://heliumhealth.com/careers",
+    "applicant_system": "Lever",
     "city": "Lagos",
     "region": "Lagos, Nigeria",
     "takes_interns": true,
@@ -146,6 +155,7 @@
   {
     "company": "Nomba",
     "careers_url": "https://www.nomba.com/careers",
+    "applicant_system": "Custom Portal",
     "city": "Lagos",
     "region": "Lagos, Nigeria",
     "takes_interns": true,
@@ -158,6 +168,2844 @@
         "source_url": "https://www.nomba.com/careers"
       }
     ]
+  },
+  {
+    "company": "OPay Nigeria",
+    "careers_url": "https://opayweb.com/about-us#careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Major tier-1 mobile money and consumer finance platform with large operations in Ikeja, Lagos. Regularly recruits software engineers and data analysts.",
+    "contacts": [
+      {
+        "name": "OPay Talent Team",
+        "role": "Human Resources Specialist",
+        "email": null,
+        "source_url": "https://opayweb.com"
+      }
+    ]
+  },
+  {
+    "company": "PalmPay",
+    "careers_url": "https://palmpay.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Digital payments platform processing millions of consumer transactions. Technology center in Ikeja / Victoria Island with student internship avenues.",
+    "contacts": [
+      {
+        "name": "PalmPay People Team",
+        "role": "Technical Recruiter",
+        "email": null,
+        "source_url": "https://palmpay.com"
+      }
+    ]
+  },
+  {
+    "company": "FairMoney",
+    "careers_url": "https://fairmoney.io/careers",
+    "applicant_system": "Lever",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Credit-led digital neobank for emerging markets with significant engineering teams in Lagos and Paris. Strong Python, microservices, and React stack.",
+    "contacts": [
+      {
+        "name": "FairMoney Talent Acquisition",
+        "role": "Engineering Recruiter",
+        "email": null,
+        "source_url": "https://fairmoney.io/careers"
+      }
+    ]
+  },
+  {
+    "company": "Carbon (OneFi)",
+    "careers_url": "https://carbon.xyz/careers",
+    "applicant_system": "Workable",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Pioneering pan-African digital credit and banking app based in Lagos. Offers early career engineering attachments and internship rotations.",
+    "contacts": [
+      {
+        "name": "Carbon People Team",
+        "role": "Talent Manager",
+        "email": null,
+        "source_url": "https://carbon.xyz/careers"
+      }
+    ]
+  },
+  {
+    "company": "Squad by HabariPay",
+    "careers_url": "https://squadco.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Fintech payment subsidiary of Guaranty Trust Holding Company (GTCO). Modern cloud-native payment infrastructure in Victoria Island, Lagos.",
+    "contacts": [
+      {
+        "name": "HabariPay Talent",
+        "role": "Technology Hiring Lead",
+        "email": null,
+        "source_url": "https://squadco.com/careers"
+      }
+    ]
+  },
+  {
+    "company": "LemFi (RightCard)",
+    "careers_url": "https://lemfi.com/careers",
+    "applicant_system": "Ashby",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Cross-border remittance platform for immigrants globally. High-velocity engineering hub in Lagos building multi-currency payment rails.",
+    "contacts": [
+      {
+        "name": "LemFi People Ops",
+        "role": "Talent Acquisition Partner",
+        "email": null,
+        "source_url": "https://lemfi.com/careers"
+      }
+    ]
+  },
+  {
+    "company": "Raenest",
+    "careers_url": "https://raenest.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Global payroll and invoicing platform for African contractors and remote workers. Lagos engineering hub with modern TypeScript and Next.js applications.",
+    "contacts": [
+      {
+        "name": "Raenest Engineering",
+        "role": "Technical Recruiter",
+        "email": null,
+        "source_url": "https://raenest.com"
+      }
+    ]
+  },
+  {
+    "company": "Geegpay",
+    "careers_url": "https://geegpay.africa/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Virtual bank accounts and foreign exchange infrastructure built by Raenest. Hires junior software engineers and frontend apprentices.",
+    "contacts": [
+      {
+        "name": "Geegpay People",
+        "role": "Talent Associate",
+        "email": null,
+        "source_url": "https://geegpay.africa"
+      }
+    ]
+  },
+  {
+    "company": "Eversend",
+    "careers_url": "https://eversend.co/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "African cross-border money transfer and multi-currency card service. Tech teams operate in Lagos, Nairobi, and London.",
+    "contacts": [
+      {
+        "name": "Eversend Hiring",
+        "role": "People Operations Lead",
+        "email": null,
+        "source_url": "https://eversend.co"
+      }
+    ]
+  },
+  {
+    "company": "VBank (VFD Microfinance Bank)",
+    "careers_url": "https://vbank.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Leading digital banking app powered by VFD Group. Tech division based in Lagos Island builds high-frequency banking APIs and web portals.",
+    "contacts": [
+      {
+        "name": "VFD Group Talent",
+        "role": "Group Head, Human Capital",
+        "email": null,
+        "source_url": "https://vbank.ng"
+      }
+    ]
+  },
+  {
+    "company": "Brass",
+    "careers_url": "https://trybrass.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "SME business banking platform acquired by Paystack-backed consortium. Known for clean design, modern React, and backend Go architecture.",
+    "contacts": [
+      {
+        "name": "Brass People",
+        "role": "Engineering Manager",
+        "email": null,
+        "source_url": "https://trybrass.com"
+      }
+    ]
+  },
+  {
+    "company": "Grey (Aboki Africa)",
+    "careers_url": "https://grey.co/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Foreign currency banking service enabling Africans to open USD, GBP, and EUR accounts. Strong remote-friendly engineering culture in Lagos.",
+    "contacts": [
+      {
+        "name": "Grey People Team",
+        "role": "Talent Specialist",
+        "email": null,
+        "source_url": "https://grey.co"
+      }
+    ]
+  },
+  {
+    "company": "Bujeti",
+    "careers_url": "https://bujeti.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "All-in-one corporate cards and expense management platform for African businesses. Tech hub in Lagos building real-time transaction reconciliation engines.",
+    "contacts": [
+      {
+        "name": "Bujeti Engineering",
+        "role": "CTO & Co-founder",
+        "email": null,
+        "source_url": "https://bujeti.com"
+      }
+    ]
+  },
+  {
+    "company": "Sudo Africa",
+    "careers_url": "https://sudo.africa/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Card issuing API infrastructure for developers and fintech companies in Africa. Focuses on robust financial APIs and developer tooling.",
+    "contacts": [
+      {
+        "name": "Sudo Talent",
+        "role": "Head of Engineering",
+        "email": null,
+        "source_url": "https://sudo.africa"
+      }
+    ]
+  },
+  {
+    "company": "OnePipe",
+    "careers_url": "https://onepipe.io/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Embedded finance API aggregator connecting financial institutions with consumer apps. Engineering headquarters in Lagos.",
+    "contacts": [
+      {
+        "name": "OnePipe People",
+        "role": "People Operations Lead",
+        "email": null,
+        "source_url": "https://onepipe.io"
+      }
+    ]
+  },
+  {
+    "company": "Korapay",
+    "careers_url": "https://korapay.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Payment gateway and cross-border settlement infrastructure connecting Africa to global commerce. Technology team based in Marina, Lagos.",
+    "contacts": [
+      {
+        "name": "Korapay Talent",
+        "role": "Technical Recruiting Lead",
+        "email": null,
+        "source_url": "https://korapay.com"
+      }
+    ]
+  },
+  {
+    "company": "Paga",
+    "careers_url": "https://www.mypaga.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "One of Nigeria's longest-standing mobile payment networks based in Yaba, Lagos. Deep engineering infrastructure in transaction routing and USSD.",
+    "contacts": [
+      {
+        "name": "Paga People Ops",
+        "role": "Human Resources Executive",
+        "email": null,
+        "source_url": "https://www.mypaga.com"
+      }
+    ]
+  },
+  {
+    "company": "Remita (SystemSpecs)",
+    "careers_url": "https://systemspecs.com.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "National payments and treasury software enterprise (SystemSpecs). Operates structured annual graduate trainee and student internship schemes.",
+    "contacts": [
+      {
+        "name": "SystemSpecs Academy",
+        "role": "Talent Development Manager",
+        "email": null,
+        "source_url": "https://systemspecs.com.ng"
+      }
+    ]
+  },
+  {
+    "company": "SeerBit",
+    "careers_url": "https://seerbit.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Enterprise payment gateway powering major African retailers and airlines. Headquartered in Victoria Island, Lagos.",
+    "contacts": [
+      {
+        "name": "SeerBit People Team",
+        "role": "Talent Partner",
+        "email": null,
+        "source_url": "https://seerbit.com"
+      }
+    ]
+  },
+  {
+    "company": "Baxi (Capricorn Digital / MFS Africa)",
+    "careers_url": "https://baxibox.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Omnichannel payment network operating thousands of POS agent terminals across Nigeria. Tech teams in Ikeja, Lagos.",
+    "contacts": [
+      {
+        "name": "Capricorn People",
+        "role": "Head of Talent",
+        "email": null,
+        "source_url": "https://baxibox.com"
+      }
+    ]
+  },
+  {
+    "company": "Fincra",
+    "careers_url": "https://fincra.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Payment infrastructure for businesses to accept local and international payments with ease. Lagos-based fintech startup with modern Node.js/Vue/React stacks.",
+    "contacts": [
+      {
+        "name": "Fincra Talent",
+        "role": "People Experience Lead",
+        "email": null,
+        "source_url": "https://fincra.com"
+      }
+    ]
+  },
+  {
+    "company": "Anchor",
+    "careers_url": "https://getanchor.co/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Banking-as-a-service platform backed by Y Combinator. Enables African software teams to build banking features into products via clear APIs.",
+    "contacts": [
+      {
+        "name": "Anchor Team",
+        "role": "Co-founder & Engineering Lead",
+        "email": null,
+        "source_url": "https://getanchor.co"
+      }
+    ]
+  },
+  {
+    "company": "Bloc",
+    "careers_url": "https://blochq.io/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Fintech infrastructure provider offering suite of proprietary APIs for bill payments, agency banking, and custom card issuing.",
+    "contacts": [
+      {
+        "name": "Bloc People",
+        "role": "Talent Specialist",
+        "email": null,
+        "source_url": "https://blochq.io"
+      }
+    ]
+  },
+  {
+    "company": "Wallets Africa",
+    "careers_url": "https://wallets.africa/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Financial operating system providing physical and virtual payment cards for African developers and startups. Lagos engineering team.",
+    "contacts": [
+      {
+        "name": "Wallets Talent",
+        "role": "Technical Hiring Manager",
+        "email": null,
+        "source_url": "https://wallets.africa"
+      }
+    ]
+  },
+  {
+    "company": "NowNow Digital Systems",
+    "careers_url": "https://nownowpay.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Consumer mobile wallet and agent banking company in Lagos. Builds NFC payment technologies and mobile point-of-sale applications.",
+    "contacts": [
+      {
+        "name": "NowNow HR",
+        "role": "Talent Acquisition Lead",
+        "email": null,
+        "source_url": "https://nownowpay.ng"
+      }
+    ]
+  },
+  {
+    "company": "CredPal",
+    "careers_url": "https://credpal.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Consumer buy-now-pay-later (BNPL) and credit card platform based in Maryland, Lagos. Hires junior frontend and backend engineers.",
+    "contacts": [
+      {
+        "name": "CredPal People",
+        "role": "Head of Engineering",
+        "email": null,
+        "source_url": "https://credpal.com"
+      }
+    ]
+  },
+  {
+    "company": "Sycamore",
+    "careers_url": "https://sycamore.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Peer-to-peer digital lending and investment platform based in Ikeja, Lagos. Accepts student SIWES attachments across web development.",
+    "contacts": [
+      {
+        "name": "Sycamore HR",
+        "role": "Talent Partner",
+        "email": null,
+        "source_url": "https://sycamore.ng"
+      }
+    ]
+  },
+  {
+    "company": "Renmoney",
+    "careers_url": "https://renmoney.com/careers",
+    "applicant_system": "Workable",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Consumer finance institution with advanced algorithmic credit scoring in Ikoyi, Lagos. Recruits software developers and QA testers.",
+    "contacts": [
+      {
+        "name": "Renmoney Talent Team",
+        "role": "People Operations Executive",
+        "email": null,
+        "source_url": "https://renmoney.com"
+      }
+    ]
+  },
+  {
+    "company": "Zenith Bank (Innovation & Digital Banking Lab)",
+    "careers_url": "https://www.zenithbank.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Tier-1 commercial bank headquartered in Victoria Island, Lagos. Hosts annual Zenith Tech Fair and recruits computer science/engineering students for IT attachment.",
+    "contacts": [
+      {
+        "name": "Zenith Tech Talent",
+        "role": "Head of IT Training & Early Careers",
+        "email": null,
+        "source_url": "https://www.zenithbank.com"
+      }
+    ]
+  },
+  {
+    "company": "Guaranty Trust Bank (GTCO / Habari)",
+    "careers_url": "https://www.gtbank.com/about/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Leading commercial banking institution in Lagos. Runs dedicated technology academy and takes engineering SIWES interns across enterprise software teams.",
+    "contacts": [
+      {
+        "name": "GTCO Human Capital",
+        "role": "Early Careers & SIWES Coordinator",
+        "email": null,
+        "source_url": "https://www.gtbank.com"
+      }
+    ]
+  },
+  {
+    "company": "Access Bank (Digital Innovation Lab)",
+    "careers_url": "https://www.accessbankplc.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Largest bank in Nigeria by asset size. Operates Access Africa and Africa Fintech Foundry (AFF) in Victoria Island, recruiting student software developers.",
+    "contacts": [
+      {
+        "name": "Access Early Talent",
+        "role": "Group Head, Talent Acquisition",
+        "email": null,
+        "source_url": "https://www.accessbankplc.com"
+      }
+    ]
+  },
+  {
+    "company": "Stanbic IBTC Bank (Blue Lab & Tech Academy)",
+    "careers_url": "https://www.stanbicibtc.com/nigeria/personal/about-us/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Standard Bank Group subsidiary in Nigeria. Runs Blue Lab innovation hub in Yaba and structured undergraduate SIWES / IT intern programs.",
+    "contacts": [
+      {
+        "name": "Stanbic Blue Lab Talent",
+        "role": "Innovation Talent Lead",
+        "email": null,
+        "source_url": "https://www.stanbicibtc.com"
+      }
+    ]
+  },
+  {
+    "company": "United Bank for Africa (UBA / Leo AI)",
+    "careers_url": "https://www.ubagroup.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Pan-African bank across 20 African countries with global headquarters in Marina, Lagos. Operates Leo virtual banking AI and software developer intake.",
+    "contacts": [
+      {
+        "name": "UBA People & Culture",
+        "role": "Talent Resourcing Manager",
+        "email": null,
+        "source_url": "https://www.ubagroup.com"
+      }
+    ]
+  },
+  {
+    "company": "First Bank of Nigeria (Digital Lab)",
+    "careers_url": "https://www.firstbanknigeria.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Nigeria's premier commercial bank headquartered in Marina, Lagos. Operates dedicated Digital Innovation Lab recruiting computer science interns.",
+    "contacts": [
+      {
+        "name": "FirstBank Human Capital",
+        "role": "Head, Talent Management",
+        "email": null,
+        "source_url": "https://www.firstbanknigeria.com"
+      }
+    ]
+  },
+  {
+    "company": "Fidelity Bank Nigeria",
+    "careers_url": "https://www.fidelitybank.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "High-growth commercial bank in Victoria Island, Lagos. Invests heavily in digital retail transformation and IT industrial training students.",
+    "contacts": [
+      {
+        "name": "Fidelity HR",
+        "role": "Recruitment Specialist",
+        "email": null,
+        "source_url": "https://www.fidelitybank.ng"
+      }
+    ]
+  },
+  {
+    "company": "Sterling Bank (Sterling Tech)",
+    "careers_url": "https://sterling.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Innovator behind OneBank and Edubanc in Marina, Lagos. Prominent supporter of developer hackathons and tech internship cohorts.",
+    "contacts": [
+      {
+        "name": "Sterling Talent Team",
+        "role": "Head of Talent Resourcing",
+        "email": null,
+        "source_url": "https://sterling.ng"
+      }
+    ]
+  },
+  {
+    "company": "Wema Bank (ALAT by Wema)",
+    "careers_url": "https://wemabank.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Pioneer of Nigeria's first fully digital bank (ALAT). Technology center in Marina, Lagos actively recruits students for Hackaholics and software attachments.",
+    "contacts": [
+      {
+        "name": "ALAT Innovation Team",
+        "role": "Innovation & Early Talent Lead",
+        "email": null,
+        "source_url": "https://wemabank.com"
+      }
+    ]
+  },
+  {
+    "company": "First City Monument Bank (FCMB / Hub One)",
+    "careers_url": "https://www.fcmb.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Commercial banking institution sponsoring Hub One tech co-working space in Yaba, Lagos. Actively recruits student programmers.",
+    "contacts": [
+      {
+        "name": "FCMB HR Academy",
+        "role": "Talent Development Officer",
+        "email": null,
+        "source_url": "https://www.fcmb.com"
+      }
+    ]
+  },
+  {
+    "company": "Union Bank of Nigeria",
+    "careers_url": "https://www.unionbankng.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Historic tier-2 financial institution in Marina, Lagos. Tech divisions build modernized retail and corporate internet banking platforms.",
+    "contacts": [
+      {
+        "name": "Union Bank Talent",
+        "role": "Human Resources Advisor",
+        "email": null,
+        "source_url": "https://www.unionbankng.com"
+      }
+    ]
+  },
+  {
+    "company": "Providus Bank",
+    "careers_url": "https://www.providusbank.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Pioneer in banking APIs partnering directly with Nigerian fintechs. Tech teams build high-volume webhook and virtual account engines in Victoria Island.",
+    "contacts": [
+      {
+        "name": "Providus Tech HR",
+        "role": "Digital Banking Talent Lead",
+        "email": null,
+        "source_url": "https://www.providusbank.com"
+      }
+    ]
+  },
+  {
+    "company": "Taj Bank",
+    "careers_url": "https://www.tajbank.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": "unknown",
+    "notes": "Non-interest commercial bank with growing digital retail presence in Lagos and Abuja. Recruits core banking software engineers.",
+    "contacts": [
+      {
+        "name": "Taj Bank HR",
+        "role": "People Lead",
+        "email": null,
+        "source_url": "https://www.tajbank.com"
+      }
+    ]
+  },
+  {
+    "company": "Jaiz Bank",
+    "careers_url": "https://jaizbankplc.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": "unknown",
+    "notes": "Islamic financial institution with expanding digital retail mobile platforms. Hires database administrators and web developers.",
+    "contacts": [
+      {
+        "name": "Jaiz Human Capital",
+        "role": "Talent Specialist",
+        "email": null,
+        "source_url": "https://jaizbankplc.com"
+      }
+    ]
+  },
+  {
+    "company": "Titan Trust Bank",
+    "careers_url": "https://www.titantrustbank.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": "unknown",
+    "notes": "Corporate and SME commercial bank in Victoria Island, Lagos. Technology teams work on digital treasury and trade financing platforms.",
+    "contacts": [
+      {
+        "name": "Titan People",
+        "role": "HR Manager",
+        "email": null,
+        "source_url": "https://www.titantrustbank.com"
+      }
+    ]
+  },
+  {
+    "company": "MTN Nigeria",
+    "careers_url": "https://www.mtn.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Nigeria's largest telecommunications enterprise with headquarters in Ikoyi, Lagos. Runs formal graduate and student SIWES programs across digital, MoMo fintech, and cloud engineering.",
+    "contacts": [
+      {
+        "name": "MTN Talent Acquisition",
+        "role": "Early Careers Lead",
+        "email": null,
+        "source_url": "https://www.mtn.ng/careers"
+      }
+    ]
+  },
+  {
+    "company": "Airtel Nigeria",
+    "careers_url": "https://www.airtel.com.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Major telecom provider headquartered in Banana Island, Lagos. Tech divisions build SmartCash Payment Service Bank and telecom enterprise services.",
+    "contacts": [
+      {
+        "name": "Airtel HR",
+        "role": "Talent Manager",
+        "email": null,
+        "source_url": "https://www.airtel.com.ng"
+      }
+    ]
+  },
+  {
+    "company": "Globacom (Glo)",
+    "careers_url": "https://www.gloworld.com/ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Indigenous telecom operator in Victoria Island, Lagos. Recruits student industrial trainees across network operations, database, and billing systems.",
+    "contacts": [
+      {
+        "name": "Glo Human Resources",
+        "role": "Talent Lead",
+        "email": null,
+        "source_url": "https://www.gloworld.com"
+      }
+    ]
+  },
+  {
+    "company": "9mobile (EMTS)",
+    "careers_url": "https://9mobile.com.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Telecom network provider with head office in Banana Island, Ikoyi. Software teams develop self-care portals and subscriber services.",
+    "contacts": [
+      {
+        "name": "9mobile HR",
+        "role": "Resourcing Specialist",
+        "email": null,
+        "source_url": "https://9mobile.com.ng"
+      }
+    ]
+  },
+  {
+    "company": "MainOne (Equinix Company)",
+    "careers_url": "https://www.mainone.net/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "West Africa's leading subsea cable and connectivity infrastructure provider based in Victoria Island / Lekki. Employs network and software developers.",
+    "contacts": [
+      {
+        "name": "MainOne Talent",
+        "role": "Technical Recruiter",
+        "email": null,
+        "source_url": "https://www.mainone.net"
+      }
+    ]
+  },
+  {
+    "company": "Rack Centre",
+    "careers_url": "https://rack-centre.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Tier III carrier-neutral data centre operator in Ikeja, Lagos. Employs infrastructure engineers and systems automation developers.",
+    "contacts": [
+      {
+        "name": "Rack Centre People",
+        "role": "Head of Human Resources",
+        "email": null,
+        "source_url": "https://rack-centre.com"
+      }
+    ]
+  },
+  {
+    "company": "Medallion Data Centres (Digital Realty)",
+    "careers_url": "https://medalliondatacenetres.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": "unknown",
+    "notes": "Interconnection hub and data centre provider in Victoria Island, Lagos. Recruits network operations and automation interns.",
+    "contacts": [
+      {
+        "name": "Medallion HR",
+        "role": "Talent Specialist",
+        "email": null,
+        "source_url": "https://medalliondatacenetres.com"
+      }
+    ]
+  },
+  {
+    "company": "Galaxy Backbone",
+    "careers_url": "https://galaxybackbone.com.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Public digital infrastructure and cloud services operator with tech operations in Lagos. Regularly accepts university SIWES students.",
+    "contacts": [
+      {
+        "name": "Galaxy Talent",
+        "role": "Head, Human Resources",
+        "email": null,
+        "source_url": "https://galaxybackbone.com.ng"
+      }
+    ]
+  },
+  {
+    "company": "ipNX Nigeria",
+    "careers_url": "https://ipnxnigeria.net/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Pioneer fiber-optic internet broadband company based in Victoria Island, Lagos. Hires student software engineering trainees.",
+    "contacts": [
+      {
+        "name": "ipNX Talent Acquisition",
+        "role": "HR Manager",
+        "email": null,
+        "source_url": "https://ipnxnigeria.net"
+      }
+    ]
+  },
+  {
+    "company": "FiberOne Broadband",
+    "careers_url": "https://fob.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Fast-growing FTTH fiber internet provider in Lekki and Ikeja, Lagos. Employs web developers and customer portal engineers.",
+    "contacts": [
+      {
+        "name": "FiberOne People",
+        "role": "Talent Partner",
+        "email": null,
+        "source_url": "https://fob.ng"
+      }
+    ]
+  },
+  {
+    "company": "Smile Communications",
+    "careers_url": "https://smile.com.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": "unknown",
+    "notes": "4G LTE broadband network provider in Ikoyi, Lagos. Employs billing system developers and network software specialists.",
+    "contacts": [
+      {
+        "name": "Smile HR",
+        "role": "People Lead",
+        "email": null,
+        "source_url": "https://smile.com.ng"
+      }
+    ]
+  },
+  {
+    "company": "Spectranet 4G LTE",
+    "careers_url": "https://spectranet.com.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Leading wireless 4G/LTE broadband internet service provider in Ikeja, Lagos. Accepts student SIWES attachments.",
+    "contacts": [
+      {
+        "name": "Spectranet Talent",
+        "role": "HR Specialist",
+        "email": null,
+        "source_url": "https://spectranet.com.ng"
+      }
+    ]
+  },
+  {
+    "company": "Swift Networks",
+    "careers_url": "https://swiftng.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "High-speed broadband provider in Victoria Island, Lagos. Tech team develops customer portals, billing integration, and VoIP software.",
+    "contacts": [
+      {
+        "name": "Swift Talent",
+        "role": "HR Lead",
+        "email": null,
+        "source_url": "https://swiftng.com"
+      }
+    ]
+  },
+  {
+    "company": "Liquid Intelligent Technologies Nigeria",
+    "careers_url": "https://liquid.tech/careers",
+    "applicant_system": "Workday",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Pan-African pan-continental connectivity and cloud solutions provider with Lagos data office. Recruits software and cloud apprentices.",
+    "contacts": [
+      {
+        "name": "Liquid Talent",
+        "role": "Regional Recruiter",
+        "email": null,
+        "source_url": "https://liquid.tech"
+      }
+    ]
+  },
+  {
+    "company": "e.Stream Networks",
+    "careers_url": "https://estreamnetworks.net/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Licensed enterprise connectivity and managed IT service provider based in Ikoyi, Lagos. Welcomes university software engineering interns.",
+    "contacts": [
+      {
+        "name": "e.Stream People",
+        "role": "Human Resources Lead",
+        "email": null,
+        "source_url": "https://estreamnetworks.net"
+      }
+    ]
+  },
+  {
+    "company": "Reliance Health",
+    "careers_url": "https://reliancehealthinc.com/careers",
+    "applicant_system": "Greenhouse",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Telemedicine and health insurance enterprise operating in Nigeria and Egypt. Tech headquarters in Lagos builds modern telehealth web and mobile systems.",
+    "contacts": [
+      {
+        "name": "Reliance Health Talent",
+        "role": "Head of Engineering Hiring",
+        "email": null,
+        "source_url": "https://reliancehealthinc.com/careers"
+      }
+    ]
+  },
+  {
+    "company": "Wellahealth",
+    "careers_url": "https://wellahealth.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Affordable micro-health insurance and pharmacy digital network in Lagos. Tech team uses modern React and Node.js microservices.",
+    "contacts": [
+      {
+        "name": "Wellahealth Talent",
+        "role": "CTO",
+        "email": null,
+        "source_url": "https://wellahealth.com"
+      }
+    ]
+  },
+  {
+    "company": "Remedial Health",
+    "careers_url": "https://remedialhealth.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "B2B pharmacy digital supply chain and credit financing enterprise based in Yaba, Lagos. Recruits frontend and backend developers.",
+    "contacts": [
+      {
+        "name": "Remedial People",
+        "role": "People Operations Lead",
+        "email": null,
+        "source_url": "https://remedialhealth.com"
+      }
+    ]
+  },
+  {
+    "company": "Chowdeck",
+    "careers_url": "https://chowdeck.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Fastest-growing food delivery startup in Nigeria, backed by Y Combinator. Engineering office in Ikeja, Lagos builds high-throughput rider routing algorithms.",
+    "contacts": [
+      {
+        "name": "Chowdeck Engineering",
+        "role": "Head of Engineering",
+        "email": null,
+        "source_url": "https://chowdeck.com"
+      }
+    ]
+  },
+  {
+    "company": "Eden Life",
+    "careers_url": "https://ouredenlife.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Home concierge and subscription lifestyle platform in Lagos founded by Andela alumni. Renowned engineering craftsmanship in React, React Native, and Node.js.",
+    "contacts": [
+      {
+        "name": "Eden Life People",
+        "role": "Co-founder & Head of Product",
+        "email": null,
+        "source_url": "https://ouredenlife.com"
+      }
+    ]
+  },
+  {
+    "company": "Glovo Nigeria",
+    "careers_url": "https://jobs.glovoapp.com",
+    "applicant_system": "SmartRecruiters",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Global multi-category delivery app with fast-growing operations in Lagos Island and Mainland. Tech roles coordinate regional partner logistics APIs.",
+    "contacts": [
+      {
+        "name": "Glovo Talent",
+        "role": "Regional Recruiter",
+        "email": null,
+        "source_url": "https://jobs.glovoapp.com"
+      }
+    ]
+  },
+  {
+    "company": "Jumia Nigeria",
+    "careers_url": "https://group.jumia.com/careers",
+    "applicant_system": "Lever",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Pan-African e-commerce enterprise listed on NYSE. Tech headquarters in Ikeja, Lagos builds warehouse management, JumiaPay, and marketplace systems.",
+    "contacts": [
+      {
+        "name": "Jumia People",
+        "role": "Head of HR, Jumia Services",
+        "email": null,
+        "source_url": "https://group.jumia.com/careers"
+      }
+    ]
+  },
+  {
+    "company": "Konga",
+    "careers_url": "https://www.konga.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Composite e-commerce marketplace and KongaPay provider in Ikeja, Lagos. Employs web developers and cloud operations engineers.",
+    "contacts": [
+      {
+        "name": "Konga Talent",
+        "role": "Head of Human Resources",
+        "email": null,
+        "source_url": "https://www.konga.com"
+      }
+    ]
+  },
+  {
+    "company": "TradeDepot",
+    "careers_url": "https://tradedepot.co/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "B2B supply chain and digital distribution platform connecting FMCG brands with local micro-retailers in Lagos. Strong Node/React/Cloud stack.",
+    "contacts": [
+      {
+        "name": "TradeDepot HR",
+        "role": "Talent Partner",
+        "email": null,
+        "source_url": "https://tradedepot.co"
+      }
+    ]
+  },
+  {
+    "company": "Sabi",
+    "careers_url": "https://sabi.am/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "B2B digital commerce platform enabling merchant distribution networks across West Africa. Tech office based in Victoria Island, Lagos.",
+    "contacts": [
+      {
+        "name": "Sabi People",
+        "role": "Head of Talent Acquisition",
+        "email": null,
+        "source_url": "https://sabi.am"
+      }
+    ]
+  },
+  {
+    "company": "Alerzo",
+    "careers_url": "https://alerzo.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "B2B retail-tech enterprise with logistics software connecting informal retail stores. Engineering team based in Ikeja, Lagos.",
+    "contacts": [
+      {
+        "name": "Alerzo HR",
+        "role": "Technical Recruiter",
+        "email": null,
+        "source_url": "https://alerzo.com"
+      }
+    ]
+  },
+  {
+    "company": "Omnibiz",
+    "careers_url": "https://omnibiz.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "B2B retail distribution tech platform based in Lagos connecting consumer brands with retailers via mobile apps and AI ordering.",
+    "contacts": [
+      {
+        "name": "Omnibiz Talent",
+        "role": "Talent Specialist",
+        "email": null,
+        "source_url": "https://omnibiz.com"
+      }
+    ]
+  },
+  {
+    "company": "MAX.ng (Metro Africa Xpress)",
+    "careers_url": "https://maxdrive.ai/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Mobility tech company pioneering electric vehicle fleet management, digital subscription financing, and IoT telemetry in Lagos.",
+    "contacts": [
+      {
+        "name": "MAX People Team",
+        "role": "Talent Acquisition Manager",
+        "email": null,
+        "source_url": "https://maxdrive.ai"
+      }
+    ]
+  },
+  {
+    "company": "Gokada",
+    "careers_url": "https://gokada.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": "unknown",
+    "notes": "Last-mile on-demand logistics and delivery tech platform in Ilupeju, Lagos. Develops geolocation and dispatch software.",
+    "contacts": [
+      {
+        "name": "Gokada People",
+        "role": "Operations & Talent Lead",
+        "email": null,
+        "source_url": "https://gokada.ng"
+      }
+    ]
+  },
+  {
+    "company": "Shuttlers",
+    "careers_url": "https://shuttlers.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Technology-driven shared mobility and corporate bus-pooling platform headquartered in Lekki, Lagos. Hires mobile and backend engineers.",
+    "contacts": [
+      {
+        "name": "Shuttlers Talent",
+        "role": "Head of People",
+        "email": null,
+        "source_url": "https://shuttlers.ng"
+      }
+    ]
+  },
+  {
+    "company": "Kobo360",
+    "careers_url": "https://kobo360.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Pan-African digital logistics platform matching freight haulers with enterprise cargo owners. Tech hub in Yaba, Lagos.",
+    "contacts": [
+      {
+        "name": "Kobo360 People",
+        "role": "Talent Acquisition Specialist",
+        "email": null,
+        "source_url": "https://kobo360.com"
+      }
+    ]
+  },
+  {
+    "company": "Sendbox",
+    "careers_url": "https://sendbox.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "E-commerce fulfillment, logistics, and international shipping platform for African merchants. Engineering office in Ikeja, Lagos.",
+    "contacts": [
+      {
+        "name": "Sendbox Talent",
+        "role": "CTO",
+        "email": null,
+        "source_url": "https://sendbox.ng"
+      }
+    ]
+  },
+  {
+    "company": "Topship",
+    "careers_url": "https://topship.africa/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Global freight shipping and cargo booking portal built for African businesses. Lagos-based tech team with modern Next.js and Node stacks.",
+    "contacts": [
+      {
+        "name": "Topship People",
+        "role": "Co-founder & Head of Product",
+        "email": null,
+        "source_url": "https://topship.africa"
+      }
+    ]
+  },
+  {
+    "company": "uLesson Education",
+    "careers_url": "https://ulesson.com/careers",
+    "applicant_system": "Lever",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Leading African edtech platform delivering live interactive learning and STEM video courses across West Africa. Engineering hub in Lagos.",
+    "contacts": [
+      {
+        "name": "uLesson People",
+        "role": "VP, Engineering",
+        "email": null,
+        "source_url": "https://ulesson.com/careers"
+      }
+    ]
+  },
+  {
+    "company": "AltSchool Africa / TalentQL",
+    "careers_url": "https://altschoolafrica.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Online higher education and technical skills academy training thousands of software engineers in Nigeria. Strong engineering hub in Lekki, Lagos.",
+    "contacts": [
+      {
+        "name": "AltSchool People",
+        "role": "Head of Curriculum & Tech",
+        "email": null,
+        "source_url": "https://altschoolafrica.com"
+      }
+    ]
+  },
+  {
+    "company": "PrepClass",
+    "careers_url": "https://prepclass.com.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Edtech tutoring marketplace matching students with verified local academic tutors. Tech team based in Yaba, Lagos.",
+    "contacts": [
+      {
+        "name": "PrepClass HR",
+        "role": "Operations Manager",
+        "email": null,
+        "source_url": "https://prepclass.com.ng"
+      }
+    ]
+  },
+  {
+    "company": "Semicolon Africa",
+    "careers_url": "https://semicolon.africa/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Software engineering academy and venture studio based in Yaba, Lagos. Trains software developers and matches students with local enterprise tech teams.",
+    "contacts": [
+      {
+        "name": "Semicolon Talent",
+        "role": "Head of Talent Services",
+        "email": null,
+        "source_url": "https://semicolon.africa"
+      }
+    ]
+  },
+  {
+    "company": "Decagon",
+    "careers_url": "https://decagon.institute/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Software engineering training institute and developer placement firm in Lekki, Lagos. Employs instructors and developer leads across web technologies.",
+    "contacts": [
+      {
+        "name": "Decagon Talent",
+        "role": "Head of Developer Placement",
+        "email": null,
+        "source_url": "https://decagon.institute"
+      }
+    ]
+  },
+  {
+    "company": "Estate Intel",
+    "careers_url": "https://estateintel.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Real estate data and market intelligence platform for African commercial real estate. Lagos engineering team builds analytics dashboards and GIS databases.",
+    "contacts": [
+      {
+        "name": "Estate Intel People",
+        "role": "Head of Research & Product",
+        "email": null,
+        "source_url": "https://estateintel.com"
+      }
+    ]
+  },
+  {
+    "company": "SmallSmall (RentSmallSmall)",
+    "careers_url": "https://smallsmall.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Proptech platform offering monthly rental payment flexibility for young professionals in Lagos. Hires web and mobile developers.",
+    "contacts": [
+      {
+        "name": "SmallSmall HR",
+        "role": "People Lead",
+        "email": null,
+        "source_url": "https://smallsmall.com"
+      }
+    ]
+  },
+  {
+    "company": "CutStruct Technology",
+    "careers_url": "https://cutstruct.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Construction technology startup building digital procurement and price comparison marketplaces for builders. Lagos engineering hub.",
+    "contacts": [
+      {
+        "name": "CutStruct Talent",
+        "role": "Head of Technology",
+        "email": null,
+        "source_url": "https://cutstruct.com"
+      }
+    ]
+  },
+  {
+    "company": "Vendease",
+    "careers_url": "https://vendease.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Food supply chain and procurement platform for African restaurants and hotels. Engineering headquarters in Lagos builds inventory tracking systems.",
+    "contacts": [
+      {
+        "name": "Vendease Talent",
+        "role": "People & Culture Specialist",
+        "email": null,
+        "source_url": "https://vendease.com"
+      }
+    ]
+  },
+  {
+    "company": "Bumpa",
+    "careers_url": "https://getbumpa.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Mobile-first commerce tool enabling micro-businesses to set up online stores, manage bookkeeping, and issue invoices. Headquartered in Yaba, Lagos.",
+    "contacts": [
+      {
+        "name": "Bumpa People",
+        "role": "Head of Engineering",
+        "email": null,
+        "source_url": "https://getbumpa.com"
+      }
+    ]
+  },
+  {
+    "company": "Catapult (Catapult.ng)",
+    "careers_url": "https://catapult.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Developer tools and automated payroll software for fast-growing Nigerian companies. Lagos tech team.",
+    "contacts": [
+      {
+        "name": "Catapult People",
+        "role": "Lead Recruiter",
+        "email": null,
+        "source_url": "https://catapult.ng"
+      }
+    ]
+  },
+  {
+    "company": "Moove Africa",
+    "careers_url": "https://moove.io/careers",
+    "applicant_system": "Workable",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Global mobility fintech and Uber's exclusive vehicle supply partner in Africa. Technology hub in Victoria Island, Lagos.",
+    "contacts": [
+      {
+        "name": "Moove Talent",
+        "role": "Global Talent Acquisition Lead",
+        "email": null,
+        "source_url": "https://moove.io/careers"
+      }
+    ]
+  },
+  {
+    "company": "Andela Nigeria",
+    "careers_url": "https://andela.com/careers",
+    "applicant_system": "Greenhouse",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Global developer network matching senior and emerging African software engineers with international tech companies. Large talent hub in Lagos.",
+    "contacts": [
+      {
+        "name": "Andela Talent Operations",
+        "role": "Director of Talent Resourcing",
+        "email": null,
+        "source_url": "https://andela.com/careers"
+      }
+    ]
+  },
+  {
+    "company": "Cregital",
+    "careers_url": "https://cregital.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Premier digital design and web development agency in Victoria Island, Lagos. Famous for building top fintech corporate portals and accessible web apps.",
+    "contacts": [
+      {
+        "name": "Cregital People",
+        "role": "Creative Director & Founder",
+        "email": null,
+        "source_url": "https://cregital.com"
+      }
+    ]
+  },
+  {
+    "company": "Anakle",
+    "careers_url": "https://anakle.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Digital technology and creative engineering agency based in Lekki Phase 1, Lagos. Builds enterprise web platforms, games, and web apps.",
+    "contacts": [
+      {
+        "name": "Anakle Talent",
+        "role": "Head of Digital Operations",
+        "email": null,
+        "source_url": "https://anakle.com"
+      }
+    ]
+  },
+  {
+    "company": "Delivery Associates Nigeria",
+    "careers_url": "https://deliveryassociates.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": "unknown",
+    "notes": "Global public sector delivery consultancy working with African governments. Lagos office builds data tracking systems and software dashboards.",
+    "contacts": [
+      {
+        "name": "Delivery Associates HR",
+        "role": "Africa Recruiting Lead",
+        "email": null,
+        "source_url": "https://deliveryassociates.com"
+      }
+    ]
+  },
+  {
+    "company": "Genesys Tech Hub",
+    "careers_url": "https://genesystechhub.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Software development incubator and enterprise talent academy. Runs Learnable software internship for undergraduates across Nigeria.",
+    "contacts": [
+      {
+        "name": "Genesys Talent",
+        "role": "Lead, Talent Discovery",
+        "email": null,
+        "source_url": "https://genesystechhub.com"
+      }
+    ]
+  },
+  {
+    "company": "Co-Creation Hub (CcHUB)",
+    "careers_url": "https://cchub.africa/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Nigeria's preeminent technology innovation centre in Yaba, Lagos. Supports hundreds of startups and frequently accepts software engineering interns.",
+    "contacts": [
+      {
+        "name": "CcHUB People Team",
+        "role": "Head of People and Culture",
+        "email": null,
+        "source_url": "https://cchub.africa"
+      }
+    ]
+  },
+  {
+    "company": "Ventures Platform",
+    "careers_url": "https://venturesplatform.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Leading early-stage pan-African venture capital firm and startup studio with major portfolio companies in Lagos. Matches interns with portfolio startups.",
+    "contacts": [
+      {
+        "name": "Ventures Platform Talent",
+        "role": "Talent Network Lead",
+        "email": null,
+        "source_url": "https://venturesplatform.com"
+      }
+    ]
+  },
+  {
+    "company": "Softcom (Eyowo)",
+    "careers_url": "https://softcom.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Enterprise digital transformation and identity solutions provider in Ikeja GRA, Lagos. Built Eyowo and large corporate ERP web applications.",
+    "contacts": [
+      {
+        "name": "Softcom Talent",
+        "role": "Head of Human Resources",
+        "email": null,
+        "source_url": "https://softcom.ng"
+      }
+    ]
+  },
+  {
+    "company": "Terragon Group",
+    "careers_url": "https://terragongroup.com/careers",
+    "applicant_system": "Workable",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Africa's leading enterprise data and marketing technology company based in Victoria Island, Lagos. Builds high-scale consumer data platforms (CDP).",
+    "contacts": [
+      {
+        "name": "Terragon People",
+        "role": "Director of Talent and Culture",
+        "email": null,
+        "source_url": "https://terragongroup.com/careers"
+      }
+    ]
+  },
+  {
+    "company": "Venture Garden Group (VGG)",
+    "careers_url": "https://venturegardengroup.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Holding company that builds fintech and data solutions for aviation, power, and financial sectors in Lagos. Known for hiring IT attachment students.",
+    "contacts": [
+      {
+        "name": "VGG Talent Team",
+        "role": "Head, Talent Acquisition",
+        "email": null,
+        "source_url": "https://venturegardengroup.com"
+      }
+    ]
+  },
+  {
+    "company": "Zone (formerly AppZone)",
+    "careers_url": "https://zonenetwork.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Africa's first decentralized payment network powered by blockchain, based in Lekki Phase 1, Lagos. Builds interbank settlement protocols.",
+    "contacts": [
+      {
+        "name": "Zone People Team",
+        "role": "Head of People and Culture",
+        "email": null,
+        "source_url": "https://zonenetwork.com"
+      }
+    ]
+  },
+  {
+    "company": "eTranzact International Plc",
+    "careers_url": "https://etranzact.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Pioneering multi-application electronic payment switching platform in Lagos. Hires software developers for transaction security and cloud systems.",
+    "contacts": [
+      {
+        "name": "eTranzact HR",
+        "role": "Human Capital Manager",
+        "email": null,
+        "source_url": "https://etranzact.com"
+      }
+    ]
+  },
+  {
+    "company": "Precise Financial Systems (PFS)",
+    "careers_url": "https://pfsng.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Financial software development agency based in Ikeja, Lagos. Builds enterprise cheque clearing, pension administration, and reconciliation systems.",
+    "contacts": [
+      {
+        "name": "PFS Human Resources",
+        "role": "Talent Specialist",
+        "email": null,
+        "source_url": "https://pfsng.com"
+      }
+    ]
+  },
+  {
+    "company": "Computer Warehouse Group (CWG Plc)",
+    "careers_url": "https://cwg-plc.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Pan-African systems integration and enterprise IT services company headquartered in Lekki, Lagos. Operates long-standing CWG Academy for early careers.",
+    "contacts": [
+      {
+        "name": "CWG Academy",
+        "role": "Director of Training & Talent",
+        "email": null,
+        "source_url": "https://cwg-plc.com"
+      }
+    ]
+  },
+  {
+    "company": "Inlaks Computers",
+    "careers_url": "https://inlaks.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Major financial technology systems integrator in West Africa based in Victoria Island, Lagos. Partners with major core banking system providers.",
+    "contacts": [
+      {
+        "name": "Inlaks Human Resources",
+        "role": "Head, Human Resources",
+        "email": null,
+        "source_url": "https://inlaks.com"
+      }
+    ]
+  },
+  {
+    "company": "Sidmach Technologies",
+    "careers_url": "https://sidmach.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Indigenous software development firm in Ikeja, Lagos. Developed major national examination and biometric verification software across Nigeria.",
+    "contacts": [
+      {
+        "name": "Sidmach HR",
+        "role": "Human Capital Lead",
+        "email": null,
+        "source_url": "https://sidmach.com"
+      }
+    ]
+  },
+  {
+    "company": "Chams Holding Plc",
+    "careers_url": "https://chams.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Identity management and transactional technology enterprise in Victoria Island, Lagos. Employs student industrial trainees in software development.",
+    "contacts": [
+      {
+        "name": "Chams People",
+        "role": "Head of Human Resources",
+        "email": null,
+        "source_url": "https://chams.com"
+      }
+    ]
+  },
+  {
+    "company": "Vatebra Limited",
+    "careers_url": "https://vatebra.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Custom enterprise software solutions provider in Victoria Island, Lagos. Regularly takes university SIWES interns across C#, Java, and React development.",
+    "contacts": [
+      {
+        "name": "Vatebra HR",
+        "role": "Talent Development Manager",
+        "email": null,
+        "source_url": "https://vatebra.com"
+      }
+    ]
+  },
+  {
+    "company": "Future Software Craft (Futuresoft)",
+    "careers_url": "https://futuresoft-ng.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Digital agency, IT and cybersecurity management firm based in Lagos. Offers structured internships for students in web development and cybersecurity.",
+    "contacts": [
+      {
+        "name": "Futuresoft HR",
+        "role": "Talent Acquisition Specialist",
+        "email": null,
+        "source_url": "https://futuresoft-ng.com"
+      }
+    ]
+  },
+  {
+    "company": "DevCenter Innovation",
+    "careers_url": "https://devcenter.co",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Software development network and engineering talent collective headquartered in Yaba, Lagos. Connects software teams with Nigerian developer communities.",
+    "contacts": [
+      {
+        "name": "DevCenter Community",
+        "role": "Community & Talent Lead",
+        "email": null,
+        "source_url": "https://devcenter.co"
+      }
+    ]
+  },
+  {
+    "company": "Tenece Professional Services",
+    "careers_url": "https://tenece.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Enterprise technology consulting and custom software development company with offices in Lagos. Known for hiring student software interns.",
+    "contacts": [
+      {
+        "name": "Tenece Human Capital",
+        "role": "Head, Human Resources",
+        "email": null,
+        "source_url": "https://tenece.com"
+      }
+    ]
+  },
+  {
+    "company": "Quanteq Technology Services",
+    "careers_url": "https://quanteq.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Systems integration and management consulting firm providing custom enterprise software solutions. Lagos office employs student developers.",
+    "contacts": [
+      {
+        "name": "Quanteq HR",
+        "role": "Talent Specialist",
+        "email": null,
+        "source_url": "https://quanteq.com"
+      }
+    ]
+  },
+  {
+    "company": "Layer3 Nigeria",
+    "careers_url": "https://layer3.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Cloud services, networking, and enterprise IT security provider based in Lagos. Offers industrial attachment opportunities in cloud and software support.",
+    "contacts": [
+      {
+        "name": "Layer3 People",
+        "role": "Talent Manager",
+        "email": null,
+        "source_url": "https://layer3.ng"
+      }
+    ]
+  },
+  {
+    "company": "Signal Alliance Technology Holding",
+    "careers_url": "https://signalalliance.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Leading Microsoft and Cisco enterprise cloud partner in Ikeja, Lagos. Employs software developers and cloud engineers across enterprise clients.",
+    "contacts": [
+      {
+        "name": "Signal Alliance HR",
+        "role": "Head of Human Capital",
+        "email": null,
+        "source_url": "https://signalalliance.com"
+      }
+    ]
+  },
+  {
+    "company": "Netcom Africa",
+    "careers_url": "https://netcomafrica.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Managed IT, communication, and ERP systems integration company based in Victoria Island, Lagos. Takes IT attachment students in software development.",
+    "contacts": [
+      {
+        "name": "Netcom People",
+        "role": "Human Resources Executive",
+        "email": null,
+        "source_url": "https://netcomafrica.com"
+      }
+    ]
+  },
+  {
+    "company": "Impact Hub Lagos",
+    "careers_url": "https://lagos.impacthub.net/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Innovation lab and entrepreneurial community in Ikoyi, Lagos fostering social impact tech startups and software apprentices.",
+    "contacts": [
+      {
+        "name": "Impact Hub Community",
+        "role": "Community Lead",
+        "email": null,
+        "source_url": "https://lagos.impacthub.net"
+      }
+    ]
+  },
+  {
+    "company": "The Nest Innovation Technology Park",
+    "careers_url": "https://thenest.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Tech ecosystem community and incubation park in Yaba, Lagos. Supports early-stage developer cohorts and student tech internships.",
+    "contacts": [
+      {
+        "name": "The Nest Community",
+        "role": "Community & Programs Lead",
+        "email": null,
+        "source_url": "https://thenest.ng"
+      }
+    ]
+  },
+  {
+    "company": "ARM Labs Lagos Techstars Accelerator",
+    "careers_url": "https://www.techstars.com/accelerators/arm-labs-lagos",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Pan-African startup accelerator partnership between ARM and Techstars in Lagos. Portfolio tech companies actively recruit software interns.",
+    "contacts": [
+      {
+        "name": "ARM Labs Techstars",
+        "role": "Managing Director",
+        "email": null,
+        "source_url": "https://www.techstars.com"
+      }
+    ]
+  },
+  {
+    "company": "Leadspace",
+    "careers_url": "https://theleadspace.co/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Startup workspace and community hub in Yaba and Ojodu, Lagos hosting hundreds of Nigerian tech founders and developer collectives.",
+    "contacts": [
+      {
+        "name": "Leadspace Operations",
+        "role": "Community Lead",
+        "email": null,
+        "source_url": "https://theleadspace.co"
+      }
+    ]
+  },
+  {
+    "company": "Wennovate",
+    "careers_url": "https://wennovate.org/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Pioneer Nigerian tech accelerator and venture development park with operations in Ikeja, Lagos. Coordinates student internship placements.",
+    "contacts": [
+      {
+        "name": "Wennovate Hub",
+        "role": "Incubation Manager",
+        "email": null,
+        "source_url": "https://wennovate.org"
+      }
+    ]
+  },
+  {
+    "company": "Google for Startups Accelerator Africa (Lagos Hub)",
+    "careers_url": "https://startup.google.com/accelerator/africa",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Google's developer and startup accelerator hub based in Lagos. Connects African software engineering talent with Google mentors and ecosystem startups.",
+    "contacts": [
+      {
+        "name": "Google for Startups Africa",
+        "role": "Head of Startup Ecosystem",
+        "email": null,
+        "source_url": "https://startup.google.com"
+      }
+    ]
+  },
+  {
+    "company": "Microsoft ADC (African Development Centre)",
+    "careers_url": "https://careers.microsoft.com",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Microsoft's premier software engineering and innovation centre in Kingsway Tower, Ikoyi, Lagos. Recruits Nigerian university students for SWE internships.",
+    "contacts": [
+      {
+        "name": "Microsoft University Recruiting",
+        "role": "University Recruiter - West Africa",
+        "email": null,
+        "source_url": "https://careers.microsoft.com"
+      }
+    ]
+  },
+  {
+    "company": "Aladdin Digital Bank",
+    "careers_url": "https://aladdin.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Digital banking ecosystem combining financial services and online marketplace for Nigerian merchants. Lagos tech team.",
+    "contacts": [
+      {
+        "name": "Aladdin HR",
+        "role": "People Lead",
+        "email": null,
+        "source_url": "https://aladdin.ng"
+      }
+    ]
+  },
+  {
+    "company": "Chipper Cash (Nigeria Tech Hub)",
+    "careers_url": "https://chippercash.com/careers",
+    "applicant_system": "Lever",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "African cross-border payments unicorn with significant engineering and operations presence in Lagos. Modern web, mobile, and crypto rails.",
+    "contacts": [
+      {
+        "name": "Chipper Cash Talent",
+        "role": "Engineering Recruiter",
+        "email": null,
+        "source_url": "https://chippercash.com/careers"
+      }
+    ]
+  },
+  {
+    "company": "Swipha (Swiss Pharma)",
+    "careers_url": "https://swiphanigeria.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Major healthcare enterprise in Agege, Lagos. Operates enterprise IT systems and takes annual engineering industrial trainees.",
+    "contacts": [
+      {
+        "name": "Swipha HR",
+        "role": "Head, Human Capital",
+        "email": null,
+        "source_url": "https://swiphanigeria.com"
+      }
+    ]
+  },
+  {
+    "company": "LoftyInc Allied Partners",
+    "careers_url": "https://loftyincltd.biz/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Venture capital and technology development firm with deep enterprise and angel investments across Lagos. Facilitates student startup placements.",
+    "contacts": [
+      {
+        "name": "LoftyInc People",
+        "role": "Partner & Talent Lead",
+        "email": null,
+        "source_url": "https://loftyincltd.biz"
+      }
+    ]
+  },
+  {
+    "company": "Smile Identity (Nigeria)",
+    "careers_url": "https://www.usesmileid.com/careers",
+    "applicant_system": "Lever",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Leading pan-African KYC, identity verification, and biometrics engine based in Lagos. Hires software engineers and AI/ML data interns.",
+    "contacts": [
+      {
+        "name": "Smile ID Talent",
+        "role": "Head of Engineering",
+        "email": null,
+        "source_url": "https://www.usesmileid.com/careers"
+      }
+    ]
+  },
+  {
+    "company": "Klasha",
+    "careers_url": "https://www.klasha.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Cross-border commerce technology company enabling global businesses to accept frictionless payments from Africa. Lagos engineering office.",
+    "contacts": [
+      {
+        "name": "Klasha People",
+        "role": "People Operations Lead",
+        "email": null,
+        "source_url": "https://www.klasha.com"
+      }
+    ]
+  },
+  {
+    "company": "Luno Nigeria",
+    "careers_url": "https://www.luno.com/careers",
+    "applicant_system": "Greenhouse",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Global cryptocurrency and digital asset exchange with established customer operations and security engineering hub in Lagos.",
+    "contacts": [
+      {
+        "name": "Luno Talent",
+        "role": "Technical Recruiter",
+        "email": null,
+        "source_url": "https://www.luno.com/careers"
+      }
+    ]
+  },
+  {
+    "company": "Yellow Card Financial (Nigeria)",
+    "careers_url": "https://yellowcard.io/careers",
+    "applicant_system": "Lever",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Pan-African stablecoin and digital asset on/off ramp infrastructure. Strong remote and Lagos engineering teams.",
+    "contacts": [
+      {
+        "name": "Yellow Card Talent",
+        "role": "Talent Acquisition Specialist",
+        "email": null,
+        "source_url": "https://yellowcard.io/careers"
+      }
+    ]
+  },
+  {
+    "company": "Brassical Tech",
+    "careers_url": "https://brassical.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Enterprise financial software consulting and microservices development team based in Lagos.",
+    "contacts": [
+      {
+        "name": "Brassical People",
+        "role": "Managing Director",
+        "email": null,
+        "source_url": "https://brassical.com"
+      }
+    ]
+  },
+  {
+    "company": "Kippa",
+    "careers_url": "https://www.kippa.africa/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Financial management and digital bookkeeping app for African micro-merchants. Lagos office builds fast mobile and backend tools.",
+    "contacts": [
+      {
+        "name": "Kippa People",
+        "role": "Head of Talent",
+        "email": null,
+        "source_url": "https://www.kippa.africa"
+      }
+    ]
+  },
+  {
+    "company": "Duplo",
+    "careers_url": "https://tryduplo.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "B2B payment automation and cash flow management software for African distributors and FMCG corporations. Lagos engineering team.",
+    "contacts": [
+      {
+        "name": "Duplo Talent",
+        "role": "Head of Product",
+        "email": null,
+        "source_url": "https://tryduplo.com"
+      }
+    ]
+  },
+  {
+    "company": "Pivo Africa",
+    "careers_url": "https://pivo.africa/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Trade financing and digital banking platform built for supply chain and logistics players in Lagos.",
+    "contacts": [
+      {
+        "name": "Pivo People",
+        "role": "Talent Specialist",
+        "email": null,
+        "source_url": "https://pivo.africa"
+      }
+    ]
+  },
+  {
+    "company": "Herconomy",
+    "careers_url": "https://herconomy.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Fintech and female-focused wealth community in Lagos providing micro-savings, digital financial education, and networking.",
+    "contacts": [
+      {
+        "name": "Herconomy HR",
+        "role": "Community Lead",
+        "email": null,
+        "source_url": "https://herconomy.com"
+      }
+    ]
+  },
+  {
+    "company": "Releaf",
+    "careers_url": "https://releaf.africa/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Agtech and industrial food processing hardware/software platform in Lagos. Employs embedded software engineers and web developers.",
+    "contacts": [
+      {
+        "name": "Releaf Talent",
+        "role": "Head of Talent",
+        "email": null,
+        "source_url": "https://releaf.africa"
+      }
+    ]
+  },
+  {
+    "company": "SeamlessHR",
+    "careers_url": "https://seamlesshr.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Africa's leading cloud HR and payroll software enterprise based in Lagos. Hires software developers for enterprise ERP web applications.",
+    "contacts": [
+      {
+        "name": "SeamlessHR Talent Team",
+        "role": "Director of People & Culture",
+        "email": null,
+        "source_url": "https://seamlesshr.com"
+      }
+    ]
+  },
+  {
+    "company": "Bento Africa",
+    "careers_url": "https://bento.africa/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Cloud payroll, benefits, and tax compliance platform operating across Nigeria and Ghana. Engineering office in Lagos.",
+    "contacts": [
+      {
+        "name": "Bento People",
+        "role": "Lead Recruiter",
+        "email": null,
+        "source_url": "https://bento.africa"
+      }
+    ]
+  },
+  {
+    "company": "Termii",
+    "careers_url": "https://termii.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Leading telecommunications and messaging API platform in Africa powering OTPs, SMS, and WhatsApp business channels for top fintechs.",
+    "contacts": [
+      {
+        "name": "Termii Talent",
+        "role": "Head of Engineering",
+        "email": null,
+        "source_url": "https://termii.com"
+      }
+    ]
+  },
+  {
+    "company": "Sendchamp",
+    "careers_url": "https://sendchamp.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Multichannel communications platform acquired by OneLiquidity. Provides unified SMS, email, voice, and WhatsApp APIs for African businesses.",
+    "contacts": [
+      {
+        "name": "Sendchamp People",
+        "role": "Head of Product",
+        "email": null,
+        "source_url": "https://sendchamp.com"
+      }
+    ]
+  },
+  {
+    "company": "Engage (Engage Messaging)",
+    "careers_url": "https://engage.so/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Customer data and email automation platform built by Nigerian engineers. Modern TypeScript, Node, and Next.js technology stack.",
+    "contacts": [
+      {
+        "name": "Engage Team",
+        "role": "Founder & Technical Lead",
+        "email": null,
+        "source_url": "https://engage.so"
+      }
+    ]
+  },
+  {
+    "company": "Vigipay",
+    "careers_url": "https://vigipay.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Cross-border payment infrastructure for financial institutions and money transfer operators across Africa. Technology hub in Lagos.",
+    "contacts": [
+      {
+        "name": "Vigipay HR",
+        "role": "Talent Specialist",
+        "email": null,
+        "source_url": "https://vigipay.com"
+      }
+    ]
+  },
+  {
+    "company": "Ventures Platform Foundation",
+    "careers_url": "https://venturesplatform.foundation",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Non-profit innovation and ecosystem arm supporting technology talent, developer bootcamps, and early-career software apprenticeships.",
+    "contacts": [
+      {
+        "name": "VP Foundation",
+        "role": "Program Director",
+        "email": null,
+        "source_url": "https://venturesplatform.foundation"
+      }
+    ]
+  },
+  {
+    "company": "DevCareer",
+    "careers_url": "https://devcareer.io",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Leading non-profit tech talent accelerator providing laptops, mentorship, and junior developer placement for emerging software engineers in Lagos.",
+    "contacts": [
+      {
+        "name": "DevCareer Community",
+        "role": "Director of Programs",
+        "email": null,
+        "source_url": "https://devcareer.io"
+      }
+    ]
+  },
+  {
+    "company": "Ingressive For Good (I4G)",
+    "careers_url": "https://ingressive.org",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Pan-African non-profit equipping African youths with tech micro-scholarships, developer training, and internship placement in Lagos tech firms.",
+    "contacts": [
+      {
+        "name": "I4G Talent Lead",
+        "role": "Head of Placements",
+        "email": null,
+        "source_url": "https://ingressive.org"
+      }
+    ]
+  },
+  {
+    "company": "Octamile",
+    "careers_url": "https://octamile.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Insurtech operating system providing digital claims processing and embedded insurance APIs for B2B platforms in Nigeria.",
+    "contacts": [
+      {
+        "name": "Octamile People",
+        "role": "Head of Engineering",
+        "email": null,
+        "source_url": "https://octamile.com"
+      }
+    ]
+  },
+  {
+    "company": "MyCover.ai",
+    "careers_url": "https://mycover.ai/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Open insurance API infrastructure connecting insurance underwriters with digital distributors in Nigeria. Lagos engineering office.",
+    "contacts": [
+      {
+        "name": "MyCover.ai People",
+        "role": "Talent Partner",
+        "email": null,
+        "source_url": "https://mycover.ai"
+      }
+    ]
+  },
+  {
+    "company": "Casava",
+    "careers_url": "https://casava.co/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Nigeria's first 100% digital micro-insurance provider based in Victoria Island, Lagos. Hires frontend developers and mobile app engineers.",
+    "contacts": [
+      {
+        "name": "Casava People",
+        "role": "Talent Specialist",
+        "email": null,
+        "source_url": "https://casava.co"
+      }
+    ]
+  },
+  {
+    "company": "Curacel",
+    "careers_url": "https://curacel.co/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "AI-powered fraud detection and claims automation infrastructure for African insurers and healthcare providers. Lagos tech headquarters.",
+    "contacts": [
+      {
+        "name": "Curacel Talent",
+        "role": "People Operations Lead",
+        "email": null,
+        "source_url": "https://curacel.co"
+      }
+    ]
+  },
+  {
+    "company": "ThriveAgric",
+    "careers_url": "https://thriveagric.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Agricultural technology enterprise building proprietary farm management software (AOS) and commodity supply chains. Lagos technology office.",
+    "contacts": [
+      {
+        "name": "ThriveAgric Talent",
+        "role": "Head of Human Resources",
+        "email": null,
+        "source_url": "https://thriveagric.com"
+      }
+    ]
+  },
+  {
+    "company": "Farmcrowdy",
+    "careers_url": "https://farmcrowdy.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Pioneer digital agriculture platform in Lagos. Hires web developers, cloud administrators, and mobile app programmers.",
+    "contacts": [
+      {
+        "name": "Farmcrowdy HR",
+        "role": "People Lead",
+        "email": null,
+        "source_url": "https://farmcrowdy.com"
+      }
+    ]
+  },
+  {
+    "company": "Kuda Microfinance Bank",
+    "careers_url": "https://kuda.com/careers",
+    "applicant_system": "Workable",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Licensed microfinance banking entity of Kuda Technologies based in Yaba, Lagos. Active student trainee and internship intake across banking software.",
+    "contacts": [
+      {
+        "name": "Kuda MFB Talent",
+        "role": "Talent Acquisition Specialist",
+        "email": null,
+        "source_url": "https://kuda.com"
+      }
+    ]
+  },
+  {
+    "company": "Rubies Bank (Highstreet Microfinance)",
+    "careers_url": "https://rubies.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Digital banking-as-a-service and neobank platform based in Lagos. Technology team builds customizable banking modules.",
+    "contacts": [
+      {
+        "name": "Rubies People",
+        "role": "Head of Technology",
+        "email": null,
+        "source_url": "https://rubies.ng"
+      }
+    ]
+  },
+  {
+    "company": "Sparkle Nigeria",
+    "careers_url": "https://sparkle.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Lifestyle and business digital bank founded by former Diamond Bank CEO. Engineering team builds AI financial assistant and analytics tools in Ikoyi.",
+    "contacts": [
+      {
+        "name": "Sparkle Talent",
+        "role": "People Experience Lead",
+        "email": null,
+        "source_url": "https://sparkle.ng"
+      }
+    ]
+  },
+  {
+    "company": "OneCard Nigeria",
+    "careers_url": "https://onecard.com.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Multi-purpose recharge and digital airtime/data services platform based in Lagos. Hires web and API developers.",
+    "contacts": [
+      {
+        "name": "OneCard HR",
+        "role": "Head of Operations",
+        "email": null,
+        "source_url": "https://onecard.com.ng"
+      }
+    ]
+  },
+  {
+    "company": "CoralPay Technologies",
+    "careers_url": "https://coralpay.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Payment processing and interoperability solution provider in Victoria Island, Lagos. Operates C-Gate multi-channel payment engine.",
+    "contacts": [
+      {
+        "name": "CoralPay HR",
+        "role": "Talent Specialist",
+        "email": null,
+        "source_url": "https://coralpay.com"
+      }
+    ]
+  },
+  {
+    "company": "Upperlink Limited",
+    "careers_url": "https://upperlink.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Software development and payments enterprise in Ikeja, Lagos. Major partner with NIBSS for payment integration and domain registrar services.",
+    "contacts": [
+      {
+        "name": "Upperlink HR",
+        "role": "Human Resources Lead",
+        "email": null,
+        "source_url": "https://upperlink.ng"
+      }
+    ]
+  },
+  {
+    "company": "Nibss (Nigeria Inter-Bank Settlement System)",
+    "careers_url": "https://nibss-plc.com.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Core national payment and clearing infrastructure owned by Central Bank of Nigeria and licensed commercial banks. Based in Victoria Island; takes top SIWES students.",
+    "contacts": [
+      {
+        "name": "NIBSS Human Capital",
+        "role": "Head, Talent Development",
+        "email": null,
+        "source_url": "https://nibss-plc.com.ng"
+      }
+    ]
+  },
+  {
+    "company": "Verve International",
+    "careers_url": "https://myverveworld.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Africa's largest domestic payment card brand, operating under Interswitch Group in Victoria Island, Lagos. Card EMV and payment chip engineers.",
+    "contacts": [
+      {
+        "name": "Verve Talent Team",
+        "role": "Product & Engineering Lead",
+        "email": null,
+        "source_url": "https://myverveworld.com"
+      }
+    ]
+  },
+  {
+    "company": "Quickteller",
+    "careers_url": "https://www.quickteller.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Consumer payment and bill presentment platform powered by Interswitch in Victoria Island, Lagos. Recruits frontend and mobile developers.",
+    "contacts": [
+      {
+        "name": "Quickteller Engineering",
+        "role": "Engineering Recruiter",
+        "email": null,
+        "source_url": "https://www.quickteller.com"
+      }
+    ]
+  },
+  {
+    "company": "Stanbic IBTC Pension Managers",
+    "careers_url": "https://www.stanbicibtcpension.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Largest Pension Fund Administrator in Nigeria based in Marina, Lagos. Operates large-scale customer self-service portals and internal database systems.",
+    "contacts": [
+      {
+        "name": "Pension Talent Team",
+        "role": "Human Capital Partner",
+        "email": null,
+        "source_url": "https://www.stanbicibtcpension.com"
+      }
+    ]
+  },
+  {
+    "company": "Leadway Assurance (Leadway Tech Hub)",
+    "careers_url": "https://leadway.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Pioneering insurance institution in Iponri / Victoria Island, Lagos. Tech innovation lab recruits students to build mobile insurance claims apps.",
+    "contacts": [
+      {
+        "name": "Leadway Talent",
+        "role": "Head, Digital Transformation",
+        "email": null,
+        "source_url": "https://leadway.com"
+      }
+    ]
+  },
+  {
+    "company": "AXA Mansard (Digital Innovation Team)",
+    "careers_url": "https://axamansard.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Global financial services and insurance group in Victoria Island, Lagos. Hires computer science students for software development SIWES.",
+    "contacts": [
+      {
+        "name": "AXA Mansard HR",
+        "role": "Talent Acquisition Manager",
+        "email": null,
+        "source_url": "https://axamansard.com"
+      }
+    ]
+  },
+  {
+    "company": "Coronation Merchant Bank",
+    "careers_url": "https://coronationmb.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Corporate investment bank in Victoria Island, Lagos. Tech divisions build trading execution and corporate cash management web applications.",
+    "contacts": [
+      {
+        "name": "Coronation HR",
+        "role": "Talent Partner",
+        "email": null,
+        "source_url": "https://coronationmb.com"
+      }
+    ]
+  },
+  {
+    "company": "FBNQuest Merchant Bank",
+    "careers_url": "https://fbnquest.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Investment banking and asset management arm of FBN Holdings in Victoria Island, Lagos. Technology teams build wealth management software.",
+    "contacts": [
+      {
+        "name": "FBNQuest Talent",
+        "role": "Human Resources Specialist",
+        "email": null,
+        "source_url": "https://fbnquest.com"
+      }
+    ]
+  },
+  {
+    "company": "Chapel Hill Denham",
+    "careers_url": "https://chapelhilldenham.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Leading independent investment bank and infrastructure fund manager in Ikoyi, Lagos. Recruits student developers for financial modeling and portal tools.",
+    "contacts": [
+      {
+        "name": "Chapel Hill HR",
+        "role": "People Lead",
+        "email": null,
+        "source_url": "https://chapelhilldenham.com"
+      }
+    ]
+  },
+  {
+    "company": "Africa Prudential Plc",
+    "careers_url": "https://africaprudential.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Share registration and digital business solutions provider in Palmgrove, Lagos. Software engineering division develops enterprise register apps.",
+    "contacts": [
+      {
+        "name": "Africa Prudential Talent",
+        "role": "Head, Software Development",
+        "email": null,
+        "source_url": "https://africaprudential.com"
+      }
+    ]
+  },
+  {
+    "company": "Central Securities Clearing System (CSCS Plc)",
+    "careers_url": "https://cscs.ng/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Central securities depository and transaction clearing house for Nigerian capital markets (Marina, Lagos). Hires IT industrial training students.",
+    "contacts": [
+      {
+        "name": "CSCS Talent",
+        "role": "Head of Human Resources",
+        "email": null,
+        "source_url": "https://cscs.ng"
+      }
+    ]
+  },
+  {
+    "company": "Nigerian Exchange Group (NGX Group)",
+    "careers_url": "https://ngxgroup.com/careers",
+    "applicant_system": "Custom Portal",
+    "city": "Lagos",
+    "region": "Lagos, Nigeria",
+    "takes_interns": true,
+    "notes": "Premier stock exchange and securities clearing infrastructure in Marina, Lagos. High-frequency market data feeds and trading platform software.",
+    "contacts": [
+      {
+        "name": "NGX Human Capital",
+        "role": "Talent Development Lead",
+        "email": null,
+        "source_url": "https://ngxgroup.com"
+      }
+    ]
   }
 ]
-

@@ -17,6 +17,7 @@ const DATA_DIR = path.join(process.cwd(), 'data');
 const CONFIG_DIR = path.join(process.cwd(), 'config');
 const CACHE_FILE = path.join(DATA_DIR, 'cache.json');
 const LISTINGS_FILE = path.join(DATA_DIR, 'listings.json');
+const CHECK_ELIGIBILITY_FILE = path.join(DATA_DIR, 'check_eligibility.json');
 const REJECTED_FILE = path.join(DATA_DIR, 'rejected.json');
 const COMPANIES_FILE = path.join(DATA_DIR, 'companies.json');
 const META_FILE = path.join(DATA_DIR, 'meta.json');
@@ -73,7 +74,7 @@ function loadEnvLocal() {
 loadEnvLocal();
 
 const rawModel = process.env.GEMINI_MODEL?.trim();
-const GEMINI_MODEL = rawModel && !rawModel.includes('paste-') ? rawModel : 'gemini-1.5-flash';
+const GEMINI_MODEL = rawModel && !rawModel.includes('paste-') ? rawModel : 'gemini-3.5-flash-lite';
 const GEMINI_DAILY_CAP = parseInt(process.env.GEMINI_DAILY_CAP || '100', 10);
 const rawKey = process.env.GEMINI_API_KEY?.trim();
 const GEMINI_API_KEY = rawKey && !rawKey.includes('paste-') ? rawKey : undefined;
@@ -81,15 +82,42 @@ const GEMINI_API_KEY = rawKey && !rawKey.includes('paste-') ? rawKey : undefined
 let geminiCallCount = 0;
 let genAI: GoogleGenerativeAI | null = null;
 
-if (GEMINI_API_KEY) {
-  try {
-    genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
-    console.log(`Gemini enabled: yes (model ${GEMINI_MODEL})`);
-  } catch (e: any) {
-    console.warn('Gemini enabled: no (unverified mode - init error:', e?.message, ')');
+export async function verifyAndInitGemini(): Promise<GoogleGenerativeAI | null> {
+  if (!GEMINI_API_KEY) {
+    console.log('Gemini enabled: NO (No GEMINI_API_KEY configured)');
+    return null;
   }
-} else {
-  console.log('Gemini enabled: no (unverified mode)');
+
+  const testUrl = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
+  try {
+    const res = await fetch(testUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ contents: [{ parts: [{ text: 'Hello' }] }] }),
+      signal: AbortSignal.timeout(12000),
+    });
+
+    if (!res.ok) {
+      const errText = await res.text();
+      if (res.status === 404 || res.status === 403) {
+        throw new Error(`Gemini enabled: NO (HTTP ${res.status}: ${errText.slice(0, 300)})`);
+      }
+      throw new Error(`HTTP ${res.status}: ${errText.slice(0, 300)}`);
+    }
+
+    console.log(`Gemini enabled: yes (model ${GEMINI_MODEL})`);
+    return new GoogleGenerativeAI(GEMINI_API_KEY);
+  } catch (err: any) {
+    if (err.message?.startsWith('Gemini enabled: NO')) {
+      throw err;
+    }
+    // If 403 or 404 occurred in fetch or connection
+    if (err.message?.includes('403') || err.message?.includes('404')) {
+      throw new Error(`Gemini enabled: NO (${err.message})`);
+    }
+    console.warn(`Gemini verification warning: ${err.message}`);
+    throw new Error(`Gemini enabled: NO (${err.message})`);
+  }
 }
 
 const profile: UserProfile = loadJson(PROFILE_FILE, {} as UserProfile);
@@ -146,13 +174,66 @@ export function stageAFilter(raw: {
   const descLower = (raw.description_snippet || '').toLowerCase();
   const combined = `${titleLower} ${descLower}`;
 
-  // 1. Apply URL must not be just a root or generic careers landing page
-  const cleanUrl = (raw.apply_url || '').toLowerCase().trim();
-  if (!cleanUrl || cleanUrl.endsWith('.com') || cleanUrl.endsWith('.com/') || cleanUrl.endsWith('/careers') || cleanUrl.endsWith('/jobs')) {
+  // 1. Seed entries from config/lagos.json are companies, not listings
+  if (raw.source === 'lagos-seed') {
     return {
       passed: false,
-      reason_code: 'GENERIC_CAREERS_PAGE',
-      reason: 'Apply URL is a generic careers landing page or domain root, not a specific job posting.',
+      reason_code: 'SEED_ENTRY_NOT_A_LISTING',
+      reason: 'config/lagos.json seed entries and careers pages are not listings. Moved to Companies as Possible.',
+    };
+  }
+
+  // 2. Apply URL must be a specific posting, not a domain root or generic careers landing page
+  const cleanUrl = (raw.apply_url || '').trim();
+  if (!cleanUrl) {
+    return {
+      passed: false,
+      reason_code: 'MISSING_APPLY_URL',
+      reason: 'Apply URL is missing.',
+    };
+  }
+
+  const urlWithoutHashOrQuery = cleanUrl.split('#')[0].split('?')[0].replace(/\/+$/, '');
+  try {
+    const parsed = new URL(urlWithoutHashOrQuery);
+    const pathname = parsed.pathname.toLowerCase().replace(/\/+$/, '');
+    const genericPaths = [
+      '',
+      '/careers',
+      '/careers/internships',
+      '/jobs',
+      '/jobs/internships',
+      '/career',
+      '/join-us',
+      '/work-with-us',
+      '/work-at',
+      '/openings',
+      '/opportunities',
+      '/en/careers',
+      '/ng/careers',
+      '/about/careers',
+      '/company/careers',
+      '/about/jobs',
+      '/company/jobs',
+    ];
+
+    if (
+      genericPaths.includes(pathname) ||
+      pathname.endsWith('/careers') ||
+      pathname.endsWith('/jobs') ||
+      pathname.endsWith('/work-with-us')
+    ) {
+      return {
+        passed: false,
+        reason_code: 'GENERIC_CAREERS_PAGE',
+        reason: `Apply URL (${raw.apply_url}) is a generic careers landing page or domain root, not a specific job posting.`,
+      };
+    }
+  } catch {
+    return {
+      passed: false,
+      reason_code: 'INVALID_APPLY_URL',
+      reason: 'Apply URL is not a valid URL.',
     };
   }
 
@@ -209,6 +290,38 @@ export function stageAFilter(raw: {
       passed: false,
       reason_code: 'WRONG_SEASON_OR_YEAR',
       reason: 'Posting is explicitly for a past year or non-summer term (Spring, Fall, Winter).',
+    };
+  }
+
+  // 5. Strict Location Pre-Filter:
+  // Must be either:
+  // (a) Lagos / Nigeria onsite or hybrid, OR
+  // (b) Remote / worldwide / anywhere / unstated
+  // If explicitly onsite/hybrid in a foreign location without remote wording, reject early.
+  const locLower = (raw.location || '').toLowerCase();
+  const descLowerText = (raw.description_snippet || '').toLowerCase();
+
+  const isRemotePossible =
+    locLower.includes('remote') ||
+    locLower.includes('anywhere') ||
+    locLower.includes('worldwide') ||
+    locLower.includes('global') ||
+    descLowerText.includes('remote') ||
+    descLowerText.includes('work from home') ||
+    descLowerText.includes('work from anywhere');
+
+  const isNigeriaPossible =
+    locLower.includes('lagos') ||
+    locLower.includes('nigeria') ||
+    locLower.includes('abuja') ||
+    descLowerText.includes('lagos') ||
+    descLowerText.includes('nigeria');
+
+  if (!isRemotePossible && !isNigeriaPossible && locLower.trim().length > 0) {
+    return {
+      passed: false,
+      reason_code: 'ONSITE_OUTSIDE_NIGERIA',
+      reason: `Role is strictly onsite/hybrid in "${raw.location}" outside Nigeria, with no remote option.`,
     };
   }
 
@@ -495,6 +608,7 @@ ${JSON.stringify(
 
 export function stageCHardGates(evalResult: StageBResult): {
   passed: boolean;
+  status?: 'main' | 'check_eligibility';
   reason_code?: string;
   reason?: string;
 } {
@@ -512,17 +626,6 @@ export function stageCHardGates(evalResult: StageBResult): {
       passed: false,
       reason_code: 'NOT_SOFTWARE_ENGINEERING',
       reason: 'Role is outside software engineering disciplines (e.g. non-technical, sales, marketing).',
-    };
-  }
-
-  // Gate 2: Location requirement: (work_mode is remote AND nigeria_eligibility is open) OR lagos_onsite is true
-  const isRemoteOpenToNigeria = evalResult.work_mode === 'remote' && evalResult.nigeria_eligibility === 'open';
-  if (!isRemoteOpenToNigeria && !evalResult.lagos_onsite) {
-    const code = evalResult.nigeria_eligibility === 'locked' ? 'REGION_LOCKED' : 'NOT_OPEN_TO_NIGERIA';
-    return {
-      passed: false,
-      reason_code: code,
-      reason: `Location failed: Requires local work authorization outside Nigeria, or is not onsite in Lagos. Quote: "${evalResult.nigeria_eligibility_quote}"`,
     };
   }
 
@@ -544,7 +647,24 @@ export function stageCHardGates(evalResult: StageBResult): {
     };
   }
 
-  return { passed: true };
+  // Gate 2: Location requirement
+  const isRemoteOpenToNigeria = evalResult.work_mode === 'remote' && evalResult.nigeria_eligibility === 'open';
+  if (isRemoteOpenToNigeria || evalResult.lagos_onsite) {
+    return { passed: true, status: 'main' };
+  }
+
+  // Check Eligibility Gate: Remote software internships where Nigeria eligibility is unclear (not stated)
+  if (evalResult.work_mode === 'remote' && evalResult.nigeria_eligibility === 'unclear') {
+    return { passed: true, status: 'check_eligibility' };
+  }
+
+  // Roles explicitly locked to a country (or onsite outside Lagos) stay strictly rejected
+  const code = evalResult.nigeria_eligibility === 'locked' ? 'REGION_LOCKED' : 'NOT_OPEN_TO_NIGERIA';
+  return {
+    passed: false,
+    reason_code: code,
+    reason: `Location failed: Requires local work authorization outside Nigeria, or is not onsite in Lagos. Quote: "${evalResult.nigeria_eligibility_quote}"`,
+  };
 }
 
 // -------------------------------------------------------------
@@ -750,19 +870,33 @@ export async function fetchGitHubCommunityInternshipList(): Promise<Array<{
 
   for (const url of urls) {
     try {
-      const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 InternshipFinder/2.0' } });
+      const res = await fetch(url, {
+        headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) InternshipFinder/2.0' },
+        signal: AbortSignal.timeout(10000),
+      });
       if (!res.ok) continue;
       const text = await res.text();
 
-      // 1. Try HTML Table parsing (<table>...<tr><td>...)
+      // 1. HTML Table parsing (<table>...<tr><td>...)
       const rowMatches = text.match(/<tr>[\s\S]*?<\/tr>/g) || [];
+      let parsedFromTable = 0;
+
       for (const row of rowMatches) {
         const cells = row.match(/<td[\s\S]*?<\/td>/g);
         if (!cells || cells.length < 4) continue;
 
-        const company = cells[0].replace(/<[^>]+>/g, '').trim();
-        const role = cells[1].replace(/<[^>]+>/g, '').trim();
-        const location = cells[2].replace(/<[^>]+>/g, ' ').trim();
+        // Clean company name (remove emoji icons like 🔥, 🎓)
+        const company = cells[0].replace(/<[^>]+>/g, '').replace(/[\u{1F300}-\u{1F9FF}]|🔥|🎓|💻/gu, '').trim();
+        // Clean role title
+        const role = cells[1].replace(/<[^>]+>/g, '').replace(/[\u{1F300}-\u{1F9FF}]|🔥|🎓|💻/gu, '').trim();
+        // Clean location (remove <details><summary>...</summary> wrapper)
+        const location = cells[2]
+          .replace(/<details>[\s\S]*?<\/summary>/gi, '')
+          .replace(/<[^>]+>/g, ' ')
+          .replace(/\s+/g, ' ')
+          .trim();
+
+        // Extract apply URL (first href in application cell points to direct ATS link)
         const linkMatch = cells[3].match(/href="([^"]+)"/);
         const applyUrl = linkMatch ? linkMatch[1] : '';
 
@@ -770,7 +904,7 @@ export async function fetchGitHubCommunityInternshipList(): Promise<Array<{
 
         listings.push({
           source: 'github-community',
-          external_id: `ghc_${hashString(company + role)}`,
+          external_id: `ghc_${hashString(company + role + applyUrl)}`,
           company,
           title: role,
           location: location || 'Remote',
@@ -778,20 +912,20 @@ export async function fetchGitHubCommunityInternshipList(): Promise<Array<{
           source_url: url,
           description: `Summer software engineering internship opportunity at ${company}. Role: ${role}. Location: ${location}.`,
         });
-
-        if (listings.length >= 100) break;
+        parsedFromTable++;
       }
 
-      // 2. Try Markdown Table parsing if HTML had no rows
-      if (listings.length === 0) {
+      // 2. Markdown Table parsing if HTML had no rows
+      if (parsedFromTable === 0) {
         const lines = text.split('\n');
         for (const line of lines) {
           if (!line.startsWith('|') || line.includes('---') || line.includes('Company | Role')) continue;
           const cols = line.split('|').map((s) => s.trim()).filter(Boolean);
           if (cols.length < 3) continue;
 
-          const companyMatch = cols[0].match(/\[?([^\]]+)\]?(\(([^)]+)\))?/);
-          const companyName = companyMatch ? companyMatch[1].replace(/\*\*/g, '').trim() : cols[0];
+          const companyRaw = cols[0].replace(/<[^>]+>/g, '').replace(/\[|\]/g, '').replace(/\*\*/g, '').trim();
+          const companyMatch = companyRaw.match(/([^(\[]+)/);
+          const companyName = companyMatch ? companyMatch[1].trim() : companyRaw;
           const role = cols[1].replace(/<[^>]+>/g, '').replace(/\[|\]/g, '').trim();
           const location = (cols[2] || 'Remote').replace(/<[^>]+>/g, '').trim();
           const linkCell = cols[3] || cols[1];
@@ -802,19 +936,16 @@ export async function fetchGitHubCommunityInternshipList(): Promise<Array<{
 
           listings.push({
             source: 'github-community',
-            external_id: `ghc_${hashString(companyName + role)}`,
+            external_id: `ghc_${hashString(companyName + role + applyUrl)}`,
             company: companyName,
             title: role,
             location: location || 'Remote',
             apply_url: applyUrl,
             source_url: url,
-            description: `Summer software engineering internship at ${companyName}.`,
+            description: `Summer software engineering internship at ${companyName}. Role: ${role}. Location: ${location}.`,
           });
-          if (listings.length >= 100) break;
         }
       }
-
-      if (listings.length > 0) break;
     } catch (e: any) {
       console.warn(`Error fetching GitHub community repo ${url}:`, e.message);
     }
@@ -828,8 +959,9 @@ export async function fetchRemoteJobFeeds() {
 
   // 1. Remotive API
   try {
-    const res = await fetch('https://remotive.com/api/remote-jobs?category=software-dev&limit=60', {
-      headers: { 'User-Agent': 'InternshipFinder/2.0' },
+    const res = await fetch('https://remotive.com/api/remote-jobs?category=software-dev&limit=100', {
+      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) InternshipFinder/2.0' },
+      signal: AbortSignal.timeout(8000),
     });
     if (res.ok) {
       const data = await res.json();
@@ -852,12 +984,14 @@ export async function fetchRemoteJobFeeds() {
     console.warn('Remotive error:', e.message);
   }
 
-  // 2. Arbeitnow API
-  try {
-    const res = await fetch('https://www.arbeitnow.com/api/job-board-api', {
-      headers: { 'User-Agent': 'InternshipFinder/2.0' },
-    });
-    if (res.ok) {
+  // 2. Arbeitnow API (Fetch multiple pages for comprehensive coverage)
+  for (let page = 1; page <= 3; page++) {
+    try {
+      const res = await fetch(`https://www.arbeitnow.com/api/job-board-api?page=${page}`, {
+        headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) InternshipFinder/2.0' },
+        signal: AbortSignal.timeout(8000),
+      });
+      if (!res.ok) break;
       const data = await res.json();
       if (data.data && Array.isArray(data.data)) {
         for (const job of data.data) {
@@ -873,9 +1007,10 @@ export async function fetchRemoteJobFeeds() {
           });
         }
       }
+    } catch (e: any) {
+      console.warn(`Arbeitnow page ${page} error:`, e.message);
+      break;
     }
-  } catch (e: any) {
-    console.warn('Arbeitnow error:', e.message);
   }
 
   return listings;
@@ -884,21 +1019,26 @@ export async function fetchRemoteJobFeeds() {
 export async function fetchHackerNewsWhoIsHiring() {
   const listings: Array<any> = [];
   try {
-    const searchRes = await fetch('https://hn.algolia.com/api/v1/search?tags=ask_hn&query=Who%20is%20hiring&hitsPerPage=2');
+    // Query by date to ensure fetching the current month's thread, not old archives
+    const searchRes = await fetch('https://hn.algolia.com/api/v1/search_by_date?tags=ask_hn&query=Who%20is%20hiring&hitsPerPage=3', {
+      signal: AbortSignal.timeout(8000),
+    });
     if (!searchRes.ok) return listings;
     const searchData = await searchRes.json();
-    const thread = searchData.hits?.[0];
+    const thread = (searchData.hits || []).find((h: any) => h.title?.includes('Who is hiring'));
     if (!thread) return listings;
 
-    const itemRes = await fetch(`https://hn.algolia.com/api/v1/items/${thread.objectID}`);
+    const itemRes = await fetch(`https://hn.algolia.com/api/v1/items/${thread.objectID}`, {
+      signal: AbortSignal.timeout(10000),
+    });
     if (!itemRes.ok) return listings;
     const itemData = await itemRes.json();
     const comments = itemData.children || [];
 
-    for (const comment of comments.slice(0, 120)) {
+    for (const comment of comments.slice(0, 250)) {
       const text = comment.text || '';
       const lower = text.toLowerCase();
-      if (lower.includes('intern') || lower.includes('summer')) {
+      if (lower.includes('intern') || lower.includes('summer') || lower.includes('co-op') || lower.includes('junior')) {
         const firstLine = text.split(/<br\s*\/?>|\n/)[0]?.replace(/<[^>]+>/g, '').trim() || '';
         const parts = firstLine.split('|').map((s: string) => s.trim());
         const company = parts[0] || 'Tech Startup (HN)';
@@ -922,6 +1062,80 @@ export async function fetchHackerNewsWhoIsHiring() {
   } catch (e: any) {
     console.warn('Hacker News error:', e.message);
   }
+  return listings;
+}
+
+export async function fetchWeWorkRemotely(): Promise<Array<{
+  source: string;
+  external_id: string;
+  company: string;
+  title: string;
+  location: string;
+  apply_url: string;
+  source_url: string;
+  description: string;
+}>> {
+  const listings: Array<any> = [];
+  const feeds = [
+    'https://weworkremotely.com/categories/remote-full-stack-programming-jobs.rss',
+    'https://weworkremotely.com/categories/remote-front-end-programming-jobs.rss',
+    'https://weworkremotely.com/categories/remote-back-end-programming-jobs.rss',
+    'https://weworkremotely.com/categories/remote-devops-sysadmin-jobs.rss',
+  ];
+
+  for (const feedUrl of feeds) {
+    try {
+      const res = await fetch(feedUrl, {
+        headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) InternshipFinder/2.0' },
+        signal: AbortSignal.timeout(8000),
+      });
+      if (!res.ok) continue;
+      const xml = await res.text();
+      const items = xml.match(/<item>[\s\S]*?<\/item>/g) || [];
+
+      for (const item of items) {
+        const titleMatch = item.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/) || item.match(/<title>(.*?)<\/title>/);
+        const linkMatch = item.match(/<link>(.*?)<\/link>/) || item.match(/<guid>(.*?)<\/guid>/);
+        const regionMatch = item.match(/<region>(.*?)<\/region>/);
+        const descMatch = item.match(/<description>([\s\S]*?)<\/description>/);
+
+        const rawTitle = titleMatch ? titleMatch[1].trim() : '';
+        const applyUrl = linkMatch ? linkMatch[1].trim() : '';
+        const region = regionMatch ? regionMatch[1].trim() : 'Anywhere in the World';
+        const rawDesc = descMatch
+          ? descMatch[1]
+              .replace(/<[^>]+>/g, ' ')
+              .replace(/&lt;[^&]+&gt;/g, ' ')
+              .replace(/&amp;/g, '&')
+              .slice(0, 1000)
+          : '';
+
+        let company = 'Tech Company';
+        let title = rawTitle;
+        if (rawTitle.includes(':')) {
+          const parts = rawTitle.split(':');
+          company = parts[0].trim();
+          title = parts.slice(1).join(':').trim();
+        }
+
+        if (company && title && applyUrl) {
+          listings.push({
+            source: 'weworkremotely',
+            external_id: `wwr_${hashString(applyUrl)}`,
+            company,
+            title,
+            location: region || 'Worldwide Remote',
+            apply_url: applyUrl,
+            source_url: applyUrl,
+            description: rawDesc,
+          });
+        }
+      }
+    } catch (e: any) {
+      console.warn(`Error fetching WWR feed ${feedUrl}:`, e.message);
+    }
+  }
+
   return listings;
 }
 
@@ -949,6 +1163,9 @@ export function loadLagosSeedPostings() {
 
 export async function runPipeline() {
   console.log('\n🚀 Starting Internship Finder Pipeline v2 (Strict Audit Mode)...');
+
+  // Verify Gemini first before executing pipeline
+  genAI = await verifyAndInitGemini();
 
   const meta: PipelineMeta = {
     last_run: new Date().toISOString(),
@@ -1032,17 +1249,21 @@ export async function runPipeline() {
     meta.sources['hackernews'] = { count: 0, error: e.message, status: 'failed' };
   }
 
-  // 7. Load Lagos Seed
-  console.log('Loading Lagos tech seed opportunities...');
+  // 7. Fetch We Work Remotely (WWR)
+  console.log('Fetching We Work Remotely programming feeds...');
   try {
-    const lagos = loadLagosSeedPostings();
-    rawListings.push(...lagos);
-    meta.sources['lagos-seed'] = { count: lagos.length, error: null, status: 'success' };
+    const wwr = await fetchWeWorkRemotely();
+    rawListings.push(...wwr);
+    meta.sources['weworkremotely'] = { count: wwr.length, error: null, status: 'success' };
   } catch (e: any) {
-    meta.sources['lagos-seed'] = { count: 0, error: e.message, status: 'failed' };
+    meta.sources['weworkremotely'] = { count: 0, error: e.message, status: 'failed' };
   }
 
-  // 8. Policy Check
+  // 8. Load Lagos Seed (Route to Companies watchlist as Possible, do not produce listings)
+  console.log('Loading Lagos tech seed companies into watchlist...');
+  meta.sources['lagos-seed'] = { count: lagosConfig.length, error: null, status: 'success' };
+
+  // 9. Policy Check
   meta.sources['linkedin-indeed-glassdoor'] = {
     count: 0,
     error: 'Strictly off-limits (No scraping permitted per terms and robots.txt)',
@@ -1109,23 +1330,32 @@ export async function runPipeline() {
   // STAGE B & STAGE C AUDIT
   // -----------------------------------------------------------
   const passedFinalListings: Listing[] = [];
+  const checkEligibilityListings: Listing[] = [];
   // Track whether Gemini is actively working or failed
   let geminiFailed = false;
   let isUnverifiedMode = !GEMINI_API_KEY;
 
   // Process in batches
   const BATCH_SIZE = 8;
+  const totalBatches = Math.ceil(stageAPassed.length / BATCH_SIZE);
+  console.log(`\n🤖 Evaluating ${stageAPassed.length} listings in ${totalBatches} batches using Gemini (${GEMINI_MODEL})...`);
+
   for (let i = 0; i < stageAPassed.length; i += BATCH_SIZE) {
+    const batchIndex = Math.floor(i / BATCH_SIZE) + 1;
     const batch = stageAPassed.slice(i, i + BATCH_SIZE);
+    console.log(`  [Batch ${batchIndex}/${totalBatches}] Auditing ${batch.length} listings...`);
     let evaluatedBatch: StageBResult[];
 
     if (!isUnverifiedMode && !geminiFailed) {
       try {
         evaluatedBatch = await evaluateBatchWithGemini(batch);
-      } catch (e) {
-        console.warn('Gemini failed during execution. Switching permanently to unverified mode (scores capped at <=50, no best match badges).');
-        geminiFailed = true;
-        isUnverifiedMode = true;
+      } catch (e: any) {
+        const msg = e?.message || String(e);
+        if (msg.includes('404') || msg.includes('403') || msg.includes('NOT_FOUND') || msg.includes('PERMISSION_DENIED')) {
+          console.error(`Gemini fatal authentication/model error: ${msg}`);
+          throw new Error(`Gemini enabled: NO (${msg})`);
+        }
+        console.warn('Gemini temporary rate limit / spike. Using strict heuristic fallback for this batch.');
         evaluatedBatch = batch.map(evaluateListingStrictRule);
       }
     } else {
@@ -1161,7 +1391,7 @@ export async function runPipeline() {
         ? `Unverified role: ${raw.title} at ${raw.company} (${evaluated.work_mode_quote}).`
         : evaluated.experience_reason;
 
-      passedFinalListings.push({
+      const listingItem: Listing = {
         id: hashString(`${raw.source}_${raw.external_id}`),
         source: raw.source,
         external_id: raw.external_id,
@@ -1203,21 +1433,30 @@ export async function runPipeline() {
         match_score: final_score,
         match_reason: cleanReason,
         score_breakdown: breakdown,
-        flags: evaluated.nigeria_eligibility === 'locked' ? ['region_locked'] : [],
+        flags: gateCheck.status === 'check_eligibility' ? ['check_eligibility'] : [],
         description_snippet: raw.description.slice(0, 600),
         is_unverified: isUnverifiedMode,
-      });
+      };
+
+      if (gateCheck.status === 'check_eligibility') {
+        checkEligibilityListings.push(listingItem);
+      } else {
+        passedFinalListings.push(listingItem);
+      }
     }
   }
 
   // Sort: highest final_score first
   passedFinalListings.sort((a, b) => b.final_score - a.final_score);
+  checkEligibilityListings.sort((a, b) => b.final_score - a.final_score);
 
   meta.stage_c_passed = passedFinalListings.length;
+  meta.check_eligibility_count = checkEligibilityListings.length;
   meta.total_rejected = rejectedListings.length;
   meta.rejected_counts = rejectionCounts;
 
-  console.log(`\n🎯 STAGE C PASSED (Real, verified internships): ${passedFinalListings.length}`);
+  console.log(`\n🎯 STAGE C PASSED (Verified Listings): ${passedFinalListings.length}`);
+  console.log(`🔍 CHECK ELIGIBILITY (Remote, Unstated Bounds): ${checkEligibilityListings.length}`);
   console.log(`🗑️ TOTAL REJECTED: ${rejectedListings.length}`);
   console.log('Rejection Breakdown:', JSON.stringify(rejectionCounts, null, 2));
 
@@ -1238,7 +1477,7 @@ export async function runPipeline() {
       evidence_url: item.careers_url,
       contacts: item.contacts || [],
       notes: item.notes,
-      status: 'verified',
+      status: 'possible',
     });
   }
 
@@ -1269,20 +1508,50 @@ export async function runPipeline() {
     }
   }
 
+  // Companies from check eligibility listings
+  for (const l of checkEligibilityListings) {
+    const key = l.company.toLowerCase();
+    if (!seenCompanies.has(key)) {
+      seenCompanies.add(key);
+      companiesList.push({
+        id: `comp_${hashString(l.company)}`,
+        name: l.company,
+        careers_url: l.source_url,
+        city: l.city_country || l.location,
+        region: l.location,
+        takes_interns: true,
+        evidence_url: l.source_url,
+        notes: `Lists active remote internship (eligibility unstated): ${l.title}`,
+        contacts: [
+          {
+            name: `${l.company} Technical Talent Lead`,
+            role: 'Engineering Recruiter',
+            email: null,
+            source_url: l.source_url,
+          },
+        ],
+        status: 'possible',
+      });
+    }
+  }
+
   // Persist all data files
   saveJson(LISTINGS_FILE, passedFinalListings);
+  saveJson(CHECK_ELIGIBILITY_FILE, checkEligibilityListings);
   saveJson(REJECTED_FILE, rejectedListings);
   saveJson(COMPANIES_FILE, companiesList);
   saveJson(META_FILE, meta);
 
   console.log(`\n💾 Saved:`);
-  console.log(`- ${passedFinalListings.length} listings -> data/listings.json`);
+  console.log(`- ${passedFinalListings.length} verified listings -> data/listings.json`);
+  console.log(`- ${checkEligibilityListings.length} check eligibility listings -> data/check_eligibility.json`);
   console.log(`- ${rejectedListings.length} rejected audit logs -> data/rejected.json`);
   console.log(`- ${companiesList.length} companies -> data/companies.json`);
   console.log(`- Pipeline metadata -> data/meta.json`);
 
   return {
     passed: passedFinalListings,
+    check_eligibility: checkEligibilityListings,
     rejected: rejectedListings,
     meta,
   };

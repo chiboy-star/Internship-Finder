@@ -163,6 +163,19 @@ export function ListingDetailPane({
         </div>
       </div>
 
+      {/* Check Eligibility Notice if bounds unstated */}
+      {listing.nigeria_eligibility === 'unclear' && (
+        <div className="p-3.5 rounded-[8px] bg-amber-500/10 border border-amber-500/25 text-xs text-amber-900 dark:text-amber-200 space-y-1">
+          <div className="flex items-center space-x-1.5 font-semibold">
+            <ShieldCheck className="w-4 h-4 text-amber-700 dark:text-amber-400" />
+            <span>Eligibility Verification Required</span>
+          </div>
+          <p className="text-amber-800/90 dark:text-amber-300/90 leading-relaxed">
+            This remote software engineering internship passed all technical, role, and duration gates. However, the posting did not explicitly state whether candidates residing in Nigeria / Africa are eligible. Verify geographic boundaries and work authorization with the recruiter or application portal before applying.
+          </p>
+        </div>
+      )}
+
       {/* "Why it ranks here" Section (Strict Formula Breakdown & Evidence Phrases) */}
       <div className="p-4 rounded-[8px] bg-hairline-light/25 dark:bg-hairline-dark/30 border border-hairline-light dark:border-hairline-dark space-y-3">
         <div className="flex items-center justify-between">

@@ -125,6 +125,23 @@ export interface Program {
   tags: string[];
 }
 
+export interface OpeningSoonItem {
+  id: string;
+  company_or_program: string;
+  title: string;
+  category: 'program' | 'company' | 'fellowship';
+  typical_open_month: string;
+  reminder_date: string;
+  claim_source: string;
+  claim_source_title: string;
+  careers_url: string;
+  recheck_frequency: 'weekly';
+  last_rechecked: string;
+  status: 'upcoming' | 'verify' | 'open';
+  notes: string;
+  eligibility_summary: string;
+}
+
 export interface UserProfile {
   name: string;
   title: string;
@@ -163,6 +180,7 @@ export interface PipelineMeta {
   total_listings_fetched: number;
   stage_a_passed: number;
   stage_c_passed: number;
+  check_eligibility_count?: number;
   total_rejected: number;
   rejected_counts: Record<string, number>;
   sources: Record<string, {

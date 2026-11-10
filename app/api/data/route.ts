@@ -10,21 +10,27 @@ export async function GET() {
     const configDir = path.join(process.cwd(), 'config');
 
     const listingsPath = path.join(dataDir, 'listings.json');
+    const checkEligibilityPath = path.join(dataDir, 'check_eligibility.json');
     const companiesPath = path.join(dataDir, 'companies.json');
     const metaPath = path.join(dataDir, 'meta.json');
     const programsPath = path.join(configDir, 'programs.json');
+    const openingSoonPath = path.join(configDir, 'opening_soon.json');
 
     const listings = fs.existsSync(listingsPath) ? JSON.parse(fs.readFileSync(listingsPath, 'utf-8')) : [];
+    const check_eligibility = fs.existsSync(checkEligibilityPath) ? JSON.parse(fs.readFileSync(checkEligibilityPath, 'utf-8')) : [];
     const companies = fs.existsSync(companiesPath) ? JSON.parse(fs.readFileSync(companiesPath, 'utf-8')) : [];
     const meta = fs.existsSync(metaPath) ? JSON.parse(fs.readFileSync(metaPath, 'utf-8')) : null;
     const programs = fs.existsSync(programsPath) ? JSON.parse(fs.readFileSync(programsPath, 'utf-8')) : [];
+    const opening_soon = fs.existsSync(openingSoonPath) ? JSON.parse(fs.readFileSync(openingSoonPath, 'utf-8')) : [];
 
     return NextResponse.json(
       {
         listings,
+        check_eligibility,
         companies,
         meta,
         programs,
+        opening_soon,
       },
       {
         headers: {

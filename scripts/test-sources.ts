@@ -7,6 +7,7 @@ import {
   fetchGitHubCommunityInternshipList,
   fetchRemoteJobFeeds,
   fetchHackerNewsWhoIsHiring,
+  fetchWeWorkRemotely,
   loadLagosSeedPostings,
 } from './pipeline';
 
@@ -64,8 +65,17 @@ async function testAllSources() {
     console.log(`❌ Hacker News failed: ${e.message}`);
   }
 
-  // 6. Lagos Seed List
-  console.log('\n[6/7] Testing Lagos Seed List...');
+  // 6. We Work Remotely
+  console.log('\n[6/8] Testing We Work Remotely (WWR)...');
+  try {
+    const wwr = await fetchWeWorkRemotely();
+    console.log(`✅ We Work Remotely: ${wwr.length} postings found.`);
+  } catch (e: any) {
+    console.log(`❌ We Work Remotely failed: ${e.message}`);
+  }
+
+  // 7. Lagos Seed List
+  console.log('\n[7/8] Testing Lagos Seed List...');
   try {
     const lagos = loadLagosSeedPostings();
     console.log(`✅ Lagos Seed List: ${lagos.length} verified companies loaded.`);
@@ -73,8 +83,8 @@ async function testAllSources() {
     console.log(`❌ Lagos Seed List failed: ${e.message}`);
   }
 
-  // 7. Policy check: LinkedIn, Indeed, Glassdoor
-  console.log('\n[7/7] Verifying Anti-Scraping Policy...');
+  // 8. Policy check: LinkedIn, Indeed, Glassdoor
+  console.log('\n[8/8] Verifying Anti-Scraping Policy...');
   console.log('✅ LinkedIn, Indeed, and Glassdoor are 100% OFF-LIMITS (no network calls made).');
 
   console.log('\n🎉 Source diagnostic test complete.\n');

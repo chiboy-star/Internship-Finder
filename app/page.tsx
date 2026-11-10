@@ -17,7 +17,7 @@ import {
   GraduationCap,
   ArrowRight,
 } from 'lucide-react';
-import { Listing, Application, PipelineMeta, Program } from '@/types';
+import { Listing, Application, PipelineMeta, Program, OpeningSoonItem } from '@/types';
 import { FilterBar, FilterState } from '@/components/FilterBar';
 import { ListingCard } from '@/components/ListingCard';
 import { ListingDetailPane } from '@/components/ListingDetailPane';
@@ -28,14 +28,16 @@ import { getAllApplications, saveApplication, removeApplication } from '@/lib/db
 import { formatRelativeTime, cn } from '@/lib/utils';
 import { toast } from 'sonner';
 
-type FeedTab = 'remote' | 'lagos' | 'programs';
+type FeedTab = 'remote' | 'lagos' | 'opening_soon' | 'programs';
 
 export default function FeedPage() {
   const { data, isLoading } = useQuery<{
     listings: Listing[];
+    check_eligibility?: Listing[];
     companies: any[];
     meta: PipelineMeta;
     programs: Program[];
+    opening_soon?: OpeningSoonItem[];
   }>({
     queryKey: ['feed-data'],
     queryFn: async () => {
@@ -46,8 +48,10 @@ export default function FeedPage() {
   });
 
   const listings: Listing[] = data?.listings || [];
+  const checkEligibilityListings: Listing[] = data?.check_eligibility || [];
   const meta: PipelineMeta | null = data?.meta || null;
   const programs: Program[] = data?.programs || [];
+  const openingSoon: OpeningSoonItem[] = data?.opening_soon || [];
 
   const [activeTab, setActiveTab] = useState<FeedTab>('lagos');
   const [applications, setApplications] = useState<Record<string, Application>>({});
@@ -72,10 +76,14 @@ export default function FeedPage() {
 
   // Set default selected listing on desktop once loaded
   useEffect(() => {
-    if (listings.length > 0 && !selectedListing) {
-      setSelectedListing(listings[0]);
+    if (!selectedListing) {
+      if (listings.length > 0) {
+        setSelectedListing(listings[0]);
+      } else if (checkEligibilityListings.length > 0) {
+        setSelectedListing(checkEligibilityListings[0]);
+      }
     }
-  }, [listings, selectedListing]);
+  }, [listings, checkEligibilityListings, selectedListing]);
 
   // MiniSearch index
   const miniSearch = useMemo(() => {
@@ -207,6 +215,53 @@ export default function FeedPage() {
     return result;
   }, [listings, searchQuery, miniSearch, applications, activeTab, filters]);
 
+  // Filter check-eligibility listings by search query and intern type
+  const filteredCheckEligibility = useMemo(() => {
+    if (!checkEligibilityListings || checkEligibilityListings.length === 0) return [];
+    let result = [...checkEligibilityListings];
+
+    if (searchQuery.trim()) {
+      const q = searchQuery.toLowerCase();
+      result = result.filter(
+        (l) =>
+          l.title.toLowerCase().includes(q) ||
+          l.company.toLowerCase().includes(q) ||
+          (l.skills || []).some((s) => s.toLowerCase().includes(q))
+      );
+    }
+
+    if (filters.internType !== 'all') {
+      result = result.filter((l) => l.intern_type === filters.internType);
+    }
+
+    if (filters.status !== 'all') {
+      result = result.filter((l) => {
+        const app = applications[l.id];
+        if (filters.status === 'saved') return app?.status === 'saved';
+        if (filters.status === 'applied') return app?.status === 'applied';
+        if (filters.status === 'dismissed') return app?.status === 'dismissed';
+        if (filters.status === 'open') return !app || app.status !== 'dismissed';
+        return true;
+      });
+    }
+
+    return result;
+  }, [checkEligibilityListings, searchQuery, filters.internType, filters.status, applications]);
+
+  // Filter opening-soon recurring programs and companies by search query
+  const filteredOpeningSoon = useMemo(() => {
+    if (!openingSoon || openingSoon.length === 0) return [];
+    if (!searchQuery.trim()) return openingSoon;
+    const q = searchQuery.toLowerCase();
+    return openingSoon.filter(
+      (item) =>
+        item.company_or_program.toLowerCase().includes(q) ||
+        item.title.toLowerCase().includes(q) ||
+        item.typical_open_month.toLowerCase().includes(q) ||
+        item.notes.toLowerCase().includes(q)
+    );
+  }, [openingSoon, searchQuery]);
+
   // Optimistic Save with Undo Toast
   const handleSave = async (listing: Listing) => {
     const existing = applications[listing.id];
@@ -319,7 +374,13 @@ export default function FeedPage() {
               {sourcesOkCount} Sources OK{sourcesFailedCount > 0 ? ` (${sourcesFailedCount} failed)` : ''}
             </span>
             <span>•</span>
-            <span className="font-semibold text-ink-light dark:text-ink-dark">{passedCount} Passed</span>
+            <span className="font-semibold text-ink-light dark:text-ink-dark">{passedCount} Verified</span>
+            {meta?.check_eligibility_count !== undefined && meta.check_eligibility_count > 0 && (
+              <>
+                <span>•</span>
+                <span className="text-amber-700 dark:text-amber-400 font-medium">{meta.check_eligibility_count} Check Eligibility</span>
+              </>
+            )}
             <span>•</span>
             <span className="text-muted-light dark:text-muted-dark">{rejectedCount.toLocaleString()} Rejected</span>
           </div>
@@ -374,6 +435,18 @@ export default function FeedPage() {
         </button>
 
         <button
+          onClick={() => setActiveTab('opening_soon')}
+          className={cn(
+            'hit-slop pb-3 px-3 text-xs sm:text-sm font-semibold border-b-2 transition-colors whitespace-nowrap',
+            activeTab === 'opening_soon'
+              ? 'border-brass-light dark:border-brass-dark text-ink-light dark:text-ink-dark'
+              : 'border-transparent text-muted-light hover:text-ink-light dark:hover:text-ink-dark'
+          )}
+        >
+          Opening Soon ({openingSoon.length})
+        </button>
+
+        <button
           onClick={() => setActiveTab('programs')}
           className={cn(
             'hit-slop pb-3 px-3 text-xs sm:text-sm font-semibold border-b-2 transition-colors whitespace-nowrap',
@@ -403,8 +476,130 @@ export default function FeedPage() {
         </kbd>
       </div>
 
-      {/* If Programs Tab is selected, show curated fellowships */}
-      {activeTab === 'programs' ? (
+      {/* If Opening Soon Tab is selected, show recurring summer calendar */}
+      {activeTab === 'opening_soon' ? (
+        <div className="space-y-6">
+          <div className="p-4 rounded-[12px] border border-hairline-light dark:border-hairline-dark bg-hairline-light/20 dark:bg-hairline-dark/20 flex flex-wrap items-center justify-between gap-3 text-xs sm:text-sm text-muted-light dark:text-muted-dark leading-relaxed">
+            <div>
+              <strong className="text-ink-light dark:text-ink-dark">Recurring Summer Internship Calendar:</strong> Track companies and fellowships with recurring summer software engineering programs. Reminder dates are scheduled and re-checked weekly.
+            </div>
+            <div className="flex items-center space-x-2 text-[11px] tabular-nums">
+              <span className="px-2 py-0.5 rounded bg-brass-light/10 text-brass-light dark:text-brass-dark font-medium border border-brass-light/20">
+                Weekly Re-check Active
+              </span>
+              <span>•</span>
+              <span>Zero invented dates ("verify" if unconfirmed)</span>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {filteredOpeningSoon.map((item) => (
+              <div
+                key={item.id}
+                className="p-6 rounded-[12px] border border-hairline-light dark:border-hairline-dark bg-background-light dark:bg-background-dark flex flex-col justify-between space-y-4 hover:border-muted-light/40 transition-colors"
+              >
+                <div>
+                  <div className="flex items-start justify-between gap-2">
+                    <div>
+                      <div className="flex items-center space-x-2">
+                        <span className="editorial-label text-brass-light dark:text-brass-dark">{item.category}</span>
+                        {item.status === 'verify' ? (
+                          <span className="text-[10px] uppercase font-semibold px-2 py-0.5 rounded bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20">
+                            verify
+                          </span>
+                        ) : (
+                          <span className="text-[10px] uppercase font-semibold px-2 py-0.5 rounded bg-green-500/10 text-green-700 dark:text-green-400 border border-green-500/20">
+                            scheduled
+                          </span>
+                        )}
+                      </div>
+                      <h3 className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-ink-light dark:text-ink-dark mt-1">
+                        {item.company_or_program}
+                      </h3>
+                      <p className="text-xs text-muted-light dark:text-muted-dark font-medium mt-0.5">
+                        {item.title}
+                      </p>
+                    </div>
+
+                    <a
+                      href={item.careers_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hit-slop p-2 rounded-[8px] border border-hairline-light dark:border-hairline-dark text-muted-light hover:text-ink-light dark:hover:text-ink-dark shrink-0"
+                      aria-label={`Visit official page for ${item.company_or_program}`}
+                    >
+                      <ExternalLink className="w-4 h-4" strokeWidth={1.5} />
+                    </a>
+                  </div>
+
+                  <div className="mt-4 space-y-2.5 text-xs">
+                    {/* Expected Open Month & Reminder Date */}
+                    <div className="grid grid-cols-2 gap-2 p-3 rounded-[8px] bg-hairline-light/25 dark:bg-hairline-dark/30 border border-hairline-light dark:border-hairline-dark">
+                      <div>
+                        <span className="editorial-label block text-[10px] text-muted-light">Opens Usually</span>
+                        <span className="font-medium text-ink-light dark:text-ink-dark">
+                          {item.typical_open_month === 'verify' ? (
+                            <span className="text-amber-700 dark:text-amber-400 font-medium">verify (rolling)</span>
+                          ) : (
+                            `${item.typical_open_month} annually`
+                          )}
+                        </span>
+                      </div>
+                      <div>
+                        <span className="editorial-label block text-[10px] text-muted-light">Reminder Date</span>
+                        <span className="font-medium text-ink-light dark:text-ink-dark tabular-nums flex items-center space-x-1">
+                          <Calendar className="w-3.5 h-3.5 text-brass-light dark:text-brass-dark" />
+                          <span>{item.reminder_date}</span>
+                        </span>
+                      </div>
+                    </div>
+
+                    {/* Source of claim */}
+                    <div className="text-[11px] text-muted-light dark:text-muted-dark pt-1">
+                      <span className="font-semibold text-ink-light dark:text-ink-dark">Source of claim: </span>
+                      <a
+                        href={item.claim_source}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-brass-light dark:text-brass-dark underline hover:opacity-80 inline-flex items-center gap-0.5"
+                      >
+                        <span>{item.claim_source_title}</span>
+                        <ExternalLink className="w-3 h-3" />
+                      </a>
+                    </div>
+
+                    <p className="text-muted-light dark:text-muted-dark leading-relaxed">
+                      {item.notes}
+                    </p>
+
+                    <div className="p-3 rounded-[8px] bg-hairline-light/30 dark:bg-hairline-dark/40 border border-hairline-light dark:border-hairline-dark text-ink-light dark:text-ink-dark text-[11px]">
+                      <strong className="block editorial-label text-[10px] mb-0.5">Nigeria Eligibility:</strong>
+                      {item.eligibility_summary}
+                    </div>
+
+                    <div className="text-[10px] text-muted-light/70 dark:text-muted-dark/70 flex items-center justify-between pt-1">
+                      <span>Cadence: {item.recheck_frequency} re-check</span>
+                      <span>Last checked: {item.last_rechecked}</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="pt-2">
+                  <a
+                    href={item.careers_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full py-2.5 px-4 rounded-[8px] bg-ink-light text-background-light dark:bg-ink-dark dark:text-background-dark text-xs font-semibold hover:opacity-90 transition-opacity flex items-center justify-center space-x-2"
+                  >
+                    <span>Visit Careers Hub</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ) : activeTab === 'programs' ? (
         <div className="space-y-6">
           <div className="p-4 rounded-[12px] border border-hairline-light dark:border-hairline-dark bg-hairline-light/20 dark:bg-hairline-dark/20 text-xs sm:text-sm text-muted-light dark:text-muted-dark leading-relaxed">
             Major global fellowships accepting applications from undergraduate software engineering students in Nigeria with full stipends and remote mentorship.
@@ -543,6 +738,45 @@ export default function FeedPage() {
                     onOpenPitch={(l) => setPitchTarget(l)}
                   />
                 ))
+              )}
+
+              {/* Check Eligibility Section - Shown below the main list and clearly labelled */}
+              {filteredCheckEligibility.length > 0 && (
+                <div className="mt-10 pt-8 border-t border-hairline-light dark:border-hairline-dark space-y-4">
+                  <div>
+                    <div className="flex items-center space-x-2">
+                      <span className="editorial-label text-amber-700 dark:text-amber-400 font-semibold tracking-wider text-[11px]">
+                        Check Eligibility
+                      </span>
+                      <span className="text-[11px] px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-700 dark:text-amber-400 font-medium tabular-nums border border-amber-500/25">
+                        {filteredCheckEligibility.length} remote {filteredCheckEligibility.length === 1 ? 'role' : 'roles'}
+                      </span>
+                    </div>
+
+                    <h2 className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-ink-light dark:text-ink-dark mt-1">
+                      Remote Internships (Geographic Bounds Unstated)
+                    </h2>
+
+                    <p className="mt-1.5 text-xs sm:text-sm text-muted-light dark:text-muted-dark leading-relaxed">
+                      These remote software engineering internships meet all technical criteria, role legitimacy, and duration gates. However, Nigeria / African work authorization was not explicitly stated in the posting. Country-locked roles (US/UK/EU work authorization required) remain strictly rejected. Confirm eligibility with the hiring team before applying.
+                    </p>
+                  </div>
+
+                  <div className="space-y-4 pt-1">
+                    {filteredCheckEligibility.map((listing) => (
+                      <ListingCard
+                        key={listing.id}
+                        listing={listing}
+                        application={applications[listing.id]}
+                        isSelected={selectedListing?.id === listing.id}
+                        onSelect={handleSelect}
+                        onSave={handleSave}
+                        onDismiss={handleDismiss}
+                        onOpenPitch={(l) => setPitchTarget(l)}
+                      />
+                    ))}
+                  </div>
+                </div>
               )}
             </div>
 

@@ -117,8 +117,8 @@ export function ListingCard({
         </span>
       </div>
 
-      {/* 3. Badges row: Reserved ONLY for Best Match and Closing Soon */}
-      {(isBestMatch || deadlineInfo.isClosingSoon) && (
+      {/* 3. Badges row: Reserved for Best Match, Closing Soon, and Check Eligibility notice */}
+      {(isBestMatch || deadlineInfo.isClosingSoon || listing.nigeria_eligibility === 'unclear') && (
         <div className="mt-2.5 flex flex-wrap items-center gap-2">
           {isBestMatch && (
             <span className="text-[11px] font-semibold badge-brass px-2.5 py-0.5 rounded-[6px] tabular-nums">
@@ -128,6 +128,11 @@ export function ListingCard({
           {deadlineInfo.isClosingSoon && (
             <span className="text-[11px] font-medium badge-brass px-2.5 py-0.5 rounded-[6px] tabular-nums">
               {deadlineInfo.text}
+            </span>
+          )}
+          {listing.nigeria_eligibility === 'unclear' && (
+            <span className="text-[11px] font-medium px-2 py-0.5 rounded-[6px] bg-amber-500/10 text-amber-800 dark:text-amber-300 border border-amber-500/25">
+              Check Eligibility • Bounds Unstated
             </span>
           )}
         </div>
