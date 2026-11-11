@@ -1,25 +1,24 @@
 {
-  "last_run": "2026-11-10T19:57:36.851Z",
-  "gemini_status": "enabled (model gemini-3.5-flash-lite)",
-  "total_listings_fetched": 7016,
-  "stage_a_passed": 45,
+  "last_run": "2026-11-11T13:11:27.504Z",
+  "gemini_status": "unverified mode",
+  "total_listings_fetched": 7132,
+  "stage_a_passed": 53,
   "stage_c_passed": 0,
-  "total_rejected": 6061,
+  "total_rejected": 6090,
   "rejected_counts": {
-    "NON_INTERN_OR_FULLTIME_ROLE": 2074,
-    "NOT_AN_INTERNSHIP": 1164,
+    "NON_INTERN_OR_FULLTIME_ROLE": 2079,
+    "NOT_AN_INTERNSHIP": 1199,
     "GENERIC_CAREERS_PAGE": 294,
-    "ONSITE_OUTSIDE_NIGERIA": 2388,
+    "ONSITE_OUTSIDE_NIGERIA": 2369,
     "WRONG_SEASON_OR_YEAR": 39,
     "ADVANCED_DEGREE_REQUIRED": 60,
-    "NOT_INTERNSHIP": 6,
-    "NOT_SOFTWARE_ENGINEERING": 9,
-    "NOT_OPEN_TO_NIGERIA": 1,
-    "REGION_LOCKED": 26
+    "NOT_INTERNSHIP": 8,
+    "NOT_SOFTWARE_ENGINEERING": 19,
+    "REGION_LOCKED": 23
   },
   "sources": {
     "greenhouse": {
-      "count": 2601,
+      "count": 2621,
       "error": null,
       "status": "success"
     },
@@ -29,12 +28,12 @@
       "status": "success"
     },
     "ashby": {
-      "count": 321,
+      "count": 323,
       "error": null,
       "status": "success"
     },
     "github-community": {
-      "count": 2793,
+      "count": 2786,
       "error": null,
       "status": "success"
     },
@@ -44,12 +43,12 @@
       "status": "success"
     },
     "hackernews": {
-      "count": 29,
+      "count": 30,
       "error": null,
       "status": "success"
     },
     "weworkremotely": {
-      "count": 55,
+      "count": 155,
       "error": null,
       "status": "success"
     },
