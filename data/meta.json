@@ -1,24 +1,24 @@
 {
-  "last_run": "2026-11-12T13:51:48.927Z",
+  "last_run": "2026-11-12T14:14:03.494Z",
   "gemini_status": "unverified mode",
-  "total_listings_fetched": 9688,
-  "stage_a_passed": 113,
+  "total_listings_fetched": 9684,
+  "stage_a_passed": 114,
   "stage_c_passed": 0,
-  "total_rejected": 9687,
+  "total_rejected": 9683,
   "rejected_counts": {
-    "DUPLICATE_LISTING": 1435,
-    "NON_INTERN_OR_FULLTIME_ROLE": 2346,
-    "NOT_AN_INTERNSHIP": 1244,
-    "ONSITE_OUTSIDE_NIGERIA": 4364,
+    "DUPLICATE_LISTING": 1445,
+    "NON_INTERN_OR_FULLTIME_ROLE": 2340,
+    "NOT_AN_INTERNSHIP": 1238,
+    "ONSITE_OUTSIDE_NIGERIA": 4360,
     "WRONG_SEASON_OR_YEAR": 34,
-    "ADVANCED_DEGREE_REQUIRED": 152,
-    "NOT_INTERNSHIP": 11,
+    "ADVANCED_DEGREE_REQUIRED": 153,
+    "NOT_INTERNSHIP": 12,
     "NOT_SOFTWARE_ENGINEERING": 41,
     "REGION_LOCKED": 60
   },
   "sources": {
     "greenhouse": {
-      "count": 2620,
+      "count": 2621,
       "error": null,
       "status": "success"
     },
@@ -33,7 +33,7 @@
       "status": "success"
     },
     "github-community": {
-      "count": 5332,
+      "count": 5327,
       "error": null,
       "status": "success"
     },
@@ -71,10 +71,10 @@
   "funnel": {
     "greenhouse": {
       "source": "greenhouse",
-      "fetched": 2620,
+      "fetched": 2621,
       "duplicate": 437,
       "stage_a_reject": 2172,
-      "stage_c_reject": 11,
+      "stage_c_reject": 12,
       "check_eligibility": 0,
       "verified": 0
     },
@@ -98,9 +98,9 @@
     },
     "github-community": {
       "source": "github-community",
-      "fetched": 5332,
-      "duplicate": 792,
-      "stage_a_reject": 4451,
+      "fetched": 5327,
+      "duplicate": 789,
+      "stage_a_reject": 4449,
       "stage_c_reject": 89,
       "check_eligibility": 0,
       "verified": 0
@@ -117,8 +117,8 @@
     "arbeitnow": {
       "source": "arbeitnow",
       "fetched": 900,
-      "duplicate": 47,
-      "stage_a_reject": 848,
+      "duplicate": 60,
+      "stage_a_reject": 835,
       "stage_c_reject": 5,
       "check_eligibility": 0,
       "verified": 0

@@ -650,9 +650,10 @@
     ],
     "notes": "Enterprise payment gateway powering major African retailers and airlines. Headquartered in Victoria Island, Lagos.",
     "status": "unverified",
-    "watching_status": "unverified",
-    "http_status": "network_error",
-    "last_change_seen": "Unreachable / connection error"
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "2026-11-12 (Page modified)",
+    "alert_count": 0
   },
   {
     "id": "comp_e3976346d7085f8b",
@@ -1508,8 +1509,8 @@
     ],
     "notes": "Pan-African pan-continental connectivity and cloud solutions provider with Lagos data office. Recruits software and cloud apprentices.",
     "status": "verified",
-    "watching_status": "unverified",
-    "http_status": "timeout",
+    "watching_status": "watching",
+    "http_status": 200,
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -1532,7 +1533,7 @@
     "notes": "Licensed enterprise connectivity and managed IT service provider based in Ikoyi, Lagos. Welcomes university software engineering interns.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": 404,
+    "http_status": "network_error",
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -3853,7 +3854,7 @@
     "notes": "Global financial services and insurance group in Victoria Island, Lagos. Hires computer science students for software development SIWES.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": "timeout",
+    "http_status": 404,
     "last_change_seen": "Unreachable / connection error"
   },
   {
