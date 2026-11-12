@@ -62,8 +62,8 @@
     ],
     "notes": "Fastest-growing business banking platform in Africa. Frequently runs engineering internship academies and accepts SIWES/undergraduate interns in Lagos.",
     "status": "unverified",
-    "watching_status": "manual check",
-    "http_status": 403,
+    "watching_status": "unverified",
+    "http_status": 404,
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   {
@@ -109,7 +109,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-12 (Page modified)",
     "alert_count": 0
   },
   {
@@ -152,8 +152,8 @@
     ],
     "notes": "Investment and wealth platform with top-tier UI design culture. Has an active campus ambassador and summer engineering internship program.",
     "status": "verified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": 405,
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 1
   },
@@ -223,7 +223,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-12 (Page modified)",
     "alert_count": 0
   },
   {
@@ -334,8 +334,8 @@
     ],
     "notes": "Fintech payment subsidiary of Guaranty Trust Holding Company (GTCO). Modern cloud-native payment infrastructure in Victoria Island, Lagos.",
     "status": "verified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "manual check",
+    "http_status": 403,
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -359,7 +359,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-12 (Page modified)",
     "alert_count": 0
   },
   {
@@ -807,8 +807,8 @@
     ],
     "notes": "Consumer buy-now-pay-later (BNPL) and credit card platform based in Maryland, Lagos. Hires junior frontend and backend engineers.",
     "status": "unverified",
-    "watching_status": "manual check",
-    "http_status": 403,
+    "watching_status": "unverified",
+    "http_status": 404,
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   {
@@ -876,7 +876,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-12 (Page modified)",
     "alert_count": 0
   },
   {
@@ -897,8 +897,8 @@
     ],
     "notes": "Leading commercial banking institution in Lagos. Runs dedicated technology academy and takes engineering SIWES interns across enterprise software teams.",
     "status": "verified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": "network_error",
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -920,8 +920,8 @@
     ],
     "notes": "Largest bank in Nigeria by asset size. Operates Access Africa and Africa Fintech Foundry (AFF) in Victoria Island, recruiting student software developers.",
     "status": "verified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "manual check",
+    "http_status": 403,
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -967,7 +967,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-12 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1081,7 +1081,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-12 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1102,8 +1102,8 @@
     ],
     "notes": "Historic tier-2 financial institution in Marina, Lagos. Tech divisions build modernized retail and corporate internet banking platforms.",
     "status": "unverified",
-    "watching_status": "manual check",
-    "http_status": 403,
+    "watching_status": "unverified",
+    "http_status": "network_error",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   {
@@ -1193,8 +1193,8 @@
     ],
     "notes": "Corporate and SME commercial bank in Victoria Island, Lagos. Technology teams work on digital treasury and trade financing platforms.",
     "status": "unverified",
-    "watching_status": "manual check",
-    "http_status": 403,
+    "watching_status": "unverified",
+    "http_status": "network_error",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   {
@@ -1397,7 +1397,7 @@
     "notes": "Pioneer fiber-optic internet broadband company based in Victoria Island, Lagos. Hires student software engineering trainees.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": 404,
+    "http_status": "timeout",
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -1532,7 +1532,7 @@
     "notes": "Licensed enterprise connectivity and managed IT service provider based in Ikoyi, Lagos. Welcomes university software engineering interns.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": "network_error",
+    "http_status": 404,
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -1981,9 +1981,10 @@
     ],
     "notes": "Online higher education and technical skills academy training thousands of software engineers in Nigeria. Strong engineering hub in Lekki, Lagos.",
     "status": "unverified",
-    "watching_status": "unverified",
-    "http_status": "timeout",
-    "last_change_seen": "Unreachable / connection error"
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "2026-11-12 (Page modified)",
+    "alert_count": 0
   },
   {
     "id": "comp_29b935dbae30e1f2",
@@ -2361,9 +2362,10 @@
     ],
     "notes": "Leading early-stage pan-African venture capital firm and startup studio with major portfolio companies in Lagos. Matches interns with portfolio startups.",
     "status": "unverified",
-    "watching_status": "unverified",
-    "http_status": "timeout",
-    "last_change_seen": "Unreachable / connection error"
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "2026-11-12 (Page modified)",
+    "alert_count": 0
   },
   {
     "id": "comp_4482dde04275f46a",
@@ -2384,7 +2386,7 @@
     "notes": "Enterprise digital transformation and identity solutions provider in Ikeja GRA, Lagos. Built Eyowo and large corporate ERP web applications.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": "network_error",
+    "http_status": "timeout",
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -3082,9 +3084,10 @@
     ],
     "notes": "Global cryptocurrency and digital asset exchange with established customer operations and security engineering hub in Lagos.",
     "status": "unverified",
-    "watching_status": "unverified",
-    "http_status": "timeout",
-    "last_change_seen": "Unreachable / connection error"
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "2026-11-12 (Page modified)",
+    "alert_count": 0
   },
   {
     "id": "comp_63c742a8382e64e4",
@@ -3126,9 +3129,10 @@
     ],
     "notes": "Enterprise financial software consulting and microservices development team based in Lagos.",
     "status": "unverified",
-    "watching_status": "unverified",
-    "http_status": "timeout",
-    "last_change_seen": "Unreachable / connection error"
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "2026-11-12 (Page modified)",
+    "alert_count": 0
   },
   {
     "id": "comp_ee291cc881a7b207",
@@ -3170,9 +3174,10 @@
     ],
     "notes": "B2B payment automation and cash flow management software for African distributors and FMCG corporations. Lagos engineering team.",
     "status": "unverified",
-    "watching_status": "unverified",
-    "http_status": "timeout",
-    "last_change_seen": "Unreachable / connection error"
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "2026-11-12 (Page modified)",
+    "alert_count": 0
   },
   {
     "id": "comp_7519104018f3633d",
@@ -3192,9 +3197,10 @@
     ],
     "notes": "Trade financing and digital banking platform built for supply chain and logistics players in Lagos.",
     "status": "unverified",
-    "watching_status": "unverified",
-    "http_status": "timeout",
-    "last_change_seen": "Unreachable / connection error"
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "2026-11-12 (Page modified)",
+    "alert_count": 0
   },
   {
     "id": "comp_9e273346ee9d4d0e",
@@ -3237,7 +3243,7 @@
     "notes": "Agtech and industrial food processing hardware/software platform in Lagos. Employs embedded software engineers and web developers.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": "timeout",
+    "http_status": 404,
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -3258,9 +3264,10 @@
     ],
     "notes": "Africa's leading cloud HR and payroll software enterprise based in Lagos. Hires software developers for enterprise ERP web applications.",
     "status": "unverified",
-    "watching_status": "unverified",
-    "http_status": "timeout",
-    "last_change_seen": "Unreachable / connection error"
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "2026-11-12 (Page modified)",
+    "alert_count": 0
   },
   {
     "id": "comp_50e4de1c854560b0",
@@ -3325,9 +3332,10 @@
     ],
     "notes": "Multichannel communications platform acquired by OneLiquidity. Provides unified SMS, email, voice, and WhatsApp APIs for African businesses.",
     "status": "unverified",
-    "watching_status": "unverified",
-    "http_status": "timeout",
-    "last_change_seen": "Unreachable / connection error"
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "2026-11-12 (Page modified)",
+    "alert_count": 0
   },
   {
     "id": "comp_126ec675426abe49",

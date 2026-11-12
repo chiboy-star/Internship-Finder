@@ -1,1 +1,59 @@
-[]
+[
+  {
+    "id": "b5fd24e90b43674a",
+    "source": "hackernews",
+    "external_id": "hn_50349615",
+    "content_hash": "433ce3334621b077",
+    "company": "UNICEF - REMOTE backend dev - Digital Inclusion Di",
+    "title": "Software Engineering Intern",
+    "location": "Remote",
+    "city_country": "Remote",
+    "work_mode": "remote",
+    "nigeria_eligibility": "unclear",
+    "eligibility": "unclear",
+    "lagos_onsite": false,
+    "is_internship": true,
+    "is_software_engineering": true,
+    "duration": null,
+    "duration_weeks": null,
+    "intern_type": "Software Engineering Intern",
+    "skills": [
+      "Git"
+    ],
+    "required_skills": [
+      "Git"
+    ],
+    "requirements": "UNICEF - REMOTE backend dev - Digital Inclusion Division, Connectivity Credits We&#x27;re building a marketplace where local ISPs connect schools and health centers to the internet, prove it via telemetry, and get access to discounted backhaul, IP transit and compute from large infracos. Currently in pilots in Mexico, Kenya, South Africa, Malawi. Looking for 1 dev to join a small tech team (3 people) working on this protocol and marketplace, which sits on top of a larger tech team of 30 people at UNICEF Digital Inclusion. Not your typical UN job or culture.  https:&#x2F;&#x2F;jobs.unicef.org&#x2F;en-us&#x2F;job&#x2F;596538&#x2F;consultancy-connect...  The rest of the team are in Barcelona&#x2F;Geneva, but this role is remote. 6 month contract to start, with the aim to continue long term.",
+    "deadline": null,
+    "start_window": "Summer 2027",
+    "apply_url": "https://news.ycombinator.com/item?id=50349615",
+    "source_url": "https://news.ycombinator.com/item?id=50349615",
+    "first_seen": "2026-11-12T12:18:19.230Z",
+    "last_seen": "2026-11-12T12:18:19.230Z",
+    "status": "open",
+    "paid": "unknown",
+    "stipend_text": null,
+    "seniority_required": "Undergraduate student / 3rd year",
+    "experience_value": 75,
+    "attainability": 65,
+    "confidence": 0.85,
+    "evidence": {
+      "work_mode_quote": "Fully Remote",
+      "nigeria_eligibility_quote": "Remote position specifying EMEA, Africa, or flexible timezone"
+    },
+    "final_score": 45,
+    "match_score": 45,
+    "match_reason": "Unverified role: Software Engineering Intern at UNICEF - REMOTE backend dev - Digital Inclusion Di (Fully Remote).",
+    "score_breakdown": {
+      "experience_value": 15,
+      "attainability": 15,
+      "paid_score": 10,
+      "timing_fit": 5
+    },
+    "flags": [
+      "check_eligibility"
+    ],
+    "description_snippet": "UNICEF - REMOTE backend dev - Digital Inclusion Division, Connectivity Credits We&#x27;re building a marketplace where local ISPs connect schools and health centers to the internet, prove it via telemetry, and get access to discounted backhaul, IP transit and compute from large infracos. Currently in pilots in Mexico, Kenya, South Africa, Malawi. Looking for 1 dev to join a small tech team (3 people) working on this protocol and marketplace, which sits on top of a larger tech team of 30 people at UNICEF Digital Inclusion. Not your typical UN job or culture.  https:&#x2F;&#x2F;jobs.unicef.org&#",
+    "is_unverified": true
+  }
+]
