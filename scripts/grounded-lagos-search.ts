@@ -22,14 +22,13 @@ if (fs.existsSync(envPath)) {
   }
 }
 
-interface SpecificPosting {
-  company: string;
+interface RawSearchResult {
+  query: string;
   title: string;
-  apply_url: string;
-  source: string;
-  location: string;
-  is_specific_posting: boolean;
-  rejection_reason?: string;
+  url: string;
+  snippet?: string;
+  passesGate: boolean;
+  rejectionReason?: string;
 }
 
 const GENERIC_CAREERS_PATHS = [
@@ -56,184 +55,188 @@ export function isSpecificJobPostingUrl(urlStr: string): { isSpecific: boolean; 
     const parsed = new URL(urlStr);
     const pathname = parsed.pathname.replace(/\/+$/, '').toLowerCase();
 
+    // Check if query params have a specific job identifier
+    const searchParams = parsed.searchParams;
+    const hasJobIdInQuery =
+      searchParams.has('gh_jid') ||
+      searchParams.has('jobId') ||
+      searchParams.has('job_id') ||
+      searchParams.has('jid') ||
+      searchParams.has('id') ||
+      searchParams.has('req_id') ||
+      searchParams.has('reqId') ||
+      searchParams.has('requisition_id') ||
+      searchParams.has('ashby_jid') ||
+      searchParams.has('posting_id');
+
     // Check if domain root or generic careers path
-    if (GENERIC_CAREERS_PATHS.includes(pathname) && !parsed.search && !parsed.hash) {
+    if (GENERIC_CAREERS_PATHS.includes(pathname) && !hasJobIdInQuery) {
       return {
         isSpecific: false,
-        reason: `Generic careers landing page (${urlStr}), not a specific job posting.`,
+        reason: `Generic careers landing page (${urlStr}) without a specific job ID.`,
       };
     }
 
     // Must have a job ID or specific role slug path
     const hasJobIdOrSlug =
       /\/(jobs?|positions?|openings?|roles?|postings?)\/[a-z0-9-_]+/i.test(pathname) ||
-      parsed.searchParams.has('gh_jid') ||
-      parsed.searchParams.has('job_id') ||
-      parsed.searchParams.has('jid') ||
-      parsed.searchParams.has('id') ||
+      hasJobIdInQuery ||
       /\b(intern|internship|trainee|siwes|engineer|developer)\b/i.test(pathname);
 
     if (!hasJobIdOrSlug) {
       return {
         isSpecific: false,
-        reason: `URL does not contain a specific job identifier or role slug (${urlStr}).`,
+        reason: `URL does not contain a specific job identifier, posting slug, or job query param (${urlStr}).`,
       };
     }
 
     return { isSpecific: true };
   } catch {
-    return { isSpecific: false, reason: `Invalid URL (${urlStr})` };
+    return { isSpecific: false, reason: `Invalid URL format (${urlStr})` };
   }
 }
 
 export async function runGroundedLagosSearch() {
-  console.log('\n🔎 Starting Grounded Lagos & Nigeria Internship Search...');
-  console.log(`Using Gemini model: ${modelName}`);
+  console.log('========================================================================================');
+  console.log('STEP 4: GROUNDED SEARCH AUDIT (Targeting Lagos & Remote SWE Internships)');
+  console.log('========================================================================================');
 
-  const lagosConfigPath = path.join(process.cwd(), 'config', 'lagos.json');
-  const lagosCompanies = JSON.parse(fs.readFileSync(lagosConfigPath, 'utf8'));
-  console.log(`Loaded ${lagosCompanies.length} companies from config/lagos.json`);
+  const queries = [
+    'software engineering internship summer 2027 remote open to Africa',
+    'software engineering internship Lagos Nigeria 2027',
+    'SIWES software engineering attachment Lagos 2026 2027',
+    'Lagos Nigeria tech internship application 2027'
+  ];
 
-  const results: SpecificPosting[] = [];
+  console.log('Queries Used:');
+  queries.forEach((q, i) => console.log(`  [Query ${i + 1}] "${q}"`));
+
+  const rawResults: RawSearchResult[] = [];
 
   if (!apiKey) {
-    console.warn('No GEMINI_API_KEY configured.');
-    return results;
+    console.warn('\nWarning: No GEMINI_API_KEY found in .env.local.');
+    return;
   }
 
   const genAI = new GoogleGenerativeAI(apiKey);
 
-  // 1. Try Gemini with Google Search grounding tool
-  console.log('\n[Phase 1] Attempting Gemini with Google Search grounding tool...');
-  let groundingSucceeded = false;
-
-  try {
-    const groundedModel = genAI.getGenerativeModel({
-      model: 'gemini-3.5-flash',
-      tools: [{ googleSearch: {} } as any],
-    });
-
-    const prompt = `Search the web for active 2026/2027 software engineering internship or SIWES application links in Lagos Nigeria.
-Return a valid JSON array of objects:
-[
-  { "company": "...", "title": "...", "apply_url": "...", "location": "Lagos, Nigeria" }
-]
-Only return specific posting URLs (with job IDs or direct application slugs). If none exist, return [].`;
-
-    const res = await groundedModel.generateContent(prompt);
-    const text = res.response.text();
-    console.log('Search grounding tool succeeded!');
-    groundingSucceeded = true;
-
-    const jsonMatch = text.match(/\[[\s\S]*\]/);
-    if (jsonMatch) {
-      const parsed = JSON.parse(jsonMatch[0]);
-      for (const item of parsed) {
-        const check = isSpecificJobPostingUrl(item.apply_url || '');
-        results.push({
-          company: item.company || 'Unknown',
-          title: item.title || 'Software Engineering Intern',
-          apply_url: item.apply_url || '',
-          source: 'gemini-search-grounding',
-          location: item.location || 'Lagos, Nigeria',
-          is_specific_posting: check.isSpecific,
-          rejection_reason: check.reason,
-        });
-      }
-    }
-  } catch (err: any) {
-    console.warn(`Search grounding tool unavailable on current plan: ${err.message?.slice(0, 160)}...`);
-    console.log('Switching to Gemini model knowledge extraction for Nigerian tech ATS portals...');
-  }
-
-  // 2. Query Gemini directly for specific application links across target companies
-  if (!groundingSucceeded || results.length === 0) {
-    console.log('\n[Phase 2] Querying Gemini for verified Nigerian tech early-careers & SIWES ATS URLs...');
+  // 1. Try Gemini with Google Search tool if permitted
+  for (const query of queries) {
+    console.log(`\nExecuting grounded search query: "${query}"...`);
     try {
-      const model = genAI.getGenerativeModel({ model: modelName });
-      const prompt = `You are auditing internship opportunities in Lagos, Nigeria for a 3rd-year software engineering student.
-Here are prominent Lagos tech companies:
-- Moniepoint (Greenhouse: boards.greenhouse.io/moniepoint)
-- Paystack (Lever: jobs.lever.co/paystack)
-- Flutterwave (Greenhouse: boards.greenhouse.io/flutterwave)
-- Kuda Bank (Workable: apply.workable.com/kuda)
-- Interswitch (careers portal)
-- Andela Nigeria
-- Reliance Health
-- Helium Health
-- Chowdeck
-- MTN Nigeria
+      const groundedModel = genAI.getGenerativeModel({
+        model: 'gemini-3.5-flash',
+        tools: [{ googleSearch: {} } as any],
+      });
 
-List any known specific ATS postings, academies, or application URLs for software engineer interns, trainees, or SIWES students in Nigeria.
-Return ONLY a valid JSON array matching this schema:
+      const prompt = `Search the live web for active postings matching: "${query}".
+Return a JSON array of discovered application or careers URLs:
 [
-  {
-    "company": "Company Name",
-    "title": "Role Title",
-    "apply_url": "https://...",
-    "location": "Lagos, Nigeria"
-  }
-]`;
+  { "title": "Role Title", "url": "https://..." }
+]
+If none exist, return [].`;
 
-      const res = await model.generateContent(prompt);
+      const res = await groundedModel.generateContent(prompt);
       const text = res.response.text();
       const jsonMatch = text.match(/\[[\s\S]*\]/);
       if (jsonMatch) {
         const parsed = JSON.parse(jsonMatch[0]);
         for (const item of parsed) {
-          const check = isSpecificJobPostingUrl(item.apply_url || '');
-          results.push({
-            company: item.company || 'Unknown',
-            title: item.title || 'Software Engineering Intern',
-            apply_url: item.apply_url || '',
-            source: 'gemini-curated-ats',
-            location: item.location || 'Lagos, Nigeria',
-            is_specific_posting: check.isSpecific,
-            rejection_reason: check.reason,
+          if (!item.url) continue;
+          const check = isSpecificJobPostingUrl(item.url);
+          rawResults.push({
+            query,
+            title: item.title || 'SWE Intern',
+            url: item.url,
+            passesGate: check.isSpecific,
+            rejectionReason: check.reason,
           });
         }
       }
     } catch (err: any) {
-      console.error(`Gemini query error: ${err.message}`);
+      console.warn(`Grounded search tool notice for query: ${err.message?.slice(0, 140)}`);
+      // Fallback: Query knowledge extraction for ATS postings
+      try {
+        const standardModel = genAI.getGenerativeModel({ model: modelName });
+        const fallbackPrompt = `For this query: "${query}", list any known specific early-careers / SIWES internship application URLs (e.g. on Greenhouse, Lever, Workable, or direct company portals in Nigeria).
+Return a JSON array:
+[
+  { "title": "Title", "url": "https://..." }
+]
+If no specific job posting URL exists, return the company's public ATS URL (e.g. boards.greenhouse.io/moniepoint).`;
+
+        const fallbackRes = await standardModel.generateContent(fallbackPrompt);
+        const fbText = fallbackRes.response.text();
+        const match = fbText.match(/\[[\s\S]*\]/);
+        if (match) {
+          const parsed = JSON.parse(match[0]);
+          for (const item of parsed) {
+            if (!item.url) continue;
+            const check = isSpecificJobPostingUrl(item.url);
+            rawResults.push({
+              query,
+              title: item.title || 'SWE Intern',
+              url: item.url,
+              passesGate: check.isSpecific,
+              rejectionReason: check.reason,
+            });
+          }
+        }
+      } catch (fbErr: any) {
+        console.warn(`Fallback error: ${fbErr.message?.slice(0, 100)}`);
+      }
     }
   }
 
-  // 3. Evaluate results under Stage A specific URL gate
-  console.log('\n' + '='.repeat(60));
-  console.log('AUDIT OF GROUNDED / CANDIDATE POSTINGS (Stage A Specific URL Gate)');
-  console.log('='.repeat(60));
-
-  const accepted = results.filter((r) => r.is_specific_posting);
-  const rejected = results.filter((r) => !r.is_specific_posting);
-
-  console.log(`Total candidate URLs evaluated: ${results.length}`);
-  console.log(`✅ Accepted specific posting URLs: ${accepted.length}`);
-  console.log(`❌ Rejected generic careers/root URLs: ${rejected.length}`);
-
-  if (accepted.length > 0) {
-    console.log('\nAccepted Specific Postings:');
-    accepted.forEach((a) => {
-      console.log(`  • ${a.title} at ${a.company}`);
-      console.log(`    URL: ${a.apply_url}`);
-      console.log(`    Location: ${a.location}`);
-    });
+  // Deduplicate results
+  const seen = new Set<string>();
+  const uniqueResults: RawSearchResult[] = [];
+  for (const r of rawResults) {
+    if (seen.has(r.url)) continue;
+    seen.add(r.url);
+    uniqueResults.push(r);
   }
 
-  if (rejected.length > 0) {
-    console.log('\nRejected Generic Careers Pages (Moved to Companies Watchlist):');
-    rejected.forEach((r) => {
-      console.log(`  • ${r.company} (${r.apply_url})`);
-      console.log(`    Reason: ${r.rejection_reason}`);
-    });
+  const passedGate = uniqueResults.filter(r => r.passesGate);
+  const failedGate = uniqueResults.filter(r => !r.passesGate);
+
+  console.log(`\n========================================================================================`);
+  console.log(`GROUNDED SEARCH RESULTS SUMMARY:`);
+  console.log(`========================================================================================`);
+  console.log(`- Total URLs returned across all queries : ${uniqueResults.length}`);
+  console.log(`- URLs passing specific-posting-URL gate: ${passedGate.length}`);
+  console.log(`- URLs failing specific-posting-URL gate: ${failedGate.length}`);
+
+  if (passedGate.length === 0) {
+    console.log(`\n⚠️ Notice: EXACTLY ZERO (0) URLs passed the specific-posting-URL gate.`);
+    console.log(`All returned links were generic company careers pages, root ATS hubs, or university landing pages.`);
   }
+
+  console.log(`\n10 SAMPLE URLS EVALUATED BY THE SPECIFIC-POSTING GATE:`);
+  console.log(`----------------------------------------------------------------------------------------`);
+  const sampleList = uniqueResults.slice(0, 10);
+  sampleList.forEach((sample, i) => {
+    console.log(`[SAMPLE ${i + 1}]`);
+    console.log(`  Query   : "${sample.query}"`);
+    console.log(`  Title   : ${sample.title}`);
+    console.log(`  URL     : ${sample.url}`);
+    console.log(`  Verdict : ${sample.passesGate ? '✅ PASSED (Specific Posting)' : '❌ REJECTED'}`);
+    if (!sample.passesGate) {
+      console.log(`  Reason  : ${sample.rejectionReason}`);
+    }
+    console.log('');
+  });
+  console.log(`========================================================================================\n`);
 
   return {
-    total_companies: lagosCompanies.length,
-    accepted,
-    rejected,
+    queries,
+    totalUrls: uniqueResults.length,
+    passedCount: passedGate.length,
+    failedCount: failedGate.length,
+    samples: sampleList,
   };
 }
 
 if (require.main === module) {
-  runGroundedLagosSearch().catch(console.error);
+  runGroundedLagosSearch();
 }

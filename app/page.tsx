@@ -568,6 +568,14 @@ export default function FeedPage() {
                       </a>
                     </div>
 
+                    {/* Supporting Date Sentence */}
+                    {item.exact_supporting_sentence && (
+                      <div className="p-2.5 rounded-[8px] bg-emerald-500/5 dark:bg-emerald-500/10 border border-emerald-500/20 text-[11px] text-emerald-800 dark:text-emerald-300">
+                        <strong className="block editorial-label text-[9px] uppercase tracking-wider mb-0.5">Verified Schedule Quote:</strong>
+                        "{item.exact_supporting_sentence}"
+                      </div>
+                    )}
+
                     <p className="text-muted-light dark:text-muted-dark leading-relaxed">
                       {item.notes}
                     </p>
@@ -575,7 +583,19 @@ export default function FeedPage() {
                     <div className="p-3 rounded-[8px] bg-hairline-light/30 dark:bg-hairline-dark/40 border border-hairline-light dark:border-hairline-dark text-ink-light dark:text-ink-dark text-[11px]">
                       <strong className="block editorial-label text-[10px] mb-0.5">Nigeria Eligibility:</strong>
                       {item.eligibility_summary}
+                      {item.eligibility_source_line && (
+                        <span className="block mt-1 italic text-muted-light dark:text-muted-dark">
+                          Quote: "{item.eligibility_source_line}"
+                        </span>
+                      )}
                     </div>
+
+                    {item.stipend_source_line && (
+                      <div className="p-2.5 rounded-[8px] bg-hairline-light/20 dark:bg-hairline-dark/30 border border-hairline-light dark:border-hairline-dark text-[11px] text-muted-light dark:text-muted-dark">
+                        <strong className="block editorial-label text-[9px] uppercase tracking-wider mb-0.5">Verified Stipend Line:</strong>
+                        "{item.stipend_source_line}"
+                      </div>
+                    )}
 
                     <div className="text-[10px] text-muted-light/70 dark:text-muted-dark/70 flex items-center justify-between pt-1">
                       <span>Cadence: {item.recheck_frequency} re-check</span>

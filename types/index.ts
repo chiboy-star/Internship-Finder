@@ -79,6 +79,16 @@ export interface Contact {
   source_url: string;
 }
 
+export interface WatcherAlert {
+  id: string;
+  company: string;
+  careers_url: string;
+  matching_text: string;
+  job_url: string;
+  detected_at: string;
+  status: 'new' | 'reviewed';
+}
+
 export interface Company {
   id: string;
   name: string;
@@ -90,7 +100,12 @@ export interface Company {
   contacts: Contact[];
   notes?: string;
   pitch_draft?: string;
-  status?: 'verified' | 'possible';
+  status?: 'verified' | 'possible' | 'unverified';
+  watching_status?: 'watching' | 'manual check' | 'unverified';
+  last_change_seen?: string;
+  alert_count?: number;
+  outreach_status?: 'To contact' | 'Contacted' | 'Replied' | 'Closed';
+  follow_up_date?: string;
 }
 
 export type ApplicationStatus = 'saved' | 'applied' | 'interviewing' | 'offer' | 'rejected' | 'dismissed';
@@ -135,6 +150,10 @@ export interface OpeningSoonItem {
   claim_source: string;
   claim_source_title: string;
   careers_url: string;
+  exact_supporting_sentence?: string | null;
+  stipend_text?: string | null;
+  stipend_source_line?: string | null;
+  eligibility_source_line?: string | null;
   recheck_frequency: 'weekly';
   last_rechecked: string;
   status: 'upcoming' | 'verify' | 'open';
@@ -188,4 +207,5 @@ export interface PipelineMeta {
     error: string | null;
     status: 'success' | 'failed' | 'skipped';
   }>;
+  funnel?: Record<string, any>;
 }

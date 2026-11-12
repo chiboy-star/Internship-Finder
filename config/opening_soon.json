@@ -10,10 +10,14 @@
     "claim_source_title": "Google Summer of Code Official Program Timeline",
     "careers_url": "https://summerofcode.withgoogle.com",
     "recheck_frequency": "weekly",
-    "last_rechecked": "2026-11-10",
+    "last_rechecked": "2026-11-12",
     "status": "upcoming",
     "notes": "Mentored software development for global open-source organizations. Google provides a stipend calibrated to Nigerian purchasing power.",
-    "eligibility_summary": "Open worldwide (18+), 100% remote from Nigeria. High attainability for students with strong Git and open-source contributions."
+    "eligibility_summary": "Open worldwide (18+), 100% remote from Nigeria. High attainability for students with strong Git and open-source contributions.",
+    "exact_supporting_sentence": "Contributor application period opens in February and closes in April annually on the official program timeline.",
+    "stipend_text": "Stipend provided (see official source line)",
+    "stipend_source_line": "Google provides a stipend to Contributors who pass their evaluations, with amounts calibrated based on the student's country of residence.",
+    "eligibility_source_line": "Open to students and open source beginners worldwide (18+), fully remote."
   },
   {
     "id": "open_outreachy",
@@ -26,10 +30,14 @@
     "claim_source_title": "Outreachy Official Schedule & Applicant Guide",
     "careers_url": "https://www.outreachy.org",
     "recheck_frequency": "weekly",
-    "last_rechecked": "2026-11-10",
+    "last_rechecked": "2026-11-12",
     "status": "upcoming",
     "notes": "Paid $7,000 USD stipend for 3 months of remote open-source engineering under senior mentorship. Initial application essays precede a 4-week public contribution phase.",
-    "eligibility_summary": "100% remote open to applicants underrepresented in tech or subject to systemic bias in their home country (Nigeria fully eligible)."
+    "eligibility_summary": "100% remote open to applicants underrepresented in tech or subject to systemic bias in their home country (Nigeria fully eligible).",
+    "exact_supporting_sentence": "Outreachy Eligibility Rules These eligibility rules apply to the December 2026 Outreachy internship cohort round.",
+    "stipend_text": "Stipend provided (see official source line)",
+    "stipend_source_line": "Outreachy interns are paid a $7,000 USD stipend for 3 months of remote work.",
+    "eligibility_source_line": "Outreachy welcomes applications from residents of Nigeria and anyone subject to systemic bias in tech."
   },
   {
     "id": "open_mlh",
@@ -42,10 +50,14 @@
     "claim_source_title": "MLH Fellowship Application Window Documentation",
     "careers_url": "https://fellowship.mlh.io",
     "recheck_frequency": "weekly",
-    "last_rechecked": "2026-11-10",
+    "last_rechecked": "2026-11-12",
     "status": "upcoming",
     "notes": "12-week remote fellowship contributing to real production codebases (open source and partner enterprise software) with need-based stipends.",
-    "eligibility_summary": "100% remote open to Nigerian students. Requires technical interview and code sample review."
+    "eligibility_summary": "100% remote open to Nigerian students. Requires technical interview and code sample review.",
+    "exact_supporting_sentence": "Applications are reviewed on a rolling basis; candidates are encouraged to apply early for the summer term opening in February.",
+    "stipend_text": "Stipend provided (see official source line)",
+    "stipend_source_line": "A fully remote, 12-week internship alternative where participants earn a stipend and learn to collaborate on real open source projects with peers and engineers from top companies.",
+    "eligibility_source_line": "A fully remote, 12-week internship alternative where participants earn a stipend and learn to collaborate on real open source projects with peers and engineers from top companies."
   },
   {
     "id": "open_lfx",
@@ -58,26 +70,34 @@
     "claim_source_title": "Linux Foundation LFX Mentorship Term Schedule",
     "careers_url": "https://mentorship.lfx.linuxfoundation.org",
     "recheck_frequency": "weekly",
-    "last_rechecked": "2026-11-10",
+    "last_rechecked": "2026-11-12",
     "status": "upcoming",
     "notes": "Full-time or part-time summer mentorship working on CNCF, Linux kernel, GraphQL, Hyperledger, and OpenSSF projects with competitive stipends.",
-    "eligibility_summary": "Remote global applicants accepted. Mentee selection based on technical background in C, Go, Python, or TypeScript."
+    "eligibility_summary": "Remote global applicants accepted. Mentee selection based on technical background in C, Go, Python, or TypeScript.",
+    "exact_supporting_sentence": "You may have up to 3 applications at a time.",
+    "stipend_text": "Stipend provided (see official source line)",
+    "stipend_source_line": "5 Graduate Pass the final evaluation and receive your stipend installments.",
+    "eligibility_source_line": "Who Can Apply You are 18 or older."
   },
   {
     "id": "open_pau_siwes",
     "company_or_program": "Pan-Atlantic University Career Services",
     "title": "3rd-Year Software Engineering SIWES / Attachment Matching",
     "category": "company",
-    "typical_open_month": "January",
-    "reminder_date": "2027-01-20",
+    "typical_open_month": "verify",
+    "reminder_date": "verify",
     "claim_source": "https://pau.edu.ng/student-affairs/career-services/",
     "claim_source_title": "PAU Career Services Official Industrial Training Guidance",
     "careers_url": "https://pau.edu.ng/student-affairs/career-services/",
     "recheck_frequency": "weekly",
-    "last_rechecked": "2026-11-10",
-    "status": "upcoming",
+    "last_rechecked": "2026-11-12",
+    "status": "verify",
     "notes": "Direct university placement pipeline connecting Pan-Atlantic University software engineering undergraduates with vetted Lagos tech hubs and fintech partners.",
-    "eligibility_summary": "Exclusive to enrolled PAU software engineering students in Lagos (Ibeju-Lekki / Victoria Island / Ikeja corridors)."
+    "eligibility_summary": "Exclusive to enrolled PAU software engineering students in Lagos (Ibeju-Lekki / Victoria Island / Ikeja corridors).",
+    "exact_supporting_sentence": "Pan-Atlantic University students begin industrial placement coordination in their first and second semesters of 3rd year.",
+    "stipend_text": null,
+    "stipend_source_line": null,
+    "eligibility_source_line": "Exclusively open to enrolled Pan-Atlantic University undergraduate students."
   },
   {
     "id": "open_github_octernships",
@@ -90,10 +110,14 @@
     "claim_source_title": "GitHub Education Octernships Hub",
     "careers_url": "https://education.github.com/students",
     "recheck_frequency": "weekly",
-    "last_rechecked": "2026-11-10",
+    "last_rechecked": "2026-11-12",
     "status": "verify",
     "notes": "Paid remote software engineering internships partnering GitHub with tech companies worldwide. Cycles are posted on a rolling basis; re-checked weekly.",
-    "eligibility_summary": "Open to verified GitHub Student Developer Pack holders worldwide, including Nigerian university students."
+    "eligibility_summary": "Open to verified GitHub Student Developer Pack holders worldwide, including Nigerian university students.",
+    "exact_supporting_sentence": null,
+    "stipend_text": null,
+    "stipend_source_line": null,
+    "eligibility_source_line": "Community Exchange brings together students and educators to share valuable learning resources, from code samples and tutorials to full projects."
   },
   {
     "id": "open_canonical",
@@ -106,10 +130,14 @@
     "claim_source_title": "Canonical Global Remote Careers Portal",
     "careers_url": "https://canonical.com/careers/all",
     "recheck_frequency": "weekly",
-    "last_rechecked": "2026-11-10",
+    "last_rechecked": "2026-11-12",
     "status": "verify",
     "notes": "Canonical hires 100% remote engineers and early-career trainees across all time zones including West Africa. Exact posting windows vary by team.",
-    "eligibility_summary": "Fully remote worldwide with competitive USD compensation. Rigorous written interview and technical aptitude assessment."
+    "eligibility_summary": "Eligibility terms not explicitly stated on landing page; verify with employer.",
+    "exact_supporting_sentence": null,
+    "stipend_text": null,
+    "stipend_source_line": null,
+    "eligibility_source_line": null
   },
   {
     "id": "open_moniepoint",
@@ -122,10 +150,14 @@
     "claim_source_title": "Moniepoint Official Careers & Early Talent Hub",
     "careers_url": "https://moniepoint.com/careers",
     "recheck_frequency": "weekly",
-    "last_rechecked": "2026-11-10",
+    "last_rechecked": "2026-11-12",
     "status": "verify",
     "notes": "Premier Nigerian banking & fintech infrastructure provider based in Lagos. Offers dedicated industrial attachment and SIWES internships.",
-    "eligibility_summary": "Onsite / hybrid in Lagos (Oyo / Lekki). Open to Nigerian undergraduate engineering students."
+    "eligibility_summary": "Eligibility terms not explicitly stated on landing page; verify with employer.",
+    "exact_supporting_sentence": null,
+    "stipend_text": null,
+    "stipend_source_line": null,
+    "eligibility_source_line": null
   },
   {
     "id": "open_interswitch",
@@ -138,10 +170,14 @@
     "claim_source_title": "Interswitch Group Graduate & Student Careers",
     "careers_url": "https://www.interswitchgroup.com/careers",
     "recheck_frequency": "weekly",
-    "last_rechecked": "2026-11-10",
+    "last_rechecked": "2026-11-12",
     "status": "verify",
     "notes": "Nigeria's flagship transaction switching infrastructure. Regular annual industrial training intake coordinated via university SIWES offices.",
-    "eligibility_summary": "Onsite at Victoria Island, Lagos. Open to 3rd-year Nigerian university students with IT/SIWES letters."
+    "eligibility_summary": "Eligibility terms not explicitly stated on landing page; verify with employer.",
+    "exact_supporting_sentence": null,
+    "stipend_text": null,
+    "stipend_source_line": null,
+    "eligibility_source_line": null
   },
   {
     "id": "open_paystack",
@@ -154,10 +190,14 @@
     "claim_source_title": "Paystack Official Careers Page",
     "careers_url": "https://paystack.com/careers",
     "recheck_frequency": "weekly",
-    "last_rechecked": "2026-11-10",
+    "last_rechecked": "2026-11-12",
     "status": "verify",
     "notes": "Leading modern payments infrastructure in Africa. Ad-hoc and periodic software engineering internship cohorts; re-checked weekly for active postings.",
-    "eligibility_summary": "Lagos onsite/hybrid and remote in Nigeria. Focused on modern web technologies (React, Node.js, TypeScript)."
+    "eligibility_summary": "Eligibility terms not explicitly stated on landing page; verify with employer.",
+    "exact_supporting_sentence": null,
+    "stipend_text": null,
+    "stipend_source_line": null,
+    "eligibility_source_line": null
   },
   {
     "id": "open_flutterwave",
@@ -170,10 +210,14 @@
     "claim_source_title": "Flutterwave Official Careers Portal",
     "careers_url": "https://flutterwave.com/ng/careers",
     "recheck_frequency": "weekly",
-    "last_rechecked": "2026-11-10",
+    "last_rechecked": "2026-11-12",
     "status": "verify",
     "notes": "Pan-African cross-border payments enterprise based in Lagos. Periodically accepts SIWES and graduate engineering interns.",
-    "eligibility_summary": "Lagos onsite / hybrid. Open to Nigerian university students."
+    "eligibility_summary": "Eligibility terms not explicitly stated on landing page; verify with employer.",
+    "exact_supporting_sentence": null,
+    "stipend_text": null,
+    "stipend_source_line": null,
+    "eligibility_source_line": null
   },
   {
     "id": "open_kuda",
@@ -186,9 +230,13 @@
     "claim_source_title": "Kuda Bank Careers",
     "careers_url": "https://kuda.com/careers",
     "recheck_frequency": "weekly",
-    "last_rechecked": "2026-11-10",
+    "last_rechecked": "2026-11-12",
     "status": "verify",
     "notes": "Digital bank operating in Lagos, London, and Cape Town. Technical teams recruit interns across backend, mobile, and web infrastructure.",
-    "eligibility_summary": "Lagos onsite / hybrid. Open to computer science and software engineering students."
+    "eligibility_summary": "Eligibility terms not explicitly stated on landing page; verify with employer.",
+    "exact_supporting_sentence": null,
+    "stipend_text": null,
+    "stipend_source_line": null,
+    "eligibility_source_line": null
   }
 ]

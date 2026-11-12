@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { X, Copy, Check, Eye, EyeOff, Sparkles, Printer, AlertCircle } from 'lucide-react';
+import { X, Copy, Check, Eye, EyeOff, Sparkles, Printer, AlertCircle, ShieldAlert, ExternalLink } from 'lucide-react';
 import { toast } from 'sonner';
 import { cn } from '../lib/utils';
 
@@ -10,9 +10,18 @@ interface PitchModalProps {
   onClose: () => void;
   companyName: string;
   companyContext?: string;
+  hasVerifiedContactPage?: boolean;
+  contactSourceUrl?: string;
 }
 
-export function PitchModal({ isOpen, onClose, companyName, companyContext }: PitchModalProps) {
+export function PitchModal({
+  isOpen,
+  onClose,
+  companyName,
+  companyContext,
+  hasVerifiedContactPage = true,
+  contactSourceUrl,
+}: PitchModalProps) {
   const [passphrase, setPassphrase] = useState('');
   const [showPassphrase, setShowPassphrase] = useState(false);
   const [specificDetail, setSpecificDetail] = useState('');
@@ -23,6 +32,9 @@ export function PitchModal({ isOpen, onClose, companyName, companyContext }: Pit
   const [copied, setCopied] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
 
+  const encodedComp = encodeURIComponent(companyName);
+  const linkedInSearchUrl = `https://www.linkedin.com/search/results/people/?keywords=${encodedComp}+recruiter`;
+
   useEffect(() => {
     const savedPass = localStorage.getItem('app-passphrase');
     if (savedPass) setPassphrase(savedPass);
@@ -30,6 +42,12 @@ export function PitchModal({ isOpen, onClose, companyName, companyContext }: Pit
 
   const handleGenerate = async (e?: React.FormEvent) => {
     if (e) e.preventDefault();
+    if (!hasVerifiedContactPage) {
+      setErrorMessage('Pitch drafter refused: No verified contact page found for this company.');
+      toast.error('Refused: Company has no verified contact page');
+      return;
+    }
+
     setIsLoading(true);
     setErrorMessage('');
 
@@ -108,93 +126,132 @@ export function PitchModal({ isOpen, onClose, companyName, companyContext }: Pit
           </button>
         </div>
 
-        {/* Form */}
-        <form onSubmit={handleGenerate} className="mt-6 space-y-4">
-          {/* Passphrase Gate with Password Visibility Toggle */}
-          <div>
-            <label className="block editorial-label mb-1.5" htmlFor="passphrase-input">
-              Quota Passphrase Gate
-            </label>
-            <div className="relative">
-              <input
-                id="passphrase-input"
-                type={showPassphrase ? 'text' : 'password'}
-                value={passphrase}
-                onChange={(e) => setPassphrase(e.target.value)}
-                placeholder="Enter APP_PASSPHRASE if set..."
-                aria-describedby="passphrase-help"
-                className="w-full px-3 py-2 pr-10 rounded-[8px] bg-background-light dark:bg-background-dark border border-hairline-light dark:border-hairline-dark text-sm text-ink-light dark:text-ink-dark focus:outline-none focus:ring-1 focus:ring-brass-light"
-              />
-              <button
-                type="button"
-                onClick={() => setShowPassphrase((v) => !v)}
-                aria-label={showPassphrase ? 'Hide passphrase' : 'Show passphrase'}
-                className="absolute right-2.5 top-1/2 -translate-y-1/2 p-1 text-muted-light dark:text-muted-dark hover:text-ink-light dark:hover:text-ink-dark"
+        {/* Safeguard: Refuse to run without verified contact page */}
+        {!hasVerifiedContactPage ? (
+          <div className="mt-6 p-5 rounded-[12px] bg-red-50 dark:bg-red-950/40 border border-red-200 dark:border-red-900/60 space-y-3">
+            <div className="flex items-center space-x-2 text-red-800 dark:text-red-300 font-semibold text-sm">
+              <ShieldAlert className="w-5 h-5 text-red-600 dark:text-red-400 shrink-0" />
+              <span>Pitch Drafter Refused: No Verified Contact Page</span>
+            </div>
+            <p className="text-xs text-red-700 dark:text-red-300/90 leading-relaxed">
+              This company has no verified careers or contact page on record (status: unverified). Per strict outreach guidelines, generating email pitches to unverified domains is prohibited to prevent bounce penalties. Reach out directly to engineering talent on LinkedIn instead.
+            </p>
+            <div className="pt-2">
+              <a
+                href={linkedInSearchUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hit-slop inline-flex items-center space-x-2 px-4 py-2 rounded-[8px] bg-ink-light text-background-light dark:bg-ink-dark dark:text-background-dark text-xs font-semibold hover:opacity-90 transition-opacity"
               >
-                {showPassphrase ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                <span>Find Engineering Recruiters at {companyName} on LinkedIn</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
+            </div>
+          </div>
+        ) : (
+          /* Active Form for Verified Companies */
+          <form onSubmit={handleGenerate} className="mt-6 space-y-4">
+            {contactSourceUrl && (
+              <div className="text-xs text-muted-light dark:text-muted-dark bg-hairline-light/30 dark:bg-hairline-dark/30 p-2.5 rounded-[8px] border border-hairline-light dark:border-hairline-dark flex items-center justify-between">
+                <span>Verified contact route:</span>
+                <a
+                  href={contactSourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-brass-light dark:text-brass-dark underline inline-flex items-center gap-1 font-medium"
+                >
+                  <span>View Verified Source Page</span>
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+              </div>
+            )}
+
+            {/* Passphrase Gate with Password Visibility Toggle */}
+            <div>
+              <label className="block editorial-label mb-1.5" htmlFor="passphrase-input">
+                Quota Passphrase Gate
+              </label>
+              <div className="relative">
+                <input
+                  id="passphrase-input"
+                  type={showPassphrase ? 'text' : 'password'}
+                  value={passphrase}
+                  onChange={(e) => setPassphrase(e.target.value)}
+                  placeholder="Enter APP_PASSPHRASE if set..."
+                  aria-describedby="passphrase-help"
+                  className="w-full px-3 py-2 pr-10 rounded-[8px] bg-background-light dark:bg-background-dark border border-hairline-light dark:border-hairline-dark text-sm text-ink-light dark:text-ink-dark focus:outline-none focus:ring-1 focus:ring-brass-light"
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowPassphrase((v) => !v)}
+                  aria-label={showPassphrase ? 'Hide passphrase' : 'Show passphrase'}
+                  className="absolute right-2.5 top-1/2 -translate-y-1/2 p-1 text-muted-light dark:text-muted-dark hover:text-ink-light dark:hover:text-ink-dark"
+                >
+                  {showPassphrase ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                </button>
+              </div>
+              <p id="passphrase-help" className="text-xs text-muted-light dark:text-muted-dark mt-1">
+                Passphrase protects your free Gemini quota.
+              </p>
+            </div>
+
+            {/* Project Choice */}
+            <div>
+              <label className="block editorial-label mb-1.5" htmlFor="project-select">
+                Featured Project (Includes UTM tracking)
+              </label>
+              <select
+                id="project-select"
+                value={chosenProject}
+                onChange={(e) => setChosenProject(e.target.value)}
+                className="w-full px-3 py-2 rounded-[8px] bg-background-light dark:bg-background-dark border border-hairline-light dark:border-hairline-dark text-sm text-ink-light dark:text-ink-dark focus:outline-none focus:ring-1 focus:ring-brass-light"
+              >
+                <option value="Finance Manager PWA">Finance Manager PWA (Offline-capable, Next.js, Supabase)</option>
+                <option value="Aurelia Grand Resort">Aurelia Grand Resort (Responsive hospitality luxury UI, Tailwind)</option>
+                <option value="Developer Portfolio">Developer Portfolio (Minimalist editorial design)</option>
+              </select>
+            </div>
+
+            {/* Specific Observation */}
+            <div>
+              <label className="block editorial-label mb-1.5" htmlFor="specific-detail">
+                Specific Company Observation (Mandatory Rule)
+              </label>
+              <input
+                id="specific-detail"
+                type="text"
+                value={specificDetail}
+                onChange={(e) => setSpecificDetail(e.target.value)}
+                placeholder="e.g. Loved your recent launch of the new developer payments SDK..."
+                className="w-full px-3 py-2 rounded-[8px] bg-background-light dark:bg-background-dark border border-hairline-light dark:border-hairline-dark text-sm text-ink-light dark:text-ink-dark focus:outline-none focus:ring-1 focus:ring-brass-light"
+              />
+            </div>
+
+            {errorMessage && (
+              <div className="flex items-center text-xs text-red-600 dark:text-red-400 gap-1.5 py-1">
+                <AlertCircle className="w-4 h-4 shrink-0" />
+                <span>{errorMessage}</span>
+              </div>
+            )}
+
+            <div className="pt-2">
+              <button
+                type="submit"
+                disabled={isLoading}
+                className="w-full py-2.5 px-4 rounded-[8px] bg-ink-light text-background-light dark:bg-ink-dark dark:text-background-dark font-medium text-sm hover:opacity-90 transition-opacity flex items-center justify-center space-x-2"
+              >
+                {isLoading ? (
+                  <span>Generating Draft...</span>
+                ) : (
+                  <>
+                    <Sparkles className="w-4 h-4 text-brass-light dark:text-brass-dark" />
+                    <span>Generate Outreach Pitch</span>
+                  </>
+                )}
               </button>
             </div>
-            <p id="passphrase-help" className="text-xs text-muted-light dark:text-muted-dark mt-1">
-              Passphrase protects your free Gemini quota.
-            </p>
-          </div>
-
-          {/* Project Choice */}
-          <div>
-            <label className="block editorial-label mb-1.5" htmlFor="project-select">
-              Featured Project (Includes UTM tracking)
-            </label>
-            <select
-              id="project-select"
-              value={chosenProject}
-              onChange={(e) => setChosenProject(e.target.value)}
-              className="w-full px-3 py-2 rounded-[8px] bg-background-light dark:bg-background-dark border border-hairline-light dark:border-hairline-dark text-sm text-ink-light dark:text-ink-dark focus:outline-none focus:ring-1 focus:ring-brass-light"
-            >
-              <option value="Finance Manager PWA">Finance Manager PWA (Offline-capable, Next.js, Supabase)</option>
-              <option value="Aurelia Grand Resort">Aurelia Grand Resort (Responsive hospitality luxury UI, Tailwind)</option>
-              <option value="Developer Portfolio">Developer Portfolio (Minimalist editorial design)</option>
-            </select>
-          </div>
-
-          {/* Specific Observation */}
-          <div>
-            <label className="block editorial-label mb-1.5" htmlFor="specific-detail">
-              Specific Company Observation (Mandatory Rule)
-            </label>
-            <input
-              id="specific-detail"
-              type="text"
-              value={specificDetail}
-              onChange={(e) => setSpecificDetail(e.target.value)}
-              placeholder="e.g. Loved your recent launch of the new developer payments SDK..."
-              className="w-full px-3 py-2 rounded-[8px] bg-background-light dark:bg-background-dark border border-hairline-light dark:border-hairline-dark text-sm text-ink-light dark:text-ink-dark focus:outline-none focus:ring-1 focus:ring-brass-light"
-            />
-          </div>
-
-          {errorMessage && (
-            <div className="flex items-center text-xs text-red-600 dark:text-red-400 gap-1.5 py-1">
-              <AlertCircle className="w-4 h-4 shrink-0" />
-              <span>{errorMessage}</span>
-            </div>
-          )}
-
-          <div className="pt-2">
-            <button
-              type="submit"
-              disabled={isLoading}
-              className="w-full py-2.5 px-4 rounded-[8px] bg-ink-light text-background-light dark:bg-ink-dark dark:text-background-dark font-medium text-sm hover:opacity-90 transition-opacity flex items-center justify-center space-x-2"
-            >
-              {isLoading ? (
-                <span>Generating Draft...</span>
-              ) : (
-                <>
-                  <Sparkles className="w-4 h-4 text-brass-light dark:text-brass-dark" />
-                  <span>Generate Outreach Pitch</span>
-                </>
-              )}
-            </button>
-          </div>
-        </form>
+          </form>
+        )}
 
         {/* Pitch Draft Result */}
         {pitchText && (

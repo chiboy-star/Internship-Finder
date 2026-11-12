@@ -1,0 +1,65 @@
+[
+  {
+    "id": "alert_cf13b1a0732de272",
+    "company": "Cowrywise",
+    "careers_url": "https://cowrywise.com/careers",
+    "matching_text": "Do you have a graduate trainee scheme?",
+    "job_url": "https://cowrywise.com/careers",
+    "detected_at": "2026-11-12T11:55:59.469Z",
+    "status": "new"
+  },
+  {
+    "id": "alert_1d7b3f7421dce4ca",
+    "company": "Flutterwave",
+    "careers_url": "https://flutterwave.com/ng/careers",
+    "matching_text": "View open roles &quot;My internship was filled with unique experiences that allowed me to grow &amp; gain knowledge from those around me.",
+    "job_url": "https://flutterwave.com/ng/careers",
+    "detected_at": "2026-11-12T11:56:00.335Z",
+    "status": "new"
+  },
+  {
+    "id": "alert_eb3bef96a6caf94b",
+    "company": "Sterling Bank (Sterling Tech)",
+    "careers_url": "https://sterling.ng/careers",
+    "matching_text": "This program is also designed to assist mentees with employment opportunities through job search coaching, free resources and internship opportunities.",
+    "job_url": "https://sterling.ng/careers",
+    "detected_at": "2026-11-12T11:56:11.110Z",
+    "status": "new"
+  },
+  {
+    "id": "alert_eb6dd0ac757be563",
+    "company": "Providus Bank",
+    "careers_url": "https://www.providusbank.com/careers",
+    "matching_text": "Apply Now Graduate Trainee Programme Watch Video &times; Your browser does not support the video tag.",
+    "job_url": "https://www.providusbank.com/careers",
+    "detected_at": "2026-11-12T11:56:11.630Z",
+    "status": "new"
+  },
+  {
+    "id": "alert_19b12de93f20668b",
+    "company": "Vatebra Limited",
+    "careers_url": "https://vatebra.com/careers",
+    "matching_text": "Apply For Internship Open Positions Current Opportunities Explore opportunities to join our growing team and contribute to building Africa&#x27;s digital future.",
+    "job_url": "https://vatebra.com/careers",
+    "detected_at": "2026-11-12T11:56:33.651Z",
+    "status": "new"
+  },
+  {
+    "id": "alert_724e5b3223a94e8b",
+    "company": "Tenece Professional Services",
+    "careers_url": "https://tenece.com/careers",
+    "matching_text": "Are internships or entry-level positions available?",
+    "job_url": "https://tenece.com/careers",
+    "detected_at": "2026-11-12T11:56:36.864Z",
+    "status": "new"
+  },
+  {
+    "id": "alert_9847cd68e5deabc4",
+    "company": "FBNQuest Merchant Bank",
+    "careers_url": "https://fbnquest.com/careers",
+    "matching_text": "Learn more Graduate Trainee Programme Launch your career with a structured training pathway designed to develop the next generation of merchant banking leaders.",
+    "job_url": "https://fbnquest.com/careers",
+    "detected_at": "2026-11-12T11:56:59.889Z",
+    "status": "new"
+  }
+]

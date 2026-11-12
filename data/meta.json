@@ -1,55 +1,60 @@
 {
-  "last_run": "2026-11-10T19:57:36.851Z",
+  "last_run": "2026-11-12T11:11:11.083Z",
   "gemini_status": "enabled (model gemini-3.5-flash-lite)",
-  "total_listings_fetched": 7016,
-  "stage_a_passed": 45,
-  "stage_c_passed": 0,
-  "total_rejected": 6061,
+  "total_listings_fetched": 9691,
+  "stage_a_passed": 114,
+  "stage_c_passed": 1,
+  "total_rejected": 9690,
   "rejected_counts": {
-    "NON_INTERN_OR_FULLTIME_ROLE": 2074,
-    "NOT_AN_INTERNSHIP": 1164,
-    "GENERIC_CAREERS_PAGE": 294,
-    "ONSITE_OUTSIDE_NIGERIA": 2388,
-    "WRONG_SEASON_OR_YEAR": 39,
-    "ADVANCED_DEGREE_REQUIRED": 60,
-    "NOT_INTERNSHIP": 6,
-    "NOT_SOFTWARE_ENGINEERING": 9,
-    "NOT_OPEN_TO_NIGERIA": 1,
-    "REGION_LOCKED": 26
+    "DUPLICATE_LISTING": 1463,
+    "NON_INTERN_OR_FULLTIME_ROLE": 2320,
+    "NOT_AN_INTERNSHIP": 1246,
+    "ONSITE_OUTSIDE_NIGERIA": 4361,
+    "WRONG_SEASON_OR_YEAR": 34,
+    "ADVANCED_DEGREE_REQUIRED": 153,
+    "NOT_INTERNSHIP": 8,
+    "NOT_SOFTWARE_ENGINEERING": 23,
+    "NOT_OPEN_TO_NIGERIA": 4,
+    "REGION_LOCKED": 78
   },
   "sources": {
     "greenhouse": {
-      "count": 2601,
+      "count": 2622,
       "error": null,
       "status": "success"
     },
     "lever": {
-      "count": 304,
+      "count": 303,
       "error": null,
       "status": "success"
     },
     "ashby": {
-      "count": 321,
+      "count": 327,
       "error": null,
       "status": "success"
     },
     "github-community": {
-      "count": 2793,
+      "count": 5333,
       "error": null,
       "status": "success"
     },
-    "remote-apis": {
-      "count": 913,
+    "remotive": {
+      "count": 14,
+      "error": null,
+      "status": "success"
+    },
+    "arbeitnow": {
+      "count": 900,
       "error": null,
       "status": "success"
     },
     "hackernews": {
-      "count": 29,
+      "count": 30,
       "error": null,
       "status": "success"
     },
     "weworkremotely": {
-      "count": 55,
+      "count": 162,
       "error": null,
       "status": "success"
     },
@@ -64,5 +69,79 @@
       "status": "skipped"
     }
   },
-  "check_eligibility_count": 3
+  "funnel": {
+    "greenhouse": {
+      "source": "greenhouse",
+      "fetched": 2622,
+      "duplicate": 435,
+      "stage_a_reject": 2175,
+      "stage_c_reject": 12,
+      "check_eligibility": 0,
+      "verified": 0
+    },
+    "lever": {
+      "source": "lever",
+      "fetched": 303,
+      "duplicate": 145,
+      "stage_a_reject": 157,
+      "stage_c_reject": 1,
+      "check_eligibility": 0,
+      "verified": 0
+    },
+    "ashby": {
+      "source": "ashby",
+      "fetched": 327,
+      "duplicate": 10,
+      "stage_a_reject": 314,
+      "stage_c_reject": 3,
+      "check_eligibility": 0,
+      "verified": 0
+    },
+    "github-community": {
+      "source": "github-community",
+      "fetched": 5333,
+      "duplicate": 794,
+      "stage_a_reject": 4450,
+      "stage_c_reject": 89,
+      "check_eligibility": 0,
+      "verified": 0
+    },
+    "remotive": {
+      "source": "remotive",
+      "fetched": 14,
+      "duplicate": 0,
+      "stage_a_reject": 14,
+      "stage_c_reject": 0,
+      "check_eligibility": 0,
+      "verified": 0
+    },
+    "arbeitnow": {
+      "source": "arbeitnow",
+      "fetched": 900,
+      "duplicate": 75,
+      "stage_a_reject": 820,
+      "stage_c_reject": 5,
+      "check_eligibility": 0,
+      "verified": 0
+    },
+    "hackernews": {
+      "source": "hackernews",
+      "fetched": 30,
+      "duplicate": 1,
+      "stage_a_reject": 27,
+      "stage_c_reject": 1,
+      "check_eligibility": 0,
+      "verified": 1
+    },
+    "weworkremotely": {
+      "source": "weworkremotely",
+      "fetched": 162,
+      "duplicate": 3,
+      "stage_a_reject": 157,
+      "stage_c_reject": 2,
+      "check_eligibility": 0,
+      "verified": 0
+    }
+  },
+  "check_eligibility_count": 0
 }

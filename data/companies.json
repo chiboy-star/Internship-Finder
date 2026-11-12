@@ -16,7 +16,10 @@
       }
     ],
     "notes": "Leading African payments processor owned by Stripe. Hires engineering interns and new grads, has modern React/Node infrastructure in Ikeja GRA/remote.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "manual check",
+    "http_status": 403,
+    "last_change_seen": "Access restricted (403 Forbidden)"
   },
   {
     "id": "comp_419c017fec88a649",
@@ -35,7 +38,11 @@
       }
     ],
     "notes": "Pan-African fintech unicorn based in Victoria Island. Runs graduate trainee and student internship rotations across frontend and API teams.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 1
   },
   {
     "id": "comp_f465788dea89be25",
@@ -54,7 +61,10 @@
       }
     ],
     "notes": "Fastest-growing business banking platform in Africa. Frequently runs engineering internship academies and accepts SIWES/undergraduate interns in Lagos.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "manual check",
+    "http_status": 403,
+    "last_change_seen": "Access restricted (403 Forbidden)"
   },
   {
     "id": "comp_04ff9b637222a3ee",
@@ -73,7 +83,11 @@
       }
     ],
     "notes": "Pioneering wealth management & savings platform in Lagos (Teslim Elias / Victoria Island). Known for hiring local tech talent & frontend interns.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_f2af93f941f723ac",
@@ -92,7 +106,11 @@
       }
     ],
     "notes": "Africa's first fintech unicorn, based in Victoria Island, Lagos. Established formal student internship programs and developer apprenticeships.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_632ca8c565665075",
@@ -111,7 +129,10 @@
       }
     ],
     "notes": "Digital mobile challenger bank with office in Yaba/London. Actively recruits frontend engineers, QA, and mobile engineering interns.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 406,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_6d11f8761ab95903",
@@ -130,7 +151,11 @@
       }
     ],
     "notes": "Investment and wealth platform with top-tier UI design culture. Has an active campus ambassador and summer engineering internship program.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 1
   },
   {
     "id": "comp_4d31f753bb3e3561",
@@ -149,7 +174,11 @@
       }
     ],
     "notes": "Global investment app for Nigerians. Hybrid work environment in Lagos with high-standard React/React Native engineering.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_54fe18c87bd24404",
@@ -168,7 +197,11 @@
       }
     ],
     "notes": "Largest health tech Electronic Medical Records platform in West Africa, headquartered in Lagos. Accepts software engineering interns.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_c98ccebb6681a958",
@@ -187,7 +220,11 @@
       }
     ],
     "notes": "Leading merchant banking & omnichannel payment enterprise based in Lekki Phase 1, Lagos. Builds robust web and mobile terminal interfaces.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_10d1f57f7117551c",
@@ -206,7 +243,11 @@
       }
     ],
     "notes": "Major tier-1 mobile money and consumer finance platform with large operations in Ikeja, Lagos. Regularly recruits software engineers and data analysts.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_05213df996ff44c6",
@@ -225,7 +266,10 @@
       }
     ],
     "notes": "Digital payments platform processing millions of consumer transactions. Technology center in Ikeja / Victoria Island with student internship avenues.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 500,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_834b173d28957436",
@@ -244,7 +288,11 @@
       }
     ],
     "notes": "Credit-led digital neobank for emerging markets with significant engineering teams in Lagos and Paris. Strong Python, microservices, and React stack.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_85b7deb404fb6daf",
@@ -263,7 +311,10 @@
       }
     ],
     "notes": "Pioneering pan-African digital credit and banking app based in Lagos. Offers early career engineering attachments and internship rotations.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_82fc71bbcd9aef0c",
@@ -282,7 +333,11 @@
       }
     ],
     "notes": "Fintech payment subsidiary of Guaranty Trust Holding Company (GTCO). Modern cloud-native payment infrastructure in Victoria Island, Lagos.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_5f3db8658f646db8",
@@ -301,7 +356,11 @@
       }
     ],
     "notes": "Cross-border remittance platform for immigrants globally. High-velocity engineering hub in Lagos building multi-currency payment rails.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_24fb1fc5d6b9a1cf",
@@ -320,7 +379,10 @@
       }
     ],
     "notes": "Global payroll and invoicing platform for African contractors and remote workers. Lagos engineering hub with modern TypeScript and Next.js applications.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_6537715fc79f3067",
@@ -339,7 +401,10 @@
       }
     ],
     "notes": "Virtual bank accounts and foreign exchange infrastructure built by Raenest. Hires junior software engineers and frontend apprentices.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_618b8445ebccf8a4",
@@ -358,7 +423,11 @@
       }
     ],
     "notes": "African cross-border money transfer and multi-currency card service. Tech teams operate in Lagos, Nairobi, and London.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_6e712e61d5b6f807",
@@ -377,7 +446,11 @@
       }
     ],
     "notes": "Leading digital banking app powered by VFD Group. Tech division based in Lagos Island builds high-frequency banking APIs and web portals.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_54fb636380fa6abc",
@@ -396,7 +469,11 @@
       }
     ],
     "notes": "SME business banking platform acquired by Paystack-backed consortium. Known for clean design, modern React, and backend Go architecture.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_731fb8c27e9446a5",
@@ -415,7 +492,11 @@
       }
     ],
     "notes": "Foreign currency banking service enabling Africans to open USD, GBP, and EUR accounts. Strong remote-friendly engineering culture in Lagos.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_77e0756a006bd0b8",
@@ -434,7 +515,10 @@
       }
     ],
     "notes": "All-in-one corporate cards and expense management platform for African businesses. Tech hub in Lagos building real-time transaction reconciliation engines.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_a5260cfb699c86da",
@@ -453,7 +537,11 @@
       }
     ],
     "notes": "Card issuing API infrastructure for developers and fintech companies in Africa. Focuses on robust financial APIs and developer tooling.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_95b07704204d5e81",
@@ -472,7 +560,10 @@
       }
     ],
     "notes": "Embedded finance API aggregator connecting financial institutions with consumer apps. Engineering headquarters in Lagos.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_70393b47956b16ab",
@@ -491,7 +582,11 @@
       }
     ],
     "notes": "Payment gateway and cross-border settlement infrastructure connecting Africa to global commerce. Technology team based in Marina, Lagos.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_50aa5583b84ac639",
@@ -510,7 +605,10 @@
       }
     ],
     "notes": "One of Nigeria's longest-standing mobile payment networks based in Yaba, Lagos. Deep engineering infrastructure in transaction routing and USSD.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_67a6187da38aee15",
@@ -529,7 +627,10 @@
       }
     ],
     "notes": "National payments and treasury software enterprise (SystemSpecs). Operates structured annual graduate trainee and student internship schemes.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_57fa470cb7b76317",
@@ -548,7 +649,10 @@
       }
     ],
     "notes": "Enterprise payment gateway powering major African retailers and airlines. Headquartered in Victoria Island, Lagos.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_e3976346d7085f8b",
@@ -567,7 +671,11 @@
       }
     ],
     "notes": "Omnichannel payment network operating thousands of POS agent terminals across Nigeria. Tech teams in Ikeja, Lagos.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_2c7313e68899c52f",
@@ -586,7 +694,11 @@
       }
     ],
     "notes": "Payment infrastructure for businesses to accept local and international payments with ease. Lagos-based fintech startup with modern Node.js/Vue/React stacks.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_a4ae750b610e875e",
@@ -605,7 +717,10 @@
       }
     ],
     "notes": "Banking-as-a-service platform backed by Y Combinator. Enables African software teams to build banking features into products via clear APIs.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_8cfd5afa5ee28517",
@@ -624,7 +739,10 @@
       }
     ],
     "notes": "Fintech infrastructure provider offering suite of proprietary APIs for bill payments, agency banking, and custom card issuing.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_20bb0561060c8c7f",
@@ -643,7 +761,11 @@
       }
     ],
     "notes": "Financial operating system providing physical and virtual payment cards for African developers and startups. Lagos engineering team.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_b08a8c5e863e7fe0",
@@ -662,7 +784,10 @@
       }
     ],
     "notes": "Consumer mobile wallet and agent banking company in Lagos. Builds NFC payment technologies and mobile point-of-sale applications.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "manual check",
+    "http_status": 403,
+    "last_change_seen": "Access restricted (403 Forbidden)"
   },
   {
     "id": "comp_c49f8010c97f7539",
@@ -681,7 +806,10 @@
       }
     ],
     "notes": "Consumer buy-now-pay-later (BNPL) and credit card platform based in Maryland, Lagos. Hires junior frontend and backend engineers.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "manual check",
+    "http_status": 403,
+    "last_change_seen": "Access restricted (403 Forbidden)"
   },
   {
     "id": "comp_acf379e224b3662d",
@@ -700,7 +828,11 @@
       }
     ],
     "notes": "Peer-to-peer digital lending and investment platform based in Ikeja, Lagos. Accepts student SIWES attachments across web development.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_09a815c16d3c4d87",
@@ -719,7 +851,10 @@
       }
     ],
     "notes": "Consumer finance institution with advanced algorithmic credit scoring in Ikoyi, Lagos. Recruits software developers and QA testers.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_c3e4acdac5758225",
@@ -738,7 +873,11 @@
       }
     ],
     "notes": "Tier-1 commercial bank headquartered in Victoria Island, Lagos. Hosts annual Zenith Tech Fair and recruits computer science/engineering students for IT attachment.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_81668d6b9e32337e",
@@ -757,7 +896,11 @@
       }
     ],
     "notes": "Leading commercial banking institution in Lagos. Runs dedicated technology academy and takes engineering SIWES interns across enterprise software teams.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_ebb6a7f784d660c1",
@@ -776,7 +919,11 @@
       }
     ],
     "notes": "Largest bank in Nigeria by asset size. Operates Access Africa and Africa Fintech Foundry (AFF) in Victoria Island, recruiting student software developers.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_3d86d6eaf82a55ea",
@@ -795,7 +942,10 @@
       }
     ],
     "notes": "Standard Bank Group subsidiary in Nigeria. Runs Blue Lab innovation hub in Yaba and structured undergraduate SIWES / IT intern programs.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_991b62ea018d6559",
@@ -814,7 +964,11 @@
       }
     ],
     "notes": "Pan-African bank across 20 African countries with global headquarters in Marina, Lagos. Operates Leo virtual banking AI and software developer intake.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_03e058f385e078a0",
@@ -833,7 +987,10 @@
       }
     ],
     "notes": "Nigeria's premier commercial bank headquartered in Marina, Lagos. Operates dedicated Digital Innovation Lab recruiting computer science interns.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_88b5cf8da2be8b2e",
@@ -852,7 +1009,11 @@
       }
     ],
     "notes": "High-growth commercial bank in Victoria Island, Lagos. Invests heavily in digital retail transformation and IT industrial training students.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_f6f867ee1be8bc35",
@@ -871,7 +1032,11 @@
       }
     ],
     "notes": "Innovator behind OneBank and Edubanc in Marina, Lagos. Prominent supporter of developer hackathons and tech internship cohorts.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 1
   },
   {
     "id": "comp_f3fe4693256044ce",
@@ -890,7 +1055,11 @@
       }
     ],
     "notes": "Pioneer of Nigeria's first fully digital bank (ALAT). Technology center in Marina, Lagos actively recruits students for Hackaholics and software attachments.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_6a32e7a9ab1427d7",
@@ -909,7 +1078,11 @@
       }
     ],
     "notes": "Commercial banking institution sponsoring Hub One tech co-working space in Yaba, Lagos. Actively recruits student programmers.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_924e027d89451f0d",
@@ -928,7 +1101,10 @@
       }
     ],
     "notes": "Historic tier-2 financial institution in Marina, Lagos. Tech divisions build modernized retail and corporate internet banking platforms.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "manual check",
+    "http_status": 403,
+    "last_change_seen": "Access restricted (403 Forbidden)"
   },
   {
     "id": "comp_1a693a6c7fb49669",
@@ -947,7 +1123,11 @@
       }
     ],
     "notes": "Pioneer in banking APIs partnering directly with Nigerian fintechs. Tech teams build high-volume webhook and virtual account engines in Victoria Island.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 1
   },
   {
     "id": "comp_b0af1af8f68f5c11",
@@ -966,7 +1146,11 @@
       }
     ],
     "notes": "Non-interest commercial bank with growing digital retail presence in Lagos and Abuja. Recruits core banking software engineers.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_5d1844c82a9a669d",
@@ -985,7 +1169,11 @@
       }
     ],
     "notes": "Islamic financial institution with expanding digital retail mobile platforms. Hires database administrators and web developers.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_344b7ff55f816558",
@@ -1004,7 +1192,10 @@
       }
     ],
     "notes": "Corporate and SME commercial bank in Victoria Island, Lagos. Technology teams work on digital treasury and trade financing platforms.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "manual check",
+    "http_status": 403,
+    "last_change_seen": "Access restricted (403 Forbidden)"
   },
   {
     "id": "comp_399f519743400264",
@@ -1023,7 +1214,11 @@
       }
     ],
     "notes": "Nigeria's largest telecommunications enterprise with headquarters in Ikoyi, Lagos. Runs formal graduate and student SIWES programs across digital, MoMo fintech, and cloud engineering.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_d40f37c4e1ce0ea9",
@@ -1042,7 +1237,11 @@
       }
     ],
     "notes": "Major telecom provider headquartered in Banana Island, Lagos. Tech divisions build SmartCash Payment Service Bank and telecom enterprise services.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_52c3ef34caaf789e",
@@ -1061,7 +1260,11 @@
       }
     ],
     "notes": "Indigenous telecom operator in Victoria Island, Lagos. Recruits student industrial trainees across network operations, database, and billing systems.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_184fdc3e3e57fd5c",
@@ -1080,7 +1283,10 @@
       }
     ],
     "notes": "Telecom network provider with head office in Banana Island, Ikoyi. Software teams develop self-care portals and subscriber services.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "timeout",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_7bf2aae878916b6c",
@@ -1099,7 +1305,10 @@
       }
     ],
     "notes": "West Africa's leading subsea cable and connectivity infrastructure provider based in Victoria Island / Lekki. Employs network and software developers.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "manual check",
+    "http_status": 403,
+    "last_change_seen": "Access restricted (403 Forbidden)"
   },
   {
     "id": "comp_1ce8662057cc9e99",
@@ -1118,7 +1327,11 @@
       }
     ],
     "notes": "Tier III carrier-neutral data centre operator in Ikeja, Lagos. Employs infrastructure engineers and systems automation developers.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_0b7b7cac8500117f",
@@ -1137,7 +1350,10 @@
       }
     ],
     "notes": "Interconnection hub and data centre provider in Victoria Island, Lagos. Recruits network operations and automation interns.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_a7e4e4c62efb5490",
@@ -1156,7 +1372,11 @@
       }
     ],
     "notes": "Public digital infrastructure and cloud services operator with tech operations in Lagos. Regularly accepts university SIWES students.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_1230b77882e38dc7",
@@ -1175,7 +1395,10 @@
       }
     ],
     "notes": "Pioneer fiber-optic internet broadband company based in Victoria Island, Lagos. Hires student software engineering trainees.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_54999d17b0742cd0",
@@ -1194,7 +1417,10 @@
       }
     ],
     "notes": "Fast-growing FTTH fiber internet provider in Lekki and Ikeja, Lagos. Employs web developers and customer portal engineers.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_f89398692f2b58bc",
@@ -1213,7 +1439,11 @@
       }
     ],
     "notes": "4G LTE broadband network provider in Ikoyi, Lagos. Employs billing system developers and network software specialists.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_5c3d9a29de09f6d4",
@@ -1232,7 +1462,11 @@
       }
     ],
     "notes": "Leading wireless 4G/LTE broadband internet service provider in Ikeja, Lagos. Accepts student SIWES attachments.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_15db5558443bb3d9",
@@ -1251,7 +1485,10 @@
       }
     ],
     "notes": "High-speed broadband provider in Victoria Island, Lagos. Tech team develops customer portals, billing integration, and VoIP software.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_a55c3ccdce143282",
@@ -1270,7 +1507,11 @@
       }
     ],
     "notes": "Pan-African pan-continental connectivity and cloud solutions provider with Lagos data office. Recruits software and cloud apprentices.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_bd3364ae9f7b4524",
@@ -1289,7 +1530,10 @@
       }
     ],
     "notes": "Licensed enterprise connectivity and managed IT service provider based in Ikoyi, Lagos. Welcomes university software engineering interns.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_33a212e75a7f7c16",
@@ -1308,7 +1552,11 @@
       }
     ],
     "notes": "Telemedicine and health insurance enterprise operating in Nigeria and Egypt. Tech headquarters in Lagos builds modern telehealth web and mobile systems.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_da73106e6a5454ff",
@@ -1327,7 +1575,10 @@
       }
     ],
     "notes": "Affordable micro-health insurance and pharmacy digital network in Lagos. Tech team uses modern React and Node.js microservices.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_962b9c7afac8b446",
@@ -1346,7 +1597,11 @@
       }
     ],
     "notes": "B2B pharmacy digital supply chain and credit financing enterprise based in Yaba, Lagos. Recruits frontend and backend developers.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_e77f26fadebcd912",
@@ -1365,7 +1620,11 @@
       }
     ],
     "notes": "Fastest-growing food delivery startup in Nigeria, backed by Y Combinator. Engineering office in Ikeja, Lagos builds high-throughput rider routing algorithms.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_25c8b0291d6f8e54",
@@ -1384,7 +1643,11 @@
       }
     ],
     "notes": "Home concierge and subscription lifestyle platform in Lagos founded by Andela alumni. Renowned engineering craftsmanship in React, React Native, and Node.js.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_eec92c4cc5e25ede",
@@ -1403,7 +1666,11 @@
       }
     ],
     "notes": "Global multi-category delivery app with fast-growing operations in Lagos Island and Mainland. Tech roles coordinate regional partner logistics APIs.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_057b9756f2665bb7",
@@ -1422,7 +1689,11 @@
       }
     ],
     "notes": "Pan-African e-commerce enterprise listed on NYSE. Tech headquarters in Ikeja, Lagos builds warehouse management, JumiaPay, and marketplace systems.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_4b53bb7a9e1a7fda",
@@ -1441,7 +1712,11 @@
       }
     ],
     "notes": "Composite e-commerce marketplace and KongaPay provider in Ikeja, Lagos. Employs web developers and cloud operations engineers.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_3d7ca639884f041d",
@@ -1460,7 +1735,11 @@
       }
     ],
     "notes": "B2B supply chain and digital distribution platform connecting FMCG brands with local micro-retailers in Lagos. Strong Node/React/Cloud stack.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_a335b5ef4d7021cc",
@@ -1479,7 +1758,10 @@
       }
     ],
     "notes": "B2B digital commerce platform enabling merchant distribution networks across West Africa. Tech office based in Victoria Island, Lagos.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_c780f24e75298e98",
@@ -1498,7 +1780,10 @@
       }
     ],
     "notes": "B2B retail-tech enterprise with logistics software connecting informal retail stores. Engineering team based in Ikeja, Lagos.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "timeout",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_aad1c124596886b4",
@@ -1517,7 +1802,11 @@
       }
     ],
     "notes": "B2B retail distribution tech platform based in Lagos connecting consumer brands with retailers via mobile apps and AI ordering.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_4ed8ce0734f5f19f",
@@ -1536,7 +1825,10 @@
       }
     ],
     "notes": "Mobility tech company pioneering electric vehicle fleet management, digital subscription financing, and IoT telemetry in Lagos.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_5594aed897f64abb",
@@ -1555,7 +1847,10 @@
       }
     ],
     "notes": "Last-mile on-demand logistics and delivery tech platform in Ilupeju, Lagos. Develops geolocation and dispatch software.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_eb73982a3ff19caa",
@@ -1574,7 +1869,10 @@
       }
     ],
     "notes": "Technology-driven shared mobility and corporate bus-pooling platform headquartered in Lekki, Lagos. Hires mobile and backend engineers.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_8c9335457630ffb0",
@@ -1593,7 +1891,10 @@
       }
     ],
     "notes": "Pan-African digital logistics platform matching freight haulers with enterprise cargo owners. Tech hub in Yaba, Lagos.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "timeout",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_169f1a373f332619",
@@ -1612,7 +1913,10 @@
       }
     ],
     "notes": "E-commerce fulfillment, logistics, and international shipping platform for African merchants. Engineering office in Ikeja, Lagos.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_5a5abec61bb45f8c",
@@ -1631,7 +1935,11 @@
       }
     ],
     "notes": "Global freight shipping and cargo booking portal built for African businesses. Lagos-based tech team with modern Next.js and Node stacks.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_59fafe074417c434",
@@ -1650,7 +1958,10 @@
       }
     ],
     "notes": "Leading African edtech platform delivering live interactive learning and STEM video courses across West Africa. Engineering hub in Lagos.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_17e142ab840187b7",
@@ -1669,7 +1980,10 @@
       }
     ],
     "notes": "Online higher education and technical skills academy training thousands of software engineers in Nigeria. Strong engineering hub in Lekki, Lagos.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "timeout",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_29b935dbae30e1f2",
@@ -1688,7 +2002,10 @@
       }
     ],
     "notes": "Edtech tutoring marketplace matching students with verified local academic tutors. Tech team based in Yaba, Lagos.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_d123868f02ac28f1",
@@ -1707,7 +2024,10 @@
       }
     ],
     "notes": "Software engineering academy and venture studio based in Yaba, Lagos. Trains software developers and matches students with local enterprise tech teams.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_964fffee5ebc25b2",
@@ -1726,7 +2046,11 @@
       }
     ],
     "notes": "Software engineering training institute and developer placement firm in Lekki, Lagos. Employs instructors and developer leads across web technologies.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_ed5bc7352068f01f",
@@ -1745,7 +2069,11 @@
       }
     ],
     "notes": "Real estate data and market intelligence platform for African commercial real estate. Lagos engineering team builds analytics dashboards and GIS databases.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_1f496e377cd315f1",
@@ -1764,7 +2092,11 @@
       }
     ],
     "notes": "Proptech platform offering monthly rental payment flexibility for young professionals in Lagos. Hires web and mobile developers.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_0175cc90b7849e10",
@@ -1783,7 +2115,10 @@
       }
     ],
     "notes": "Construction technology startup building digital procurement and price comparison marketplaces for builders. Lagos engineering hub.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_84dfc5fbed6f3c5c",
@@ -1802,7 +2137,10 @@
       }
     ],
     "notes": "Food supply chain and procurement platform for African restaurants and hotels. Engineering headquarters in Lagos builds inventory tracking systems.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_6929525dc8663149",
@@ -1821,7 +2159,10 @@
       }
     ],
     "notes": "Mobile-first commerce tool enabling micro-businesses to set up online stores, manage bookkeeping, and issue invoices. Headquartered in Yaba, Lagos.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_dcde938ea80c806e",
@@ -1840,7 +2181,10 @@
       }
     ],
     "notes": "Developer tools and automated payroll software for fast-growing Nigerian companies. Lagos tech team.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_012ac80400439321",
@@ -1859,7 +2203,10 @@
       }
     ],
     "notes": "Global mobility fintech and Uber's exclusive vehicle supply partner in Africa. Technology hub in Victoria Island, Lagos.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_5f872c2f95654c66",
@@ -1878,7 +2225,11 @@
       }
     ],
     "notes": "Global developer network matching senior and emerging African software engineers with international tech companies. Large talent hub in Lagos.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_cd2463a88fbece1c",
@@ -1897,7 +2248,10 @@
       }
     ],
     "notes": "Premier digital design and web development agency in Victoria Island, Lagos. Famous for building top fintech corporate portals and accessible web apps.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_5c23fd1e66fe473f",
@@ -1916,7 +2270,10 @@
       }
     ],
     "notes": "Digital technology and creative engineering agency based in Lekki Phase 1, Lagos. Builds enterprise web platforms, games, and web apps.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_bbf512cd962bd040",
@@ -1935,7 +2292,11 @@
       }
     ],
     "notes": "Global public sector delivery consultancy working with African governments. Lagos office builds data tracking systems and software dashboards.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_6617af3f91c44a55",
@@ -1954,7 +2315,10 @@
       }
     ],
     "notes": "Software development incubator and enterprise talent academy. Runs Learnable software internship for undergraduates across Nigeria.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_318223ad8dcadfc5",
@@ -1973,7 +2337,11 @@
       }
     ],
     "notes": "Nigeria's preeminent technology innovation centre in Yaba, Lagos. Supports hundreds of startups and frequently accepts software engineering interns.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_2c79b16d30dc6592",
@@ -1992,7 +2360,10 @@
       }
     ],
     "notes": "Leading early-stage pan-African venture capital firm and startup studio with major portfolio companies in Lagos. Matches interns with portfolio startups.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "timeout",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_4482dde04275f46a",
@@ -2011,7 +2382,10 @@
       }
     ],
     "notes": "Enterprise digital transformation and identity solutions provider in Ikeja GRA, Lagos. Built Eyowo and large corporate ERP web applications.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_e2bdfb1935e4b04c",
@@ -2030,7 +2404,11 @@
       }
     ],
     "notes": "Africa's leading enterprise data and marketing technology company based in Victoria Island, Lagos. Builds high-scale consumer data platforms (CDP).",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_f9362f0811ad1f89",
@@ -2049,7 +2427,10 @@
       }
     ],
     "notes": "Holding company that builds fintech and data solutions for aviation, power, and financial sectors in Lagos. Known for hiring IT attachment students.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_d7c28d53da9de318",
@@ -2068,7 +2449,11 @@
       }
     ],
     "notes": "Africa's first decentralized payment network powered by blockchain, based in Lekki Phase 1, Lagos. Builds interbank settlement protocols.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_d520e745f851bf21",
@@ -2087,7 +2472,10 @@
       }
     ],
     "notes": "Pioneering multi-application electronic payment switching platform in Lagos. Hires software developers for transaction security and cloud systems.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_5cae75c558b3871e",
@@ -2106,7 +2494,10 @@
       }
     ],
     "notes": "Financial software development agency based in Ikeja, Lagos. Builds enterprise cheque clearing, pension administration, and reconciliation systems.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_464e3f667de3cdbd",
@@ -2125,7 +2516,11 @@
       }
     ],
     "notes": "Pan-African systems integration and enterprise IT services company headquartered in Lekki, Lagos. Operates long-standing CWG Academy for early careers.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_ee39061019e3162c",
@@ -2144,7 +2539,11 @@
       }
     ],
     "notes": "Major financial technology systems integrator in West Africa based in Victoria Island, Lagos. Partners with major core banking system providers.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_7b00e69d55fdc1c5",
@@ -2163,7 +2562,11 @@
       }
     ],
     "notes": "Indigenous software development firm in Ikeja, Lagos. Developed major national examination and biometric verification software across Nigeria.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_8de4385caff67ab2",
@@ -2182,7 +2585,10 @@
       }
     ],
     "notes": "Identity management and transactional technology enterprise in Victoria Island, Lagos. Employs student industrial trainees in software development.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_a09ad0dfa2e19bab",
@@ -2201,7 +2607,11 @@
       }
     ],
     "notes": "Custom enterprise software solutions provider in Victoria Island, Lagos. Regularly takes university SIWES interns across C#, Java, and React development.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 1
   },
   {
     "id": "comp_0ae649155c24e1ea",
@@ -2220,7 +2630,11 @@
       }
     ],
     "notes": "Digital agency, IT and cybersecurity management firm based in Lagos. Offers structured internships for students in web development and cybersecurity.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_4d1602fbdcae84be",
@@ -2239,7 +2653,11 @@
       }
     ],
     "notes": "Software development network and engineering talent collective headquartered in Yaba, Lagos. Connects software teams with Nigerian developer communities.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_704d557e720730eb",
@@ -2258,7 +2676,11 @@
       }
     ],
     "notes": "Enterprise technology consulting and custom software development company with offices in Lagos. Known for hiring student software interns.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 1
   },
   {
     "id": "comp_43720100f3623d21",
@@ -2277,7 +2699,10 @@
       }
     ],
     "notes": "Systems integration and management consulting firm providing custom enterprise software solutions. Lagos office employs student developers.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_f1a5da9a9f1afe4c",
@@ -2296,7 +2721,11 @@
       }
     ],
     "notes": "Cloud services, networking, and enterprise IT security provider based in Lagos. Offers industrial attachment opportunities in cloud and software support.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_1f707f97a2a4fae4",
@@ -2315,7 +2744,10 @@
       }
     ],
     "notes": "Leading Microsoft and Cisco enterprise cloud partner in Ikeja, Lagos. Employs software developers and cloud engineers across enterprise clients.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_44920463fe15f43a",
@@ -2334,7 +2766,11 @@
       }
     ],
     "notes": "Managed IT, communication, and ERP systems integration company based in Victoria Island, Lagos. Takes IT attachment students in software development.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_ad4f32bbf3ced090",
@@ -2353,7 +2789,10 @@
       }
     ],
     "notes": "Innovation lab and entrepreneurial community in Ikoyi, Lagos fostering social impact tech startups and software apprentices.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_cbd4223736fa7a97",
@@ -2372,7 +2811,10 @@
       }
     ],
     "notes": "Tech ecosystem community and incubation park in Yaba, Lagos. Supports early-stage developer cohorts and student tech internships.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_7dce98cc8f5f95eb",
@@ -2391,7 +2833,11 @@
       }
     ],
     "notes": "Pan-African startup accelerator partnership between ARM and Techstars in Lagos. Portfolio tech companies actively recruit software interns.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_e358f988e4ae82a2",
@@ -2410,7 +2856,10 @@
       }
     ],
     "notes": "Startup workspace and community hub in Yaba and Ojodu, Lagos hosting hundreds of Nigerian tech founders and developer collectives.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_015578181e3bc489",
@@ -2429,7 +2878,10 @@
       }
     ],
     "notes": "Pioneer Nigerian tech accelerator and venture development park with operations in Ikeja, Lagos. Coordinates student internship placements.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_1f35d0f3549276ad",
@@ -2448,7 +2900,11 @@
       }
     ],
     "notes": "Google's developer and startup accelerator hub based in Lagos. Connects African software engineering talent with Google mentors and ecosystem startups.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_1e84023ab5564292",
@@ -2467,7 +2923,11 @@
       }
     ],
     "notes": "Microsoft's premier software engineering and innovation centre in Kingsway Tower, Ikoyi, Lagos. Recruits Nigerian university students for SWE internships.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_e1683713e49a971b",
@@ -2486,7 +2946,11 @@
       }
     ],
     "notes": "Digital banking ecosystem combining financial services and online marketplace for Nigerian merchants. Lagos tech team.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_ceabfca2ded7cf01",
@@ -2505,7 +2969,11 @@
       }
     ],
     "notes": "African cross-border payments unicorn with significant engineering and operations presence in Lagos. Modern web, mobile, and crypto rails.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_4b22df5d4de04334",
@@ -2524,7 +2992,10 @@
       }
     ],
     "notes": "Major healthcare enterprise in Agege, Lagos. Operates enterprise IT systems and takes annual engineering industrial trainees.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_378249b40d2f9d64",
@@ -2543,7 +3014,10 @@
       }
     ],
     "notes": "Venture capital and technology development firm with deep enterprise and angel investments across Lagos. Facilitates student startup placements.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_c0429084167f2269",
@@ -2562,7 +3036,11 @@
       }
     ],
     "notes": "Leading pan-African KYC, identity verification, and biometrics engine based in Lagos. Hires software engineers and AI/ML data interns.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_0f0171caa308afc9",
@@ -2581,7 +3059,10 @@
       }
     ],
     "notes": "Cross-border commerce technology company enabling global businesses to accept frictionless payments from Africa. Lagos engineering office.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "manual check",
+    "http_status": 403,
+    "last_change_seen": "Access restricted (403 Forbidden)"
   },
   {
     "id": "comp_7cffb7f9808d794a",
@@ -2600,7 +3081,10 @@
       }
     ],
     "notes": "Global cryptocurrency and digital asset exchange with established customer operations and security engineering hub in Lagos.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "timeout",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_63c742a8382e64e4",
@@ -2619,7 +3103,10 @@
       }
     ],
     "notes": "Pan-African stablecoin and digital asset on/off ramp infrastructure. Strong remote and Lagos engineering teams.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_93ef3efb473dfb0f",
@@ -2638,7 +3125,10 @@
       }
     ],
     "notes": "Enterprise financial software consulting and microservices development team based in Lagos.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "timeout",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_ee291cc881a7b207",
@@ -2657,7 +3147,10 @@
       }
     ],
     "notes": "Financial management and digital bookkeeping app for African micro-merchants. Lagos office builds fast mobile and backend tools.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_ee4dad7c330cf04d",
@@ -2676,7 +3169,10 @@
       }
     ],
     "notes": "B2B payment automation and cash flow management software for African distributors and FMCG corporations. Lagos engineering team.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "timeout",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_7519104018f3633d",
@@ -2695,7 +3191,10 @@
       }
     ],
     "notes": "Trade financing and digital banking platform built for supply chain and logistics players in Lagos.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "timeout",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_9e273346ee9d4d0e",
@@ -2714,7 +3213,10 @@
       }
     ],
     "notes": "Fintech and female-focused wealth community in Lagos providing micro-savings, digital financial education, and networking.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "manual check",
+    "http_status": 403,
+    "last_change_seen": "Access restricted (403 Forbidden)"
   },
   {
     "id": "comp_a70d7180d1d94d7b",
@@ -2733,7 +3235,10 @@
       }
     ],
     "notes": "Agtech and industrial food processing hardware/software platform in Lagos. Employs embedded software engineers and web developers.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "timeout",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_1a3a419e5ba7194e",
@@ -2752,7 +3257,10 @@
       }
     ],
     "notes": "Africa's leading cloud HR and payroll software enterprise based in Lagos. Hires software developers for enterprise ERP web applications.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "timeout",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_50e4de1c854560b0",
@@ -2771,7 +3279,10 @@
       }
     ],
     "notes": "Cloud payroll, benefits, and tax compliance platform operating across Nigeria and Ghana. Engineering office in Lagos.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "timeout",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_87e5a538625138de",
@@ -2790,7 +3301,11 @@
       }
     ],
     "notes": "Leading telecommunications and messaging API platform in Africa powering OTPs, SMS, and WhatsApp business channels for top fintechs.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_0eb79359cfcc9974",
@@ -2809,7 +3324,10 @@
       }
     ],
     "notes": "Multichannel communications platform acquired by OneLiquidity. Provides unified SMS, email, voice, and WhatsApp APIs for African businesses.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "timeout",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_126ec675426abe49",
@@ -2828,7 +3346,10 @@
       }
     ],
     "notes": "Customer data and email automation platform built by Nigerian engineers. Modern TypeScript, Node, and Next.js technology stack.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "timeout",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_1c67537a9ebfad06",
@@ -2847,7 +3368,11 @@
       }
     ],
     "notes": "Cross-border payment infrastructure for financial institutions and money transfer operators across Africa. Technology hub in Lagos.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_7419202be4d22d35",
@@ -2866,7 +3391,10 @@
       }
     ],
     "notes": "Non-profit innovation and ecosystem arm supporting technology talent, developer bootcamps, and early-career software apprenticeships.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_54967279d56c80c8",
@@ -2885,7 +3413,11 @@
       }
     ],
     "notes": "Leading non-profit tech talent accelerator providing laptops, mentorship, and junior developer placement for emerging software engineers in Lagos.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_fd55fb4d166faf2f",
@@ -2904,7 +3436,10 @@
       }
     ],
     "notes": "Pan-African non-profit equipping African youths with tech micro-scholarships, developer training, and internship placement in Lagos tech firms.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "timeout",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_87f0908cfa9a5b84",
@@ -2923,7 +3458,11 @@
       }
     ],
     "notes": "Insurtech operating system providing digital claims processing and embedded insurance APIs for B2B platforms in Nigeria.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_75e90558f8a7b21d",
@@ -2942,7 +3481,10 @@
       }
     ],
     "notes": "Open insurance API infrastructure connecting insurance underwriters with digital distributors in Nigeria. Lagos engineering office.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_6c745436da1a46f0",
@@ -2961,7 +3503,11 @@
       }
     ],
     "notes": "Nigeria's first 100% digital micro-insurance provider based in Victoria Island, Lagos. Hires frontend developers and mobile app engineers.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_1bd3fea8c6e35a20",
@@ -2980,7 +3526,11 @@
       }
     ],
     "notes": "AI-powered fraud detection and claims automation infrastructure for African insurers and healthcare providers. Lagos tech headquarters.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_a474f1cfbf3e1f4b",
@@ -2999,7 +3549,11 @@
       }
     ],
     "notes": "Agricultural technology enterprise building proprietary farm management software (AOS) and commodity supply chains. Lagos technology office.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_b8891ebecec57264",
@@ -3018,7 +3572,10 @@
       }
     ],
     "notes": "Pioneer digital agriculture platform in Lagos. Hires web developers, cloud administrators, and mobile app programmers.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_43ee30bef2b06bbf",
@@ -3037,7 +3594,10 @@
       }
     ],
     "notes": "Licensed microfinance banking entity of Kuda Technologies based in Yaba, Lagos. Active student trainee and internship intake across banking software.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 406,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_30aa70ff2f2c8fe4",
@@ -3056,7 +3616,10 @@
       }
     ],
     "notes": "Digital banking-as-a-service and neobank platform based in Lagos. Technology team builds customizable banking modules.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_52f80603f72ad1b6",
@@ -3075,7 +3638,11 @@
       }
     ],
     "notes": "Lifestyle and business digital bank founded by former Diamond Bank CEO. Engineering team builds AI financial assistant and analytics tools in Ikoyi.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_25de8e0b74b5c4e7",
@@ -3094,7 +3661,10 @@
       }
     ],
     "notes": "Multi-purpose recharge and digital airtime/data services platform based in Lagos. Hires web and API developers.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_2d35a39d062ddeac",
@@ -3113,7 +3683,11 @@
       }
     ],
     "notes": "Payment processing and interoperability solution provider in Victoria Island, Lagos. Operates C-Gate multi-channel payment engine.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_e88a2304a54b401a",
@@ -3132,7 +3706,11 @@
       }
     ],
     "notes": "Software development and payments enterprise in Ikeja, Lagos. Major partner with NIBSS for payment integration and domain registrar services.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_0f732eab15643855",
@@ -3151,7 +3729,11 @@
       }
     ],
     "notes": "Core national payment and clearing infrastructure owned by Central Bank of Nigeria and licensed commercial banks. Based in Victoria Island; takes top SIWES students.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_10e6129e3bff69ab",
@@ -3170,7 +3752,10 @@
       }
     ],
     "notes": "Africa's largest domestic payment card brand, operating under Interswitch Group in Victoria Island, Lagos. Card EMV and payment chip engineers.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_ef1caa9e13284790",
@@ -3189,7 +3774,11 @@
       }
     ],
     "notes": "Consumer payment and bill presentment platform powered by Interswitch in Victoria Island, Lagos. Recruits frontend and mobile developers.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_10202d67c49058cd",
@@ -3208,7 +3797,11 @@
       }
     ],
     "notes": "Largest Pension Fund Administrator in Nigeria based in Marina, Lagos. Operates large-scale customer self-service portals and internal database systems.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_5d5f889727a3fc47",
@@ -3227,7 +3820,11 @@
       }
     ],
     "notes": "Pioneering insurance institution in Iponri / Victoria Island, Lagos. Tech innovation lab recruits students to build mobile insurance claims apps.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_67d958bd32e1762c",
@@ -3246,7 +3843,10 @@
       }
     ],
     "notes": "Global financial services and insurance group in Victoria Island, Lagos. Hires computer science students for software development SIWES.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "timeout",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_836e5ddd13bd3222",
@@ -3265,7 +3865,10 @@
       }
     ],
     "notes": "Corporate investment bank in Victoria Island, Lagos. Tech divisions build trading execution and corporate cash management web applications.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "network_error",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_7bc120e90afc9a1c",
@@ -3284,7 +3887,11 @@
       }
     ],
     "notes": "Investment banking and asset management arm of FBN Holdings in Victoria Island, Lagos. Technology teams build wealth management software.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 1
   },
   {
     "id": "comp_865a3d585fc84ebe",
@@ -3303,7 +3910,11 @@
       }
     ],
     "notes": "Leading independent investment bank and infrastructure fund manager in Ikoyi, Lagos. Recruits student developers for financial modeling and portal tools.",
-    "status": "possible"
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 0
   },
   {
     "id": "comp_9472a55d088a480d",
@@ -3322,7 +3933,10 @@
       }
     ],
     "notes": "Share registration and digital business solutions provider in Palmgrove, Lagos. Software engineering division develops enterprise register apps.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_eef944d5635ced8a",
@@ -3341,7 +3955,10 @@
       }
     ],
     "notes": "Central securities depository and transaction clearing house for Nigerian capital markets (Marina, Lagos). Hires IT industrial training students.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 404,
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_1a4bc209f631202a",
@@ -3360,7 +3977,10 @@
       }
     ],
     "notes": "Premier stock exchange and securities clearing infrastructure in Marina, Lagos. High-frequency market data feeds and trading platform software.",
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": "timeout",
+    "last_change_seen": "Unreachable / connection error"
   },
   {
     "id": "comp_d854614ac9633849",
@@ -3370,7 +3990,7 @@
     "region": "Remote",
     "takes_interns": true,
     "evidence_url": "https://news.ycombinator.com/item?id=50349615",
-    "notes": "Lists active remote internship (eligibility unstated): Software Engineering Intern",
+    "notes": "Lists active verified role: Software Engineering Intern",
     "contacts": [
       {
         "name": "UNICEF - REMOTE backend dev - Digital Inclusion Di Technical Talent Lead",
@@ -3379,25 +3999,9 @@
         "source_url": "https://news.ycombinator.com/item?id=50349615"
       }
     ],
-    "status": "possible"
-  },
-  {
-    "id": "comp_49a01bca8bb0c104",
-    "name": "F&G",
-    "careers_url": "https://raw.githubusercontent.com/speedyapply/2025-SWE-College-Jobs/main/README.md",
-    "city": "Remote - Des Moines, IA",
-    "region": "Remote - Des Moines, IA",
-    "takes_interns": true,
-    "evidence_url": "https://raw.githubusercontent.com/speedyapply/2025-SWE-College-Jobs/main/README.md",
-    "notes": "Lists active remote internship (eligibility unstated): Intern - IT Cloud Enablement - Summer - 2027",
-    "contacts": [
-      {
-        "name": "F&G Technical Talent Lead",
-        "role": "Engineering Recruiter",
-        "email": null,
-        "source_url": "https://raw.githubusercontent.com/speedyapply/2025-SWE-College-Jobs/main/README.md"
-      }
-    ],
-    "status": "possible"
+    "status": "unverified",
+    "watching_status": "unverified",
+    "http_status": 419,
+    "last_change_seen": "Unreachable / connection error"
   }
 ]
