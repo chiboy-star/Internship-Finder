@@ -28,8 +28,8 @@
     "start_window": "Summer 2027",
     "apply_url": "https://news.ycombinator.com/item?id=50349615",
     "source_url": "https://news.ycombinator.com/item?id=50349615",
-    "first_seen": "2026-11-12T14:14:20.684Z",
-    "last_seen": "2026-11-12T14:14:20.684Z",
+    "first_seen": "2026-11-13T13:38:09.306Z",
+    "last_seen": "2026-11-13T13:38:09.306Z",
     "status": "open",
     "paid": "unknown",
     "stipend_text": null,
@@ -54,6 +54,69 @@
       "check_eligibility"
     ],
     "description_snippet": "UNICEF - REMOTE backend dev - Digital Inclusion Division, Connectivity Credits We&#x27;re building a marketplace where local ISPs connect schools and health centers to the internet, prove it via telemetry, and get access to discounted backhaul, IP transit and compute from large infracos. Currently in pilots in Mexico, Kenya, South Africa, Malawi. Looking for 1 dev to join a small tech team (3 people) working on this protocol and marketplace, which sits on top of a larger tech team of 30 people at UNICEF Digital Inclusion. Not your typical UN job or culture.  https:&#x2F;&#x2F;jobs.unicef.org&#",
+    "is_unverified": true
+  },
+  {
+    "id": "f8728d32b549663d",
+    "source": "hackernews",
+    "external_id": "hn_50479091",
+    "content_hash": "ecfb9df54c93f830",
+    "company": "Location: India (currently travelling within India",
+    "title": "Software Engineering Intern",
+    "location": "Remote",
+    "city_country": "Remote",
+    "work_mode": "remote",
+    "nigeria_eligibility": "unclear",
+    "eligibility": "unclear",
+    "lagos_onsite": false,
+    "is_internship": true,
+    "is_software_engineering": true,
+    "duration": null,
+    "duration_weeks": null,
+    "intern_type": "Software Engineering Intern",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Python",
+      "Git"
+    ],
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "Python",
+      "Git"
+    ],
+    "requirements": "Location: India (currently travelling within India; IST, UTC+5:30) Remote: Yes – remote only. Happy to shift my hours for solid overlap with US or EU teams. Willing to relocate: No Technologies: React, TypeScript, Python, Kotlin&#x2F;Spring Boot, GraphQL, FastAPI, Snowflake, C++; MCP servers and LLM agent tooling Résumé&#x2F;CV:  https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1ax25mV1le38zq_dekyVHFl5wMAL...  GitHub:  https:&#x2F;&#x2F;github.com&#x2F;ishanichugh  Email: ishanichugh661 [at] gmail [dot] com Full-stack engineer, ~5 yrs. Most recently 4 years at Goldman Sachs Asset Management, where I was the first engineer on a new team and built its internal platform end to end: React&#x2F;TS dashboards that became the source of truth for KPIs across 40+ private market funds, Kotli",
+    "deadline": null,
+    "start_window": "Summer 2027",
+    "apply_url": "https://news.ycombinator.com/item?id=50479091",
+    "source_url": "https://news.ycombinator.com/item?id=50479091",
+    "first_seen": "2026-11-13T13:38:09.306Z",
+    "last_seen": "2026-11-13T13:38:09.306Z",
+    "status": "open",
+    "paid": "unknown",
+    "stipend_text": null,
+    "seniority_required": "Undergraduate student / 3rd year",
+    "experience_value": 75,
+    "attainability": 65,
+    "confidence": 0.85,
+    "evidence": {
+      "work_mode_quote": "Fully Remote",
+      "nigeria_eligibility_quote": "Remote position with unverified geographic boundaries"
+    },
+    "final_score": 45,
+    "match_score": 45,
+    "match_reason": "Unverified role: Software Engineering Intern at Location: India (currently travelling within India (Fully Remote).",
+    "score_breakdown": {
+      "experience_value": 15,
+      "attainability": 15,
+      "paid_score": 10,
+      "timing_fit": 5
+    },
+    "flags": [
+      "check_eligibility"
+    ],
+    "description_snippet": "Location: India (currently travelling within India; IST, UTC+5:30) Remote: Yes – remote only. Happy to shift my hours for solid overlap with US or EU teams. Willing to relocate: No Technologies: React, TypeScript, Python, Kotlin&#x2F;Spring Boot, GraphQL, FastAPI, Snowflake, C++; MCP servers and LLM agent tooling Résumé&#x2F;CV:  https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1ax25mV1le38zq_dekyVHFl5wMAL...  GitHub:  https:&#x2F;&#x2F;github.com&#x2F;ishanichugh  Email: ishanichugh661 [at] gmail [dot] com Full-stack engineer, ~5 yrs. Most recently 4 years at Goldman Sachs Asset Manag",
     "is_unverified": true
   }
 ]
