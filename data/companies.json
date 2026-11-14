@@ -200,7 +200,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-13 (Page modified)",
+    "last_change_seen": "2026-11-14 (Page modified)",
     "alert_count": 0
   },
   {
@@ -495,7 +495,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-13 (Page modified)",
+    "last_change_seen": "2026-11-14 (Page modified)",
     "alert_count": 0
   },
   {
@@ -877,7 +877,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-13 (Page modified)",
+    "last_change_seen": "2026-11-14 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1216,8 +1216,8 @@
     ],
     "notes": "Nigeria's largest telecommunications enterprise with headquarters in Ikoyi, Lagos. Runs formal graduate and student SIWES programs across digital, MoMo fintech, and cloud engineering.",
     "status": "verified",
-    "watching_status": "unverified",
-    "http_status": "timeout",
+    "watching_status": "watching",
+    "http_status": 200,
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -1374,8 +1374,8 @@
     ],
     "notes": "Public digital infrastructure and cloud services operator with tech operations in Lagos. Regularly accepts university SIWES students.",
     "status": "verified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": "timeout",
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -1533,7 +1533,7 @@
     "notes": "Licensed enterprise connectivity and managed IT service provider based in Ikoyi, Lagos. Welcomes university software engineering interns.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": 404,
+    "http_status": "network_error",
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -1624,7 +1624,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-13 (Page modified)",
+    "last_change_seen": "2026-11-14 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1693,7 +1693,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-14 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1849,8 +1849,8 @@
     ],
     "notes": "Last-mile on-demand logistics and delivery tech platform in Ilupeju, Lagos. Develops geolocation and dispatch software.",
     "status": "unverified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": "network_error",
     "last_change_seen": "2026-11-13 (Page modified)",
     "alert_count": 0
   },
@@ -2660,7 +2660,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-14 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3088,7 +3088,7 @@
     "status": "unverified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-12 (Page modified)",
+    "last_change_seen": "2026-11-14 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3471,7 +3471,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-14 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3923,7 +3923,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-13 (Page modified)",
+    "last_change_seen": "2026-11-14 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3988,9 +3988,10 @@
     ],
     "notes": "Premier stock exchange and securities clearing infrastructure in Marina, Lagos. High-frequency market data feeds and trading platform software.",
     "status": "unverified",
-    "watching_status": "unverified",
-    "http_status": "timeout",
-    "last_change_seen": "Unreachable / connection error"
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "2026-11-14 (Page modified)",
+    "alert_count": 0
   },
   {
     "id": "comp_d854614ac9633849",
