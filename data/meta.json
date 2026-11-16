@@ -1,25 +1,25 @@
 {
-  "last_run": "2026-11-15T13:08:44.149Z",
+  "last_run": "2026-11-16T14:16:47.669Z",
   "gemini_status": "unverified mode",
-  "total_listings_fetched": 9653,
-  "stage_a_passed": 121,
+  "total_listings_fetched": 9607,
+  "stage_a_passed": 116,
   "stage_c_passed": 0,
-  "total_rejected": 9651,
+  "total_rejected": 9605,
   "rejected_counts": {
-    "DUPLICATE_LISTING": 1387,
-    "NON_INTERN_OR_FULLTIME_ROLE": 2349,
-    "NOT_AN_INTERNSHIP": 1257,
-    "ONSITE_OUTSIDE_NIGERIA": 4355,
+    "DUPLICATE_LISTING": 1372,
+    "NON_INTERN_OR_FULLTIME_ROLE": 2301,
+    "NOT_AN_INTERNSHIP": 1301,
+    "ONSITE_OUTSIDE_NIGERIA": 4333,
     "WRONG_SEASON_OR_YEAR": 34,
     "ADVANCED_DEGREE_REQUIRED": 150,
-    "NOT_INTERNSHIP": 10,
-    "NOT_SOFTWARE_ENGINEERING": 41,
-    "REGION_LOCKED": 67,
+    "NOT_INTERNSHIP": 9,
+    "NOT_SOFTWARE_ENGINEERING": 39,
+    "REGION_LOCKED": 65,
     "INVALID_DURATION": 1
   },
   "sources": {
     "greenhouse": {
-      "count": 2565,
+      "count": 2558,
       "error": null,
       "status": "success"
     },
@@ -29,12 +29,12 @@
       "status": "success"
     },
     "ashby": {
-      "count": 330,
+      "count": 329,
       "error": null,
       "status": "success"
     },
     "github-community": {
-      "count": 5326,
+      "count": 5290,
       "error": null,
       "status": "success"
     },
@@ -54,7 +54,7 @@
       "status": "success"
     },
     "weworkremotely": {
-      "count": 181,
+      "count": 179,
       "error": null,
       "status": "success"
     },
@@ -72,10 +72,10 @@
   "funnel": {
     "greenhouse": {
       "source": "greenhouse",
-      "fetched": 2565,
-      "duplicate": 403,
-      "stage_a_reject": 2150,
-      "stage_c_reject": 12,
+      "fetched": 2558,
+      "duplicate": 401,
+      "stage_a_reject": 2147,
+      "stage_c_reject": 10,
       "check_eligibility": 0,
       "verified": 0
     },
@@ -90,19 +90,19 @@
     },
     "ashby": {
       "source": "ashby",
-      "fetched": 330,
+      "fetched": 329,
       "duplicate": 10,
-      "stage_a_reject": 317,
+      "stage_a_reject": 316,
       "stage_c_reject": 3,
       "check_eligibility": 0,
       "verified": 0
     },
     "github-community": {
       "source": "github-community",
-      "fetched": 5326,
-      "duplicate": 776,
-      "stage_a_reject": 4454,
-      "stage_c_reject": 96,
+      "fetched": 5290,
+      "duplicate": 761,
+      "stage_a_reject": 4436,
+      "stage_c_reject": 93,
       "check_eligibility": 0,
       "verified": 0
     },
@@ -118,8 +118,8 @@
     "arbeitnow": {
       "source": "arbeitnow",
       "fetched": 900,
-      "duplicate": 49,
-      "stage_a_reject": 847,
+      "duplicate": 52,
+      "stage_a_reject": 844,
       "stage_c_reject": 4,
       "check_eligibility": 0,
       "verified": 0
@@ -135,9 +135,9 @@
     },
     "weworkremotely": {
       "source": "weworkremotely",
-      "fetched": 181,
-      "duplicate": 3,
-      "stage_a_reject": 176,
+      "fetched": 179,
+      "duplicate": 2,
+      "stage_a_reject": 175,
       "stage_c_reject": 2,
       "check_eligibility": 0,
       "verified": 0

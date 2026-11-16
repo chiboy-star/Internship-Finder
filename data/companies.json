@@ -86,7 +86,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-16 (Page modified)",
     "alert_count": 0
   },
   {
@@ -109,7 +109,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-12 (Page modified)",
+    "last_change_seen": "2026-11-16 (Page modified)",
     "alert_count": 0
   },
   {
@@ -200,7 +200,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-15 (Page modified)",
+    "last_change_seen": "2026-11-16 (Page modified)",
     "alert_count": 0
   },
   {
@@ -786,8 +786,8 @@
     ],
     "notes": "Consumer mobile wallet and agent banking company in Lagos. Builds NFC payment technologies and mobile point-of-sale applications.",
     "status": "unverified",
-    "watching_status": "manual check",
-    "http_status": 403,
+    "watching_status": "unverified",
+    "http_status": 503,
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   {
@@ -877,7 +877,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-15 (Page modified)",
+    "last_change_seen": "2026-11-16 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1013,7 +1013,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-16 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1264,7 +1264,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-16 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1398,7 +1398,7 @@
     "notes": "Pioneer fiber-optic internet broadband company based in Victoria Island, Lagos. Hires student software engineering trainees.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": 404,
+    "http_status": 500,
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -1509,8 +1509,8 @@
     ],
     "notes": "Pan-African pan-continental connectivity and cloud solutions provider with Lagos data office. Recruits software and cloud apprentices.",
     "status": "verified",
-    "watching_status": "unverified",
-    "http_status": "timeout",
+    "watching_status": "watching",
+    "http_status": 200,
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -1693,7 +1693,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-14 (Page modified)",
+    "last_change_seen": "2026-11-16 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1983,8 +1983,8 @@
     ],
     "notes": "Online higher education and technical skills academy training thousands of software engineers in Nigeria. Strong engineering hub in Lekki, Lagos.",
     "status": "unverified",
-    "watching_status": "manual check",
-    "http_status": 403,
+    "watching_status": "watching",
+    "http_status": 200,
     "last_change_seen": "2026-11-12 (Page modified)",
     "alert_count": 0
   },
@@ -2253,7 +2253,7 @@
     "notes": "Premier digital design and web development agency in Victoria Island, Lagos. Famous for building top fintech corporate portals and accessible web apps.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": "network_error",
+    "http_status": "timeout",
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -2546,7 +2546,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-15 (Page modified)",
+    "last_change_seen": "2026-11-16 (Page modified)",
     "alert_count": 0
   },
   {
@@ -2569,7 +2569,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-13 (Page modified)",
+    "last_change_seen": "2026-11-16 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3088,7 +3088,7 @@
     "status": "unverified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-14 (Page modified)",
+    "last_change_seen": "2026-11-16 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3201,7 +3201,7 @@
     "status": "unverified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-13 (Page modified)",
+    "last_change_seen": "2026-11-16 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3923,7 +3923,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-14 (Page modified)",
+    "last_change_seen": "2026-11-16 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3988,8 +3988,8 @@
     ],
     "notes": "Premier stock exchange and securities clearing infrastructure in Marina, Lagos. High-frequency market data feeds and trading platform software.",
     "status": "unverified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": "timeout",
     "last_change_seen": "2026-11-14 (Page modified)",
     "alert_count": 0
   },
