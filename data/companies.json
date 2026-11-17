@@ -152,8 +152,8 @@
     ],
     "notes": "Investment and wealth platform with top-tier UI design culture. Has an active campus ambassador and summer engineering internship program.",
     "status": "verified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": 405,
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 1
   },
@@ -200,7 +200,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-16 (Page modified)",
+    "last_change_seen": "2026-11-17 (Page modified)",
     "alert_count": 0
   },
   {
@@ -334,8 +334,8 @@
     ],
     "notes": "Fintech payment subsidiary of Guaranty Trust Holding Company (GTCO). Modern cloud-native payment infrastructure in Victoria Island, Lagos.",
     "status": "verified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "manual check",
+    "http_status": 403,
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -650,8 +650,8 @@
     ],
     "notes": "Enterprise payment gateway powering major African retailers and airlines. Headquartered in Victoria Island, Lagos.",
     "status": "unverified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": "network_error",
     "last_change_seen": "2026-11-12 (Page modified)",
     "alert_count": 0
   },
@@ -832,7 +832,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-17 (Page modified)",
     "alert_count": 0
   },
   {
@@ -877,7 +877,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-16 (Page modified)",
+    "last_change_seen": "2026-11-17 (Page modified)",
     "alert_count": 0
   },
   {
@@ -968,7 +968,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-15 (Page modified)",
+    "last_change_seen": "2026-11-17 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1013,7 +1013,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-16 (Page modified)",
+    "last_change_seen": "2026-11-17 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1082,7 +1082,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-15 (Page modified)",
+    "last_change_seen": "2026-11-17 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1217,7 +1217,7 @@
     "notes": "Nigeria's largest telecommunications enterprise with headquarters in Ikoyi, Lagos. Runs formal graduate and student SIWES programs across digital, MoMo fintech, and cloud engineering.",
     "status": "verified",
     "watching_status": "unverified",
-    "http_status": "timeout",
+    "http_status": "network_error",
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -1264,7 +1264,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-16 (Page modified)",
+    "last_change_seen": "2026-11-17 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1331,7 +1331,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-17 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1374,8 +1374,8 @@
     ],
     "notes": "Public digital infrastructure and cloud services operator with tech operations in Lagos. Regularly accepts university SIWES students.",
     "status": "verified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": "timeout",
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -1398,7 +1398,7 @@
     "notes": "Pioneer fiber-optic internet broadband company based in Victoria Island, Lagos. Hires student software engineering trainees.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": 500,
+    "http_status": 404,
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -1533,7 +1533,7 @@
     "notes": "Licensed enterprise connectivity and managed IT service provider based in Ikoyi, Lagos. Welcomes university software engineering interns.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": "network_error",
+    "http_status": 404,
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -1693,7 +1693,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-16 (Page modified)",
+    "last_change_seen": "2026-11-17 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1849,8 +1849,8 @@
     ],
     "notes": "Last-mile on-demand logistics and delivery tech platform in Ilupeju, Lagos. Develops geolocation and dispatch software.",
     "status": "unverified",
-    "watching_status": "unverified",
-    "http_status": "network_error",
+    "watching_status": "watching",
+    "http_status": 200,
     "last_change_seen": "2026-11-13 (Page modified)",
     "alert_count": 0
   },
@@ -2253,7 +2253,7 @@
     "notes": "Premier digital design and web development agency in Victoria Island, Lagos. Famous for building top fintech corporate portals and accessible web apps.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": "timeout",
+    "http_status": "network_error",
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -2569,7 +2569,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-16 (Page modified)",
+    "last_change_seen": "2026-11-17 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3313,7 +3313,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-13 (Page modified)",
+    "last_change_seen": "2026-11-17 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3740,8 +3740,8 @@
     ],
     "notes": "Core national payment and clearing infrastructure owned by Central Bank of Nigeria and licensed commercial banks. Based in Victoria Island; takes top SIWES students.",
     "status": "verified",
-    "watching_status": "unverified",
-    "http_status": 503,
+    "watching_status": "watching",
+    "http_status": 200,
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -3855,7 +3855,7 @@
     "notes": "Global financial services and insurance group in Victoria Island, Lagos. Hires computer science students for software development SIWES.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": 404,
+    "http_status": "timeout",
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -3923,7 +3923,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-16 (Page modified)",
+    "last_change_seen": "2026-11-17 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3967,7 +3967,7 @@
     "notes": "Central securities depository and transaction clearing house for Nigerian capital markets (Marina, Lagos). Hires IT industrial training students.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": 404,
+    "http_status": "timeout",
     "last_change_seen": "Unreachable / connection error"
   },
   {

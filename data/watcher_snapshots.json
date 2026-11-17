@@ -6,7 +6,7 @@
     "job_links": [],
     "text_sample": "403 Forbidden - Marked for manual review",
     "http_status": 403,
-    "last_checked": "2026-11-16T14:16:53.443Z",
+    "last_checked": "2026-11-17T15:09:12.293Z",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   "Moniepoint": {
@@ -16,7 +16,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:16:53.636Z",
+    "last_checked": "2026-11-17T15:09:12.525Z",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   "Piggyvest": {
@@ -31,23 +31,26 @@
     ],
     "text_sample": "About Piggyvest Save Piggybank Automated Savings Safelock Fixed Savings Target Savings Goal-oriented Savings Flex Naira Flexible Savings Flex Dollar Dollar Savings House Money Semi Strict Wallet Invest Stories FAQs Resources Blog Reports Comics Calculator Newsletter Ebook Create free account Sign in",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:54.151Z",
+    "last_checked": "2026-11-17T15:09:12.843Z",
     "last_change_seen": "2026-11-16 (Page modified)"
   },
   "Helium Health": {
     "company": "Helium Health",
     "careers_url": "https://heliumhealth.com/careers",
-    "content_hash": "72dbb18e57134916",
+    "content_hash": "3301bb6f54946a4a",
     "job_links": [
       "https://heliumhealth.com/careers/",
       "https://heliumhealth.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fheliumhealth.com%2Fcareers%2F",
       "https://heliumhealth.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fheliumhealth.com%2Fcareers%2F&#038;format=xml",
+      "https://heliumhealth.com/career/growth-associate-lagos-state/",
+      "https://heliumhealth.com/career/growth-associate-oyo-state/",
+      "https://heliumhealth.com/career/growth-associate-delta-state/",
       "https://heliumhealth.com/career/join-our-talent-network/"
     ],
     "text_sample": "Join Our Mission in Transforming Healthcare | Careers at Helium Health HeliumWallet Products Our Provider Digitization Suite HeliumOS HeliumDoc MyHelium Our Financial Solutions HeliumCredit HeliumWallet Our Public Health &#038; Data Partnerships Public Health Data and Insights About About Us Blog Ca",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:54.232Z",
-    "last_change_seen": "2026-11-16 (Page modified)"
+    "last_checked": "2026-11-17T15:09:12.995Z",
+    "last_change_seen": "2026-11-17 (Page modified)"
   },
   "OPay Nigeria": {
     "company": "OPay Nigeria",
@@ -58,7 +61,7 @@
     ],
     "text_sample": "OPay ｜ We are Beyond Banking ☰ Business Company About Us Contact Us CSR Corporate Social Responsibility Education OPay Scholars Play4aChild Infrastructure Campus Upgrade Empowerment Women Empowerment Newsroom Careers Business Company About Us Contact Us CSR Corporate Social Responsibility Education ",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:54.741Z",
+    "last_checked": "2026-11-17T15:09:13.479Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Bamboo": {
@@ -72,7 +75,7 @@
     ],
     "text_sample": "Careers at Bamboo | Invest Bamboo Start with as low as $10 and invest in your dreams Invest Save Private Clients Institutions Learn Get Started Get Started Work at Bamboo Build the Future of Investing for Africa Fast-paced, impact-driven, and built for people who want to do work that matters. See op",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:54.289Z",
+    "last_checked": "2026-11-17T15:09:13.057Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "FairMoney": {
@@ -82,7 +85,7 @@
     "job_links": [],
     "text_sample": "FairMoney - Own Your Financial Journey Home Personal Loans FlexiCredit Consumer Loan Asset Finance Savings FairLock FairSave FairTarget FairDollar Banking Business Business Banking Business Contact Business FAQs Business Terms and Conditions Business Privacy Policy Business Whistleblower Policy Abou",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:53.987Z",
+    "last_checked": "2026-11-17T15:09:12.811Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Carbon (OneFi)": {
@@ -92,7 +95,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:16:54.143Z",
+    "last_checked": "2026-11-17T15:09:12.930Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "PalmPay": {
@@ -102,7 +105,7 @@
     "job_links": [],
     "text_sample": "Connection 500",
     "http_status": 500,
-    "last_checked": "2026-11-16T14:16:54.398Z",
+    "last_checked": "2026-11-17T15:09:13.273Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Cowrywise": {
@@ -114,9 +117,9 @@
       "https://cowrywise.com/careers",
       "/careers"
     ],
-    "text_sample": "Money works here | Cowrywise We use cookies on our website to help us provide the best browsing experience. By continuing to use our website you are deemed to have agreed to the use of cookies. Learn More OK Personal Savings Save and earn amazing returns Mutual Funds Grow your wealth without chasing",
-    "http_status": 200,
-    "last_checked": "2026-11-16T14:16:53.989Z",
+    "text_sample": "Connection 405",
+    "http_status": 405,
+    "last_checked": "2026-11-17T15:09:12.424Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Flutterwave": {
@@ -130,7 +133,7 @@
     ],
     "text_sample": "Flutterwave Careers Menu Icon Enterprise Payment solutions Grow your business Payment solutions Grow your business Accept online payments Easily receive online payments from around the world in different currencies. Payout &amp; Transfers Experience effortless cross-border payouts and transfers in v",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:54.155Z",
+    "last_checked": "2026-11-17T15:09:13.152Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Interswitch Group": {
@@ -140,7 +143,7 @@
     "job_links": [],
     "text_sample": "",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:02.380Z",
+    "last_checked": "2026-11-17T15:09:21.143Z",
     "last_change_seen": "2026-11-16 (Page modified)"
   },
   "Squad by HabariPay": {
@@ -150,9 +153,9 @@
     "job_links": [
       "https://habaripay.zohorecruit.com/jobs/Careers"
     ],
-    "text_sample": "Squad - Careers Products Payment Gateway Accept payments easily Payment Links Send out links and get paid SquadPOS Accept card payments with your phone Virtual Account Instant payment confirmation and reconciliation Ecommerce Start selling products online Other Products More services for your busine",
-    "http_status": 200,
-    "last_checked": "2026-11-16T14:16:54.713Z",
+    "text_sample": "403 Forbidden - Marked for manual review",
+    "http_status": 403,
+    "last_checked": "2026-11-17T15:09:12.913Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Kuda Bank": {
@@ -162,7 +165,7 @@
     "job_links": [],
     "text_sample": "Connection 406",
     "http_status": 406,
-    "last_checked": "2026-11-16T14:16:55.049Z",
+    "last_checked": "2026-11-17T15:09:14.172Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Eversend": {
@@ -176,7 +179,7 @@
     ],
     "text_sample": "Careers — build borderless money infrastructure · Eversend Personal ⌄ Business ⌄ Platform ⌄ Pricing Company ⌄ Business log in Get the app Careers at Eversend Build the account and infrastructure for money that crosses borders. We’re a small team building the account people use to move money across b",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:54.401Z",
+    "last_checked": "2026-11-17T15:09:13.160Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Raenest": {
@@ -186,7 +189,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:16:54.474Z",
+    "last_checked": "2026-11-17T15:09:13.371Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Brass": {
@@ -202,7 +205,7 @@
     ],
     "text_sample": "Careers — Brass Business Banking Industry Retail businesses Stores, restaurants, offline merchants Internet companies Startups, Online, API driven companies Customers Company About us Learn more about our mission Why Brass? Our story and our path forward Careers Explore opportunities with us Press r",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:55.538Z",
+    "last_checked": "2026-11-17T15:09:14.195Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Geegpay": {
@@ -212,7 +215,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:16:54.580Z",
+    "last_checked": "2026-11-17T15:09:13.493Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "OnePipe": {
@@ -222,7 +225,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:16:54.917Z",
+    "last_checked": "2026-11-17T15:09:13.709Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "LemFi (RightCard)": {
@@ -250,7 +253,7 @@
     ],
     "text_sample": "LemFi careers: ambition belongs here. See open roles EN Search roles Roles ambition belongs here Everyone at LemFi is committed to something greater. Join a team of AMBITIOUS people Most of what exists at LemFi was built by those that didn&#39;t wait to be asked. Learn about LemFi &gt; our values Ou",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:54.780Z",
+    "last_checked": "2026-11-17T15:09:13.312Z",
     "last_change_seen": "2026-11-12 (Page modified)"
   },
   "Paga": {
@@ -260,7 +263,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:16:55.257Z",
+    "last_checked": "2026-11-17T15:09:14.153Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Grey (Aboki Africa)": {
@@ -275,7 +278,7 @@
     ],
     "text_sample": "BambooHR",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:55.236Z",
+    "last_checked": "2026-11-17T15:09:14.046Z",
     "last_change_seen": "2026-11-14 (Page modified)"
   },
   "VBank (VFD Microfinance Bank)": {
@@ -291,7 +294,7 @@
     ],
     "text_sample": "Careers - VFD Microfinance Bank Skip to content Retail Business VRewards Rewards – Data Page Rewards – Bill Payments Rewards – Savings Rewards – Airtime Page Open Banking Company Company About us Read about who we are, our vision and why you should bank with us. Careers If you have always wanted to ",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:54.682Z",
+    "last_checked": "2026-11-17T15:09:15.327Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Bujeti": {
@@ -301,7 +304,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:16:54.647Z",
+    "last_checked": "2026-11-17T15:09:14.067Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Nomba": {
@@ -314,7 +317,7 @@
     ],
     "text_sample": "Careers at Nomba: Build the future of African business .js but their .tsx-extension preloads aren't rewritten), which triggers index.html's error handler and force-reloads the page on first navigation. --> Skip to content Products Business accounts One account to receive, send, and manage all your b",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:53.762Z",
+    "last_checked": "2026-11-17T15:09:12.737Z",
     "last_change_seen": "2026-11-12 (Page modified)"
   },
   "SeerBit": {
@@ -326,9 +329,9 @@
       "/careers",
       "https://hris.peoplehum.com/ehire/jobs/234d24db-d224-49d4-8453-24076935a40a"
     ],
-    "text_sample": "Careers Solutions Payment Solutions made easy for you Checkout Pre-built payment page for you Recurring Payments Automate repeat paymets Payment Link No-code payments Online Payments Accept payments on your platform In-Person Payments Accept payments with a POS Virtual Accounts Receive payments with",
-    "http_status": 200,
-    "last_checked": "2026-11-16T14:16:55.098Z",
+    "text_sample": "Connection network_error",
+    "http_status": "network_error",
+    "last_checked": "2026-11-17T15:09:14.252Z",
     "last_change_seen": "2026-11-12 (Page modified)"
   },
   "Bloc": {
@@ -338,7 +341,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:16:55.342Z",
+    "last_checked": "2026-11-17T15:09:14.640Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Remita (SystemSpecs)": {
@@ -348,7 +351,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:16:55.776Z",
+    "last_checked": "2026-11-17T15:09:15.053Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Anchor": {
@@ -358,7 +361,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:16:55.449Z",
+    "last_checked": "2026-11-17T15:09:14.429Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Baxi (Capricorn Digital / MFS Africa)": {
@@ -368,7 +371,7 @@
     "job_links": [],
     "text_sample": "Account Suspended Account Suspended This Account has been suspended. Contact your hosting provider for more information.",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:55.985Z",
+    "last_checked": "2026-11-17T15:09:14.940Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "CredPal": {
@@ -378,18 +381,18 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:16:55.920Z",
+    "last_checked": "2026-11-17T15:09:14.685Z",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   "Zenith Bank (Innovation & Digital Banking Lab)": {
     "company": "Zenith Bank (Innovation & Digital Banking Lab)",
     "careers_url": "https://www.zenithbank.com/careers",
-    "content_hash": "4222dc85bc19952b",
+    "content_hash": "1b8965568b8f3897",
     "job_links": [],
-    "text_sample": "Request unsuccessful. Incapsula incident ID: 48000300009019583-14844884446873488",
+    "text_sample": "Request unsuccessful. Incapsula incident ID: 259000150014265943-5113296021816299",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:56.117Z",
-    "last_change_seen": "2026-11-16 (Page modified)"
+    "last_checked": "2026-11-17T15:09:17.506Z",
+    "last_change_seen": "2026-11-17 (Page modified)"
   },
   "Guaranty Trust Bank (GTCO / Habari)": {
     "company": "Guaranty Trust Bank (GTCO / Habari)",
@@ -398,7 +401,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-16T14:16:56.679Z",
+    "last_checked": "2026-11-17T15:09:19.329Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Korapay": {
@@ -411,7 +414,7 @@
     ],
     "text_sample": "Kora - Accept Payments, Make Payouts &amp; Scale Across Africa NG SELECT LANGUAGE English Français 普通话 SELECT YOUR REGION International Nigeria Cameroon Ghana South Africa Kenya Egypt Ivory Coast Products Our Solutions Our Solution is your one stop shop to making financial payments from and across A",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:55.193Z",
+    "last_checked": "2026-11-17T15:09:14.380Z",
     "last_change_seen": "2026-11-13 (Page modified)"
   },
   "NowNow Digital Systems": {
@@ -421,7 +424,7 @@
     "job_links": [],
     "text_sample": "Connection 503",
     "http_status": 503,
-    "last_checked": "2026-11-16T14:16:55.756Z",
+    "last_checked": "2026-11-17T15:09:15.279Z",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   "Renmoney": {
@@ -431,7 +434,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:16:55.675Z",
+    "last_checked": "2026-11-17T15:09:15.167Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "First Bank of Nigeria (Digital Lab)": {
@@ -441,18 +444,25 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-16T14:16:56.305Z",
+    "last_checked": "2026-11-17T15:09:16.356Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "United Bank for Africa (UBA / Leo AI)": {
     "company": "United Bank for Africa (UBA / Leo AI)",
     "careers_url": "https://www.ubagroup.com/careers",
-    "content_hash": "e3b0c44298fc1c14",
-    "job_links": [],
-    "text_sample": "",
+    "content_hash": "677a0d524fee6c54",
+    "job_links": [
+      "https://www.ubagroup.com/about-us/careers/",
+      "https://www.ubagroup.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ubagroup.com%2Fabout-us%2Fcareers%2F",
+      "https://www.ubagroup.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ubagroup.com%2Fabout-us%2Fcareers%2F&#038;format=xml",
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAIABJREFUeJzsXXeYG8XdfkfSdV8/97N97r3jho0bBNOMMc30ksSE0FsglIAhoeQLCRBCAkloARuw6cU044ZtXHE9++xzOZfrvfj6ab8/dJK2zMzOrqSr8z6PTtqZX9vV3r7vzBYBEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhLtCaS1C5CQkBDE7DUu9IxKhgPJIGHJgJIMt5IMkBTAnQIgGQqSQRANIBwKifE4ursACIMCAEhsjhYOBTHwNJ4GUA8FAEGpx0Wpb24HQE4DSj0UVAMohqIUQyGFgFIMgmK4HUWAUgy4i+HKLsaKK5taZoNISEgEAikAJCTaCq7engKXIw2kKQ1w9IdbSQNBGoA0AL2gIMFjqPh9FF0MRdsYGVEDh6MJ7iYnauuiPH08H0OfQrGFMY46BkEp3CQXipIFIAuKcgwgWVCULDjDjuGTKcWMLSAhIdGCkAJAQqIlccv2eNRiNAhGA45hgNIfHoLvDwVdtMZako2IqEFSYr7vlZiYj7i4EsREVyImuhzRMZWIia5EZHQVwsNqUVUVj9zcNBw4MBmbfroAlRUJ/riqN3U6ISGgaD+EuerQu89RdO12CorbicYmJ6oqElBWmoKykq5obAzT+1cCyAKULLhxDIQcANx70RC+F19PrRDckhISEgFCCgAJiVDgiuVOxPbvB7dj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",
+      "/about-us/careers/working-at-uba/",
+      "/about-us/careers"
+    ],
+    "text_sample": "UBA Careers Skip to content Home Link Logo An icon representing a home, used as a link to the homepage. Home About Us Investors Our Impact Media Support Global Reach Change Language & Country Country Language America Benin Burkina Faso Cameroon Chad Congo Côte d'Ivoire DRC France Gabon Ghana Guinea ",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:56.115Z",
-    "last_change_seen": "2026-11-15 (Page modified)"
+    "last_checked": "2026-11-17T15:09:24.182Z",
+    "last_change_seen": "2026-11-17 (Page modified)"
   },
   "Sudo Africa": {
     "company": "Sudo Africa",
@@ -461,7 +471,7 @@
     "job_links": [],
     "text_sample": "--> _$udo | Modern card issuing and payments for Africa --> --> --> --> --> Products Developers Pricing Support Company Root App Squad Sign in Home Products Cards Accounts Cloud Card Developers Overview Documentation Status GitHub Company About Us Careers Blog Pricing Support Contact Help Center Res",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:00.522Z",
+    "last_checked": "2026-11-17T15:09:18.143Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Wema Bank (ALAT by Wema)": {
@@ -471,18 +481,20 @@
     "job_links": [],
     "text_sample": "Wema Bank",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:56.862Z",
+    "last_checked": "2026-11-17T15:09:18.003Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "First City Monument Bank (FCMB / Hub One)": {
     "company": "First City Monument Bank (FCMB / Hub One)",
     "careers_url": "https://www.fcmb.com/careers",
-    "content_hash": "e3b0c44298fc1c14",
-    "job_links": [],
-    "text_sample": "",
+    "content_hash": "530a046fbec209e1",
+    "job_links": [
+      "/careers.php"
+    ],
+    "text_sample": "FCMB HOME PERSONAL BUSINESS CORPORATE Today’s Share Price: ₦10.65 Today’s Share Price: ₦10.65 OPEN AN ACCOUNT INTERNET BANKING CONTACT US OPEN AN ACCOUNT Personal Business INTERNET BANKING Personal Business Corporate CONTACT US PERSONAL BANKING Current Accounts Classic Current Account Premium Curren",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:56.369Z",
-    "last_change_seen": "2026-11-15 (Page modified)"
+    "last_checked": "2026-11-17T15:09:18.595Z",
+    "last_change_seen": "2026-11-17 (Page modified)"
   },
   "Union Bank of Nigeria": {
     "company": "Union Bank of Nigeria",
@@ -491,7 +503,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-16T14:16:57.125Z",
+    "last_checked": "2026-11-17T15:09:19.611Z",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   "Wallets Africa": {
@@ -501,7 +513,7 @@
     "job_links": [],
     "text_sample": "Spring in Africa - Our wallet - Go global with Spring Investing in Innovation Spring for Businesses Login Sign up Leap into tomorrow's banking Receive money from anyone anywhere with just your username Sign up Spring Receive money seamlessly Easily create custom payment links for seamless transactio",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:55.772Z",
+    "last_checked": "2026-11-17T15:09:15.188Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Sterling Bank (Sterling Tech)": {
@@ -517,24 +529,23 @@
     ],
     "text_sample": "Careers -- End of the comment --> Skip to content Personal Self Service E-BANKING Accounts Cards More... Business Corporate E-BANKING SME Loans Payments H.E.A.R.T About Us Who We Are Our Awards Careers Investors Read Our Annual Report Sustainability Sustainability Commitment Environmental and Social",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:57.490Z",
+    "last_checked": "2026-11-17T15:09:18.171Z",
     "last_change_seen": "2026-11-12 (Page modified)"
   },
   "Fidelity Bank Nigeria": {
     "company": "Fidelity Bank Nigeria",
     "careers_url": "https://www.fidelitybank.ng/careers",
-    "content_hash": "87bc8a6f1669c9e1",
+    "content_hash": "c636bdb6cffa1ddc",
     "job_links": [
       "https://www.fidelitybank.ng/careers/",
       "#job-opening-sec",
       "#job_sub_sec",
-      "https://www.fidelitybank.ng/careers/current-job-openings/",
-      "https://www.fidelitybank.ng/job_openings/legal-officer-corporate-search-desk/"
+      "https://www.fidelitybank.ng/careers/current-job-openings/"
     ],
     "text_sample": "Careers At Fidelity - Fidelity Bank Plc | Career Opportunity Skip to content ONLINE BANKING Online Banking Personal Corporate Login Register | Open New Account Login Register | Open New Account X Open An Account Open Personal Account Open Business Account Reactivate Dormant Account X Home About Us I",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:56.674Z",
-    "last_change_seen": "2026-11-16 (Page modified)"
+    "last_checked": "2026-11-17T15:09:17.861Z",
+    "last_change_seen": "2026-11-17 (Page modified)"
   },
   "Stanbic IBTC Bank (Blue Lab & Tech Academy)": {
     "company": "Stanbic IBTC Bank (Blue Lab & Tech Academy)",
@@ -543,7 +554,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:16:57.800Z",
+    "last_checked": "2026-11-17T15:09:17.430Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Providus Bank": {
@@ -555,7 +566,7 @@
     ],
     "text_sample": "Careers | ProvidusUnity Bank PROVIDUSUNITY BANK Future Forward PROVIDUSUNITY BANK Future Forward Careers Join a team where your career and well being thrive. Discover a workplace where your growth is nurtured and your contributions are valued. ProvidusUnity Bank is committed to fostering an environm",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:57.020Z",
+    "last_checked": "2026-11-17T15:09:18.283Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Access Bank (Digital Innovation Lab)": {
@@ -579,22 +590,22 @@
     ],
     "text_sample": "403 Forbidden - Marked for manual review",
     "http_status": 403,
-    "last_checked": "2026-11-16T14:16:56.080Z",
+    "last_checked": "2026-11-17T15:09:15.585Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Sycamore": {
     "company": "Sycamore",
     "careers_url": "https://sycamore.ng/careers",
-    "content_hash": "bad22153b53ca2da",
+    "content_hash": "4ebe35e993341fc7",
     "job_links": [
       "/_nuxt/careers.C_Wm-dQU.css",
       "/careers#",
       "/careers"
     ],
-    "text_sample": "Sycamore Careers | Join our team to build a future void of financial barriers - Sycamore.ng | Careers Page Products Company Blog Support Loading... Shape the Future of Finance with us. See open positions Life at Sycamore We care for our own At Sycamore, we’re more than just a team; we’re a family. W",
+    "text_sample": "Sycamore Careers | Join our team to build a future void of financial barriers - Sycamore.ng | Careers Page Products Company Blog Support Loading... Shape the Future of Finance with us. SYCMRK467B See open positions Life at Sycamore We care for our own At Sycamore, we’re more than just a team; we’re ",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:57.069Z",
-    "last_change_seen": "Initial snapshot captured"
+    "last_checked": "2026-11-17T15:09:16.421Z",
+    "last_change_seen": "2026-11-17 (Page modified)"
   },
   "Fincra": {
     "company": "Fincra",
@@ -608,7 +619,7 @@
     ],
     "text_sample": "Careers - Fincra Skip to main content Search Close Search Login Menu Products Payments Payin Pay-Out APIs Conversions Banking as a Service Virtual Accounts Multicurrency Accounts Commerce Checkout New Payment Links Value Added Services Identity Verification Usecase Ecommerce Financial Institutions F",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:56.490Z",
+    "last_checked": "2026-11-17T15:09:18.918Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Airtel Nigeria": {
@@ -618,7 +629,7 @@
     "job_links": [],
     "text_sample": "Airtel: Prepaid | Postpaid | 5G You need to enable JavaScript to run this app.",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:57.952Z",
+    "last_checked": "2026-11-17T15:09:19.551Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "MainOne (Equinix Company)": {
@@ -628,7 +639,7 @@
     "job_links": [],
     "text_sample": "403 Forbidden - Marked for manual review",
     "http_status": 403,
-    "last_checked": "2026-11-16T14:16:57.699Z",
+    "last_checked": "2026-11-17T15:09:19.518Z",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   "Medallion Data Centres (Digital Realty)": {
@@ -638,7 +649,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-16T14:16:57.747Z",
+    "last_checked": "2026-11-17T15:09:19.573Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Jaiz Bank": {
@@ -648,7 +659,7 @@
     "job_links": [],
     "text_sample": "Jaiz Bank - with you for life. Jaiz Bank",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:16:57.529Z",
+    "last_checked": "2026-11-17T15:09:18.420Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Titan Trust Bank": {
@@ -658,7 +669,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-16T14:16:57.547Z",
+    "last_checked": "2026-11-17T15:09:20.788Z",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   "Spectranet 4G LTE": {
@@ -672,18 +683,21 @@
     ],
     "text_sample": "Careers – Join Spectranet Nigeria Nigeria's first 4G LTE network Call us 0800 234 5678 Shop Locations CSR Coverage Checks Inquiries Eazy Payment Light Dark Product and Services WiFi devices fiber on Air Home Fiber Data SIM Enterprise Business WiTel Plans Data Plans Plans Unlimited Plans doMORE Plans",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:02.931Z",
+    "last_checked": "2026-11-17T15:09:23.491Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Globacom (Glo)": {
     "company": "Globacom (Glo)",
     "careers_url": "https://www.gloworld.com/ng/careers",
-    "content_hash": "e3b0c44298fc1c14",
-    "job_links": [],
-    "text_sample": "",
+    "content_hash": "1c30d025462912e4",
+    "job_links": [
+      "https://www.gloworld.com/ng/careers",
+      "#careers-link"
+    ],
+    "text_sample": "CAREERS Personal Business Heritage Series Ghana Quick Info NEW GLO Foundation Support Recharge Data Airtime Self Care Glo Life Sign In Heritage Series Ghana Partner GLO Foundation Self Care Case Studies Special Offers Sign In Shop Now Ghana Ghana Voice Voice Voice Voice Overview Tariff Plans Tariff ",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:06.125Z",
-    "last_change_seen": "2026-11-16 (Page modified)"
+    "last_checked": "2026-11-17T15:09:21.411Z",
+    "last_change_seen": "2026-11-17 (Page modified)"
   },
   "FiberOne Broadband": {
     "company": "FiberOne Broadband",
@@ -692,7 +706,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:00.333Z",
+    "last_checked": "2026-11-17T15:09:22.771Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Smile Communications": {
@@ -705,7 +719,7 @@
     ],
     "text_sample": "Careers JavaScript seems to be disabled in your browser. For the best experience on our site, be sure to turn on Javascript in your browser. Smile Communications is using Cookies Smile website uses cookies, including third party cookies, and similar technologies (collectively, \"cookies\") to improve ",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:02.351Z",
+    "last_checked": "2026-11-17T15:09:22.572Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "e.Stream Networks": {
@@ -713,22 +727,22 @@
     "careers_url": "https://estreamnetworks.net/careers",
     "content_hash": "unreachable",
     "job_links": [],
-    "text_sample": "Connection network_error",
-    "http_status": "network_error",
-    "last_checked": "2026-11-16T14:17:02.749Z",
+    "text_sample": "Connection 404",
+    "http_status": 404,
+    "last_checked": "2026-11-17T15:09:23.081Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Rack Centre": {
     "company": "Rack Centre",
     "careers_url": "https://rack-centre.com/careers",
-    "content_hash": "623bf397954757e8",
+    "content_hash": "974f46972e7b2e4b",
     "job_links": [
       "https://rack-centre.com/careers/"
     ],
-    "text_sample": "Contact Rack Centre Nigeria HOME ABOUT SITE EXPANSION DATA CENTRE CAMPUS – LGS-1 DATA CENTRE CAMPUS – LGS-2 EXPANSION THE LEADERSHIP TEAM AWARDS &#038; CERTIFICATIONS DATA CENTRE SERVICES COLOCATION REMOTE HANDS CLOUD SERVICES FINANCIAL SERVICES CONNECTIVITY ECOSYSTEM PEERING MARKETPLACE DATA CENTRE",
+    "text_sample": "Contact Rack Centre Nigeria HOME ABOUT SITE EXPANSION Lagos Data Centre Campus Expansion Facility DATA CENTRE CAMPUS – LGS-1 DATA CENTRE CAMPUS – LGS-2 EXPANSION THE LEADERSHIP TEAM AWARDS &#038; CERTIFICATIONS DATA CENTRE SERVICES COLOCATION REMOTE HANDS CLOUD SERVICES FINANCIAL SERVICES CONNECTIVI",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:00.643Z",
-    "last_change_seen": "Initial snapshot captured"
+    "last_checked": "2026-11-17T15:09:21.362Z",
+    "last_change_seen": "2026-11-17 (Page modified)"
   },
   "Galaxy Backbone": {
     "company": "Galaxy Backbone",
@@ -745,9 +759,9 @@
       "http://galaxybackbone.com.ng/careers/?share=jetpack-whatsapp",
       "http://galaxybackbone.com.ng/careers/#print"
     ],
-    "text_sample": "Careers - Galaxy Backbone Limited Menu Home About Us Our Mandate OUR VISION, MISSION AND CORE VALUES Management Board of Directors Organogram Our Awards Careers + Services Internet Services Security Services Cloud Public Sector Services Small and Medium Enterprises Optical Fibre Backbone Data Center",
-    "http_status": 200,
-    "last_checked": "2026-11-16T14:17:04.305Z",
+    "text_sample": "Connection timeout",
+    "http_status": "timeout",
+    "last_checked": "2026-11-17T15:09:28.572Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "MTN Nigeria": {
@@ -755,9 +769,9 @@
     "careers_url": "https://www.mtn.ng/careers",
     "content_hash": "477af1e541ae64cd",
     "job_links": [],
-    "text_sample": "Connection timeout",
-    "http_status": "timeout",
-    "last_checked": "2026-11-16T14:17:06.021Z",
+    "text_sample": "Connection network_error",
+    "http_status": "network_error",
+    "last_checked": "2026-11-17T15:09:23.666Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Taj Bank": {
@@ -771,7 +785,7 @@
     ],
     "text_sample": "Careers - TAJBank Official Website Skip to content GET IN TOUCH: +2349087937417, +2347008252265, +2342012272906 tajconnect@tajbank.com Licensed by the Central Bank of Nigeria Facebook page opens in new window X page opens in new window Instagram page opens in new window YouTube page opens in new win",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:00.846Z",
+    "last_checked": "2026-11-17T15:09:20.921Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Swift Networks": {
@@ -781,7 +795,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:02.837Z",
+    "last_checked": "2026-11-17T15:09:23.378Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Wellahealth": {
@@ -791,7 +805,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:03.200Z",
+    "last_checked": "2026-11-17T15:09:23.584Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "ipNX Nigeria": {
@@ -799,15 +813,15 @@
     "careers_url": "https://ipnxnigeria.net/careers",
     "content_hash": "unreachable",
     "job_links": [],
-    "text_sample": "Connection 500",
-    "http_status": 500,
-    "last_checked": "2026-11-16T14:17:01.922Z",
+    "text_sample": "Connection 404",
+    "http_status": 404,
+    "last_checked": "2026-11-17T15:09:25.655Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Jumia Nigeria": {
     "company": "Jumia Nigeria",
     "careers_url": "https://group.jumia.com/careers",
-    "content_hash": "cde387a13288cd24",
+    "content_hash": "df8a0d53568af542",
     "job_links": [
       "https://group.jumia.com/careers",
       "/people/dream-job",
@@ -826,15 +840,15 @@
       "https://job-boards.eu.greenhouse.io/jumia/jobs/5004035101",
       "https://job-boards.eu.greenhouse.io/jumia/jobs/4945238101",
       "https://job-boards.eu.greenhouse.io/jumia/jobs/5027013101",
-      "https://job-boards.eu.greenhouse.io/jumia/jobs/4976710101",
       "https://job-boards.eu.greenhouse.io/jumia/jobs/4976709101",
+      "https://job-boards.eu.greenhouse.io/jumia/jobs/4976710101",
       "https://job-boards.eu.greenhouse.io/jumia/jobs/5024331101",
       "https://job-boards.eu.greenhouse.io/jumia/jobs/4975687101"
     ],
     "text_sample": "All opportunities | Careers | Jumia Group About Us About Us Harnessing technology to make people&#39;s lives easier in Africa What We Do Serving consumers and empowering businesses Locations The countries we serve Leadership Meet our leaders Business Business Jumia is built around two main pillars: ",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:03.823Z",
-    "last_change_seen": "2026-11-16 (Page modified)"
+    "last_checked": "2026-11-17T15:09:23.971Z",
+    "last_change_seen": "2026-11-17 (Page modified)"
   },
   "Eden Life": {
     "company": "Eden Life",
@@ -843,7 +857,7 @@
     "job_links": [],
     "text_sample": "Eden | Live your best life with ease",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:03.472Z",
+    "last_checked": "2026-11-17T15:09:23.730Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Reliance Health": {
@@ -853,7 +867,7 @@
     "job_links": [],
     "text_sample": "reliancehealthinc.com — established .com domain (6y) Listing ID · ReliancehealthInc.com Home .com ReliancehealthInc.com Premium domain · For sale Reliancehealth Inc .com Expired .com domain for sale 17 characters · 6 years old · Charity A short, memorable, established domain ready to power your char",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:02.718Z",
+    "last_checked": "2026-11-17T15:09:23.204Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Remedial Health": {
@@ -866,7 +880,7 @@
     ],
     "text_sample": "Jobs at Remedial Health Remedial Health subscribe#hideSubscriptionModal\"> Subscribe to updates Enter an email address to receive updates whenever we post new job openings. Email address Subscribe subscribe#hideSubscriptionModal\">Cancel Confirm your email Check your inbox for an email containing a li",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:03.546Z",
+    "last_checked": "2026-11-17T15:09:23.809Z",
     "last_change_seen": "2026-11-13 (Page modified)"
   },
   "Liquid Intelligent Technologies Nigeria": {
@@ -883,7 +897,7 @@
     ],
     "text_sample": "Careers - Job Opportunities | Liquid Intelligent Technologies Skip to content Home Services Global South Africa DRC (FR) Digital Services Cloud services Managed solutions Cyber security solutions IOT Infrastructure Solutions Connectivity solutions International wholesale Wholesale products Data Cent",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:06.968Z",
+    "last_checked": "2026-11-17T15:09:27.768Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "MAX.ng (Metro Africa Xpress)": {
@@ -893,7 +907,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-16T14:17:04.050Z",
+    "last_checked": "2026-11-17T15:09:24.318Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Chowdeck": {
@@ -908,7 +922,7 @@
     ],
     "text_sample": "BambooHR",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:03.633Z",
+    "last_checked": "2026-11-17T15:09:24.087Z",
     "last_change_seen": "2026-11-14 (Page modified)"
   },
   "Konga": {
@@ -920,7 +934,7 @@
     ],
     "text_sample": "Careers | Konga Online Sell on Konga Konga Outlets Download App Help Login/ Sign Up Home Email Support help@konga.com Phone Support 07080635700, 02018883435 Whatsapp 08094605555 Get Latest Deals Subscribe About Konga Contact Us About Us Careers Become an Affiliate Our Blog Terms of Use Payment Konga",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:05.446Z",
+    "last_checked": "2026-11-17T15:09:25.014Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Omnibiz": {
@@ -930,7 +944,7 @@
     "job_links": [],
     "text_sample": "OmniBiz You need to enable JavaScript to run this app.",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:04.589Z",
+    "last_checked": "2026-11-17T15:09:24.782Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Sabi": {
@@ -940,7 +954,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:03.994Z",
+    "last_checked": "2026-11-17T15:09:25.590Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "TradeDepot": {
@@ -950,7 +964,7 @@
     "job_links": [],
     "text_sample": "TradeDepot Home You need to enable JavaScript to run this app.",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:03.880Z",
+    "last_checked": "2026-11-17T15:09:23.976Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Gokada": {
@@ -961,9 +975,9 @@
       "#open-jobs",
       "/careers"
     ],
-    "text_sample": "Connection network_error",
-    "http_status": "network_error",
-    "last_checked": "2026-11-16T14:17:04.314Z",
+    "text_sample": "Gokada Careers Home SuperApp Business Partner Food Press About Login Home SuperApp Business Partner Food Press About Support Login Follow Us Download our app Join the Coolest team ever This isn’t a brag because we are the Real G’s. Why? We help our customers live easier and better. In short, We help",
+    "http_status": 200,
+    "last_checked": "2026-11-17T15:09:25.060Z",
     "last_change_seen": "2026-11-13 (Page modified)"
   },
   "Topship": {
@@ -973,7 +987,7 @@
     "job_links": [],
     "text_sample": "Topship Africa: Local & International Delivery Service You need to enable JavaScript to run this app.",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:05.252Z",
+    "last_checked": "2026-11-17T15:09:25.687Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "uLesson Education": {
@@ -983,7 +997,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:05.256Z",
+    "last_checked": "2026-11-17T15:09:26.098Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Glovo Nigeria": {
@@ -1009,7 +1023,7 @@
     ],
     "text_sample": "About Us - Glovo Search for: Saved jobs 0 About Us Life at Glovo Our Teams Tech @ Glovo Careers Redefining what’s possible. At Glovo, we’re a tech company on a mission: transforming the way people get what they want, exactly when they want it &#8211; whether it’s food, essentials, or anything in bet",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:04.510Z",
+    "last_checked": "2026-11-17T15:09:24.969Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Sendbox": {
@@ -1019,7 +1033,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-16T14:17:04.567Z",
+    "last_checked": "2026-11-17T15:09:25.695Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "9mobile (EMTS)": {
@@ -1029,7 +1043,7 @@
     "job_links": [],
     "text_sample": "Connection timeout",
     "http_status": "timeout",
-    "last_checked": "2026-11-16T14:17:06.492Z",
+    "last_checked": "2026-11-17T15:09:27.919Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "PrepClass": {
@@ -1039,7 +1053,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:05.522Z",
+    "last_checked": "2026-11-17T15:09:26.546Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Semicolon Africa": {
@@ -1049,7 +1063,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:05.659Z",
+    "last_checked": "2026-11-17T15:09:26.328Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Decagon": {
@@ -1062,7 +1076,7 @@
     ],
     "text_sample": "Decagon Honours Program Home The Program Career Accelerator Fees Contact Apply 404 Page Not Found Sorry, the page you&#x27;re looking for doesn&#x27;t exist or has been moved. 🏠 Go Home ← Go Back Preparing the next generation of African leaders. Four years. One complete education. Apply Now Pages H",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:06.153Z",
+    "last_checked": "2026-11-17T15:09:26.954Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Catapult (Catapult.ng)": {
@@ -1072,7 +1086,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-16T14:17:06.204Z",
+    "last_checked": "2026-11-17T15:09:27.091Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "SmallSmall (RentSmallSmall)": {
@@ -1082,7 +1096,7 @@
     "job_links": [],
     "text_sample": "SmallSmall -->",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:06.225Z",
+    "last_checked": "2026-11-17T15:09:26.834Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "CutStruct Technology": {
@@ -1092,7 +1106,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:06.470Z",
+    "last_checked": "2026-11-17T15:09:26.945Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Bumpa": {
@@ -1102,7 +1116,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:06.462Z",
+    "last_checked": "2026-11-17T15:09:27.527Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Alerzo": {
@@ -1112,7 +1126,7 @@
     "job_links": [],
     "text_sample": "Connection timeout",
     "http_status": "timeout",
-    "last_checked": "2026-11-16T14:17:12.824Z",
+    "last_checked": "2026-11-17T15:09:32.976Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Estate Intel": {
@@ -1122,7 +1136,7 @@
     "job_links": [],
     "text_sample": "undefined - Real Estate Market Research and Data for Africa oga | Estate Intel - Real Estate Market Research and Data for Nigerian and Africa",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:06.138Z",
+    "last_checked": "2026-11-17T15:09:26.970Z",
     "last_change_seen": "2026-11-13 (Page modified)"
   },
   "Shuttlers": {
@@ -1132,7 +1146,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:05.063Z",
+    "last_checked": "2026-11-17T15:09:26.427Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Vendease": {
@@ -1142,7 +1156,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:07.062Z",
+    "last_checked": "2026-11-17T15:09:27.785Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Kobo360": {
@@ -1152,7 +1166,7 @@
     "job_links": [],
     "text_sample": "Connection timeout",
     "http_status": "timeout",
-    "last_checked": "2026-11-16T14:17:13.315Z",
+    "last_checked": "2026-11-17T15:09:33.970Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Moove Africa": {
@@ -1162,7 +1176,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:07.508Z",
+    "last_checked": "2026-11-17T15:09:27.726Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "AltSchool Africa / TalentQL": {
@@ -1177,7 +1191,7 @@
     ],
     "text_sample": "Corporate Training &amp; Team Upskilling | AltSchool Africa Skip to content APPLY TODAY ENROLLMENT FOR DECEMBER 2026 COHORT ONGOING&nbsp; Search Programs Schools Pathways For Business Impact Login Join For Free Login Join for free Programs View All Explore AltSchool's learning programs Flexible, str",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:10.369Z",
+    "last_checked": "2026-11-17T15:09:31.372Z",
     "last_change_seen": "2026-11-12 (Page modified)"
   },
   "Cregital": {
@@ -1185,9 +1199,9 @@
     "careers_url": "https://cregital.com/careers",
     "content_hash": "unreachable",
     "job_links": [],
-    "text_sample": "Connection timeout",
-    "http_status": "timeout",
-    "last_checked": "2026-11-16T14:17:15.463Z",
+    "text_sample": "Connection network_error",
+    "http_status": "network_error",
+    "last_checked": "2026-11-17T15:09:29.285Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Softcom (Eyowo)": {
@@ -1197,7 +1211,7 @@
     "job_links": [],
     "text_sample": "Connection timeout",
     "http_status": "timeout",
-    "last_checked": "2026-11-16T14:17:16.647Z",
+    "last_checked": "2026-11-17T15:09:37.573Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Venture Garden Group (VGG)": {
@@ -1207,7 +1221,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:07.947Z",
+    "last_checked": "2026-11-17T15:09:29.775Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Anakle": {
@@ -1217,7 +1231,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:07.648Z",
+    "last_checked": "2026-11-17T15:09:28.906Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Andela Nigeria": {
@@ -1229,7 +1243,7 @@
     ],
     "text_sample": "Work. Learn. Connect. Grow. Nov 19 · Optimize agentic DevOps costs with GitHub enterprise Sign up Solutions Solutions Agentic engineering assessment Assess Agentic engineering assessment Measure how engineers work with AI and what will help teams move forward. Explore the assessment Assessment metho",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:07.714Z",
+    "last_checked": "2026-11-17T15:09:27.712Z",
     "last_change_seen": "2026-11-12 (Page modified)"
   },
   "eTranzact International Plc": {
@@ -1239,7 +1253,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:08.181Z",
+    "last_checked": "2026-11-17T15:09:29.613Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Terragon Group": {
@@ -1253,7 +1267,7 @@
     ],
     "text_sample": "Careers - Terragon Group Terragon Group Solutions INDUSTRIES Financial Services Increase customer lifetime value FMCG Improve customer experience Retail Increase repeat purchase OBJECTIVES Reach &amp; Awareness Reach more people with less spend Acquisition &amp; Growth Convert more leads Retention &",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:08.064Z",
+    "last_checked": "2026-11-17T15:09:29.959Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Co-Creation Hub (CcHUB)": {
@@ -1268,7 +1282,7 @@
     ],
     "text_sample": "Careers - Co-creation HUB Africa (CcHUB) : Co-creation HUB Africa (CcHUB) --> --> --> ­ ­ ­ ­ Security Verification Please verify you're human to continue Loading verification... One-time verification: This verification will be remembered permanently About us Meet the team Board Members Areas of Foc",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:09.093Z",
+    "last_checked": "2026-11-17T15:09:30.599Z",
     "last_change_seen": "2026-11-13 (Page modified)"
   },
   "Delivery Associates Nigeria": {
@@ -1299,7 +1313,7 @@
     ],
     "text_sample": "Careers | Delivery Associates Impact Areas Impact Areas Education Education Government Government Health Health Philanthropy Philanthropy Sustainability Sustainability Capabilities Capabilities AI AI Strategy Strategy Program Management Program Management Delivery Delivery Measurement &amp; Evaluati",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:07.828Z",
+    "last_checked": "2026-11-17T15:09:29.341Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Genesys Tech Hub": {
@@ -1309,7 +1323,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:07.768Z",
+    "last_checked": "2026-11-17T15:09:31.334Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Chams Holding Plc": {
@@ -1319,7 +1333,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-16T14:17:09.414Z",
+    "last_checked": "2026-11-17T15:09:31.179Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Vatebra Limited": {
@@ -1333,7 +1347,7 @@
     ],
     "text_sample": "Careers | Vatebra Company Company About Vatebra Subsidiaries ISO Policy Privacy Policy Blog Services Careers Contact Talk To Our Team Africa presence Nigeria HQ Ghana Presence Kenya Presence Sierra Leone Presence Liberia Presence Gambia Presence Enterprise technology partner building secure, scalabl",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:09.838Z",
+    "last_checked": "2026-11-17T15:09:31.438Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Zone (formerly AppZone)": {
@@ -1354,24 +1368,25 @@
     ],
     "text_sample": "Careers | Zone Payment Network Talent Community See Open Roles Who We Are Connect to the future Join us to build the bridge to an exciting and audacious new world powered entirely by digital equivalents of processes, information, assets, communication, and intelligence. Explore Open Roles &quot;Join",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:08.326Z",
+    "last_checked": "2026-11-17T15:09:29.810Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Sidmach Technologies": {
     "company": "Sidmach Technologies",
     "careers_url": "https://sidmach.com/careers",
-    "content_hash": "77e8738a34361825",
+    "content_hash": "971cdda9bef55c2f",
     "job_links": [
-      "https://sidmach.com/careers/",
+      "https://www.sidmach.com/careers/",
       "https://sidmach.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsidmach.com%2Fcareers%2F",
       "https://sidmach.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsidmach.com%2Fcareers%2F&#038;format=xml",
+      "https://sidmach.com/careers/",
       "mailto:careers@sid-website.azurewebsites.net",
       "https://www.linkedin.com/jobs/"
     ],
     "text_sample": "Careers - Sidmach Product Spotlight: eStudy - Official WASSCE (SC/PC) Preparatory Tool for Students Home Company About Mission, Vision and Values Board of Directors Management Team Why Work wth Us Careers Our Solutions Education eStudy Edustat Portal Academy Luminate Results Verification Custom Solu",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:10.485Z",
-    "last_change_seen": "2026-11-16 (Page modified)"
+    "last_checked": "2026-11-17T15:09:33.113Z",
+    "last_change_seen": "2026-11-17 (Page modified)"
   },
   "Quanteq Technology Services": {
     "company": "Quanteq Technology Services",
@@ -1380,7 +1395,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-16T14:17:10.595Z",
+    "last_checked": "2026-11-17T15:09:31.983Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Ventures Platform": {
@@ -1393,7 +1408,7 @@
     ],
     "text_sample": "Ventures Platform | Careers Ventures Platform Closes Pan-African Fund II at $84M Read more Arrow Right Home About Our Team 2023 Impact Report Founders Support How we Invest Portfolio Stories Careers Apply Arrow Right The world needs you to make an impact More than just your payslip! We are building ",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:07.881Z",
+    "last_checked": "2026-11-17T15:09:28.788Z",
     "last_change_seen": "2026-11-12 (Page modified)"
   },
   "Signal Alliance Technology Holding": {
@@ -1403,7 +1418,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:10.741Z",
+    "last_checked": "2026-11-17T15:09:32.518Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Inlaks Computers": {
@@ -1420,7 +1435,7 @@
     ],
     "text_sample": "Careers - Inlaks | Information Technology Systems Integrator 1611 Adeola Hopewell Street, Victoria Island, Lagos, Nigeria +2347026680111 info@inlaks.com www.inlaks.com Primary Menu Home About About Inlaks Business Philosophy Our Policies Our Team Board of Directors Management Awards &#038; Achieveme",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:09.998Z",
+    "last_checked": "2026-11-17T15:09:31.603Z",
     "last_change_seen": "2026-11-16 (Page modified)"
   },
   "Precise Financial Systems (PFS)": {
@@ -1430,7 +1445,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:10.316Z",
+    "last_checked": "2026-11-17T15:09:31.933Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Future Software Craft (Futuresoft)": {
@@ -1444,7 +1459,7 @@
     ],
     "text_sample": "CAREERS &#8211; Welcome To Futuresoft Nigeria Yaba, Lagos Nigeria 9am - 5:30pm Mon - Fri info@futuresoft-ng.com +2348186572391 GET A FREE QUOTE Home Services A Full Service Marketing Digital Marketing Strategy Website Design &#038; Development Brand Strategy &#038; Design B Social Media Marketing &#",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:12.213Z",
+    "last_checked": "2026-11-17T15:09:32.658Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Computer Warehouse Group (CWG Plc)": {
@@ -1472,7 +1487,7 @@
     ],
     "text_sample": "Company About CWG CWG at a glance Awards Award-winning solutions, powering pan-Africa Partners Empowering growth through expert insights and advisory Mission, Vision &amp; Values Supporting Innovation and a Forward Thinking Africa Impact Empowering tech frontiers Regions Our companies, our success L",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:11.134Z",
+    "last_checked": "2026-11-17T15:09:32.376Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "The Nest Innovation Technology Park": {
@@ -1482,7 +1497,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:11.609Z",
+    "last_checked": "2026-11-17T15:09:33.205Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Impact Hub Lagos": {
@@ -1492,7 +1507,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:12.044Z",
+    "last_checked": "2026-11-17T15:09:33.632Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Wennovate": {
@@ -1502,7 +1517,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-16T14:17:12.077Z",
+    "last_checked": "2026-11-17T15:09:33.148Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "DevCenter Innovation": {
@@ -1518,7 +1533,7 @@
     ],
     "text_sample": "Hire a Vetted, Performance-Managed Developer | Gigson Custom code > Head) --> Skip to content Looking for work? Go to Gigson for developers → Gigson by Devcenter Forward deployed engineers Managed developers Customers Hire a developer Menu Forward deployed engineers Managed developers Customers Hire",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:10.515Z",
+    "last_checked": "2026-11-17T15:09:32.502Z",
     "last_change_seen": "2026-11-14 (Page modified)"
   },
   "Tenece Professional Services": {
@@ -1561,7 +1576,7 @@
     ],
     "text_sample": "Careers - Tenece Professional Services Limited Skip to content Tenece Professional Services Limited Home About Us Who We Are Our Team Awards Careers Products &#038; Services Partners Clients Media News Blog Home About Us Who We Are Our Team Awards Careers Products &#038; Services Partners Clients Me",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:11.894Z",
+    "last_checked": "2026-11-17T15:09:35.705Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Layer3 Nigeria": {
@@ -1574,7 +1589,7 @@
     ],
     "text_sample": "Leading Technology Solutions Provider in Nigeria | Layer3 Enterprise Small business Individuals Company Industries Solutions Contact Us Join our team We are people's people We're a mission-driven team with a passion for making career resources more accessible so everyone has what they need to succee",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:13.164Z",
+    "last_checked": "2026-11-17T15:09:35.021Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Chipper Cash (Nigeria Tech Hub)": {
@@ -1588,7 +1603,7 @@
     ],
     "text_sample": "Give The World New Ways to Transact Products Payments Send &amp; Receive Cash Cash Transfer in a Few Taps Chipper Card Digital Card for Your Digital Life Investing Invest: Stocks Start Investing with USD Business Enterprise Bulk Payments and Collections across Africa Zoona Remittances and Cash Servi",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:12.449Z",
+    "last_checked": "2026-11-17T15:09:33.400Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "LoftyInc Allied Partners": {
@@ -1598,7 +1613,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:12.816Z",
+    "last_checked": "2026-11-17T15:09:33.638Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Aladdin Digital Bank": {
@@ -1608,7 +1623,7 @@
     "job_links": [],
     "text_sample": "",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:12.578Z",
+    "last_checked": "2026-11-17T15:09:34.123Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Leadspace": {
@@ -1618,7 +1633,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:12.298Z",
+    "last_checked": "2026-11-17T15:09:33.303Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Netcom Africa": {
@@ -1633,7 +1648,7 @@
     ],
     "text_sample": "Careers &#8211; Netcom Africa Skip to content About Us About Us Clients Services ENTERPRISE SECURITY MANAGED IT SERVICES IT Consultancy On-site Support Remote IT Support STRATEGY ANALYTICS INFRASTRUCTURE SERVICES ENTERPRISE TECHNOLOGY Industries News Careers Contact Menu About Us About Us Clients Se",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:12.295Z",
+    "last_checked": "2026-11-17T15:09:33.762Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Swipha (Swiss Pharma)": {
@@ -1643,7 +1658,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:12.910Z",
+    "last_checked": "2026-11-17T15:09:33.569Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Google for Startups Accelerator Africa (Lagos Hub)": {
@@ -1653,7 +1668,7 @@
     "job_links": [],
     "text_sample": "Google for Startups Accelerator: Africa for Startups Jump to content for Startups Programs Cloud credits Products Gemini Gemini kit Gemini multimedia library Alumni About Stories Directory About us Programs Cloud credits Products Gemini Gemini Go further faster with Gemini Gemini kit Gemini multimed",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:12.228Z",
+    "last_checked": "2026-11-17T15:09:33.389Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Klasha": {
@@ -1663,7 +1678,7 @@
     "job_links": [],
     "text_sample": "403 Forbidden - Marked for manual review",
     "http_status": 403,
-    "last_checked": "2026-11-16T14:17:12.722Z",
+    "last_checked": "2026-11-17T15:09:33.722Z",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   "ARM Labs Lagos Techstars Accelerator": {
@@ -1675,7 +1690,7 @@
     ],
     "text_sample": "Startup Accelerator Programs &amp; Funding | Techstars Join Us Portfolio Locations I Am... Resources About Techstars Apply Today ACCELERATORS Techstars Accelerators Whether you&#x27;re building in a specialized industry or a thriving startup city, Techstars Accelerators connect you with the network,",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:12.334Z",
+    "last_checked": "2026-11-17T15:09:33.299Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Yellow Card Financial (Nigeria)": {
@@ -1685,7 +1700,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:12.934Z",
+    "last_checked": "2026-11-17T15:09:34.115Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Kippa": {
@@ -1695,7 +1710,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-16T14:17:13.237Z",
+    "last_checked": "2026-11-17T15:09:34.086Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Smile Identity (Nigeria)": {
@@ -1707,7 +1722,7 @@
     ],
     "text_sample": "AI-powered Identity Verification for the Next Billion Users Cookie Preferences We value your privacy We use cookies to provide secure identity verification, analyze site traffic, and improve your experience. Necessary Always Active Required for core site functions and fraud prevention. Analytics Hel",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:12.740Z",
+    "last_checked": "2026-11-17T15:09:34.745Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Microsoft ADC (African Development Centre)": {
@@ -1726,7 +1741,7 @@
     ],
     "text_sample": "Home | Microsoft Careers https://uhf.microsoft.com/en-US/shell/html/MSActionCenter?headerId=GlobalCareersPCSHeaderprod https://careers.microsoft.com/bin/msft/searchheader https://careers.microsoft.com/v2/global/en/sign-in.html https://careers.microsoft.com/v2/ca/fr/connexion.html https://cdn.careers",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:12.754Z",
+    "last_checked": "2026-11-17T15:09:33.349Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Herconomy": {
@@ -1736,7 +1751,7 @@
     "job_links": [],
     "text_sample": "403 Forbidden - Marked for manual review",
     "http_status": 403,
-    "last_checked": "2026-11-16T14:17:13.567Z",
+    "last_checked": "2026-11-17T15:09:34.371Z",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   "Luno Nigeria": {
@@ -1770,7 +1785,7 @@
     ],
     "text_sample": "Luno Careers - Bigger picture thinking by bigger picture people Individual Business Market Sign in Sign up Buy and sell crypto Invest in tokenised stocks Diversify with bundles Spend with crypto Stake &amp; grow crypto Earn with crypto Shariah-compliant crypto investing Pay with your rands. Get 20% ",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:12.842Z",
+    "last_checked": "2026-11-17T15:09:33.973Z",
     "last_change_seen": "2026-11-16 (Page modified)"
   },
   "Brassical Tech": {
@@ -1780,7 +1795,7 @@
     "job_links": [],
     "text_sample": "--> Brassical - Estonia's Premier Entertainment Brass Band",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:14.400Z",
+    "last_checked": "2026-11-17T15:09:35.063Z",
     "last_change_seen": "2026-11-12 (Page modified)"
   },
   "Duplo": {
@@ -1806,7 +1821,7 @@
     ],
     "text_sample": "Duplo Careers: Join Our Thriving Team Skip to content Products Close Products Open Products Features Close Features Open Features Integrations Company Close Company Open Company Pricing Resources Close Resources Open Resources Contact Us Products Explore Duplo’s range of powerful end-to-end products",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:17.300Z",
+    "last_checked": "2026-11-17T15:09:36.625Z",
     "last_change_seen": "2026-11-12 (Page modified)"
   },
   "Pivo Africa": {
@@ -1816,7 +1831,7 @@
     "job_links": [],
     "text_sample": "The Pokies Net Casino ✔️ Online Pokies Australia for Real Money The Pokies Net Casino Australia: thepokies net 119 in 2026 🎰 Play at The Pokies Net Casino Pokies Net casino attracts Australian interest through its selection of online pokies, accessible navigation and familiar payment options. The w",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:14.811Z",
+    "last_checked": "2026-11-17T15:09:35.270Z",
     "last_change_seen": "2026-11-16 (Page modified)"
   },
   "Releaf": {
@@ -1826,7 +1841,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:14.776Z",
+    "last_checked": "2026-11-17T15:09:34.878Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "SeamlessHR": {
@@ -1840,7 +1855,7 @@
     ],
     "text_sample": "Become a Seamstar - SeamlessHR Skip to content Product Close Product Open Product For Office-Based Teams HRMS One management system to streamline all HR processes. Performance Enable a performance driven culture. Time Management Keep your workforce accountable. Payroll Payroll management and financi",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:17.167Z",
+    "last_checked": "2026-11-17T15:09:36.386Z",
     "last_change_seen": "2026-11-12 (Page modified)"
   },
   "Bento Africa": {
@@ -1850,22 +1865,22 @@
     "job_links": [],
     "text_sample": "Connection timeout",
     "http_status": "timeout",
-    "last_checked": "2026-11-16T14:17:22.238Z",
+    "last_checked": "2026-11-17T15:09:43.372Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Termii": {
     "company": "Termii",
     "careers_url": "https://termii.com/careers",
-    "content_hash": "182206b7183dfd11",
+    "content_hash": "afed549967770b5e",
     "job_links": [
-      "/careers/_payload.json?6db2884d-953c-457b-a639-e9282f71e676",
+      "/careers/_payload.json?55a8eb09-c6fa-417e-a9fc-c1b52ed4408c",
       "/careers/roles",
       "/careers"
     ],
     "text_sample": "Careers: Build the infrastructure institutions run on · Termii Skip to content Product Industries Devs Pricing Company Resources Sign in Get started Careers at Termii Build the infrastructure institutions run on. At Termii, we&#39;re building communications infrastructure that powers businesses acro",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:14.516Z",
-    "last_change_seen": "2026-11-13 (Page modified)"
+    "last_checked": "2026-11-17T15:09:34.978Z",
+    "last_change_seen": "2026-11-17 (Page modified)"
   },
   "Ventures Platform Foundation": {
     "company": "Ventures Platform Foundation",
@@ -1874,7 +1889,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-16T14:17:14.845Z",
+    "last_checked": "2026-11-17T15:09:35.312Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Sendchamp": {
@@ -1884,7 +1899,7 @@
     "job_links": [],
     "text_sample": "Sendchamp - Communication platform for SMS, Voice, Whatsapp &amp; OTPs Products CHANNELS SMS Send SMS seamlessly at the best rate via the best route to your customers Email Send emails to your customers with high deliverability Whatsapp Engage your customers via Whatsapp at ease Voice Add voice capa",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:14.741Z",
+    "last_checked": "2026-11-17T15:09:35.139Z",
     "last_change_seen": "2026-11-12 (Page modified)"
   },
   "Engage (Engage Messaging)": {
@@ -1894,7 +1909,7 @@
     "job_links": [],
     "text_sample": "Connection timeout",
     "http_status": "timeout",
-    "last_checked": "2026-11-16T14:17:23.400Z",
+    "last_checked": "2026-11-17T15:09:43.979Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Vigipay": {
@@ -1904,7 +1919,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-16T14:17:15.191Z",
+    "last_checked": "2026-11-17T15:09:35.382Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "DevCareer": {
@@ -1914,7 +1929,7 @@
     "job_links": [],
     "text_sample": "--> DevCareer",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:15.156Z",
+    "last_checked": "2026-11-17T15:09:35.560Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "MyCover.ai": {
@@ -1924,7 +1939,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:15.882Z",
+    "last_checked": "2026-11-17T15:09:36.026Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Farmcrowdy": {
@@ -1934,7 +1949,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-16T14:17:15.867Z",
+    "last_checked": "2026-11-17T15:09:35.936Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Octamile": {
@@ -1949,7 +1964,7 @@
     ],
     "text_sample": "Careers at Octamile Inc. --> Products Embedded Insurance APIs for non-insurance businesses to sell Insurance Automated Claims Fast-track your Claims Vehicle History and Valuation Get vehicle history and real-time market value Inspections AI vehicle inspection from a browser link Insurance Reminder S",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:15.476Z",
+    "last_checked": "2026-11-17T15:09:35.578Z",
     "last_change_seen": "2026-11-14 (Page modified)"
   },
   "OneCard Nigeria": {
@@ -1959,7 +1974,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-16T14:17:16.286Z",
+    "last_checked": "2026-11-17T15:09:36.498Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Casava": {
@@ -1969,7 +1984,7 @@
     "job_links": [],
     "text_sample": "Casava You need to enable JavaScript to run this app.",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:17.164Z",
+    "last_checked": "2026-11-17T15:09:37.233Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "ThriveAgric": {
@@ -1981,7 +1996,7 @@
     ],
     "text_sample": "404: This page could not be found About Us Vision &amp; Mission Theory of Change Management Values Advisors Join The Family Our Work What We Do Our Technology Our Process Our Impact Farmer Stories Partner Stories Impact Map Our Resources Hectare Reports Gallery FAQ Press &amp; Media Contact Us About",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:15.983Z",
+    "last_checked": "2026-11-17T15:09:35.954Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Upperlink Limited": {
@@ -1991,7 +2006,7 @@
     "job_links": [],
     "text_sample": "Upperlink - Payments Gateway Provider and Domain Names Registrar",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:16.899Z",
+    "last_checked": "2026-11-17T15:09:37.256Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Ingressive For Good (I4G)": {
@@ -2001,7 +2016,7 @@
     "job_links": [],
     "text_sample": "Connection timeout",
     "http_status": "timeout",
-    "last_checked": "2026-11-16T14:17:23.811Z",
+    "last_checked": "2026-11-17T15:09:44.270Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Rubies Bank (Highstreet Microfinance)": {
@@ -2011,7 +2026,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:16.252Z",
+    "last_checked": "2026-11-17T15:09:37.115Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "CoralPay Technologies": {
@@ -2021,7 +2036,7 @@
     "job_links": [],
     "text_sample": "CoralPay",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:17.437Z",
+    "last_checked": "2026-11-17T15:09:37.418Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Curacel": {
@@ -2044,7 +2059,7 @@
     ],
     "text_sample": "Curacel - AI-powered Insurance Infrastructure Home Products Curacel Support AI Automate claims support and routing with AI-powered chat. Curacel Extract AI Turn claim documents into structured data instantly Grow Travel Get the perfect travel insurance for your clients in minutes. Choose from the be",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:15.817Z",
+    "last_checked": "2026-11-17T15:09:35.880Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Verve International": {
@@ -2054,7 +2069,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:18.589Z",
+    "last_checked": "2026-11-17T15:09:38.243Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Coronation Merchant Bank": {
@@ -2064,7 +2079,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-16T14:17:18.173Z",
+    "last_checked": "2026-11-17T15:09:38.107Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Sparkle Nigeria": {
@@ -2076,7 +2091,7 @@
     ],
     "text_sample": "Careers @ Sparkle - a lifestyle and financial ecosystem providing seamless solutions to Nigeria’s retailers, SMEs and individuals. Personal Business Events Features Features Sparkle as a Service Our most important feature (Coming Soon) Sparkle API Documentation Setup and build fintech apps (Coming S",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:17.994Z",
+    "last_checked": "2026-11-17T15:09:37.857Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Quickteller": {
@@ -2086,7 +2101,7 @@
     "job_links": [],
     "text_sample": "Quickteller You need to enable JavaScript on your browser to run Quickteller or download Quickteller mobile app from Google Play or App Store If you are using Opera mini mobile browser, follow these steps to enable JavaScript: Step 1: Click on the Opera mini icon on the lower right of your screen St",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:19.562Z",
+    "last_checked": "2026-11-17T15:09:38.805Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Kuda Microfinance Bank": {
@@ -2096,7 +2111,7 @@
     "job_links": [],
     "text_sample": "Connection 406",
     "http_status": 406,
-    "last_checked": "2026-11-16T14:17:19.687Z",
+    "last_checked": "2026-11-17T15:09:37.550Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Stanbic IBTC Pension Managers": {
@@ -2111,15 +2126,14 @@
     ],
     "text_sample": "Give us your feedback Please help us improve the site experience for future visits by taking 2 minutes to complete this short survey Click here > Give us your feedback --> Careers Visit our other global sites Select your country Americas Argentina Brazil United States of America Europe &amp; Asia Pa",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:19.748Z",
+    "last_checked": "2026-11-17T15:09:40.058Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Chapel Hill Denham": {
     "company": "Chapel Hill Denham",
     "careers_url": "https://chapelhilldenham.com/careers",
-    "content_hash": "a24f08e2d16937db",
+    "content_hash": "dde68e80f1eef420",
     "job_links": [
-      "https://chapelhilldenham.com/careers/?utm_source=chatgpt.com",
       "https://chapelhilldenham.com/careers/",
       "https://chapelhilldenham.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchapelhilldenham.com%2Fcareers%2F",
       "https://chapelhilldenham.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchapelhilldenham.com%2Fcareers%2F&#038;format=xml",
@@ -2134,8 +2148,8 @@
     ],
     "text_sample": "Careers at Chapel Hill Denham - Chapel Hill Denham --> --> --> --> --> --> --> --> &#10005; The Firm Overview Our Culture and Values Leadership Awards What We Do Investment Banking Investment Management Securities Trading Alternative Investments Wealth Management Our Impact News &#038; Insights News",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:20.286Z",
-    "last_change_seen": "2026-11-16 (Page modified)"
+    "last_checked": "2026-11-17T15:09:39.736Z",
+    "last_change_seen": "2026-11-17 (Page modified)"
   },
   "Africa Prudential Plc": {
     "company": "Africa Prudential Plc",
@@ -2144,7 +2158,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-16T14:17:19.552Z",
+    "last_checked": "2026-11-17T15:09:39.324Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "FBNQuest Merchant Bank": {
@@ -2159,7 +2173,7 @@
     ],
     "text_sample": "Careers | Quest Merchant Bank Skip to main content About Our Solutions Resources News &amp; Insights Bank with Us Contact Us Loading... Quest Merchant Bank delivers premier merchant banking solutions across Corporate and Investment Banking, Wealth Management, and Global Markets. Licensed by Central ",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:19.285Z",
+    "last_checked": "2026-11-17T15:09:39.306Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "UNICEF - REMOTE backend dev - Digital Inclusion Di": {
@@ -2169,7 +2183,7 @@
     "job_links": [],
     "text_sample": "Connection 419",
     "http_status": 419,
-    "last_checked": "2026-11-16T14:17:19.643Z",
+    "last_checked": "2026-11-17T15:09:39.973Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Leadway Assurance (Leadway Tech Hub)": {
@@ -2182,7 +2196,7 @@
     ],
     "text_sample": "Careers and Job Opportunities at Leadway Assurance (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.data-privacy-src= 'https://www.googletagmanager.com",
     "http_status": 200,
-    "last_checked": "2026-11-16T14:17:19.190Z",
+    "last_checked": "2026-11-17T15:09:39.862Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Nibss (Nigeria Inter-Bank Settlement System)": {
@@ -2195,9 +2209,9 @@
       "https://nibss-plc.com.ng/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnibss-plc.com.ng%2Fcareers%2F&#038;format=xml",
       "https://nibss-plc.com.ng/careers/submit-cv/"
     ],
-    "text_sample": "Connection 503",
-    "http_status": 503,
-    "last_checked": "2026-11-16T14:17:17.212Z",
+    "text_sample": "Careers - NIBSS Home About-NIBSS Service Payment Services NIBSS Pay NACS (Cheques) NIBSS Instant Payment (NIP) National Payment Stack (NPS) Collections mCash+ Central Pay e-BillsPay NIBSS Direct Debit (NDD) NIBSS Universal Switch NQR Data &#038; Identity Services Name Enquiry VerifyNow USSD Validati",
+    "http_status": 200,
+    "last_checked": "2026-11-17T15:09:40.665Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Central Securities Clearing System (CSCS Plc)": {
@@ -2205,9 +2219,9 @@
     "careers_url": "https://cscs.ng/careers",
     "content_hash": "unreachable",
     "job_links": [],
-    "text_sample": "Connection 404",
-    "http_status": 404,
-    "last_checked": "2026-11-16T14:17:25.067Z",
+    "text_sample": "Connection timeout",
+    "http_status": "timeout",
+    "last_checked": "2026-11-17T15:09:48.306Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "AXA Mansard (Digital Innovation Team)": {
@@ -2215,9 +2229,9 @@
     "careers_url": "https://axamansard.com/careers",
     "content_hash": "unreachable",
     "job_links": [],
-    "text_sample": "Connection 404",
-    "http_status": 404,
-    "last_checked": "2026-11-16T14:17:19.288Z",
+    "text_sample": "Connection timeout",
+    "http_status": "timeout",
+    "last_checked": "2026-11-17T15:09:46.573Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Nigerian Exchange Group (NGX Group)": {
@@ -2233,7 +2247,7 @@
     ],
     "text_sample": "Connection timeout",
     "http_status": "timeout",
-    "last_checked": "2026-11-16T14:17:28.290Z",
+    "last_checked": "2026-11-17T15:09:48.324Z",
     "last_change_seen": "2026-11-14 (Page modified)"
   },
   "Location: India (currently travelling within India": {
@@ -2243,7 +2257,7 @@
     "job_links": [],
     "text_sample": "Connection 419",
     "http_status": 419,
-    "last_checked": "2026-11-16T14:17:19.652Z",
+    "last_checked": "2026-11-17T15:09:40.103Z",
     "last_change_seen": "Unreachable / connection error"
   }
 }
