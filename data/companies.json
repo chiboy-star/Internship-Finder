@@ -200,7 +200,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-17 (Page modified)",
+    "last_change_seen": "2026-11-19 (Page modified)",
     "alert_count": 0
   },
   {
@@ -495,7 +495,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-18 (Page modified)",
+    "last_change_seen": "2026-11-19 (Page modified)",
     "alert_count": 0
   },
   {
@@ -877,7 +877,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-18 (Page modified)",
+    "last_change_seen": "2026-11-19 (Page modified)",
     "alert_count": 0
   },
   {
@@ -966,9 +966,9 @@
     ],
     "notes": "Pan-African bank across 20 African countries with global headquarters in Marina, Lagos. Operates Leo virtual banking AI and software developer intake.",
     "status": "verified",
-    "watching_status": "unverified",
-    "http_status": "timeout",
-    "last_change_seen": "2026-11-17 (Page modified)",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "2026-11-19 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1216,8 +1216,8 @@
     ],
     "notes": "Nigeria's largest telecommunications enterprise with headquarters in Ikoyi, Lagos. Runs formal graduate and student SIWES programs across digital, MoMo fintech, and cloud engineering.",
     "status": "verified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": "timeout",
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -1398,7 +1398,7 @@
     "notes": "Pioneer fiber-optic internet broadband company based in Victoria Island, Lagos. Hires student software engineering trainees.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": 404,
+    "http_status": "timeout",
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -1601,7 +1601,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-13 (Page modified)",
+    "last_change_seen": "2026-11-19 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1624,7 +1624,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-18 (Page modified)",
+    "last_change_seen": "2026-11-19 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1693,7 +1693,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-17 (Page modified)",
+    "last_change_seen": "2026-11-19 (Page modified)",
     "alert_count": 0
   },
   {
@@ -2456,7 +2456,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-18 (Page modified)",
+    "last_change_seen": "2026-11-19 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3178,7 +3178,7 @@
     "status": "unverified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-12 (Page modified)",
+    "last_change_seen": "2026-11-19 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3201,7 +3201,7 @@
     "status": "unverified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-16 (Page modified)",
+    "last_change_seen": "2026-11-19 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3379,8 +3379,8 @@
     ],
     "notes": "Cross-border payment infrastructure for financial institutions and money transfer operators across Africa. Technology hub in Lagos.",
     "status": "verified",
-    "watching_status": "unverified",
-    "http_status": "network_error",
+    "watching_status": "watching",
+    "http_status": 200,
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -3742,7 +3742,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-19 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3923,7 +3923,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-18 (Page modified)",
+    "last_change_seen": "2026-11-19 (Page modified)",
     "alert_count": 0
   },
   {
@@ -4033,8 +4033,8 @@
       }
     ],
     "status": "possible",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": 429,
     "last_change_seen": "2026-11-18 (Page modified)",
     "alert_count": 0
   }
