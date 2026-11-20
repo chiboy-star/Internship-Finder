@@ -495,7 +495,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-19 (Page modified)",
+    "last_change_seen": "2026-11-20 (Page modified)",
     "alert_count": 0
   },
   {
@@ -877,7 +877,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-19 (Page modified)",
+    "last_change_seen": "2026-11-20 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1013,7 +1013,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-18 (Page modified)",
+    "last_change_seen": "2026-11-20 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1398,7 +1398,7 @@
     "notes": "Pioneer fiber-optic internet broadband company based in Victoria Island, Lagos. Hires student software engineering trainees.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": "timeout",
+    "http_status": 404,
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -1509,8 +1509,8 @@
     ],
     "notes": "Pan-African pan-continental connectivity and cloud solutions provider with Lagos data office. Recruits software and cloud apprentices.",
     "status": "verified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": "timeout",
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -1533,7 +1533,7 @@
     "notes": "Licensed enterprise connectivity and managed IT service provider based in Ikoyi, Lagos. Welcomes university software engineering interns.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": "network_error",
+    "http_status": 404,
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -1624,7 +1624,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-19 (Page modified)",
+    "last_change_seen": "2026-11-20 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1693,7 +1693,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-19 (Page modified)",
+    "last_change_seen": "2026-11-20 (Page modified)",
     "alert_count": 0
   },
   {
@@ -2098,7 +2098,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-20 (Page modified)",
     "alert_count": 0
   },
   {
@@ -2773,7 +2773,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-20 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3043,7 +3043,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-20 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3088,7 +3088,7 @@
     "status": "unverified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-16 (Page modified)",
+    "last_change_seen": "2026-11-20 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3855,7 +3855,7 @@
     "notes": "Global financial services and insurance group in Victoria Island, Lagos. Hires computer science students for software development SIWES.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": "timeout",
+    "http_status": 404,
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -3923,7 +3923,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-19 (Page modified)",
+    "last_change_seen": "2026-11-20 (Page modified)",
     "alert_count": 0
   },
   {
@@ -4033,9 +4033,9 @@
       }
     ],
     "status": "possible",
-    "watching_status": "unverified",
-    "http_status": 429,
-    "last_change_seen": "2026-11-18 (Page modified)",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "2026-11-20 (Page modified)",
     "alert_count": 0
   }
 ]

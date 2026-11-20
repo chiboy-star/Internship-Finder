@@ -1,44 +1,44 @@
 {
-  "last_run": "2026-11-19T14:53:51.131Z",
+  "last_run": "2026-11-20T14:35:26.169Z",
   "gemini_status": "unverified mode",
-  "total_listings_fetched": 9365,
-  "stage_a_passed": 103,
+  "total_listings_fetched": 9376,
+  "stage_a_passed": 100,
   "stage_c_passed": 0,
-  "total_rejected": 9363,
+  "total_rejected": 9374,
   "rejected_counts": {
-    "DUPLICATE_LISTING": 1318,
-    "NON_INTERN_OR_FULLTIME_ROLE": 2291,
-    "NOT_AN_INTERNSHIP": 1277,
-    "WRONG_SEASON_OR_YEAR": 32,
-    "ONSITE_OUTSIDE_NIGERIA": 4196,
-    "ADVANCED_DEGREE_REQUIRED": 148,
+    "DUPLICATE_LISTING": 1314,
+    "NON_INTERN_OR_FULLTIME_ROLE": 2344,
+    "NOT_AN_INTERNSHIP": 1253,
+    "WRONG_SEASON_OR_YEAR": 30,
+    "ONSITE_OUTSIDE_NIGERIA": 4192,
+    "ADVANCED_DEGREE_REQUIRED": 143,
     "NOT_INTERNSHIP": 8,
-    "NOT_SOFTWARE_ENGINEERING": 37,
-    "REGION_LOCKED": 56
+    "NOT_SOFTWARE_ENGINEERING": 35,
+    "REGION_LOCKED": 55
   },
   "sources": {
     "greenhouse": {
-      "count": 2567,
+      "count": 2552,
       "error": null,
       "status": "success"
     },
     "lever": {
-      "count": 308,
+      "count": 306,
       "error": null,
       "status": "success"
     },
     "ashby": {
-      "count": 336,
+      "count": 343,
       "error": null,
       "status": "success"
     },
     "github-community": {
-      "count": 5079,
+      "count": 5072,
       "error": null,
       "status": "success"
     },
     "remotive": {
-      "count": 16,
+      "count": 15,
       "error": null,
       "status": "success"
     },
@@ -53,7 +53,7 @@
       "status": "success"
     },
     "weworkremotely": {
-      "count": 127,
+      "count": 156,
       "error": null,
       "status": "success"
     },
@@ -71,45 +71,45 @@
   "funnel": {
     "greenhouse": {
       "source": "greenhouse",
-      "fetched": 2567,
-      "duplicate": 399,
-      "stage_a_reject": 2158,
+      "fetched": 2552,
+      "duplicate": 395,
+      "stage_a_reject": 2147,
       "stage_c_reject": 10,
       "check_eligibility": 0,
       "verified": 0
     },
     "lever": {
       "source": "lever",
-      "fetched": 308,
-      "duplicate": 149,
-      "stage_a_reject": 158,
+      "fetched": 306,
+      "duplicate": 148,
+      "stage_a_reject": 157,
       "stage_c_reject": 1,
       "check_eligibility": 0,
       "verified": 0
     },
     "ashby": {
       "source": "ashby",
-      "fetched": 336,
+      "fetched": 343,
       "duplicate": 10,
-      "stage_a_reject": 322,
+      "stage_a_reject": 329,
       "stage_c_reject": 4,
       "check_eligibility": 0,
       "verified": 0
     },
     "github-community": {
       "source": "github-community",
-      "fetched": 5079,
-      "duplicate": 711,
-      "stage_a_reject": 4284,
-      "stage_c_reject": 84,
+      "fetched": 5072,
+      "duplicate": 709,
+      "stage_a_reject": 4282,
+      "stage_c_reject": 81,
       "check_eligibility": 0,
       "verified": 0
     },
     "remotive": {
       "source": "remotive",
-      "fetched": 16,
+      "fetched": 15,
       "duplicate": 0,
-      "stage_a_reject": 16,
+      "stage_a_reject": 15,
       "stage_c_reject": 0,
       "check_eligibility": 0,
       "verified": 0
@@ -117,8 +117,8 @@
     "arbeitnow": {
       "source": "arbeitnow",
       "fetched": 900,
-      "duplicate": 46,
-      "stage_a_reject": 854,
+      "duplicate": 48,
+      "stage_a_reject": 852,
       "stage_c_reject": 0,
       "check_eligibility": 0,
       "verified": 0
@@ -134,9 +134,9 @@
     },
     "weworkremotely": {
       "source": "weworkremotely",
-      "fetched": 127,
-      "duplicate": 2,
-      "stage_a_reject": 124,
+      "fetched": 156,
+      "duplicate": 3,
+      "stage_a_reject": 152,
       "stage_c_reject": 1,
       "check_eligibility": 0,
       "verified": 0
