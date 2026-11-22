@@ -109,7 +109,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-21 (Page modified)",
+    "last_change_seen": "2026-11-22 (Page modified)",
     "alert_count": 0
   },
   {
@@ -152,9 +152,9 @@
     ],
     "notes": "Investment and wealth platform with top-tier UI design culture. Has an active campus ambassador and summer engineering internship program.",
     "status": "verified",
-    "watching_status": "unverified",
-    "http_status": 405,
-    "last_change_seen": "Initial snapshot captured",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "2026-11-22 (Page modified)",
     "alert_count": 1
   },
   {
@@ -334,8 +334,8 @@
     ],
     "notes": "Fintech payment subsidiary of Guaranty Trust Holding Company (GTCO). Modern cloud-native payment infrastructure in Victoria Island, Lagos.",
     "status": "verified",
-    "watching_status": "manual check",
-    "http_status": 403,
+    "watching_status": "watching",
+    "http_status": 200,
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -877,7 +877,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-21 (Page modified)",
+    "last_change_seen": "2026-11-22 (Page modified)",
     "alert_count": 0
   },
   {
@@ -968,7 +968,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-19 (Page modified)",
+    "last_change_seen": "2026-11-22 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1057,8 +1057,8 @@
     ],
     "notes": "Pioneer of Nigeria's first fully digital bank (ALAT). Technology center in Marina, Lagos actively recruits students for Hackaholics and software attachments.",
     "status": "verified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": "network_error",
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -1082,7 +1082,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-18 (Page modified)",
+    "last_change_seen": "2026-11-22 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1601,7 +1601,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-19 (Page modified)",
+    "last_change_seen": "2026-11-22 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1983,8 +1983,8 @@
     ],
     "notes": "Online higher education and technical skills academy training thousands of software engineers in Nigeria. Strong engineering hub in Lekki, Lagos.",
     "status": "unverified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "manual check",
+    "http_status": 403,
     "last_change_seen": "2026-11-18 (Page modified)",
     "alert_count": 0
   },
@@ -2569,7 +2569,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-18 (Page modified)",
+    "last_change_seen": "2026-11-22 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3740,8 +3740,8 @@
     ],
     "notes": "Core national payment and clearing infrastructure owned by Central Bank of Nigeria and licensed commercial banks. Based in Victoria Island; takes top SIWES students.",
     "status": "verified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": 503,
     "last_change_seen": "2026-11-19 (Page modified)",
     "alert_count": 0
   },
@@ -4033,9 +4033,9 @@
       }
     ],
     "status": "possible",
-    "watching_status": "unverified",
-    "http_status": 419,
-    "last_change_seen": "2026-11-20 (Page modified)",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "2026-11-22 (Page modified)",
     "alert_count": 0
   }
 ]

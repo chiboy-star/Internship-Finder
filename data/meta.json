@@ -1,24 +1,24 @@
 {
-  "last_run": "2026-11-21T13:53:01.306Z",
+  "last_run": "2026-11-22T13:46:24.715Z",
   "gemini_status": "unverified mode",
-  "total_listings_fetched": 9491,
-  "stage_a_passed": 106,
+  "total_listings_fetched": 9545,
+  "stage_a_passed": 103,
   "stage_c_passed": 0,
-  "total_rejected": 9489,
+  "total_rejected": 9543,
   "rejected_counts": {
-    "DUPLICATE_LISTING": 1333,
-    "NON_INTERN_OR_FULLTIME_ROLE": 2376,
-    "NOT_AN_INTERNSHIP": 1267,
-    "ONSITE_OUTSIDE_NIGERIA": 4233,
+    "DUPLICATE_LISTING": 1355,
+    "NON_INTERN_OR_FULLTIME_ROLE": 2406,
+    "NOT_AN_INTERNSHIP": 1245,
+    "ONSITE_OUTSIDE_NIGERIA": 4253,
     "WRONG_SEASON_OR_YEAR": 29,
-    "ADVANCED_DEGREE_REQUIRED": 147,
-    "NOT_INTERNSHIP": 10,
-    "NOT_SOFTWARE_ENGINEERING": 38,
+    "ADVANCED_DEGREE_REQUIRED": 154,
+    "NOT_INTERNSHIP": 8,
+    "NOT_SOFTWARE_ENGINEERING": 37,
     "REGION_LOCKED": 56
   },
   "sources": {
     "greenhouse": {
-      "count": 2580,
+      "count": 2581,
       "error": null,
       "status": "success"
     },
@@ -33,7 +33,7 @@
       "status": "success"
     },
     "github-community": {
-      "count": 5109,
+      "count": 5126,
       "error": null,
       "status": "success"
     },
@@ -53,7 +53,7 @@
       "status": "success"
     },
     "weworkremotely": {
-      "count": 200,
+      "count": 236,
       "error": null,
       "status": "success"
     },
@@ -71,10 +71,10 @@
   "funnel": {
     "greenhouse": {
       "source": "greenhouse",
-      "fetched": 2580,
+      "fetched": 2581,
       "duplicate": 416,
-      "stage_a_reject": 2153,
-      "stage_c_reject": 11,
+      "stage_a_reject": 2156,
+      "stage_c_reject": 9,
       "check_eligibility": 0,
       "verified": 0
     },
@@ -98,9 +98,9 @@
     },
     "github-community": {
       "source": "github-community",
-      "fetched": 5109,
-      "duplicate": 704,
-      "stage_a_reject": 4321,
+      "fetched": 5126,
+      "duplicate": 703,
+      "stage_a_reject": 4339,
       "stage_c_reject": 84,
       "check_eligibility": 0,
       "verified": 0
@@ -117,8 +117,8 @@
     "arbeitnow": {
       "source": "arbeitnow",
       "fetched": 900,
-      "duplicate": 49,
-      "stage_a_reject": 849,
+      "duplicate": 64,
+      "stage_a_reject": 834,
       "stage_c_reject": 2,
       "check_eligibility": 0,
       "verified": 0
@@ -134,10 +134,10 @@
     },
     "weworkremotely": {
       "source": "weworkremotely",
-      "fetched": 200,
-      "duplicate": 3,
-      "stage_a_reject": 196,
-      "stage_c_reject": 1,
+      "fetched": 236,
+      "duplicate": 11,
+      "stage_a_reject": 225,
+      "stage_c_reject": 0,
       "check_eligibility": 0,
       "verified": 0
     }
