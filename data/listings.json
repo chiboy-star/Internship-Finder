@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "id": "9a78b995bc2d92b4",
+    "source": "weworkremotely",
+    "external_id": "wwr_a6c6f3342d4733d1",
+    "content_hash": "2cdc49d093223873",
+    "company": "Ritual",
+    "title": "Software Engineer Intern",
+    "location": "Anywhere in the World",
+    "city_country": "Anywhere in the World",
+    "work_mode": "remote",
+    "nigeria_eligibility": "open",
+    "eligibility": "open_to_nigeria",
+    "lagos_onsite": false,
+    "is_internship": true,
+    "is_software_engineering": true,
+    "duration": null,
+    "duration_weeks": null,
+    "intern_type": "Software Engineering Intern",
+    "skills": [],
+    "required_skills": [],
+    "requirements": "\n\n \n   Headquarters:  Remote\n \n\n  About Ritual&nbsp; \n Ritual is building a sovereign, execution layer for AI, with our private testnet already live and running. The Ritual chain is the first blockchain custom-built to support AI-native operations, designed from the ground up to enable a new class of applications at the intersection of crypto and AI. Our first product, Infernet, is pioneering new ground as the first solution to enable developers to access AI models both on-chain via smart contracts and off-chain, demonstrating our commitment to bridging these transformative technologies.   About the role&nbsp;&nbsp; \n \n Prototype rapidly, iterate and execute quickly based on technical guidance&nbsp; \n Work at the frontier of modern cryptographic schemes and open-source AI \n Release your wo",
+    "deadline": null,
+    "start_window": "Summer 2027",
+    "apply_url": "https://weworkremotely.com/remote-jobs/ritual-software-engineer-intern",
+    "source_url": "https://weworkremotely.com/remote-jobs/ritual-software-engineer-intern",
+    "first_seen": "2026-11-25T16:27:02.027Z",
+    "last_seen": "2026-11-25T16:27:02.027Z",
+    "status": "open",
+    "paid": "unknown",
+    "stipend_text": null,
+    "seniority_required": "Undergraduate student / 3rd year",
+    "experience_value": 75,
+    "attainability": 65,
+    "confidence": 0.85,
+    "evidence": {
+      "work_mode_quote": "Fully Remote",
+      "nigeria_eligibility_quote": "Explicitly open worldwide, globally, or to Africa"
+    },
+    "final_score": 45,
+    "match_score": 45,
+    "match_reason": "Unverified role: Software Engineer Intern at Ritual (Fully Remote).",
+    "score_breakdown": {
+      "experience_value": 15,
+      "attainability": 15,
+      "paid_score": 10,
+      "timing_fit": 5
+    },
+    "flags": [],
+    "description_snippet": "\n\n \n   Headquarters:  Remote\n \n\n  About Ritual&nbsp; \n Ritual is building a sovereign, execution layer for AI, with our private testnet already live and running. The Ritual chain is the first blockchain custom-built to support AI-native operations, designed from the ground up to enable a new class of applications at the intersection of crypto and AI. Our first product, Infernet, is pioneering new ground as the first solution to enable developers to access AI models both on-chain via smart contracts and off-chain, demonstrating our commitment to bridging these transformative technologies.   Abo",
+    "is_unverified": true
+  }
+]

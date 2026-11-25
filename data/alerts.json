@@ -61,5 +61,14 @@
     "job_url": "https://fbnquest.com/careers",
     "detected_at": "2026-11-12T11:56:59.889Z",
     "status": "new"
+  },
+  {
+    "id": "alert_9be28642ae88f877",
+    "company": "Ritual",
+    "careers_url": "https://weworkremotely.com/remote-jobs/ritual-software-engineer-intern",
+    "matching_text": "Remote Software Engineer Intern at Ritual Global Payroll Find Jobs Top 100 Remote Companies Top Trending Remote Jobs New!",
+    "job_url": "https://weworkremotely.com/remote-jobs/ritual-software-engineer-intern",
+    "detected_at": "2026-11-25T16:27:26.434Z",
+    "status": "new"
   }
 ]

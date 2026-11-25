@@ -200,7 +200,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-24 (Page modified)",
+    "last_change_seen": "2026-11-25 (Page modified)",
     "alert_count": 0
   },
   {
@@ -470,8 +470,8 @@
     ],
     "notes": "SME business banking platform acquired by Paystack-backed consortium. Known for clean design, modern React, and backend Go architecture.",
     "status": "verified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": "timeout",
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -495,7 +495,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-21 (Page modified)",
+    "last_change_seen": "2026-11-25 (Page modified)",
     "alert_count": 0
   },
   {
@@ -650,8 +650,8 @@
     ],
     "notes": "Enterprise payment gateway powering major African retailers and airlines. Headquartered in Victoria Island, Lagos.",
     "status": "unverified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": "network_error",
     "last_change_seen": "2026-11-12 (Page modified)",
     "alert_count": 0
   },
@@ -877,7 +877,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-24 (Page modified)",
+    "last_change_seen": "2026-11-25 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1216,8 +1216,8 @@
     ],
     "notes": "Nigeria's largest telecommunications enterprise with headquarters in Ikoyi, Lagos. Runs formal graduate and student SIWES programs across digital, MoMo fintech, and cloud engineering.",
     "status": "verified",
-    "watching_status": "unverified",
-    "http_status": "timeout",
+    "watching_status": "watching",
+    "http_status": 200,
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -1398,7 +1398,7 @@
     "notes": "Pioneer fiber-optic internet broadband company based in Victoria Island, Lagos. Hires student software engineering trainees.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": "timeout",
+    "http_status": 404,
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -1533,7 +1533,7 @@
     "notes": "Licensed enterprise connectivity and managed IT service provider based in Ikoyi, Lagos. Welcomes university software engineering interns.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": "network_error",
+    "http_status": 404,
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -1624,7 +1624,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-21 (Page modified)",
+    "last_change_seen": "2026-11-25 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1693,7 +1693,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-24 (Page modified)",
+    "last_change_seen": "2026-11-25 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1985,7 +1985,7 @@
     "status": "unverified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-24 (Page modified)",
+    "last_change_seen": "2026-11-25 (Page modified)",
     "alert_count": 0
   },
   {
@@ -2320,7 +2320,7 @@
     "notes": "Software development incubator and enterprise talent academy. Runs Learnable software internship for undergraduates across Nigeria.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": "timeout",
+    "http_status": 404,
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -3088,7 +3088,7 @@
     "status": "unverified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-24 (Page modified)",
+    "last_change_seen": "2026-11-25 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3178,7 +3178,7 @@
     "status": "unverified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-23 (Page modified)",
+    "last_change_seen": "2026-11-25 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3201,7 +3201,7 @@
     "status": "unverified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-24 (Page modified)",
+    "last_change_seen": "2026-11-25 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3988,8 +3988,8 @@
     ],
     "notes": "Premier stock exchange and securities clearing infrastructure in Marina, Lagos. High-frequency market data feeds and trading platform software.",
     "status": "unverified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": "timeout",
     "last_change_seen": "2026-11-24 (Page modified)",
     "alert_count": 0
   },
@@ -4033,9 +4033,32 @@
       }
     ],
     "status": "possible",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": 419,
     "last_change_seen": "2026-11-24 (Page modified)",
     "alert_count": 0
+  },
+  {
+    "id": "comp_2199e82af3a928d4",
+    "name": "Ritual",
+    "careers_url": "https://weworkremotely.com/remote-jobs/ritual-software-engineer-intern",
+    "city": "Anywhere in the World",
+    "region": "Anywhere in the World",
+    "takes_interns": true,
+    "evidence_url": "https://weworkremotely.com/remote-jobs/ritual-software-engineer-intern",
+    "notes": "Lists active verified role: Software Engineer Intern",
+    "contacts": [
+      {
+        "name": "Ritual Technical Talent Lead",
+        "role": "Engineering Recruiter",
+        "email": null,
+        "source_url": "https://weworkremotely.com/remote-jobs/ritual-software-engineer-intern"
+      }
+    ],
+    "status": "verified",
+    "watching_status": "watching",
+    "http_status": 200,
+    "last_change_seen": "Initial snapshot captured",
+    "alert_count": 1
   }
 ]
