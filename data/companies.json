@@ -41,7 +41,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-26 (Page modified)",
     "alert_count": 1
   },
   {
@@ -200,7 +200,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-25 (Page modified)",
+    "last_change_seen": "2026-11-26 (Page modified)",
     "alert_count": 0
   },
   {
@@ -471,7 +471,7 @@
     "notes": "SME business banking platform acquired by Paystack-backed consortium. Known for clean design, modern React, and backend Go architecture.",
     "status": "verified",
     "watching_status": "unverified",
-    "http_status": "timeout",
+    "http_status": "network_error",
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -495,7 +495,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-25 (Page modified)",
+    "last_change_seen": "2026-11-26 (Page modified)",
     "alert_count": 0
   },
   {
@@ -650,8 +650,8 @@
     ],
     "notes": "Enterprise payment gateway powering major African retailers and airlines. Headquartered in Victoria Island, Lagos.",
     "status": "unverified",
-    "watching_status": "unverified",
-    "http_status": "network_error",
+    "watching_status": "watching",
+    "http_status": 200,
     "last_change_seen": "2026-11-12 (Page modified)",
     "alert_count": 0
   },
@@ -877,7 +877,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-25 (Page modified)",
+    "last_change_seen": "2026-11-26 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1624,7 +1624,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-25 (Page modified)",
+    "last_change_seen": "2026-11-26 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1693,7 +1693,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-25 (Page modified)",
+    "last_change_seen": "2026-11-26 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1985,7 +1985,7 @@
     "status": "unverified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-25 (Page modified)",
+    "last_change_seen": "2026-11-26 (Page modified)",
     "alert_count": 0
   },
   {
@@ -2231,7 +2231,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-23 (Page modified)",
+    "last_change_seen": "2026-11-26 (Page modified)",
     "alert_count": 0
   },
   {
@@ -2683,7 +2683,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-26 (Page modified)",
     "alert_count": 1
   },
   {
@@ -3313,7 +3313,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-17 (Page modified)",
+    "last_change_seen": "2026-11-26 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3855,7 +3855,7 @@
     "notes": "Global financial services and insurance group in Victoria Island, Lagos. Hires computer science students for software development SIWES.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": "timeout",
+    "http_status": 404,
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -4058,7 +4058,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-26 (Page modified)",
     "alert_count": 1
   }
 ]

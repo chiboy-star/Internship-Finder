@@ -6,7 +6,7 @@
     "job_links": [],
     "text_sample": "403 Forbidden - Marked for manual review",
     "http_status": 403,
-    "last_checked": "2026-11-25T16:27:02.687Z",
+    "last_checked": "2026-11-26T16:00:26.593Z",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   "Moniepoint": {
@@ -16,7 +16,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:02.896Z",
+    "last_checked": "2026-11-26T16:00:26.726Z",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   "Piggyvest": {
@@ -31,22 +31,26 @@
     ],
     "text_sample": "About Piggyvest Save Piggybank Automated Savings Safelock Fixed Savings Target Savings Goal-oriented Savings Flex Naira Flexible Savings Flex Dollar Dollar Savings House Money Semi Strict Wallet Invest Stories FAQs Resources Blog Reports Comics Calculator Newsletter Ebook Create free account Sign in",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:02.889Z",
+    "last_checked": "2026-11-26T16:00:26.782Z",
     "last_change_seen": "2026-11-16 (Page modified)"
   },
   "Helium Health": {
     "company": "Helium Health",
     "careers_url": "https://heliumhealth.com/careers",
-    "content_hash": "3173d0a33009998b",
+    "content_hash": "ec58f4d59afed257",
     "job_links": [
       "https://heliumhealth.com/careers/",
       "https://heliumhealth.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fheliumhealth.com%2Fcareers%2F",
-      "https://heliumhealth.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fheliumhealth.com%2Fcareers%2F&#038;format=xml"
+      "https://heliumhealth.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fheliumhealth.com%2Fcareers%2F&#038;format=xml",
+      "https://heliumhealth.com/career/growth-analyst-oyo-state/",
+      "https://heliumhealth.com/career/growth-analyst-delta-state/",
+      "https://heliumhealth.com/career/public-health-implementation-officer-kano-state/",
+      "https://heliumhealth.com/career/join-our-talent-network/"
     ],
     "text_sample": "Join Our Mission in Transforming Healthcare | Careers at Helium Health HeliumWallet Products Our Provider Digitization Suite HeliumOS HeliumDoc MyHelium Our Financial Solutions HeliumCredit HeliumWallet Our Public Health &#038; Data Partnerships Public Health Data and Insights About About Us Blog Ca",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:04.459Z",
-    "last_change_seen": "2026-11-25 (Page modified)"
+    "last_checked": "2026-11-26T16:00:27.120Z",
+    "last_change_seen": "2026-11-26 (Page modified)"
   },
   "OPay Nigeria": {
     "company": "OPay Nigeria",
@@ -57,7 +61,7 @@
     ],
     "text_sample": "OPay ｜ We are Beyond Banking ☰ Business Company About Us Contact Us CSR Corporate Social Responsibility Education OPay Scholars Play4aChild Infrastructure Campus Upgrade Empowerment Women Empowerment Newsroom Careers Business Company About Us Contact Us CSR Corporate Social Responsibility Education ",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:03.735Z",
+    "last_checked": "2026-11-26T16:00:27.608Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Bamboo": {
@@ -71,7 +75,7 @@
     ],
     "text_sample": "Careers at Bamboo | Invest Bamboo Start with as low as $10 and invest in your dreams Invest Save Private Clients Institutions Learn Get Started Get Started Work at Bamboo Build the Future of Investing for Africa Fast-paced, impact-driven, and built for people who want to do work that matters. See op",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:03.233Z",
+    "last_checked": "2026-11-26T16:00:27.097Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "FairMoney": {
@@ -81,7 +85,7 @@
     "job_links": [],
     "text_sample": "FairMoney - Own Your Financial Journey Home Personal Loans FlexiCredit Consumer Loan Asset Finance Savings FairLock FairSave FairTarget FairDollar Banking Business Business Banking Business Contact Business FAQs Business Terms and Conditions Business Privacy Policy Business Whistleblower Policy Abou",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:03.095Z",
+    "last_checked": "2026-11-26T16:00:26.938Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Carbon (OneFi)": {
@@ -91,7 +95,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:03.078Z",
+    "last_checked": "2026-11-26T16:00:26.995Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "PalmPay": {
@@ -101,7 +105,7 @@
     "job_links": [],
     "text_sample": "Connection 500",
     "http_status": 500,
-    "last_checked": "2026-11-25T16:27:03.583Z",
+    "last_checked": "2026-11-26T16:00:27.328Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Cowrywise": {
@@ -115,13 +119,13 @@
     ],
     "text_sample": "Connection 405",
     "http_status": 405,
-    "last_checked": "2026-11-25T16:27:02.853Z",
+    "last_checked": "2026-11-26T16:00:26.742Z",
     "last_change_seen": "2026-11-22 (Page modified)"
   },
   "Flutterwave": {
     "company": "Flutterwave",
     "careers_url": "https://flutterwave.com/ng/careers",
-    "content_hash": "b0b5682ab6b868da",
+    "content_hash": "c354828dba21e3bd",
     "job_links": [
       "/ng/careers",
       "/ng/careers/vacancies",
@@ -129,8 +133,8 @@
     ],
     "text_sample": "Flutterwave Careers Menu Icon Enterprise Payment solutions Grow your business Payment solutions Grow your business Accept online payments Easily receive online payments from around the world in different currencies. Payout &amp; Transfers Experience effortless cross-border payouts and transfers in v",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:05.813Z",
-    "last_change_seen": "Initial snapshot captured"
+    "last_checked": "2026-11-26T16:00:29.720Z",
+    "last_change_seen": "2026-11-26 (Page modified)"
   },
   "Interswitch Group": {
     "company": "Interswitch Group",
@@ -142,7 +146,7 @@
     ],
     "text_sample": "Interswitch | Powering Digital Payments Across Africa AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpmM2E3Mjg0Ny03NzI0LTQ0ZWItOGYzYS1mZDlhZTk4MGQ4YWQAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:06.370Z",
+    "last_checked": "2026-11-26T16:00:30.637Z",
     "last_change_seen": "2026-11-22 (Page modified)"
   },
   "Squad by HabariPay": {
@@ -154,7 +158,7 @@
     ],
     "text_sample": "403 Forbidden - Marked for manual review",
     "http_status": 403,
-    "last_checked": "2026-11-25T16:27:03.182Z",
+    "last_checked": "2026-11-26T16:00:26.997Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Kuda Bank": {
@@ -164,7 +168,7 @@
     "job_links": [],
     "text_sample": "Connection 406",
     "http_status": 406,
-    "last_checked": "2026-11-25T16:27:04.248Z",
+    "last_checked": "2026-11-26T16:00:28.189Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Eversend": {
@@ -178,7 +182,7 @@
     ],
     "text_sample": "Careers — build borderless money infrastructure · Eversend Personal ⌄ Business ⌄ Platform ⌄ Pricing Company ⌄ Business log in Get the app Careers at Eversend Build the account and infrastructure for money that crosses borders. We’re a small team building the account people use to move money across b",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:03.392Z",
+    "last_checked": "2026-11-26T16:00:27.158Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Raenest": {
@@ -188,7 +192,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:03.435Z",
+    "last_checked": "2026-11-26T16:00:27.482Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Brass": {
@@ -202,9 +206,9 @@
       "/careers/financial-controller",
       "/careers/accounts-and-reconciliation-associate-brass"
     ],
-    "text_sample": "Connection timeout",
-    "http_status": "timeout",
-    "last_checked": "2026-11-25T16:27:12.436Z",
+    "text_sample": "Connection network_error",
+    "http_status": "network_error",
+    "last_checked": "2026-11-26T16:00:27.246Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Geegpay": {
@@ -214,7 +218,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:03.510Z",
+    "last_checked": "2026-11-26T16:00:27.613Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "OnePipe": {
@@ -224,7 +228,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:04.205Z",
+    "last_checked": "2026-11-26T16:00:27.953Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "LemFi (RightCard)": {
@@ -252,7 +256,7 @@
     ],
     "text_sample": "LemFi careers: ambition belongs here. See open roles EN Search roles Roles ambition belongs here Everyone at LemFi is committed to something greater. Join a team of AMBITIOUS people Most of what exists at LemFi was built by those that didn&#39;t wait to be asked. Learn about LemFi &gt; our values Ou",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:03.700Z",
+    "last_checked": "2026-11-26T16:00:27.319Z",
     "last_change_seen": "2026-11-12 (Page modified)"
   },
   "Paga": {
@@ -262,23 +266,23 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:04.576Z",
+    "last_checked": "2026-11-26T16:00:28.178Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Grey (Aboki Africa)": {
     "company": "Grey (Aboki Africa)",
     "careers_url": "https://grey.co/careers",
-    "content_hash": "7de6871b4008f4ee",
+    "content_hash": "9fc087011bc13876",
     "job_links": [
       "https://staticfe.bamboohr.com/assets/images/bamboohr-brand/bamboohr-brand-favicon.ico",
       "//staticfe.bamboohr.com/fe-main/prod/css/global-encore.783e75bf.dist.css",
       "//staticfe.bamboohr.com/fe-main/prod/css/print-encore.6ff389c9.css",
-      "//staticfe.bamboohr.com/fe-main/prod/css/po.bef84ba8.dist.css"
+      "//staticfe.bamboohr.com/fe-main/prod/css/po.f9355b9e.dist.css"
     ],
     "text_sample": "BambooHR",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:04.304Z",
-    "last_change_seen": "2026-11-25 (Page modified)"
+    "last_checked": "2026-11-26T16:00:27.991Z",
+    "last_change_seen": "2026-11-26 (Page modified)"
   },
   "VBank (VFD Microfinance Bank)": {
     "company": "VBank (VFD Microfinance Bank)",
@@ -293,7 +297,7 @@
     ],
     "text_sample": "Careers - VFD Microfinance Bank Skip to content Retail Business VRewards Rewards – Data Page Rewards – Bill Payments Rewards – Savings Rewards – Airtime Page Open Banking Company Company About us Read about who we are, our vision and why you should bank with us. Careers If you have always wanted to ",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:06.075Z",
+    "last_checked": "2026-11-26T16:00:28.251Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Bujeti": {
@@ -303,7 +307,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:04.220Z",
+    "last_checked": "2026-11-26T16:00:27.888Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Nomba": {
@@ -316,7 +320,7 @@
     ],
     "text_sample": "Careers at Nomba: Build the future of African business .js but their .tsx-extension preloads aren't rewritten), which triggers index.html's error handler and force-reloads the page on first navigation. --> Skip to content Products Business accounts One account to receive, send, and manage all your b",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:03.259Z",
+    "last_checked": "2026-11-26T16:00:27.033Z",
     "last_change_seen": "2026-11-12 (Page modified)"
   },
   "SeerBit": {
@@ -328,9 +332,9 @@
       "/careers",
       "https://hris.peoplehum.com/ehire/jobs/234d24db-d224-49d4-8453-24076935a40a"
     ],
-    "text_sample": "Connection network_error",
-    "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:04.410Z",
+    "text_sample": "Careers Solutions Payment Solutions made easy for you Checkout Pre-built payment page for you Recurring Payments Automate repeat paymets Payment Link No-code payments Online Payments Accept payments on your platform In-Person Payments Accept payments with a POS Virtual Accounts Receive payments with",
+    "http_status": 200,
+    "last_checked": "2026-11-26T16:00:28.523Z",
     "last_change_seen": "2026-11-12 (Page modified)"
   },
   "Bloc": {
@@ -340,7 +344,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:04.840Z",
+    "last_checked": "2026-11-26T16:00:28.439Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Remita (SystemSpecs)": {
@@ -350,7 +354,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:05.350Z",
+    "last_checked": "2026-11-26T16:00:29.042Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Anchor": {
@@ -360,7 +364,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:04.665Z",
+    "last_checked": "2026-11-26T16:00:28.274Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Baxi (Capricorn Digital / MFS Africa)": {
@@ -370,7 +374,7 @@
     "job_links": [],
     "text_sample": "Account Suspended Account Suspended This Account has been suspended. Contact your hosting provider for more information.",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:05.050Z",
+    "last_checked": "2026-11-26T16:00:28.712Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "CredPal": {
@@ -380,18 +384,18 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:05.399Z",
+    "last_checked": "2026-11-26T16:00:28.862Z",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   "Zenith Bank (Innovation & Digital Banking Lab)": {
     "company": "Zenith Bank (Innovation & Digital Banking Lab)",
     "careers_url": "https://www.zenithbank.com/careers",
-    "content_hash": "748f1f25347b0de2",
+    "content_hash": "3b7f1783a34ae252",
     "job_links": [],
-    "text_sample": "Request unsuccessful. Incapsula incident ID: 1008000160098174063-17540457524364315",
+    "text_sample": "Request unsuccessful. Incapsula incident ID: 2211000090300517593-25481955212722776",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:05.798Z",
-    "last_change_seen": "2026-11-25 (Page modified)"
+    "last_checked": "2026-11-26T16:00:29.100Z",
+    "last_change_seen": "2026-11-26 (Page modified)"
   },
   "Guaranty Trust Bank (GTCO / Habari)": {
     "company": "Guaranty Trust Bank (GTCO / Habari)",
@@ -400,7 +404,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:06.736Z",
+    "last_checked": "2026-11-26T16:00:30.372Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Korapay": {
@@ -413,7 +417,7 @@
     ],
     "text_sample": "Kora - Accept Payments, Make Payouts &amp; Scale Across Africa NG SELECT LANGUAGE English Français 普通话 SELECT YOUR REGION International Nigeria Cameroon Ghana South Africa Kenya Egypt Ivory Coast Products Our Solutions Our Solution is your one stop shop to making financial payments from and across A",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:04.545Z",
+    "last_checked": "2026-11-26T16:00:28.306Z",
     "last_change_seen": "2026-11-13 (Page modified)"
   },
   "NowNow Digital Systems": {
@@ -423,7 +427,7 @@
     "job_links": [],
     "text_sample": "403 Forbidden - Marked for manual review",
     "http_status": 403,
-    "last_checked": "2026-11-25T16:27:05.602Z",
+    "last_checked": "2026-11-26T16:00:28.785Z",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   "Renmoney": {
@@ -433,7 +437,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:05.543Z",
+    "last_checked": "2026-11-26T16:00:28.923Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "First Bank of Nigeria (Digital Lab)": {
@@ -443,7 +447,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:06.254Z",
+    "last_checked": "2026-11-26T16:00:29.568Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "United Bank for Africa (UBA / Leo AI)": {
@@ -460,7 +464,7 @@
     ],
     "text_sample": "UBA Careers Skip to content Home Link Logo An icon representing a home, used as a link to the homepage. Home About Us Investors Our Impact Media Support Global Reach Change Language & Country Country Language America Benin Burkina Faso Cameroon Chad Congo Côte d'Ivoire DRC France Gabon Ghana Guinea ",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:10.689Z",
+    "last_checked": "2026-11-26T16:00:32.644Z",
     "last_change_seen": "2026-11-23 (Page modified)"
   },
   "Sudo Africa": {
@@ -470,7 +474,7 @@
     "job_links": [],
     "text_sample": "--> _$udo | Modern card issuing and payments for Africa --> --> --> --> --> Products Developers Pricing Support Company Root App Squad Sign in Home Products Cards Accounts Cloud Card Developers Overview Documentation Status GitHub Company About Us Careers Blog Pricing Support Contact Help Center Res",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:06.960Z",
+    "last_checked": "2026-11-26T16:00:30.838Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Wema Bank (ALAT by Wema)": {
@@ -480,7 +484,7 @@
     "job_links": [],
     "text_sample": "Wema Bank",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:06.963Z",
+    "last_checked": "2026-11-26T16:00:30.463Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "First City Monument Bank (FCMB / Hub One)": {
@@ -492,7 +496,7 @@
     ],
     "text_sample": "FCMB HOME PERSONAL BUSINESS CORPORATE Today’s Share Price: ₦10.65 Today’s Share Price: ₦10.65 OPEN AN ACCOUNT INTERNET BANKING CONTACT US OPEN AN ACCOUNT Personal Business INTERNET BANKING Personal Business Corporate CONTACT US PERSONAL BANKING Current Accounts Classic Current Account Premium Curren",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:07.645Z",
+    "last_checked": "2026-11-26T16:00:31.081Z",
     "last_change_seen": "2026-11-23 (Page modified)"
   },
   "Union Bank of Nigeria": {
@@ -502,7 +506,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:07.550Z",
+    "last_checked": "2026-11-26T16:00:31.958Z",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   "Wallets Africa": {
@@ -512,7 +516,7 @@
     "job_links": [],
     "text_sample": "Spring in Africa - Our wallet - Go global with Spring Investing in Innovation Spring for Businesses Login Sign up Leap into tomorrow's banking Receive money from anyone anywhere with just your username Sign up Spring Receive money seamlessly Easily create custom payment links for seamless transactio",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:05.222Z",
+    "last_checked": "2026-11-26T16:00:28.889Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Sterling Bank (Sterling Tech)": {
@@ -528,7 +532,7 @@
     ],
     "text_sample": "Careers -- End of the comment --> Skip to content Personal Self Service E-BANKING Accounts Cards More... Business Corporate E-BANKING SME Loans Payments H.E.A.R.T About Us Who We Are Our Awards Careers Investors Read Our Annual Report Sustainability Sustainability Commitment Environmental and Social",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:07.689Z",
+    "last_checked": "2026-11-26T16:00:30.297Z",
     "last_change_seen": "2026-11-23 (Page modified)"
   },
   "Fidelity Bank Nigeria": {
@@ -543,7 +547,7 @@
     ],
     "text_sample": "Careers At Fidelity - Fidelity Bank Plc | Career Opportunity Skip to content ONLINE BANKING Online Banking Personal Corporate Login Register | Open New Account Login Register | Open New Account X Open An Account Open Personal Account Open Business Account Reactivate Dormant Account X Home About Us I",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:06.774Z",
+    "last_checked": "2026-11-26T16:00:30.708Z",
     "last_change_seen": "2026-11-20 (Page modified)"
   },
   "Stanbic IBTC Bank (Blue Lab & Tech Academy)": {
@@ -553,7 +557,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:07.348Z",
+    "last_checked": "2026-11-26T16:00:30.888Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Providus Bank": {
@@ -565,7 +569,7 @@
     ],
     "text_sample": "Careers | ProvidusUnity Bank PROVIDUSUNITY BANK Future Forward PROVIDUSUNITY BANK Future Forward Careers Join a team where your career and well being thrive. Discover a workplace where your growth is nurtured and your contributions are valued. ProvidusUnity Bank is committed to fostering an environm",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:07.288Z",
+    "last_checked": "2026-11-26T16:00:30.675Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Access Bank (Digital Innovation Lab)": {
@@ -589,7 +593,7 @@
     ],
     "text_sample": "403 Forbidden - Marked for manual review",
     "http_status": 403,
-    "last_checked": "2026-11-25T16:27:05.922Z",
+    "last_checked": "2026-11-26T16:00:29.261Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Sycamore": {
@@ -603,7 +607,7 @@
     ],
     "text_sample": "Sycamore Careers | Join our team to build a future void of financial barriers - Sycamore.ng | Careers Page Products Company Blog Support Loading... Shape the Future of Finance with us. SYCMRK467B See open positions Life at Sycamore We care for our own At Sycamore, we’re more than just a team; we’re ",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:07.886Z",
+    "last_checked": "2026-11-26T16:00:30.304Z",
     "last_change_seen": "2026-11-17 (Page modified)"
   },
   "Fincra": {
@@ -618,7 +622,7 @@
     ],
     "text_sample": "Careers - Fincra Skip to main content Search Close Search Login Menu Products Payments Payin Pay-Out APIs Conversions Banking as a Service Virtual Accounts Multicurrency Accounts Commerce Checkout New Payment Links Value Added Services Identity Verification Usecase Ecommerce Financial Institutions F",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:11.836Z",
+    "last_checked": "2026-11-26T16:00:34.036Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Airtel Nigeria": {
@@ -628,7 +632,7 @@
     "job_links": [],
     "text_sample": "Airtel: Prepaid | Postpaid | 5G You need to enable JavaScript to run this app.",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:08.227Z",
+    "last_checked": "2026-11-26T16:00:31.840Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "MainOne (Equinix Company)": {
@@ -638,7 +642,7 @@
     "job_links": [],
     "text_sample": "403 Forbidden - Marked for manual review",
     "http_status": 403,
-    "last_checked": "2026-11-25T16:27:08.261Z",
+    "last_checked": "2026-11-26T16:00:31.852Z",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   "Medallion Data Centres (Digital Realty)": {
@@ -648,7 +652,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:08.339Z",
+    "last_checked": "2026-11-26T16:00:31.899Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Jaiz Bank": {
@@ -658,7 +662,7 @@
     "job_links": [],
     "text_sample": "Jaiz Bank - with you for life. Jaiz Bank",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:07.445Z",
+    "last_checked": "2026-11-26T16:00:30.816Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Titan Trust Bank": {
@@ -668,7 +672,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:08.887Z",
+    "last_checked": "2026-11-26T16:00:32.369Z",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   "Spectranet 4G LTE": {
@@ -682,7 +686,7 @@
     ],
     "text_sample": "Careers – Join Spectranet Nigeria Nigeria's first 4G LTE network Call us 0800 234 5678 Shop Locations CSR Coverage Checks Inquiries Eazy Payment Light Dark Product and Services WiFi devices fiber on Air Home Fiber Data SIM Enterprise Business WiTel Plans Data Plans Plans Unlimited Plans doMORE Plans",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:11.882Z",
+    "last_checked": "2026-11-26T16:00:34.989Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Globacom (Glo)": {
@@ -695,7 +699,7 @@
     ],
     "text_sample": "CAREERS Personal Business Heritage Series Ghana Quick Info NEW GLO Foundation Support Recharge Data Airtime Self Care Glo Life Sign In Heritage Series Ghana Partner GLO Foundation Self Care Case Studies Special Offers Sign In Shop Now Ghana Ghana Voice Voice Voice Voice Overview Tariff Plans Tariff ",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:10.228Z",
+    "last_checked": "2026-11-26T16:00:33.812Z",
     "last_change_seen": "2026-11-17 (Page modified)"
   },
   "FiberOne Broadband": {
@@ -705,7 +709,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:11.001Z",
+    "last_checked": "2026-11-26T16:00:37.647Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Smile Communications": {
@@ -718,7 +722,7 @@
     ],
     "text_sample": "Careers JavaScript seems to be disabled in your browser. For the best experience on our site, be sure to turn on Javascript in your browser. Smile Communications is using Cookies Smile website uses cookies, including third party cookies, and similar technologies (collectively, \"cookies\") to improve ",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:11.396Z",
+    "last_checked": "2026-11-26T16:00:34.313Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "e.Stream Networks": {
@@ -728,7 +732,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:11.672Z",
+    "last_checked": "2026-11-26T16:00:34.310Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Rack Centre": {
@@ -740,7 +744,7 @@
     ],
     "text_sample": "Contact Rack Centre Nigeria HOME ABOUT SITE EXPANSION Lagos Data Centre Campus Expansion Facility DATA CENTRE CAMPUS – LGS-1 DATA CENTRE CAMPUS – LGS-2 EXPANSION THE LEADERSHIP TEAM AWARDS &#038; CERTIFICATIONS DATA CENTRE SERVICES COLOCATION REMOTE HANDS CLOUD SERVICES FINANCIAL SERVICES CONNECTIVI",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:09.276Z",
+    "last_checked": "2026-11-26T16:00:33.408Z",
     "last_change_seen": "2026-11-23 (Page modified)"
   },
   "Galaxy Backbone": {
@@ -760,7 +764,7 @@
     ],
     "text_sample": "Careers - Galaxy Backbone Limited Menu Home About Us Our Mandate OUR VISION, MISSION AND CORE VALUES Management Board of Directors Organogram Our Awards Careers + Services Internet Services Security Services Cloud Public Sector Services Small and Medium Enterprises Optical Fibre Backbone Data Center",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:15.366Z",
+    "last_checked": "2026-11-26T16:00:38.329Z",
     "last_change_seen": "2026-11-18 (Page modified)"
   },
   "MTN Nigeria": {
@@ -770,7 +774,7 @@
     "job_links": [],
     "text_sample": "MTN Career Job Applicant Privacy Notice In this notice “MTN”, “we”, “our” and “us” refers to MTN Nigeria Communication Plc (“MTN”) a public limited liability company, incorporated in the Federal Republic of Nigeria with registration number 395010 and its principal office at MTN Plaza, Falomo Roundab",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:12.406Z",
+    "last_checked": "2026-11-26T16:00:35.668Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Taj Bank": {
@@ -784,7 +788,7 @@
     ],
     "text_sample": "Careers - TAJBank Official Website Skip to content GET IN TOUCH: +2349087937417, +2347008252265, +2342012272906 tajconnect@tajbank.com Licensed by the Central Bank of Nigeria Facebook page opens in new window X page opens in new window Instagram page opens in new window YouTube page opens in new win",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:09.713Z",
+    "last_checked": "2026-11-26T16:00:33.220Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Swift Networks": {
@@ -794,7 +798,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:11.655Z",
+    "last_checked": "2026-11-26T16:00:34.449Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Wellahealth": {
@@ -804,7 +808,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:12.150Z",
+    "last_checked": "2026-11-26T16:00:34.727Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "ipNX Nigeria": {
@@ -814,19 +818,21 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:14.255Z",
+    "last_checked": "2026-11-26T16:00:36.615Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Jumia Nigeria": {
     "company": "Jumia Nigeria",
     "careers_url": "https://group.jumia.com/careers",
-    "content_hash": "28a9bc747e8c934b",
+    "content_hash": "5a537c00ea428f2d",
     "job_links": [
       "https://group.jumia.com/careers",
       "/people/dream-job",
       "/careers",
+      "https://job-boards.eu.greenhouse.io/jumia/jobs/5049352101",
       "https://job-boards.eu.greenhouse.io/jumia/jobs/4980196101",
       "https://job-boards.eu.greenhouse.io/jumia/jobs/5010674101",
+      "https://job-boards.eu.greenhouse.io/jumia/jobs/5047136101",
       "https://job-boards.eu.greenhouse.io/jumia/jobs/4974610101",
       "https://job-boards.eu.greenhouse.io/jumia/jobs/5047026101",
       "https://job-boards.eu.greenhouse.io/jumia/jobs/5047290101",
@@ -839,16 +845,16 @@
       "https://job-boards.eu.greenhouse.io/jumia/jobs/5047918101",
       "https://job-boards.eu.greenhouse.io/jumia/jobs/5035085101",
       "https://job-boards.eu.greenhouse.io/jumia/jobs/5027013101",
-      "https://job-boards.eu.greenhouse.io/jumia/jobs/5048534101",
       "https://job-boards.eu.greenhouse.io/jumia/jobs/5009896101",
+      "https://job-boards.eu.greenhouse.io/jumia/jobs/5048534101",
       "https://job-boards.eu.greenhouse.io/jumia/jobs/5024331101",
       "https://job-boards.eu.greenhouse.io/jumia/jobs/4945370101",
       "https://job-boards.eu.greenhouse.io/jumia/jobs/4975687101"
     ],
     "text_sample": "All opportunities | Careers | Jumia Group About Us About Us Harnessing technology to make people&#39;s lives easier in Africa What We Do Serving consumers and empowering businesses Locations The countries we serve Leadership Meet our leaders Business Business Jumia is built around two main pillars: ",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:12.377Z",
-    "last_change_seen": "2026-11-25 (Page modified)"
+    "last_checked": "2026-11-26T16:00:35.089Z",
+    "last_change_seen": "2026-11-26 (Page modified)"
   },
   "Eden Life": {
     "company": "Eden Life",
@@ -857,7 +863,7 @@
     "job_links": [],
     "text_sample": "Eden | Live your best life with ease",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:12.944Z",
+    "last_checked": "2026-11-26T16:00:34.974Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Reliance Health": {
@@ -867,7 +873,7 @@
     "job_links": [],
     "text_sample": "reliancehealthinc.com — established .com domain (6y) Listing ID · ReliancehealthInc.com Home .com ReliancehealthInc.com Premium domain · For sale Reliancehealth Inc .com Expired .com domain for sale 17 characters · 6 years old · Charity A short, memorable, established domain ready to power your char",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:11.863Z",
+    "last_checked": "2026-11-26T16:00:34.638Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Remedial Health": {
@@ -880,7 +886,7 @@
     ],
     "text_sample": "Jobs at Remedial Health Remedial Health subscribe#hideSubscriptionModal\"> Subscribe to updates Enter an email address to receive updates whenever we post new job openings. Email address Subscribe subscribe#hideSubscriptionModal\">Cancel Confirm your email Check your inbox for an email containing a li",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:12.082Z",
+    "last_checked": "2026-11-26T16:00:34.730Z",
     "last_change_seen": "2026-11-24 (Page modified)"
   },
   "Liquid Intelligent Technologies Nigeria": {
@@ -897,7 +903,7 @@
     ],
     "text_sample": "Careers - Job Opportunities | Liquid Intelligent Technologies Skip to content Home Services Global South Africa DRC (FR) Digital Services Cloud services Managed solutions Cyber security solutions IOT Infrastructure Solutions Connectivity solutions International wholesale Wholesale products Data Cent",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:15.499Z",
+    "last_checked": "2026-11-26T16:00:38.401Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "MAX.ng (Metro Africa Xpress)": {
@@ -907,23 +913,23 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:13.057Z",
+    "last_checked": "2026-11-26T16:00:35.752Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Chowdeck": {
     "company": "Chowdeck",
     "careers_url": "https://chowdeck.com/careers",
-    "content_hash": "7de6871b4008f4ee",
+    "content_hash": "9fc087011bc13876",
     "job_links": [
       "https://staticfe.bamboohr.com/assets/images/bamboohr-brand/bamboohr-brand-favicon.ico",
       "//staticfe.bamboohr.com/fe-main/prod/css/global-encore.783e75bf.dist.css",
       "//staticfe.bamboohr.com/fe-main/prod/css/print-encore.6ff389c9.css",
-      "//staticfe.bamboohr.com/fe-main/prod/css/po.bef84ba8.dist.css"
+      "//staticfe.bamboohr.com/fe-main/prod/css/po.f9355b9e.dist.css"
     ],
     "text_sample": "BambooHR",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:12.449Z",
-    "last_change_seen": "2026-11-25 (Page modified)"
+    "last_checked": "2026-11-26T16:00:35.181Z",
+    "last_change_seen": "2026-11-26 (Page modified)"
   },
   "Konga": {
     "company": "Konga",
@@ -934,7 +940,7 @@
     ],
     "text_sample": "Careers | Konga Online Sell on Konga Konga Outlets Download App Help Login/ Sign Up Home Email Support help@konga.com Phone Support 07080635700, 02018883435 Whatsapp 08094605555 Get Latest Deals Subscribe About Konga Contact Us About Us Careers Become an Affiliate Our Blog Terms of Use Payment Konga",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:13.652Z",
+    "last_checked": "2026-11-26T16:00:36.170Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Omnibiz": {
@@ -944,7 +950,7 @@
     "job_links": [],
     "text_sample": "OmniBiz You need to enable JavaScript to run this app.",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:13.039Z",
+    "last_checked": "2026-11-26T16:00:35.984Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Sabi": {
@@ -954,7 +960,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:12.949Z",
+    "last_checked": "2026-11-26T16:00:35.562Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "TradeDepot": {
@@ -964,7 +970,7 @@
     "job_links": [],
     "text_sample": "TradeDepot Home You need to enable JavaScript to run this app.",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:12.604Z",
+    "last_checked": "2026-11-26T16:00:35.164Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Gokada": {
@@ -977,7 +983,7 @@
     ],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:13.394Z",
+    "last_checked": "2026-11-26T16:00:36.268Z",
     "last_change_seen": "2026-11-13 (Page modified)"
   },
   "Topship": {
@@ -987,7 +993,7 @@
     "job_links": [],
     "text_sample": "Topship Africa: Local & International Delivery Service You need to enable JavaScript to run this app.",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:13.875Z",
+    "last_checked": "2026-11-26T16:00:37.060Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "uLesson Education": {
@@ -997,7 +1003,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:14.239Z",
+    "last_checked": "2026-11-26T16:00:37.153Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Glovo Nigeria": {
@@ -1023,7 +1029,7 @@
     ],
     "text_sample": "About Us - Glovo Search for: Saved jobs 0 About Us Life at Glovo Our Teams Tech @ Glovo Careers Redefining what’s possible. At Glovo, we’re a tech company on a mission: transforming the way people get what they want, exactly when they want it &#8211; whether it’s food, essentials, or anything in bet",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:13.309Z",
+    "last_checked": "2026-11-26T16:00:36.702Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Sendbox": {
@@ -1033,7 +1039,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:13.886Z",
+    "last_checked": "2026-11-26T16:00:36.807Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "9mobile (EMTS)": {
@@ -1043,7 +1049,7 @@
     "job_links": [],
     "text_sample": "Connection timeout",
     "http_status": "timeout",
-    "last_checked": "2026-11-25T16:27:16.691Z",
+    "last_checked": "2026-11-26T16:00:39.888Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "PrepClass": {
@@ -1053,7 +1059,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:15.382Z",
+    "last_checked": "2026-11-26T16:00:37.474Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Semicolon Africa": {
@@ -1063,7 +1069,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:14.485Z",
+    "last_checked": "2026-11-26T16:00:37.502Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Decagon": {
@@ -1076,7 +1082,7 @@
     ],
     "text_sample": "Decagon Honours Program Home The Program Career Accelerator Fees Contact Apply 404 Page Not Found Sorry, the page you&#x27;re looking for doesn&#x27;t exist or has been moved. 🏠 Go Home ← Go Back Preparing the next generation of African leaders. Four years. One complete education. Apply Now Pages H",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:14.899Z",
+    "last_checked": "2026-11-26T16:00:37.976Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Catapult (Catapult.ng)": {
@@ -1086,7 +1092,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:15.317Z",
+    "last_checked": "2026-11-26T16:00:38.081Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "SmallSmall (RentSmallSmall)": {
@@ -1096,7 +1102,7 @@
     "job_links": [],
     "text_sample": "SmallSmall --> inside ) -->",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:14.876Z",
+    "last_checked": "2026-11-26T16:00:37.897Z",
     "last_change_seen": "2026-11-20 (Page modified)"
   },
   "CutStruct Technology": {
@@ -1106,7 +1112,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:15.211Z",
+    "last_checked": "2026-11-26T16:00:37.919Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Bumpa": {
@@ -1116,7 +1122,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:15.423Z",
+    "last_checked": "2026-11-26T16:00:38.204Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Alerzo": {
@@ -1126,7 +1132,7 @@
     "job_links": [],
     "text_sample": "Connection timeout",
     "http_status": "timeout",
-    "last_checked": "2026-11-25T16:27:21.450Z",
+    "last_checked": "2026-11-26T16:00:44.182Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Estate Intel": {
@@ -1136,7 +1142,7 @@
     "job_links": [],
     "text_sample": "undefined - Real Estate Market Research and Data for Africa oga | Estate Intel - Real Estate Market Research and Data for Nigerian and Africa",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:15.034Z",
+    "last_checked": "2026-11-26T16:00:38.266Z",
     "last_change_seen": "2026-11-13 (Page modified)"
   },
   "Shuttlers": {
@@ -1146,7 +1152,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:14.437Z",
+    "last_checked": "2026-11-26T16:00:36.787Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Vendease": {
@@ -1156,7 +1162,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:15.646Z",
+    "last_checked": "2026-11-26T16:00:38.509Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Kobo360": {
@@ -1166,7 +1172,7 @@
     "job_links": [],
     "text_sample": "Connection timeout",
     "http_status": "timeout",
-    "last_checked": "2026-11-25T16:27:22.057Z",
+    "last_checked": "2026-11-26T16:00:45.171Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Moove Africa": {
@@ -1176,13 +1182,13 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:16.023Z",
+    "last_checked": "2026-11-26T16:00:39.035Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "AltSchool Africa / TalentQL": {
     "company": "AltSchool Africa / TalentQL",
     "careers_url": "https://altschoolafrica.com/careers",
-    "content_hash": "b97ca304656206c2",
+    "content_hash": "da31d9aa56e6aae9",
     "job_links": [
       "https://altschoolafrica.com/careers/",
       "https://altschoolafrica.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Faltschoolafrica.com%2Fcareers%2F",
@@ -1191,8 +1197,8 @@
     ],
     "text_sample": "Corporate Training &amp; Team Upskilling | AltSchool Africa Skip to content APPLY TODAY ENROLLMENT FOR DECEMBER 2026 COHORT ONGOING&nbsp; Search Programs Schools Pathways For Business Impact Login Join for free Programs View All Explore AltSchool's learning programs Flexible, structured programs bui",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:18.644Z",
-    "last_change_seen": "2026-11-25 (Page modified)"
+    "last_checked": "2026-11-26T16:00:38.154Z",
+    "last_change_seen": "2026-11-26 (Page modified)"
   },
   "Cregital": {
     "company": "Cregital",
@@ -1201,7 +1207,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:16.874Z",
+    "last_checked": "2026-11-26T16:00:39.717Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Softcom (Eyowo)": {
@@ -1211,7 +1217,7 @@
     "job_links": [],
     "text_sample": "Connection timeout",
     "http_status": "timeout",
-    "last_checked": "2026-11-25T16:27:24.991Z",
+    "last_checked": "2026-11-26T16:00:47.929Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Venture Garden Group (VGG)": {
@@ -1221,7 +1227,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:16.999Z",
+    "last_checked": "2026-11-26T16:00:39.702Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Anakle": {
@@ -1231,20 +1237,20 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:16.054Z",
+    "last_checked": "2026-11-26T16:00:39.153Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Andela Nigeria": {
     "company": "Andela Nigeria",
     "careers_url": "https://andela.com/careers",
-    "content_hash": "be1c4c4ca289bb69",
+    "content_hash": "528d354c68932efa",
     "job_links": [
       "https://jobs.ashbyhq.com/andela"
     ],
     "text_sample": "Work. Learn. Connect. Grow. Solutions Solutions Agentic engineering assessment Assess Agentic engineering assessment Measure how engineers work with AI and what will help teams move forward. Explore the assessment Assessment methodology The three-part assessment Diagnostic report Build agentic engin",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:15.990Z",
-    "last_change_seen": "2026-11-23 (Page modified)"
+    "last_checked": "2026-11-26T16:00:38.751Z",
+    "last_change_seen": "2026-11-26 (Page modified)"
   },
   "eTranzact International Plc": {
     "company": "eTranzact International Plc",
@@ -1253,7 +1259,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:17.131Z",
+    "last_checked": "2026-11-26T16:00:39.804Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Terragon Group": {
@@ -1267,7 +1273,7 @@
     ],
     "text_sample": "Careers - Terragon Group Terragon Group Solutions INDUSTRIES Financial Services Increase customer lifetime value FMCG Improve customer experience Retail Increase repeat purchase OBJECTIVES Reach &amp; Awareness Reach more people with less spend Acquisition &amp; Growth Convert more leads Retention &",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:17.139Z",
+    "last_checked": "2026-11-26T16:00:39.801Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Co-Creation Hub (CcHUB)": {
@@ -1282,7 +1288,7 @@
     ],
     "text_sample": "Careers - Co-creation HUB Africa (CcHUB) : Co-creation HUB Africa (CcHUB) --> --> --> ­ ­ ­ ­ Security Verification Please verify you're human to continue Loading verification... One-time verification: This verification will be remembered permanently About us Meet the team Board Members Areas of Foc",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:17.713Z",
+    "last_checked": "2026-11-26T16:00:40.502Z",
     "last_change_seen": "2026-11-13 (Page modified)"
   },
   "Delivery Associates Nigeria": {
@@ -1313,7 +1319,7 @@
     ],
     "text_sample": "Careers | Delivery Associates Impact Areas Impact Areas Education Education Government Government Health Health Philanthropy Philanthropy Sustainability Sustainability Capabilities Capabilities AI AI Strategy Strategy Program Management Program Management Delivery Delivery Measurement &amp; Evaluati",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:15.927Z",
+    "last_checked": "2026-11-26T16:00:39.466Z",
     "last_change_seen": "2026-11-18 (Page modified)"
   },
   "Genesys Tech Hub": {
@@ -1323,7 +1329,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:15.966Z",
+    "last_checked": "2026-11-26T16:00:38.929Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Chams Holding Plc": {
@@ -1333,7 +1339,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:17.896Z",
+    "last_checked": "2026-11-26T16:00:40.155Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Vatebra Limited": {
@@ -1347,7 +1353,7 @@
     ],
     "text_sample": "Careers | Vatebra Company Company About Vatebra Subsidiaries ISO Policy Privacy Policy Blog Services Careers Contact Talk To Our Team Africa presence Nigeria HQ Ghana Presence Kenya Presence Sierra Leone Presence Liberia Presence Gambia Presence Enterprise technology partner building secure, scalabl",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:18.003Z",
+    "last_checked": "2026-11-26T16:00:40.335Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Zone (formerly AppZone)": {
@@ -1368,7 +1374,7 @@
     ],
     "text_sample": "Careers | Zone Payment Network Talent Community See Open Roles Who We Are Connect to the future Join us to build the bridge to an exciting and audacious new world powered entirely by digital equivalents of processes, information, assets, communication, and intelligence. Explore Open Roles &quot;Join",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:20.294Z",
+    "last_checked": "2026-11-26T16:00:44.164Z",
     "last_change_seen": "2026-11-19 (Page modified)"
   },
   "Sidmach Technologies": {
@@ -1384,7 +1390,7 @@
     ],
     "text_sample": "Careers - Sidmach Product Spotlight: eStudy - Official WASSCE (SC/PC) Preparatory Tool for Students Home Company About Mission, Vision and Values Board of Directors Management Team Why Work wth Us Careers Our Solutions Education eStudy Edustat Portal Academy Luminate Results Verification Custom Solu",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:18.733Z",
+    "last_checked": "2026-11-26T16:00:42.222Z",
     "last_change_seen": "2026-11-23 (Page modified)"
   },
   "Quanteq Technology Services": {
@@ -1394,7 +1400,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:18.779Z",
+    "last_checked": "2026-11-26T16:00:41.175Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Ventures Platform": {
@@ -1407,7 +1413,7 @@
     ],
     "text_sample": "Ventures Platform | Careers Ventures Platform Closes Pan-African Fund II at $84M Read more Arrow Right Home About Our Team 2023 Impact Report Founders Support How we Invest Portfolio Stories Careers Apply Arrow Right The world needs you to make an impact More than just your payslip! We are building ",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:16.883Z",
+    "last_checked": "2026-11-26T16:00:39.555Z",
     "last_change_seen": "2026-11-12 (Page modified)"
   },
   "Signal Alliance Technology Holding": {
@@ -1417,7 +1423,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:18.809Z",
+    "last_checked": "2026-11-26T16:00:41.575Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Inlaks Computers": {
@@ -1434,7 +1440,7 @@
     ],
     "text_sample": "Careers - Inlaks | Information Technology Systems Integrator 1611 Adeola Hopewell Street, Victoria Island, Lagos, Nigeria +2347026680111 info@inlaks.com www.inlaks.com Primary Menu Home About About Inlaks Business Philosophy Our Policies Our Team Board of Directors Management Awards &#038; Achieveme",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:17.951Z",
+    "last_checked": "2026-11-26T16:00:41.049Z",
     "last_change_seen": "2026-11-23 (Page modified)"
   },
   "Precise Financial Systems (PFS)": {
@@ -1444,7 +1450,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:19.219Z",
+    "last_checked": "2026-11-26T16:00:41.912Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Future Software Craft (Futuresoft)": {
@@ -1458,7 +1464,7 @@
     ],
     "text_sample": "CAREERS &#8211; Welcome To Futuresoft Nigeria Yaba, Lagos Nigeria 9am - 5:30pm Mon - Fri info@futuresoft-ng.com +2348186572391 GET A FREE QUOTE Home Services A Full Service Marketing Digital Marketing Strategy Website Design &#038; Development Brand Strategy &#038; Design B Social Media Marketing &#",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:18.628Z",
+    "last_checked": "2026-11-26T16:00:40.902Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Computer Warehouse Group (CWG Plc)": {
@@ -1486,7 +1492,7 @@
     ],
     "text_sample": "Company About CWG CWG at a glance Awards Award-winning solutions, powering pan-Africa Partners Empowering growth through expert insights and advisory Mission, Vision &amp; Values Supporting Innovation and a Forward Thinking Africa Impact Empowering tech frontiers Regions Our companies, our success L",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:19.598Z",
+    "last_checked": "2026-11-26T16:00:42.399Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "The Nest Innovation Technology Park": {
@@ -1496,7 +1502,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:20.749Z",
+    "last_checked": "2026-11-26T16:00:42.674Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Impact Hub Lagos": {
@@ -1506,7 +1512,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:19.706Z",
+    "last_checked": "2026-11-26T16:00:43.061Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Wennovate": {
@@ -1516,7 +1522,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:19.805Z",
+    "last_checked": "2026-11-26T16:00:42.857Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "DevCenter Innovation": {
@@ -1532,51 +1538,35 @@
     ],
     "text_sample": "Hire a Vetted, Performance-Managed Developer | Gigson Custom code > Head) --> Skip to content Looking for work? Go to Gigson for developers → Gigson by Devcenter Forward deployed engineers Managed developers Customers Hire a developer Menu Forward deployed engineers Managed developers Customers Hire",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:18.232Z",
+    "last_checked": "2026-11-26T16:00:41.010Z",
     "last_change_seen": "2026-11-14 (Page modified)"
   },
   "Tenece Professional Services": {
     "company": "Tenece Professional Services",
     "careers_url": "https://tenece.com/careers",
-    "content_hash": "e645aec50332fc03",
+    "content_hash": "3d72f4b81fe689d7",
     "job_links": [
       "https://tenece.com/careers/",
       "https://tenece.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftenece.com%2Fcareers%2F",
       "https://tenece.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftenece.com%2Fcareers%2F&#038;format=xml",
       "https://tenece.com/job/senior-it-project-manager/",
       "https://tenece.com/job/senior-it-project-manager-2/",
-      "https://tenece.com/job/shared-services-coordinator/",
-      "https://tenece.com/job/business-manager/",
-      "https://tenece.com/job/strategic-senior-sales-and-marketing-manager/",
       "https://tenece.com/job/facility-manager/",
-      "https://tenece.com/job/quality-assurance-quality-control-manager/",
-      "https://tenece.com/job/head-of-operations/",
-      "https://tenece.com/job/senior-ibm-aix-power-systems-engineer/",
-      "https://tenece.com/job/senior-database-administrator/",
-      "https://tenece.com/job/senior-specialist-account-receivable-credit-and-collection-specialist/",
-      "https://tenece.com/job/sad-lg/",
       "https://tenece.com/job/front-desk-admin-executive/",
       "https://tenece.com/job/administrative-executive-travel-desk-support/",
       "https://tenece.com/job/risk-and-compliance-executive/",
-      "https://tenece.com/job/fbpthl-en/",
       "https://tenece.com/job/bmpemc-en/",
-      "https://tenece.com/job/sc-lg/",
       "https://tenece.com/job/salesdev-rep-en/",
-      "https://tenece.com/job/sfsd-lg/",
-      "https://tenece.com/job/snetd-lg/",
-      "https://tenece.com/job/backend-engineer-en/",
       "https://tenece.com/job/sales-manager-sa/",
       "https://tenece.com/job/bus-dev-gthub/",
       "https://tenece.com/job/electrical-engineer-en/",
-      "https://tenece.com/job/iac-officer-en/",
       "http://tenece.com/job/sales-account-manager-ghana/",
-      "http://tenece.com/job/sales-manager-ghana/",
       "http://tenece.com/job/enterprise-infrastructure-engineer/"
     ],
     "text_sample": "Careers - Tenece Professional Services Limited Skip to content Tenece Professional Services Limited Home About Us Who We Are Our Team Awards Careers Products &#038; Services Partners Clients Media News Blog Home About Us Who We Are Our Team Awards Careers Products &#038; Services Partners Clients Me",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:18.978Z",
-    "last_change_seen": "Initial snapshot captured"
+    "last_checked": "2026-11-26T16:00:42.638Z",
+    "last_change_seen": "2026-11-26 (Page modified)"
   },
   "Layer3 Nigeria": {
     "company": "Layer3 Nigeria",
@@ -1588,7 +1578,7 @@
     ],
     "text_sample": "Leading Technology Solutions Provider in Nigeria | Layer3 Enterprise Small business Individuals Company Industries Solutions Contact Us Join our team We are people's people We're a mission-driven team with a passion for making career resources more accessible so everyone has what they need to succee",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:22.256Z",
+    "last_checked": "2026-11-26T16:00:44.037Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Chipper Cash (Nigeria Tech Hub)": {
@@ -1602,7 +1592,7 @@
     ],
     "text_sample": "Give The World New Ways to Transact Products Payments Send &amp; Receive Cash Cash Transfer in a Few Taps Chipper Card Digital Card for Your Digital Life Investing Invest: Stocks Start Investing with USD Business Enterprise Bulk Payments and Collections across Africa Zoona Remittances and Cash Servi",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:20.502Z",
+    "last_checked": "2026-11-26T16:00:42.958Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "LoftyInc Allied Partners": {
@@ -1612,7 +1602,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:20.630Z",
+    "last_checked": "2026-11-26T16:00:43.079Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Aladdin Digital Bank": {
@@ -1622,7 +1612,7 @@
     "job_links": [],
     "text_sample": "",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:20.429Z",
+    "last_checked": "2026-11-26T16:00:43.385Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Leadspace": {
@@ -1632,7 +1622,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:19.768Z",
+    "last_checked": "2026-11-26T16:00:42.772Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Netcom Africa": {
@@ -1647,7 +1637,7 @@
     ],
     "text_sample": "Careers &#8211; Netcom Africa Skip to content About Us About Us Clients Services ENTERPRISE SECURITY MANAGED IT SERVICES IT Consultancy On-site Support Remote IT Support STRATEGY ANALYTICS INFRASTRUCTURE SERVICES ENTERPRISE TECHNOLOGY Industries News Blog Careers Contact Menu About Us About Us Clien",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:19.937Z",
+    "last_checked": "2026-11-26T16:00:42.671Z",
     "last_change_seen": "2026-11-20 (Page modified)"
   },
   "Swipha (Swiss Pharma)": {
@@ -1657,7 +1647,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:20.673Z",
+    "last_checked": "2026-11-26T16:00:43.151Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Google for Startups Accelerator Africa (Lagos Hub)": {
@@ -1667,7 +1657,7 @@
     "job_links": [],
     "text_sample": "Google for Startups Accelerator: Africa for Startups Jump to content for Startups Programs Cloud credits Products Gemini Gemini kit Gemini multimedia library Alumni About Stories Directory About us Programs Cloud credits Products Gemini Gemini Go further faster with Gemini Gemini kit Gemini multimed",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:20.476Z",
+    "last_checked": "2026-11-26T16:00:42.825Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Klasha": {
@@ -1677,7 +1667,7 @@
     "job_links": [],
     "text_sample": "403 Forbidden - Marked for manual review",
     "http_status": 403,
-    "last_checked": "2026-11-25T16:27:20.746Z",
+    "last_checked": "2026-11-26T16:00:43.191Z",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   "ARM Labs Lagos Techstars Accelerator": {
@@ -1689,7 +1679,7 @@
     ],
     "text_sample": "Startup Accelerator Programs &amp; Funding | Techstars Join Us Portfolio Locations I Am... Resources About Techstars Apply Today ACCELERATORS Techstars Accelerators Whether you&#x27;re building in a specialized industry or a thriving startup city, Techstars Accelerators connect you with the network,",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:19.596Z",
+    "last_checked": "2026-11-26T16:00:42.859Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Yellow Card Financial (Nigeria)": {
@@ -1699,7 +1689,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:20.973Z",
+    "last_checked": "2026-11-26T16:00:43.475Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Kippa": {
@@ -1709,7 +1699,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:21.015Z",
+    "last_checked": "2026-11-26T16:00:43.479Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Smile Identity (Nigeria)": {
@@ -1721,7 +1711,7 @@
     ],
     "text_sample": "AI-powered Identity Verification for the Next Billion Users Cookie Preferences We value your privacy We use cookies to provide secure identity verification, analyze site traffic, and improve your experience. Necessary Always Active Required for core site functions and fraud prevention. Analytics Hel",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:20.964Z",
+    "last_checked": "2026-11-26T16:00:43.327Z",
     "last_change_seen": "2026-11-20 (Page modified)"
   },
   "Microsoft ADC (African Development Centre)": {
@@ -1740,7 +1730,7 @@
     ],
     "text_sample": "Home | Microsoft Careers https://uhf.microsoft.com/en-US/shell/html/MSActionCenter?headerId=GlobalCareersPCSHeaderprod https://careers.microsoft.com/bin/msft/searchheader https://careers.microsoft.com/v2/global/en/sign-in.html https://careers.microsoft.com/v2/ca/fr/connexion.html https://cdn.careers",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:20.445Z",
+    "last_checked": "2026-11-26T16:00:42.969Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Herconomy": {
@@ -1750,7 +1740,7 @@
     "job_links": [],
     "text_sample": "403 Forbidden - Marked for manual review",
     "http_status": 403,
-    "last_checked": "2026-11-25T16:27:21.187Z",
+    "last_checked": "2026-11-26T16:00:43.742Z",
     "last_change_seen": "Access restricted (403 Forbidden)"
   },
   "Luno Nigeria": {
@@ -1787,7 +1777,7 @@
     ],
     "text_sample": "Luno Careers - Bigger picture thinking by bigger picture people Individual Business Market Sign in Sign up Buy and sell crypto Invest in tokenised stocks Diversify with bundles Spend with crypto Stake &amp; grow crypto Earn with crypto Shariah-compliant crypto investing Anthropic (ANTx) tokenised st",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:20.845Z",
+    "last_checked": "2026-11-26T16:00:43.235Z",
     "last_change_seen": "2026-11-25 (Page modified)"
   },
   "Brassical Tech": {
@@ -1797,7 +1787,7 @@
     "job_links": [],
     "text_sample": "--> Brassical - Estonia's Premier Entertainment Brass Band",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:21.797Z",
+    "last_checked": "2026-11-26T16:00:44.507Z",
     "last_change_seen": "2026-11-12 (Page modified)"
   },
   "Duplo": {
@@ -1820,7 +1810,7 @@
     ],
     "text_sample": "Duplo Careers: Join Our Thriving Team Skip to content Products Close Products Open Products Features Close Features Open Features Company Close Company Open Company Pricing Resources Close Resources Open Resources Contact Us Products Explore Duplo’s range of powerful end-to-end products that resonat",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:23.262Z",
+    "last_checked": "2026-11-26T16:00:46.393Z",
     "last_change_seen": "2026-11-25 (Page modified)"
   },
   "Pivo Africa": {
@@ -1830,7 +1820,7 @@
     "job_links": [],
     "text_sample": "The Pokies Net Casino ✔️ Online Pokies Australia for Real Money The Pokies Net Casino Australia: thepokies net 119 in 2026 🎰 Play at The Pokies Net Casino ThePokies Net draws attention from Australians comparing offshore casinos, particularly those interested in online pokies and alternative paymen",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:22.000Z",
+    "last_checked": "2026-11-26T16:00:44.344Z",
     "last_change_seen": "2026-11-25 (Page modified)"
   },
   "Releaf": {
@@ -1840,7 +1830,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:21.641Z",
+    "last_checked": "2026-11-26T16:00:44.259Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "SeamlessHR": {
@@ -1854,7 +1844,7 @@
     ],
     "text_sample": "Become a Seamstar - SeamlessHR Skip to content Product Close Product Open Product For Office-Based Teams HRMS One management system to streamline all HR processes. Performance Enable a performance driven culture. Time Management Keep your workforce accountable. Payroll Payroll management and financi",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:22.144Z",
+    "last_checked": "2026-11-26T16:00:45.890Z",
     "last_change_seen": "2026-11-12 (Page modified)"
   },
   "Bento Africa": {
@@ -1864,22 +1854,22 @@
     "job_links": [],
     "text_sample": "Connection timeout",
     "http_status": "timeout",
-    "last_checked": "2026-11-25T16:27:30.187Z",
+    "last_checked": "2026-11-26T16:00:53.037Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Termii": {
     "company": "Termii",
     "careers_url": "https://termii.com/careers",
-    "content_hash": "afed549967770b5e",
+    "content_hash": "a721de6a6b1ade1c",
     "job_links": [
-      "/careers/_payload.json?55a8eb09-c6fa-417e-a9fc-c1b52ed4408c",
+      "/careers/_payload.json?ebe62b23-94c5-4897-819e-727803306092",
       "/careers/roles",
       "/careers"
     ],
     "text_sample": "Careers: Build the infrastructure institutions run on · Termii Skip to content Product Industries Devs Pricing Company Resources Sign in Get started Careers at Termii Build the infrastructure institutions run on. At Termii, we&#39;re building communications infrastructure that powers businesses acro",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:21.706Z",
-    "last_change_seen": "2026-11-17 (Page modified)"
+    "last_checked": "2026-11-26T16:00:44.420Z",
+    "last_change_seen": "2026-11-26 (Page modified)"
   },
   "Ventures Platform Foundation": {
     "company": "Ventures Platform Foundation",
@@ -1888,7 +1878,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:22.023Z",
+    "last_checked": "2026-11-26T16:00:44.485Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Sendchamp": {
@@ -1898,7 +1888,7 @@
     "job_links": [],
     "text_sample": "Sendchamp - Communication platform for SMS, Voice, Whatsapp &amp; OTPs Products CHANNELS SMS Send SMS seamlessly at the best rate via the best route to your customers Email Send emails to your customers with high deliverability Whatsapp Engage your customers via Whatsapp at ease Voice Add voice capa",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:21.871Z",
+    "last_checked": "2026-11-26T16:00:44.478Z",
     "last_change_seen": "2026-11-12 (Page modified)"
   },
   "Engage (Engage Messaging)": {
@@ -1908,7 +1898,7 @@
     "job_links": [],
     "text_sample": "Connection timeout",
     "http_status": "timeout",
-    "last_checked": "2026-11-25T16:27:30.707Z",
+    "last_checked": "2026-11-26T16:00:53.261Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Vigipay": {
@@ -1918,7 +1908,7 @@
     "job_links": [],
     "text_sample": "vigipay.com&nbsp;-&nbsp;This website is for sale!&nbsp;-&nbsp;Payment Gateway,Cross Border Payments,FinTech Security,Fraud Prevention Software,Secure B2B Payments Resources and Information.",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:22.179Z",
+    "last_checked": "2026-11-26T16:00:44.840Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "DevCareer": {
@@ -1928,7 +1918,7 @@
     "job_links": [],
     "text_sample": "--> DevCareer",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:22.385Z",
+    "last_checked": "2026-11-26T16:00:44.842Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "MyCover.ai": {
@@ -1938,7 +1928,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:22.580Z",
+    "last_checked": "2026-11-26T16:00:45.228Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Farmcrowdy": {
@@ -1948,7 +1938,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:22.418Z",
+    "last_checked": "2026-11-26T16:00:45.216Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Octamile": {
@@ -1963,7 +1953,7 @@
     ],
     "text_sample": "Careers at Octamile Inc. --> Products Embedded Insurance APIs for non-insurance businesses to sell Insurance Automated Claims Fast-track your Claims Vehicle History and Valuation Get vehicle history and real-time market value Inspections AI vehicle inspection from a browser link Insurance Reminder S",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:22.198Z",
+    "last_checked": "2026-11-26T16:00:44.670Z",
     "last_change_seen": "2026-11-14 (Page modified)"
   },
   "OneCard Nigeria": {
@@ -1973,7 +1963,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:22.963Z",
+    "last_checked": "2026-11-26T16:00:45.481Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Casava": {
@@ -1983,7 +1973,7 @@
     "job_links": [],
     "text_sample": "Casava You need to enable JavaScript to run this app.",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:23.594Z",
+    "last_checked": "2026-11-26T16:00:46.231Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "ThriveAgric": {
@@ -1995,7 +1985,7 @@
     ],
     "text_sample": "404: This page could not be found About Us Vision &amp; Mission Theory of Change Management Values Advisors Join The Family Our Work What We Do Our Technology Our Process Our Impact Farmer Stories Partner Stories Impact Map Our Resources Hectare Reports Gallery FAQ Press &amp; Media Contact Us About",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:22.423Z",
+    "last_checked": "2026-11-26T16:00:45.308Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Upperlink Limited": {
@@ -2005,7 +1995,7 @@
     "job_links": [],
     "text_sample": "Upperlink - Payments Gateway Provider and Domain Names Registrar",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:23.302Z",
+    "last_checked": "2026-11-26T16:00:46.534Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Ingressive For Good (I4G)": {
@@ -2015,7 +2005,7 @@
     "job_links": [],
     "text_sample": "Connection timeout",
     "http_status": "timeout",
-    "last_checked": "2026-11-25T16:27:31.024Z",
+    "last_checked": "2026-11-26T16:00:53.485Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Rubies Bank (Highstreet Microfinance)": {
@@ -2025,7 +2015,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:23.036Z",
+    "last_checked": "2026-11-26T16:00:45.378Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "CoralPay Technologies": {
@@ -2035,7 +2025,7 @@
     "job_links": [],
     "text_sample": "CoralPay",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:23.582Z",
+    "last_checked": "2026-11-26T16:00:46.104Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Curacel": {
@@ -2058,7 +2048,7 @@
     ],
     "text_sample": "Curacel - AI-powered Insurance Infrastructure Home Products Curacel Support AI Automate claims support and routing with AI-powered chat. Curacel Extract AI Turn claim documents into structured data instantly Grow Travel Get the perfect travel insurance for your clients in minutes. Choose from the be",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:22.435Z",
+    "last_checked": "2026-11-26T16:00:45.029Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Verve International": {
@@ -2068,7 +2058,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:24.196Z",
+    "last_checked": "2026-11-26T16:00:47.721Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Coronation Merchant Bank": {
@@ -2078,7 +2068,7 @@
     "job_links": [],
     "text_sample": "Connection network_error",
     "http_status": "network_error",
-    "last_checked": "2026-11-25T16:27:24.349Z",
+    "last_checked": "2026-11-26T16:00:47.863Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Sparkle Nigeria": {
@@ -2090,7 +2080,7 @@
     ],
     "text_sample": "Careers @ Sparkle - a lifestyle and financial ecosystem providing seamless solutions to Nigeria’s retailers, SMEs and individuals. Personal Business Events Features Features Sparkle as a Service Our most important feature (Coming Soon) Sparkle API Documentation Setup and build fintech apps (Coming S",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:23.846Z",
+    "last_checked": "2026-11-26T16:00:47.087Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Quickteller": {
@@ -2100,7 +2090,7 @@
     "job_links": [],
     "text_sample": "Quickteller You need to enable JavaScript on your browser to run Quickteller or download Quickteller mobile app from Google Play or App Store If you are using Opera mini mobile browser, follow these steps to enable JavaScript: Step 1: Click on the Opera mini icon on the lower right of your screen St",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:24.903Z",
+    "last_checked": "2026-11-26T16:00:48.408Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Kuda Microfinance Bank": {
@@ -2110,7 +2100,7 @@
     "job_links": [],
     "text_sample": "Connection 406",
     "http_status": 406,
-    "last_checked": "2026-11-25T16:27:23.853Z",
+    "last_checked": "2026-11-26T16:00:46.873Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Stanbic IBTC Pension Managers": {
@@ -2125,7 +2115,7 @@
     ],
     "text_sample": "Give us your feedback Please help us improve the site experience for future visits by taking 2 minutes to complete this short survey Click here > Give us your feedback --> Careers Visit our other global sites Select your country Americas Argentina Brazil United States of America Europe &amp; Asia Pa",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:25.932Z",
+    "last_checked": "2026-11-26T16:00:48.853Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Chapel Hill Denham": {
@@ -2147,7 +2137,7 @@
     ],
     "text_sample": "Careers at Chapel Hill Denham - Chapel Hill Denham --> --> --> --> --> --> --> --> &#10005; The Firm Overview Our Culture and Values Leadership Awards What We Do Investment Banking Investment Management Securities Trading Alternative Investments Wealth Management Our Impact News &#038; Insights News",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:26.091Z",
+    "last_checked": "2026-11-26T16:00:49.060Z",
     "last_change_seen": "2026-11-21 (Page modified)"
   },
   "Africa Prudential Plc": {
@@ -2157,7 +2147,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:25.313Z",
+    "last_checked": "2026-11-26T16:00:51.564Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "FBNQuest Merchant Bank": {
@@ -2172,7 +2162,7 @@
     ],
     "text_sample": "Careers | Quest Merchant Bank Skip to main content About Our Solutions Resources News &amp; Insights Bank with Us Contact Us Loading... Quest Merchant Bank delivers premier merchant banking solutions across Corporate and Investment Banking, Wealth Management, and Global Markets. Licensed by Central ",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:25.247Z",
+    "last_checked": "2026-11-26T16:00:48.746Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "UNICEF - REMOTE backend dev - Digital Inclusion Di": {
@@ -2182,7 +2172,7 @@
     "job_links": [],
     "text_sample": "Connection 419",
     "http_status": 419,
-    "last_checked": "2026-11-25T16:27:26.184Z",
+    "last_checked": "2026-11-26T16:00:49.103Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Leadway Assurance (Leadway Tech Hub)": {
@@ -2195,7 +2185,7 @@
     ],
     "text_sample": "Careers and Job Opportunities at Leadway Assurance (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.data-privacy-src= 'https://www.googletagmanager.com",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:26.851Z",
+    "last_checked": "2026-11-26T16:00:49.553Z",
     "last_change_seen": "Initial snapshot captured"
   },
   "Nibss (Nigeria Inter-Bank Settlement System)": {
@@ -2210,7 +2200,7 @@
     ],
     "text_sample": "Careers - NIBSS Home About-NIBSS Service Payment Services NIBSS Pay NACS (Cheques) NIBSS Instant Payment (NIP) National Payment Stack (NPS) Collections mCash+ Central Pay e-BillsPay NIBSS Direct Debit (NDD) NIBSS Universal Switch NQR Data &#038; Identity Services Name Enquiry VerifyNow USSD Validati",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:29.234Z",
+    "last_checked": "2026-11-26T16:00:52.369Z",
     "last_change_seen": "2026-11-19 (Page modified)"
   },
   "Central Securities Clearing System (CSCS Plc)": {
@@ -2220,7 +2210,7 @@
     "job_links": [],
     "text_sample": "Connection 404",
     "http_status": 404,
-    "last_checked": "2026-11-25T16:27:28.570Z",
+    "last_checked": "2026-11-26T16:00:51.922Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "AXA Mansard (Digital Innovation Team)": {
@@ -2228,9 +2218,9 @@
     "careers_url": "https://axamansard.com/careers",
     "content_hash": "unreachable",
     "job_links": [],
-    "text_sample": "Connection timeout",
-    "http_status": "timeout",
-    "last_checked": "2026-11-25T16:27:32.853Z",
+    "text_sample": "Connection 404",
+    "http_status": 404,
+    "last_checked": "2026-11-26T16:00:48.712Z",
     "last_change_seen": "Unreachable / connection error"
   },
   "Nigerian Exchange Group (NGX Group)": {
@@ -2246,7 +2236,7 @@
     ],
     "text_sample": "Connection timeout",
     "http_status": "timeout",
-    "last_checked": "2026-11-25T16:27:34.314Z",
+    "last_checked": "2026-11-26T16:00:57.747Z",
     "last_change_seen": "2026-11-24 (Page modified)"
   },
   "Location: India (currently travelling within India": {
@@ -2258,13 +2248,13 @@
     ],
     "text_sample": "Connection 419",
     "http_status": 419,
-    "last_checked": "2026-11-25T16:27:26.300Z",
+    "last_checked": "2026-11-26T16:00:49.271Z",
     "last_change_seen": "2026-11-24 (Page modified)"
   },
   "Ritual": {
     "company": "Ritual",
     "careers_url": "https://weworkremotely.com/remote-jobs/ritual-software-engineer-intern",
-    "content_hash": "9e912568c8c9e522",
+    "content_hash": "76186aef41ee15a2",
     "job_links": [
       "https://weworkremotely.com/remote-jobs.rss",
       "https://weworkremotely.com/remote-jobs/ritual-software-engineer-intern",
@@ -2294,12 +2284,11 @@
       "/job-seekers/account/login",
       "/100-percent-remote-jobs",
       "/remote-jobs/lemon-io-senior-react-full-stack-developer-8",
-      "/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js-6",
       "/remote-job-rss-feed"
     ],
     "text_sample": "Remote Software Engineer Intern at Ritual Global Payroll Find Jobs Top 100 Remote Companies Top Trending Remote Jobs New! Search by Job Category Programming Full-Stack Programming Front-End Programming Back-End Programming Software Development Design All Design Jobs Product Design UX/UI Design Devop",
     "http_status": 200,
-    "last_checked": "2026-11-25T16:27:26.434Z",
-    "last_change_seen": "Initial snapshot captured"
+    "last_checked": "2026-11-26T16:00:55.358Z",
+    "last_change_seen": "2026-11-26 (Page modified)"
   }
 }
