@@ -152,8 +152,8 @@
     ],
     "notes": "Investment and wealth platform with top-tier UI design culture. Has an active campus ambassador and summer engineering internship program.",
     "status": "verified",
-    "watching_status": "unverified",
-    "http_status": 405,
+    "watching_status": "watching",
+    "http_status": 200,
     "last_change_seen": "2026-11-22 (Page modified)",
     "alert_count": 1
   },
@@ -200,7 +200,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-26 (Page modified)",
+    "last_change_seen": "2026-11-27 (Page modified)",
     "alert_count": 0
   },
   {
@@ -334,8 +334,8 @@
     ],
     "notes": "Fintech payment subsidiary of Guaranty Trust Holding Company (GTCO). Modern cloud-native payment infrastructure in Victoria Island, Lagos.",
     "status": "verified",
-    "watching_status": "manual check",
-    "http_status": 403,
+    "watching_status": "watching",
+    "http_status": 200,
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -877,7 +877,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-26 (Page modified)",
+    "last_change_seen": "2026-11-27 (Page modified)",
     "alert_count": 0
   },
   {
@@ -968,7 +968,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-23 (Page modified)",
+    "last_change_seen": "2026-11-27 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1036,7 +1036,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-23 (Page modified)",
+    "last_change_seen": "2026-11-27 (Page modified)",
     "alert_count": 1
   },
   {
@@ -1082,7 +1082,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-23 (Page modified)",
+    "last_change_seen": "2026-11-27 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1150,7 +1150,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "Initial snapshot captured",
+    "last_change_seen": "2026-11-27 (Page modified)",
     "alert_count": 0
   },
   {
@@ -1216,8 +1216,8 @@
     ],
     "notes": "Nigeria's largest telecommunications enterprise with headquarters in Ikoyi, Lagos. Runs formal graduate and student SIWES programs across digital, MoMo fintech, and cloud engineering.",
     "status": "verified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": "timeout",
     "last_change_seen": "Initial snapshot captured",
     "alert_count": 0
   },
@@ -1533,7 +1533,7 @@
     "notes": "Licensed enterprise connectivity and managed IT service provider based in Ikoyi, Lagos. Welcomes university software engineering interns.",
     "status": "unverified",
     "watching_status": "unverified",
-    "http_status": 404,
+    "http_status": "network_error",
     "last_change_seen": "Unreachable / connection error"
   },
   {
@@ -1693,7 +1693,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-26 (Page modified)",
+    "last_change_seen": "2026-11-27 (Page modified)",
     "alert_count": 0
   },
   {
@@ -2569,7 +2569,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-23 (Page modified)",
+    "last_change_seen": "2026-11-27 (Page modified)",
     "alert_count": 0
   },
   {
@@ -2771,8 +2771,8 @@
     ],
     "notes": "Managed IT, communication, and ERP systems integration company based in Victoria Island, Lagos. Takes IT attachment students in software development.",
     "status": "verified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": "timeout",
     "last_change_seen": "2026-11-20 (Page modified)",
     "alert_count": 0
   },
@@ -3088,7 +3088,7 @@
     "status": "unverified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-25 (Page modified)",
+    "last_change_seen": "2026-11-27 (Page modified)",
     "alert_count": 0
   },
   {
@@ -3199,8 +3199,8 @@
     ],
     "notes": "Trade financing and digital banking platform built for supply chain and logistics players in Lagos.",
     "status": "unverified",
-    "watching_status": "watching",
-    "http_status": 200,
+    "watching_status": "unverified",
+    "http_status": "network_error",
     "last_change_seen": "2026-11-25 (Page modified)",
     "alert_count": 0
   },
@@ -4058,7 +4058,7 @@
     "status": "verified",
     "watching_status": "watching",
     "http_status": 200,
-    "last_change_seen": "2026-11-26 (Page modified)",
+    "last_change_seen": "2026-11-27 (Page modified)",
     "alert_count": 1
   }
 ]
